@@ -7,3 +7,13 @@ Testbed file generated:
 import/env.csv -> testbed/device.yaml
 INFO 2023-06-14 20:47:22,708 [Apps.py:create:75] ---testbed file ready---
 INFO 2023-06-14 20:47:30,139 [Apps.py:inputMenu:173] ---Get CDP Neighbours ---
+INFO 2023-06-30 21:34:20,084 [Apps.py:init:89] ---Starting the Application---
+INFO 2023-06-30 21:34:20,091 [Apps.py:init:92] ---Initialize testbed file---
+INFO 2023-06-30 21:34:20,092 [Apps.py:init:100] ---testbed file ready---
+INFO 2023-06-30 21:34:22,419 [Apps.py:init:106] ---Opening Main Menu Application---
+INFO 2023-06-30 21:34:25,922 [Apps.py:inputMenu:192] ---Create Network Topology ---
+INFO 2023-06-30 21:38:25,305 [Apps.py:init:89] ---Starting the Application---
+INFO 2023-06-30 21:38:25,311 [Apps.py:init:92] ---Initialize testbed file---
+INFO 2023-06-30 21:38:25,312 [Apps.py:init:100] ---testbed file ready---
+INFO 2023-06-30 21:38:27,108 [Apps.py:init:106] ---Opening Main Menu Application---
+INFO 2023-06-30 21:38:29,182 [Apps.py:inputMenu:192] ---Create Network Topology ---
