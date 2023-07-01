@@ -14,7 +14,7 @@
     <body class="sb-nav-fixed">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             <!-- Navbar Brand-->
-            <a class="navbar-brand ps-3" href="index.html">ProjectOne - WebUI</a>
+            <a class="navbar-brand ps-3" href="">ProjectOne - WebUI</a>
             <!-- Sidebar Toggle-->
             <!-- <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button> -->
             <!-- Navbar Search-->
@@ -43,7 +43,7 @@
                     <div class="sb-sidenav-menu">
                         <div class="nav">
                             <div class="sb-sidenav-menu-heading"></div>
-                            <a class="nav-link" href="index.html">
+                            <a class="nav-link" href="/">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Dashboard
                             </a>
@@ -56,7 +56,7 @@
                             <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
                                     <a class="nav-link" href="#">Custom Command</a>
-                                    <a class="nav-link" href="#">Device List</a>
+                                    <a class="nav-link" href="/deviceList">Device List</a>
                                 </nav>
                             </div>
                             <div class="sb-sidenav-menu-heading">Output File</div>
@@ -87,7 +87,7 @@
                                     <div class="card-body">
                                         <h5 class="card-title">Configuration Device</h5>
                                         <p class="card-text">Getting Running Configuration Devices from the list and return as txt file.</p>
-                                        <a href="#" class="btn btn-primary">START</a>
+                                        <a href="#" id="getConfig" class="btn btn-primary">START</a>
                                       </div>
                                 </div>
                             </div>
@@ -97,7 +97,7 @@
                                     <div class="card-body">
                                         <h5 class="card-title">Inventory Device</h5>
                                         <p class="card-text">Getting Inventory Devices from the list and return as txt file.</p>
-                                        <a href="#" class="btn btn-primary">START</a>
+                                        <a href="#" id="getInvent" class="btn btn-primary">START</a>
                                       </div>
                                 </div>
                             </div>
@@ -107,7 +107,7 @@
                                     <div class="card-body">
                                         <h5 class="card-title">Memmory Utilization</h5>
                                         <p class="card-text">Getting Memmory Utilization Devices from the list and return as csv file.</p>
-                                        <a href="#" class="btn btn-primary">START</a>
+                                        <a href="#" id="getMemUtils" class="btn btn-primary">START</a>
                                       </div>
                                 </div>
                             </div>
@@ -118,7 +118,7 @@
                                         <div class="card-body">
                                             <h5 class="card-title">CPU Utilization</h5>
                                             <p class="card-text">Getting CPU Utilization Devices from the list and return as csv file.</p>
-                                            <a href="#" class="btn btn-primary">START</a>
+                                            <a href="#" id="getCPUUtils" class="btn btn-primary">START</a>
                                           </div>
                                     </div>
                                 </div>
@@ -131,7 +131,7 @@
                                     <div class="card-body">
                                         <h5 class="card-title">CDP Neighbors</h5>
                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">START</a>
+                                        <a href="#" id="getCDP" class="btn btn-primary">START</a>
                                       </div>
                                 </div>
                             </div>
@@ -141,7 +141,7 @@
                                     <div class="card-body">
                                         <h5 class="card-title">Interface CRC</h5>
                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">START</a>
+                                        <a href="#" id="getCRCinterface" class="btn btn-primary">START</a>
                                       </div>
                                 </div>
                             </div>
@@ -151,7 +151,7 @@
                                     <div class="card-body">
                                         <h5 class="card-title">Environtment</h5>
                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">START</a>
+                                        <a href="#" id="getEnvi" class="btn btn-primary">START</a>
                                       </div>
                                 </div>
                             </div>
@@ -161,7 +161,7 @@
                                     <div class="card-body">
                                         <h5 class="card-title">Custom</h5>
                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">START</a>
+                                        <a href="#" id="getCustom" class="btn btn-primary">START</a>
                                       </div>
                                 </div>
                             </div>
@@ -189,5 +189,8 @@
         <script src="assets/demo/chart-bar-demo.js"></script> -->
         <script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js" crossorigin="anonymous"></script>
         <script src="assets/lib/js/datatables.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="assets/lib/js/apps.js"></script>
     </body>
 </html>

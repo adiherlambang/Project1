@@ -6,13 +6,28 @@ app = Flask(__name__,template_folder="assets/views/",static_folder="assets/")
 def app_home():
     return render_template("index.html")
 
-# @app.route('/message', methods=['GET','POST'])
-# def message():
-#     if request.method == "POST":
-#         data = request.get_json()
-#         chat = data["message"]
-#         # print(complete_prompt(chat))
+@app.route('/deviceList')
+def deviceList():
+    return render_template("deviceList.html")
 
-#     return complete_prompt(chat)
+@app.route('/getConfig', methods=['POST'])
+def getConfig():
+    data = "Getting Config devices"
+    return data
+
+@app.route('/getInvent', methods=['POST'])
+def getInvent():
+    data = "Getting Inventory devices"
+    return data
+
+@app.route('/getMemUtils', methods=['POST'])
+def getMemUtils():
+    data = "Getting Memmory Utilization devices"
+    return data
+
+@app.route('/getCPUUtils', methods=['POST'])
+def getCPUUtils():
+    data = "Getting CPU Utilization devices"
+    return data
 
 app.run(debug=True,port=8081)
