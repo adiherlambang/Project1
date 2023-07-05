@@ -4,33 +4,34 @@
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
+        <meta name="description" content="ProjectOne" />
+        <meta name="author" content="python-incubators" />
         <title>ProjectOne - WebUI</title>
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
         <link href="assets/lib/css/styles.css" rel="stylesheet" />
+        <link href="assets/lib/css/apps.css" rel="stylesheet" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js" crossorigin="anonymous"></script>
     </head>
     <body class="sb-nav-fixed">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             <!-- Navbar Brand-->
-            <a class="navbar-brand ps-3" href="">ProjectOne - WebUI</a>
+            <a class="navbar-brand ps-3" href="">ProjectOne</a>
             <!-- Sidebar Toggle-->
             <!-- <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button> -->
             <!-- Navbar Search-->
-            <!-- <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
-                <div class="input-group">
+            <!-- <div class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0"> -->
+                <!-- <div class="input-group">
                     <input class="form-control" type="text" placeholder="Search for..." aria-label="Search for..." aria-describedby="btnNavbarSearch" />
                     <button class="btn btn-primary" id="btnNavbarSearch" type="button"><i class="fas fa-search"></i></button>
-                </div>
-            </form> -->
+                </div> -->
+            <!-- </div> -->
             <!-- Navbar-->
             <!-- <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
+                <a class="navbar"></a>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#!">Settings</a></li>
-                        <li><a class="dropdown-item" href="#!">Activity Log</a></li>
+                        <li><a class="dropdown-item" href="#">Project-{{config['project']}}</a></li>
                         <li><hr class="dropdown-divider" /></li>
                         <li><a class="dropdown-item" href="#!">Logout</a></li>
                     </ul>
@@ -45,22 +46,22 @@
                             <div class="sb-sidenav-menu-heading"></div>
                             <a class="nav-link" href="/">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                                Dashboard
+                                Application
                             </a>
                             <div class="sb-sidenav-menu-heading">Settings</div>
                             <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
                                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
-                                Application
+                                Configuration
                                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                             </a>
                             <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="#">Custom Command</a>
+                                    <a class="nav-link" href="/customPage">Custom Command</a>
                                     <a class="nav-link" href="/deviceList">Device List</a>
                                 </nav>
                             </div>
                             <div class="sb-sidenav-menu-heading">Output File</div>
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="/getOutput">
                                 <div class="sb-nav-link-icon"><i class="fas fa-file-archive"></i></div>
                                 Output
                             </a>
@@ -76,7 +77,10 @@
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid px-4">
-                        <h1 class="mt-4">Welcome</h1>
+                        <div class="sb-nav-link-icon">
+                            <h1 class="mt-4">Welcome {{data}}</h1>
+                            
+                        </div>
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item active">Dashboard</li>
                         </ol>
@@ -167,6 +171,31 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- Modal bootstrap     -->
+                    <div class="modal modal-lg fade" id="appsModal" tabindex="-1" role="dialog" aria-labelledby="appsModal" aria-hidden="true" data-bs-keyboard="true" data-bs-backdrop="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="appsModalTitle">Modal title</h5>
+                              <!-- <button type="button" class="close" data-dismiss="appsModal" aria-label="Close"> -->
+                                <!-- <span aria-hidden="true">&times;</span>
+                              </button> -->
+                            </div>
+                            <div class="modal-body">
+                                <div id="flashContainer"></div>
+                                <div id="appsModalBody"></div>
+                                <div id="loading" class="d-none">
+                                    <div class="spinner-border text-primary" role="status"></div>
+                                    <span>Loading...</span>
+                                </div>
+                            </div>
+                            <div id="appsModalFooter" class="modal-footer">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
                 </main>
                 <footer class="py-4 bg-light mt-auto">
                     <div class="container-fluid px-4">
@@ -189,8 +218,7 @@
         <script src="assets/demo/chart-bar-demo.js"></script> -->
         <script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js" crossorigin="anonymous"></script>
         <script src="assets/lib/js/datatables.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="assets/lib/js/jquery-3.7.0.min.js"></script>
         <script src="assets/lib/js/apps.js"></script>
     </body>
 </html>

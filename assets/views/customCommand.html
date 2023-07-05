@@ -12,7 +12,7 @@
         <link href="assets/lib/css/apps.css" rel="stylesheet" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js" crossorigin="anonymous"></script>
     </head>
-    <body class="sb-nav-fixed" onload="clearFileInput('csvFileInput')">
+    <body class="sb-nav-fixed">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             <!-- Navbar Brand-->
             <a class="navbar-brand ps-3" href="/">ProjectOne - WebUI</a>
@@ -78,7 +78,7 @@
                 <main>
                     <div class="container-fluid px-4">
                         <div class="row">
-                            <h1 class="mt-4">Device List File</h1>
+                            <h1 class="mt-4">List Custom Command</h1>
                             <!-- <div id="loading" class="d-none">
                                 <div class="spinner-border text-primary" role="status">
                                     <span class="visually-hidden">Loading...</span>
@@ -91,44 +91,18 @@
                             </div>
                         </div>
                         
-                        <ol class="breadcrumb mb-4">
+                        <!-- <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item active">Lastdate data updated - {{config}}</li>
-                        </ol>
-                        <div class="row">
-                            <!-- content list file in directory import show as table -->
-                            <div class="input-group mt-4">
+                        </ol> -->
+                        <!-- <div class="row">
+                            <-- content list file in directory import show as table -->
+                            <!-- <div class="input-group mt-4">
                                 <button class="btn btn-primary" type="button" id="uploadButton">Submit</button>
                                 <input type="file" class="form-control" id="csvFileInput" aria-describedby="csvFileInput" aria-label="Upload" accept=".csv">
-                            </div>
-                        </div>
+                            </div> -->
+                        <!-- </div>  -->
                         <div class="row"> 
-                                <table class="mt-4">
-                                    <tr>
-                                        <th>Device Name</th>
-                                        <th>IP Address</th>
-                                        <th>Protocol</th>
-                                        <th>Username</th>
-                                        <th>Password</th>
-                                        <th>OS</th>
-                                        <th>Type</th>
-                                    </tr>
-                                    <tbody>
-                                    {% if dataDevices is not false %}
-                                    {% for device_name, device in dataDevices['devices'].items() %}
-                                        <tr>
-                                            <td>{{ device_name }}</td>
-                                            <td>{{ device.connections.cli.ip }}</td>
-                                            <td>{{ device.connections.cli.protocol }}</td>
-                                            <td>{{ device.credentials.default.username }}</td>
-                                            <td>******</td>
-                                            <td>{{ device.os }}</td>
-                                            <td>{{ device.type }}</td>
-                                        </tr>
-                                    {% endfor %}
-                                    {% endif %}
-                                </tbody>
-                                </table> 
-                            <!-- <button class="btn btn-secondary" onclick="addRow()">Add Row</button> -->
+                            <object data="assets/import/custom.txt" width="auto" height="400px"></object>
                         </div>
                     </div>
                 </main>
