@@ -1,0 +1,24 @@
+INFO 2023-07-06 09:28:01,123 [main.py:get_iosxe_memory_info:57] Device: xe1
+INFO 2023-07-06 09:28:01,158 [main.py:get_iosxe_memory_info:57] Device: xe2
+INFO 2023-07-06 09:28:01,278 [main.py:get_iosxe_memory_info:57] Device: xe3
+INFO 2023-07-06 09:28:05,089 [main.py:getMemmoryUtils:356] Get Memmory Utilization - execution completed successfully.
+INFO 2023-07-06 09:30:30,066 [main.py:get_iosxe_memory_info:57] Device: xe1
+INFO 2023-07-06 09:30:30,068 [main.py:get_iosxe_memory_info:57] Device: xe2
+INFO 2023-07-06 09:30:30,182 [main.py:get_iosxe_memory_info:57] Device: xe3
+INFO 2023-07-06 09:30:32,055 [main.py:getMemmoryUtils:356] Get Memmory Utilization - execution completed successfully.
+INFO 2023-07-06 10:42:16,624 [main.py:get_iosxe_memory_info:57] Device: xe1
+INFO 2023-07-06 10:42:16,701 [main.py:get_iosxe_memory_info:57] Device: xe2
+INFO 2023-07-06 10:42:16,825 [main.py:get_iosxe_memory_info:57] Device: xe3
+INFO 2023-07-06 10:42:19,633 [main.py:getMemmoryUtils:356] Get Memmory Utilization - execution completed successfully.
+INFO 2023-07-06 10:45:57,629 [main.py:get_iosxe_memory_info:57] Device: xe1
+INFO 2023-07-06 10:45:57,722 [main.py:get_iosxe_memory_info:57] Device: xe2
+INFO 2023-07-06 10:45:57,807 [main.py:get_iosxe_memory_info:57] Device: xe3
+INFO 2023-07-06 10:46:00,442 [main.py:getMemmoryUtils:356] Get Memmory Utilization - execution completed successfully.
+INFO 2023-07-06 10:47:54,563 [main.py:get_iosxe_memory_info:57] Device: xe1
+INFO 2023-07-06 10:47:54,704 [main.py:get_iosxe_memory_info:57] Device: xe2
+INFO 2023-07-06 10:47:54,748 [main.py:get_iosxe_memory_info:57] Device: xe3
+INFO 2023-07-06 10:47:57,786 [main.py:getMemmoryUtils:356] Get Memmory Utilization - execution completed successfully.
+INFO 2023-07-06 10:49:56,548 [main.py:get_iosxe_memory_info:57] Device: xe2
+INFO 2023-07-06 10:49:56,559 [main.py:get_iosxe_memory_info:57] Device: xe1
+INFO 2023-07-06 10:49:56,657 [main.py:get_iosxe_memory_info:57] Device: xe3
+INFO 2023-07-06 10:49:59,308 [main.py:getMemmoryUtils:356] Get Memmory Utilization - execution completed successfully.

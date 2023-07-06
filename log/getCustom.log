@@ -1,0 +1,1218 @@
+2023-07-06 11:29:25,011 [INFO] xe2 : Connecting 
+2023-07-06 11:29:25,012 [INFO] xe3 : Connecting 
+2023-07-06 11:29:25,013 [INFO] xe1 : Connecting 
+2023-07-06 11:29:25,056 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:29:25,056 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:29:25,064 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:29:25,504 [INFO] Authentication (password) successful!
+2023-07-06 11:29:25,505 [INFO] Authentication (password) successful!
+2023-07-06 11:29:25,588 [INFO] Authentication (password) successful!
+2023-07-06 11:29:25,886 [WARNING] xe2 : Connect success
+2023-07-06 11:29:25,886 [WARNING] xe3 : Connect success
+2023-07-06 11:29:25,969 [WARNING] xe1 : Connect success
+2023-07-06 11:29:26,099 [INFO] xe2 : Entered enable mode
+2023-07-06 11:29:26,100 [INFO] xe3 : Entered enable mode
+2023-07-06 11:29:26,189 [INFO] xe1 : Entered enable mode
+2023-07-06 11:29:26,260 [INFO] xe2 : Command 'show version' sent
+2023-07-06 11:29:26,260 [INFO] xe2 : success exporting command to show version
+2023-07-06 11:29:26,270 [INFO] xe3 : Command 'show version' sent
+2023-07-06 11:29:26,271 [INFO] xe3 : success exporting command to show version
+2023-07-06 11:29:26,358 [INFO] xe1 : Command 'show version' sent
+2023-07-06 11:29:26,358 [INFO] xe1 : success exporting command to show version
+2023-07-06 11:29:26,422 [INFO] xe2 : Command 'show clock' sent
+2023-07-06 11:29:26,422 [INFO] xe2 : success exporting command to show clock
+2023-07-06 11:29:26,433 [INFO] xe3 : Command 'show clock' sent
+2023-07-06 11:29:26,433 [INFO] xe3 : success exporting command to show clock
+2023-07-06 11:29:26,470 [INFO] xe1 : Command 'show clock' sent
+2023-07-06 11:29:26,471 [INFO] xe1 : success exporting command to show clock
+2023-07-06 11:29:26,847 [INFO] xe2 : Command 'show run' sent
+2023-07-06 11:29:26,847 [INFO] xe3 : Command 'show run' sent
+2023-07-06 11:29:26,848 [INFO] xe2 : success exporting command to show run
+2023-07-06 11:29:26,848 [INFO] xe3 : success exporting command to show run
+2023-07-06 11:29:26,988 [INFO] xe1 : Command 'show run' sent
+2023-07-06 11:29:26,989 [INFO] xe1 : success exporting command to show run
+2023-07-06 11:29:27,011 [INFO] xe3 : Command 'show interfaces status' sent
+2023-07-06 11:29:27,011 [ERROR] xe3 : Output return empty for command [show interfaces status]
+2023-07-06 11:29:27,032 [INFO] xe2 : Command 'show interfaces status' sent
+2023-07-06 11:29:27,032 [ERROR] xe2 : Output return empty for command [show interfaces status]
+2023-07-06 11:29:27,152 [INFO] xe1 : Command 'show interfaces status' sent
+2023-07-06 11:29:27,153 [ERROR] xe1 : Output return empty for command [show interfaces status]
+2023-07-06 11:29:27,202 [INFO] xe3 : Command 'show interfaces description' sent
+2023-07-06 11:29:27,203 [INFO] xe3 : success exporting command to show interfaces description
+2023-07-06 11:29:27,222 [INFO] xe2 : Command 'show interfaces description' sent
+2023-07-06 11:29:27,222 [INFO] xe2 : success exporting command to show interfaces description
+2023-07-06 11:29:27,344 [INFO] xe1 : Command 'show interfaces description' sent
+2023-07-06 11:29:27,344 [INFO] xe1 : success exporting command to show interfaces description
+2023-07-06 11:29:27,375 [INFO] xe3 : Command 'show interfaces trunk' sent
+2023-07-06 11:29:27,376 [ERROR] xe3 : Output return empty for command [show interfaces trunk]
+2023-07-06 11:29:27,381 [INFO] xe2 : Command 'show interfaces trunk' sent
+2023-07-06 11:29:27,382 [ERROR] xe2 : Output return empty for command [show interfaces trunk]
+2023-07-06 11:29:27,505 [INFO] xe1 : Command 'show interfaces trunk' sent
+2023-07-06 11:29:27,506 [ERROR] xe1 : Output return empty for command [show interfaces trunk]
+2023-07-06 11:29:27,583 [INFO] xe3 : Command 'show etherchannel summary' sent
+2023-07-06 11:29:27,584 [INFO] xe3 : success exporting command to show etherchannel summary
+2023-07-06 11:29:27,598 [INFO] xe2 : Command 'show etherchannel summary' sent
+2023-07-06 11:29:27,599 [INFO] xe2 : success exporting command to show etherchannel summary
+2023-07-06 11:29:27,711 [INFO] xe1 : Command 'show etherchannel summary' sent
+2023-07-06 11:29:27,711 [INFO] xe1 : success exporting command to show etherchannel summary
+2023-07-06 11:29:27,745 [INFO] xe3 : Command 'show port-channel' sent
+2023-07-06 11:29:27,746 [ERROR] xe3 : Output return empty for command [show port-channel]
+2023-07-06 11:29:27,749 [INFO] xe2 : Command 'show port-channel' sent
+2023-07-06 11:29:27,749 [ERROR] xe2 : Output return empty for command [show port-channel]
+2023-07-06 11:29:27,863 [INFO] xe1 : Command 'show port-channel' sent
+2023-07-06 11:29:27,864 [ERROR] xe1 : Output return empty for command [show port-channel]
+2023-07-06 11:29:27,924 [INFO] xe3 : Command 'show ip interface brief' sent
+2023-07-06 11:29:27,925 [INFO] xe3 : success exporting command to show ip interface brief
+2023-07-06 11:29:27,936 [INFO] xe2 : Command 'show ip interface brief' sent
+2023-07-06 11:29:27,937 [INFO] xe2 : success exporting command to show ip interface brief
+2023-07-06 11:29:28,044 [INFO] xe1 : Command 'show ip interface brief' sent
+2023-07-06 11:29:28,044 [INFO] xe1 : success exporting command to show ip interface brief
+2023-07-06 11:29:28,104 [INFO] xe3 : Command 'show cdp neighbors' sent
+2023-07-06 11:29:28,104 [INFO] xe3 : success exporting command to show cdp neighbors
+2023-07-06 11:29:28,106 [INFO] xe2 : Command 'show cdp neighbors' sent
+2023-07-06 11:29:28,106 [INFO] xe2 : success exporting command to show cdp neighbors
+2023-07-06 11:29:28,202 [INFO] xe1 : Command 'show cdp neighbors' sent
+2023-07-06 11:29:28,203 [INFO] xe1 : success exporting command to show cdp neighbors
+2023-07-06 11:29:28,293 [INFO] xe3 : Command 'show spanning-tree summary' sent
+2023-07-06 11:29:28,293 [INFO] xe3 : success exporting command to show spanning-tree summary
+2023-07-06 11:29:28,295 [INFO] xe2 : Command 'show spanning-tree summary' sent
+2023-07-06 11:29:28,295 [INFO] xe2 : success exporting command to show spanning-tree summary
+2023-07-06 11:29:28,392 [INFO] xe1 : Command 'show spanning-tree summary' sent
+2023-07-06 11:29:28,393 [INFO] xe1 : success exporting command to show spanning-tree summary
+2023-07-06 11:29:28,464 [INFO] xe2 : Command 'show vlan brief' sent
+2023-07-06 11:29:28,464 [ERROR] xe2 : Output return empty for command [show vlan brief]
+2023-07-06 11:29:28,472 [INFO] xe3 : Command 'show vlan brief' sent
+2023-07-06 11:29:28,473 [ERROR] xe3 : Output return empty for command [show vlan brief]
+2023-07-06 11:29:28,566 [INFO] xe1 : Command 'show vlan brief' sent
+2023-07-06 11:29:28,566 [ERROR] xe1 : Output return empty for command [show vlan brief]
+2023-07-06 11:29:28,635 [INFO] xe2 : Command 'show vtp status' sent
+2023-07-06 11:29:28,635 [ERROR] xe2 : Output return empty for command [show vtp status]
+2023-07-06 11:29:28,655 [INFO] xe3 : Command 'show vtp status' sent
+2023-07-06 11:29:28,656 [ERROR] xe3 : Output return empty for command [show vtp status]
+2023-07-06 11:29:28,736 [INFO] xe1 : Command 'show vtp status' sent
+2023-07-06 11:29:28,737 [ERROR] xe1 : Output return empty for command [show vtp status]
+2023-07-06 11:29:28,805 [INFO] xe3 : Command 'show vpc brief' sent
+2023-07-06 11:29:28,805 [ERROR] xe3 : Output return empty for command [show vpc brief]
+2023-07-06 11:29:28,836 [INFO] xe2 : Command 'show vpc brief' sent
+2023-07-06 11:29:28,837 [ERROR] xe2 : Output return empty for command [show vpc brief]
+2023-07-06 11:29:28,897 [INFO] xe1 : Command 'show vpc brief' sent
+2023-07-06 11:29:28,897 [ERROR] xe1 : Output return empty for command [show vpc brief]
+2023-07-06 11:29:28,966 [INFO] xe3 : Command 'show inventory' sent
+2023-07-06 11:29:28,966 [INFO] xe3 : success exporting command to show inventory
+2023-07-06 11:29:28,987 [INFO] xe2 : Command 'show inventory' sent
+2023-07-06 11:29:28,987 [INFO] xe2 : success exporting command to show inventory
+2023-07-06 11:29:29,067 [INFO] xe1 : Command 'show inventory' sent
+2023-07-06 11:29:29,067 [INFO] xe1 : success exporting command to show inventory
+2023-07-06 11:29:29,135 [INFO] xe2 : Command 'show ip arp' sent
+2023-07-06 11:29:29,135 [INFO] xe2 : success exporting command to show ip arp
+2023-07-06 11:29:29,135 [INFO] xe3 : Command 'show ip arp' sent
+2023-07-06 11:29:29,136 [INFO] xe3 : success exporting command to show ip arp
+2023-07-06 11:29:29,215 [INFO] xe1 : Command 'show ip arp' sent
+2023-07-06 11:29:29,216 [INFO] xe1 : success exporting command to show ip arp
+2023-07-06 11:29:29,473 [INFO] xe3 : Command 'dir' sent
+2023-07-06 11:29:29,473 [INFO] xe3 : success exporting command to dir
+2023-07-06 11:29:29,512 [INFO] xe2 : Command 'dir' sent
+2023-07-06 11:29:29,512 [INFO] xe2 : success exporting command to dir
+2023-07-06 11:29:29,532 [INFO] xe1 : Command 'dir' sent
+2023-07-06 11:29:29,533 [INFO] xe1 : success exporting command to dir
+2023-07-06 11:29:29,672 [INFO] xe3 : Command 'show environment temperature status' sent
+2023-07-06 11:29:29,673 [ERROR] xe3 : Output return empty for command [show environment temperature status]
+2023-07-06 11:29:29,754 [INFO] xe1 : Command 'show environment temperature status' sent
+2023-07-06 11:29:29,754 [ERROR] xe1 : Output return empty for command [show environment temperature status]
+2023-07-06 11:29:29,774 [INFO] xe2 : Command 'show environment temperature status' sent
+2023-07-06 11:29:29,775 [ERROR] xe2 : Output return empty for command [show environment temperature status]
+2023-07-06 11:29:29,865 [INFO] xe3 : Command 'show environment all' sent
+2023-07-06 11:29:29,865 [ERROR] xe3 : Output return empty for command [show environment all]
+2023-07-06 11:29:29,923 [INFO] xe1 : Command 'show environment all' sent
+2023-07-06 11:29:29,924 [ERROR] xe1 : Output return empty for command [show environment all]
+2023-07-06 11:29:29,947 [INFO] xe2 : Command 'show environment all' sent
+2023-07-06 11:29:29,947 [ERROR] xe2 : Output return empty for command [show environment all]
+2023-07-06 11:29:30,034 [INFO] xe3 : Command 'show platform' sent
+2023-07-06 11:29:30,034 [INFO] xe3 : success exporting command to show platform
+2023-07-06 11:29:30,082 [INFO] xe1 : Command 'show platform' sent
+2023-07-06 11:29:30,083 [INFO] xe1 : success exporting command to show platform
+2023-07-06 11:29:30,166 [INFO] xe2 : Command 'show platform' sent
+2023-07-06 11:29:30,166 [INFO] xe2 : success exporting command to show platform
+2023-07-06 11:29:30,224 [INFO] xe3 : Command 'show processes memory statistics' sent
+2023-07-06 11:29:30,225 [ERROR] xe3 : Output return empty for command [show processes memory statistics]
+2023-07-06 11:29:30,292 [INFO] xe1 : Command 'show processes memory statistics' sent
+2023-07-06 11:29:30,292 [ERROR] xe1 : Output return empty for command [show processes memory statistics]
+2023-07-06 11:29:30,355 [INFO] xe2 : Command 'show processes memory statistics' sent
+2023-07-06 11:29:30,356 [ERROR] xe2 : Output return empty for command [show processes memory statistics]
+2023-07-06 11:29:30,521 [INFO] xe3 : Command 'show processes memory sorted' sent
+2023-07-06 11:29:30,522 [INFO] xe3 : success exporting command to show processes memory sorted
+2023-07-06 11:29:30,591 [INFO] xe1 : Command 'show processes memory sorted' sent
+2023-07-06 11:29:30,591 [INFO] xe1 : success exporting command to show processes memory sorted
+2023-07-06 11:29:30,635 [INFO] xe2 : Command 'show processes memory sorted' sent
+2023-07-06 11:29:30,638 [INFO] xe2 : success exporting command to show processes memory sorted
+2023-07-06 11:29:30,655 [INFO] xe3 : Command 'show system resources' sent
+2023-07-06 11:29:30,655 [ERROR] xe3 : Output return empty for command [show system resources]
+2023-07-06 11:29:30,773 [INFO] xe1 : Command 'show system resources' sent
+2023-07-06 11:29:30,773 [ERROR] xe1 : Output return empty for command [show system resources]
+2023-07-06 11:29:30,807 [INFO] xe2 : Command 'show system resources' sent
+2023-07-06 11:29:30,808 [ERROR] xe2 : Output return empty for command [show system resources]
+2023-07-06 11:29:30,973 [INFO] xe3 : Command 'show processes cpu sorted' sent
+2023-07-06 11:29:30,973 [INFO] xe3 : success exporting command to show processes cpu sorted
+2023-07-06 11:29:31,045 [INFO] xe1 : Command 'show processes cpu sorted' sent
+2023-07-06 11:29:31,045 [INFO] xe1 : success exporting command to show processes cpu sorted
+2023-07-06 11:29:31,114 [INFO] xe2 : Command 'show processes cpu sorted' sent
+2023-07-06 11:29:31,114 [INFO] xe2 : success exporting command to show processes cpu sorted
+2023-07-06 11:29:31,234 [INFO] xe3 : Command 'show processes cpu' sent
+2023-07-06 11:29:31,234 [INFO] xe3 : success exporting command to show processes cpu
+2023-07-06 11:29:31,331 [INFO] xe1 : Command 'show processes cpu' sent
+2023-07-06 11:29:31,331 [INFO] xe1 : success exporting command to show processes cpu
+2023-07-06 11:29:31,393 [INFO] xe2 : Command 'show processes cpu' sent
+2023-07-06 11:29:31,394 [INFO] xe2 : success exporting command to show processes cpu
+2023-07-06 11:29:31,443 [INFO] xe3 : Command 'show platform software status control-processor brief' sent
+2023-07-06 11:29:31,444 [INFO] xe3 : success exporting command to show platform software status control-processor brief
+2023-07-06 11:29:31,576 [INFO] xe1 : Command 'show platform software status control-processor brief' sent
+2023-07-06 11:29:31,576 [INFO] xe1 : success exporting command to show platform software status control-processor brief
+2023-07-06 11:29:31,643 [INFO] xe3 : Command 'show ip ospf neighbor' sent
+2023-07-06 11:29:31,643 [INFO] xe3 : success exporting command to show ip ospf neighbor
+2023-07-06 11:29:31,669 [INFO] xe2 : Command 'show platform software status control-processor brief' sent
+2023-07-06 11:29:31,669 [INFO] xe2 : success exporting command to show platform software status control-processor brief
+2023-07-06 11:29:31,745 [INFO] xe1 : Command 'show ip ospf neighbor' sent
+2023-07-06 11:29:31,745 [INFO] xe1 : success exporting command to show ip ospf neighbor
+2023-07-06 11:29:31,838 [INFO] xe2 : Command 'show ip ospf neighbor' sent
+2023-07-06 11:29:31,838 [INFO] xe2 : success exporting command to show ip ospf neighbor
+2023-07-06 11:29:31,873 [INFO] xe3 : Command 'show ip bgp summary' sent
+2023-07-06 11:29:31,873 [INFO] xe3 : success exporting command to show ip bgp summary
+2023-07-06 11:29:31,924 [INFO] xe1 : Command 'show ip bgp summary' sent
+2023-07-06 11:29:31,925 [INFO] xe1 : success exporting command to show ip bgp summary
+2023-07-06 11:29:32,007 [INFO] xe2 : Command 'show ip bgp summary' sent
+2023-07-06 11:29:32,007 [INFO] xe2 : success exporting command to show ip bgp summary
+2023-07-06 11:29:32,032 [INFO] xe3 : Command 'show ip route' sent
+2023-07-06 11:29:32,032 [INFO] xe3 : success exporting command to show ip route
+2023-07-06 11:29:32,073 [INFO] xe1 : Command 'show ip route' sent
+2023-07-06 11:29:32,073 [INFO] xe1 : success exporting command to show ip route
+2023-07-06 11:29:32,155 [INFO] xe2 : Command 'show ip route' sent
+2023-07-06 11:29:32,156 [INFO] xe2 : success exporting command to show ip route
+2023-07-06 11:29:32,446 [INFO] xe3 : Command 'show logging' sent
+2023-07-06 11:29:32,447 [INFO] xe3 : success exporting command to show logging
+2023-07-06 11:29:32,478 [INFO] xe3 : Disconnected succcessfully
+2023-07-06 11:29:32,500 [INFO] xe1 : Command 'show logging' sent
+2023-07-06 11:29:32,501 [INFO] xe1 : success exporting command to show logging
+2023-07-06 11:29:32,543 [INFO] xe1 : Disconnected succcessfully
+2023-07-06 11:29:32,573 [INFO] xe2 : Command 'show logging' sent
+2023-07-06 11:29:32,574 [INFO] xe2 : success exporting command to show logging
+2023-07-06 11:29:32,616 [INFO] xe2 : Disconnected succcessfully
+2023-07-06 11:29:32,618 [INFO] 127.0.0.1 - - [06/Jul/2023 11:29:32] "POST /customPage HTTP/1.1" 200 -
+2023-07-06 11:29:35,591 [INFO] 127.0.0.1 - - [06/Jul/2023 11:29:35] "GET /getOutput HTTP/1.1" 200 -
+2023-07-06 11:29:36,269 [INFO] 127.0.0.1 - - [06/Jul/2023 11:29:36] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2023-07-06 11:29:36,314 [INFO] 127.0.0.1 - - [06/Jul/2023 11:29:36] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2023-07-06 11:29:36,533 [INFO] 127.0.0.1 - - [06/Jul/2023 11:29:36] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2023-07-06 11:29:36,949 [INFO] 127.0.0.1 - - [06/Jul/2023 11:29:36] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2023-07-06 11:29:37,023 [INFO] 127.0.0.1 - - [06/Jul/2023 11:29:37] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2023-07-06 11:29:37,072 [INFO] 127.0.0.1 - - [06/Jul/2023 11:29:37] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2023-07-06 11:29:38,778 [INFO] 127.0.0.1 - - [06/Jul/2023 11:29:38] "POST /getOutput HTTP/1.1" 200 -
+2023-07-06 11:29:38,837 [INFO] xe2 : Connecting 
+2023-07-06 11:29:38,839 [INFO] xe1 : Connecting 
+2023-07-06 11:29:38,839 [INFO] xe3 : Connecting 
+2023-07-06 11:29:38,840 [INFO] xe1 : Connecting 
+2023-07-06 11:29:38,842 [INFO] xe2 : Connecting 
+2023-07-06 11:29:38,843 [INFO] xe3 : Connecting 
+2023-07-06 11:29:38,904 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:29:38,905 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:29:39,006 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:29:39,006 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:29:39,007 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:29:39,008 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:29:39,543 [INFO] Authentication (password) successful!
+2023-07-06 11:29:39,545 [INFO] Authentication (password) successful!
+2023-07-06 11:29:39,545 [INFO] Authentication (password) successful!
+2023-07-06 11:29:39,603 [INFO] Authentication (password) successful!
+2023-07-06 11:29:39,603 [INFO] Authentication (password) successful!
+2023-07-06 11:29:39,616 [INFO] Authentication (password) successful!
+2023-07-06 11:29:39,945 [WARNING] xe1 : Connect success
+2023-07-06 11:29:39,973 [WARNING] xe3 : Connect success
+2023-07-06 11:29:39,977 [WARNING] xe3 : Connect success
+2023-07-06 11:29:39,983 [WARNING] xe2 : Connect success
+2023-07-06 11:29:39,997 [WARNING] xe2 : Connect success
+2023-07-06 11:29:40,017 [WARNING] xe1 : Connect success
+2023-07-06 11:29:40,173 [INFO] xe1 : Entered enable mode
+2023-07-06 11:29:40,221 [INFO] xe3 : Entered enable mode
+2023-07-06 11:29:40,221 [INFO] xe2 : Entered enable mode
+2023-07-06 11:29:40,255 [INFO] xe3 : Entered enable mode
+2023-07-06 11:29:40,276 [INFO] xe2 : Entered enable mode
+2023-07-06 11:29:40,276 [INFO] xe1 : Entered enable mode
+2023-07-06 11:29:40,354 [INFO] xe2 : Command 'show version' sent
+2023-07-06 11:29:40,354 [INFO] xe2 : success exporting command to show version
+2023-07-06 11:29:40,369 [INFO] xe3 : Command 'show version' sent
+2023-07-06 11:29:40,369 [INFO] xe3 : success exporting command to show version
+2023-07-06 11:29:40,381 [INFO] xe1 : Command 'show version' sent
+2023-07-06 11:29:40,382 [INFO] xe1 : success exporting command to show version
+2023-07-06 11:29:40,423 [INFO] xe3 : Command 'show version' sent
+2023-07-06 11:29:40,423 [INFO] xe3 : success exporting command to show version
+2023-07-06 11:29:40,424 [INFO] xe1 : Command 'show version' sent
+2023-07-06 11:29:40,424 [INFO] xe1 : success exporting command to show version
+2023-07-06 11:29:40,459 [INFO] xe2 : Command 'show version' sent
+2023-07-06 11:29:40,459 [INFO] xe2 : success exporting command to show version
+2023-07-06 11:29:40,511 [INFO] xe2 : Command 'show clock' sent
+2023-07-06 11:29:40,512 [INFO] xe2 : success exporting command to show clock
+2023-07-06 11:29:40,527 [INFO] xe3 : Command 'show clock' sent
+2023-07-06 11:29:40,527 [INFO] xe3 : success exporting command to show clock
+2023-07-06 11:29:40,550 [INFO] xe1 : Command 'show clock' sent
+2023-07-06 11:29:40,551 [INFO] xe1 : success exporting command to show clock
+2023-07-06 11:29:40,570 [INFO] xe3 : Command 'show clock' sent
+2023-07-06 11:29:40,571 [INFO] xe3 : success exporting command to show clock
+2023-07-06 11:29:40,627 [INFO] xe2 : Command 'show clock' sent
+2023-07-06 11:29:40,627 [INFO] xe2 : success exporting command to show clock
+2023-07-06 11:29:40,632 [INFO] xe1 : Command 'show clock' sent
+2023-07-06 11:29:40,632 [INFO] xe1 : success exporting command to show clock
+2023-07-06 11:29:40,936 [INFO] xe2 : Command 'show run' sent
+2023-07-06 11:29:40,937 [INFO] xe2 : success exporting command to show run
+2023-07-06 11:29:40,953 [INFO] xe3 : Command 'show run' sent
+2023-07-06 11:29:40,953 [INFO] xe3 : success exporting command to show run
+2023-07-06 11:29:41,017 [INFO] xe1 : Command 'show run' sent
+2023-07-06 11:29:41,018 [INFO] xe1 : success exporting command to show run
+2023-07-06 11:29:41,187 [INFO] xe2 : Command 'show run' sent
+2023-07-06 11:29:41,187 [INFO] xe2 : success exporting command to show run
+2023-07-06 11:29:41,218 [INFO] xe2 : Command 'show interfaces status' sent
+2023-07-06 11:29:41,218 [ERROR] xe2 : Output return empty for command [show interfaces status]
+2023-07-06 11:29:41,237 [INFO] xe3 : Command 'show run' sent
+2023-07-06 11:29:41,237 [INFO] xe3 : success exporting command to show run
+2023-07-06 11:29:41,315 [INFO] xe1 : Command 'show run' sent
+2023-07-06 11:29:41,316 [INFO] xe1 : success exporting command to show run
+2023-07-06 11:29:41,357 [INFO] xe1 : Command 'show interfaces status' sent
+2023-07-06 11:29:41,357 [ERROR] xe1 : Output return empty for command [show interfaces status]
+2023-07-06 11:29:41,413 [INFO] xe3 : Command 'show interfaces status' sent
+2023-07-06 11:29:41,413 [ERROR] xe3 : Output return empty for command [show interfaces status]
+2023-07-06 11:29:41,416 [INFO] xe2 : Command 'show interfaces status' sent
+2023-07-06 11:29:41,416 [ERROR] xe2 : Output return empty for command [show interfaces status]
+2023-07-06 11:29:41,416 [INFO] xe2 : Command 'show interfaces description' sent
+2023-07-06 11:29:41,417 [INFO] xe2 : success exporting command to show interfaces description
+2023-07-06 11:29:41,436 [INFO] xe3 : Command 'show interfaces status' sent
+2023-07-06 11:29:41,436 [ERROR] xe3 : Output return empty for command [show interfaces status]
+2023-07-06 11:29:41,485 [INFO] xe1 : Command 'show interfaces status' sent
+2023-07-06 11:29:41,485 [ERROR] xe1 : Output return empty for command [show interfaces status]
+2023-07-06 11:29:41,510 [INFO] xe1 : Command 'show interfaces description' sent
+2023-07-06 11:29:41,511 [INFO] xe1 : success exporting command to show interfaces description
+2023-07-06 11:29:41,559 [INFO] xe2 : Command 'show interfaces description' sent
+2023-07-06 11:29:41,559 [INFO] xe2 : success exporting command to show interfaces description
+2023-07-06 11:29:41,589 [INFO] xe3 : Command 'show interfaces description' sent
+2023-07-06 11:29:41,589 [INFO] xe3 : success exporting command to show interfaces description
+2023-07-06 11:29:41,596 [INFO] xe2 : Command 'show interfaces trunk' sent
+2023-07-06 11:29:41,596 [ERROR] xe2 : Output return empty for command [show interfaces trunk]
+2023-07-06 11:29:41,612 [INFO] xe3 : Command 'show interfaces description' sent
+2023-07-06 11:29:41,612 [INFO] xe3 : success exporting command to show interfaces description
+2023-07-06 11:29:41,674 [INFO] xe1 : Command 'show interfaces description' sent
+2023-07-06 11:29:41,674 [INFO] xe1 : success exporting command to show interfaces description
+2023-07-06 11:29:41,699 [INFO] xe1 : Command 'show interfaces trunk' sent
+2023-07-06 11:29:41,700 [ERROR] xe1 : Output return empty for command [show interfaces trunk]
+2023-07-06 11:29:41,717 [INFO] xe2 : Command 'show interfaces trunk' sent
+2023-07-06 11:29:41,717 [ERROR] xe2 : Output return empty for command [show interfaces trunk]
+2023-07-06 11:29:41,765 [INFO] xe2 : Command 'show etherchannel summary' sent
+2023-07-06 11:29:41,767 [INFO] xe2 : success exporting command to show etherchannel summary
+2023-07-06 11:29:41,778 [INFO] xe3 : Command 'show interfaces trunk' sent
+2023-07-06 11:29:41,778 [ERROR] xe3 : Output return empty for command [show interfaces trunk]
+2023-07-06 11:29:41,801 [INFO] xe3 : Command 'show interfaces trunk' sent
+2023-07-06 11:29:41,801 [ERROR] xe3 : Output return empty for command [show interfaces trunk]
+2023-07-06 11:29:41,806 [INFO] xe1 : Command 'show interfaces trunk' sent
+2023-07-06 11:29:41,807 [ERROR] xe1 : Output return empty for command [show interfaces trunk]
+2023-07-06 11:29:41,888 [INFO] xe1 : Command 'show etherchannel summary' sent
+2023-07-06 11:29:41,888 [INFO] xe1 : success exporting command to show etherchannel summary
+2023-07-06 11:29:41,905 [INFO] xe2 : Command 'show etherchannel summary' sent
+2023-07-06 11:29:41,906 [INFO] xe2 : success exporting command to show etherchannel summary
+2023-07-06 11:29:41,945 [INFO] xe2 : Command 'show port-channel' sent
+2023-07-06 11:29:41,946 [ERROR] xe2 : Output return empty for command [show port-channel]
+2023-07-06 11:29:41,976 [INFO] xe3 : Command 'show etherchannel summary' sent
+2023-07-06 11:29:41,977 [INFO] xe3 : success exporting command to show etherchannel summary
+2023-07-06 11:29:41,985 [INFO] xe1 : Command 'show etherchannel summary' sent
+2023-07-06 11:29:41,985 [INFO] xe1 : success exporting command to show etherchannel summary
+2023-07-06 11:29:42,001 [INFO] xe3 : Command 'show etherchannel summary' sent
+2023-07-06 11:29:42,001 [INFO] xe3 : success exporting command to show etherchannel summary
+2023-07-06 11:29:42,066 [INFO] xe1 : Command 'show port-channel' sent
+2023-07-06 11:29:42,067 [ERROR] xe1 : Output return empty for command [show port-channel]
+2023-07-06 11:29:42,084 [INFO] xe2 : Command 'show port-channel' sent
+2023-07-06 11:29:42,085 [ERROR] xe2 : Output return empty for command [show port-channel]
+2023-07-06 11:29:42,143 [INFO] xe1 : Command 'show port-channel' sent
+2023-07-06 11:29:42,144 [ERROR] xe1 : Output return empty for command [show port-channel]
+2023-07-06 11:29:42,144 [INFO] xe2 : Command 'show ip interface brief' sent
+2023-07-06 11:29:42,144 [INFO] xe2 : success exporting command to show ip interface brief
+2023-07-06 11:29:42,165 [INFO] xe3 : Command 'show port-channel' sent
+2023-07-06 11:29:42,165 [ERROR] xe3 : Output return empty for command [show port-channel]
+2023-07-06 11:29:42,189 [INFO] xe3 : Command 'show port-channel' sent
+2023-07-06 11:29:42,190 [ERROR] xe3 : Output return empty for command [show port-channel]
+2023-07-06 11:29:42,227 [INFO] xe2 : Command 'show ip interface brief' sent
+2023-07-06 11:29:42,228 [INFO] xe2 : success exporting command to show ip interface brief
+2023-07-06 11:29:42,245 [INFO] xe1 : Command 'show ip interface brief' sent
+2023-07-06 11:29:42,246 [INFO] xe1 : success exporting command to show ip interface brief
+2023-07-06 11:29:42,303 [INFO] xe2 : Command 'show cdp neighbors' sent
+2023-07-06 11:29:42,303 [INFO] xe2 : success exporting command to show cdp neighbors
+2023-07-06 11:29:42,313 [INFO] xe1 : Command 'show ip interface brief' sent
+2023-07-06 11:29:42,313 [INFO] xe1 : success exporting command to show ip interface brief
+2023-07-06 11:29:42,333 [INFO] xe3 : Command 'show ip interface brief' sent
+2023-07-06 11:29:42,334 [INFO] xe3 : success exporting command to show ip interface brief
+2023-07-06 11:29:42,368 [INFO] xe3 : Command 'show ip interface brief' sent
+2023-07-06 11:29:42,368 [INFO] xe3 : success exporting command to show ip interface brief
+2023-07-06 11:29:42,407 [INFO] xe2 : Command 'show cdp neighbors' sent
+2023-07-06 11:29:42,407 [INFO] xe2 : success exporting command to show cdp neighbors
+2023-07-06 11:29:42,425 [INFO] xe1 : Command 'show cdp neighbors' sent
+2023-07-06 11:29:42,426 [INFO] xe1 : success exporting command to show cdp neighbors
+2023-07-06 11:29:42,472 [INFO] xe2 : Command 'show spanning-tree summary' sent
+2023-07-06 11:29:42,472 [INFO] xe2 : success exporting command to show spanning-tree summary
+2023-07-06 11:29:42,492 [INFO] xe1 : Command 'show cdp neighbors' sent
+2023-07-06 11:29:42,493 [INFO] xe1 : success exporting command to show cdp neighbors
+2023-07-06 11:29:42,522 [INFO] xe3 : Command 'show cdp neighbors' sent
+2023-07-06 11:29:42,522 [INFO] xe3 : success exporting command to show cdp neighbors
+2023-07-06 11:29:42,538 [INFO] xe3 : Command 'show cdp neighbors' sent
+2023-07-06 11:29:42,538 [INFO] xe3 : success exporting command to show cdp neighbors
+2023-07-06 11:29:42,565 [INFO] xe2 : Command 'show spanning-tree summary' sent
+2023-07-06 11:29:42,565 [INFO] xe2 : success exporting command to show spanning-tree summary
+2023-07-06 11:29:42,584 [INFO] xe2 : Command 'show vlan brief' sent
+2023-07-06 11:29:42,585 [ERROR] xe2 : Output return empty for command [show vlan brief]
+2023-07-06 11:29:42,595 [INFO] xe1 : Command 'show spanning-tree summary' sent
+2023-07-06 11:29:42,595 [INFO] xe1 : success exporting command to show spanning-tree summary
+2023-07-06 11:29:42,672 [INFO] xe1 : Command 'show spanning-tree summary' sent
+2023-07-06 11:29:42,672 [INFO] xe1 : success exporting command to show spanning-tree summary
+2023-07-06 11:29:42,698 [INFO] xe2 : Command 'show vlan brief' sent
+2023-07-06 11:29:42,698 [ERROR] xe2 : Output return empty for command [show vlan brief]
+2023-07-06 11:29:42,717 [INFO] xe3 : Command 'show spanning-tree summary' sent
+2023-07-06 11:29:42,717 [INFO] xe3 : success exporting command to show spanning-tree summary
+2023-07-06 11:29:42,734 [INFO] xe2 : Command 'show vtp status' sent
+2023-07-06 11:29:42,736 [ERROR] xe2 : Output return empty for command [show vtp status]
+2023-07-06 11:29:42,742 [INFO] xe3 : Command 'show spanning-tree summary' sent
+2023-07-06 11:29:42,742 [INFO] xe3 : success exporting command to show spanning-tree summary
+2023-07-06 11:29:42,785 [INFO] xe1 : Command 'show vlan brief' sent
+2023-07-06 11:29:42,785 [ERROR] xe1 : Output return empty for command [show vlan brief]
+2023-07-06 11:29:42,839 [INFO] xe1 : Command 'show vlan brief' sent
+2023-07-06 11:29:42,840 [ERROR] xe1 : Output return empty for command [show vlan brief]
+2023-07-06 11:29:42,846 [INFO] xe2 : Command 'show vtp status' sent
+2023-07-06 11:29:42,847 [ERROR] xe2 : Output return empty for command [show vtp status]
+2023-07-06 11:29:42,875 [INFO] xe3 : Command 'show vlan brief' sent
+2023-07-06 11:29:42,875 [ERROR] xe3 : Output return empty for command [show vlan brief]
+2023-07-06 11:29:42,875 [INFO] xe3 : Command 'show vlan brief' sent
+2023-07-06 11:29:42,876 [ERROR] xe3 : Output return empty for command [show vlan brief]
+2023-07-06 11:29:42,904 [INFO] xe2 : Command 'show vpc brief' sent
+2023-07-06 11:29:42,905 [ERROR] xe2 : Output return empty for command [show vpc brief]
+2023-07-06 11:29:42,964 [INFO] xe1 : Command 'show vtp status' sent
+2023-07-06 11:29:42,964 [ERROR] xe1 : Output return empty for command [show vtp status]
+2023-07-06 11:29:42,972 [INFO] xe1 : Command 'show vtp status' sent
+2023-07-06 11:29:42,972 [ERROR] xe1 : Output return empty for command [show vtp status]
+2023-07-06 11:29:42,999 [INFO] xe3 : Command 'show vtp status' sent
+2023-07-06 11:29:42,999 [ERROR] xe3 : Output return empty for command [show vtp status]
+2023-07-06 11:29:43,004 [INFO] xe2 : Command 'show vpc brief' sent
+2023-07-06 11:29:43,006 [ERROR] xe2 : Output return empty for command [show vpc brief]
+2023-07-06 11:29:43,055 [INFO] xe3 : Command 'show vtp status' sent
+2023-07-06 11:29:43,055 [ERROR] xe3 : Output return empty for command [show vtp status]
+2023-07-06 11:29:43,072 [INFO] xe2 : Command 'show inventory' sent
+2023-07-06 11:29:43,073 [INFO] xe2 : success exporting command to show inventory
+2023-07-06 11:29:43,132 [INFO] xe1 : Command 'show vpc brief' sent
+2023-07-06 11:29:43,132 [ERROR] xe1 : Output return empty for command [show vpc brief]
+2023-07-06 11:29:43,151 [INFO] xe1 : Command 'show vpc brief' sent
+2023-07-06 11:29:43,151 [ERROR] xe1 : Output return empty for command [show vpc brief]
+2023-07-06 11:29:43,156 [INFO] xe2 : Command 'show inventory' sent
+2023-07-06 11:29:43,156 [INFO] xe2 : success exporting command to show inventory
+2023-07-06 11:29:43,157 [INFO] xe3 : Command 'show vpc brief' sent
+2023-07-06 11:29:43,157 [ERROR] xe3 : Output return empty for command [show vpc brief]
+2023-07-06 11:29:43,220 [INFO] xe2 : Command 'show ip arp' sent
+2023-07-06 11:29:43,221 [INFO] xe2 : success exporting command to show ip arp
+2023-07-06 11:29:43,223 [INFO] xe3 : Command 'show vpc brief' sent
+2023-07-06 11:29:43,223 [ERROR] xe3 : Output return empty for command [show vpc brief]
+2023-07-06 11:29:43,280 [INFO] xe1 : Command 'show inventory' sent
+2023-07-06 11:29:43,280 [INFO] xe1 : success exporting command to show inventory
+2023-07-06 11:29:43,309 [INFO] xe1 : Command 'show inventory' sent
+2023-07-06 11:29:43,309 [INFO] xe1 : success exporting command to show inventory
+2023-07-06 11:29:43,313 [INFO] xe2 : Command 'show ip arp' sent
+2023-07-06 11:29:43,314 [INFO] xe2 : success exporting command to show ip arp
+2023-07-06 11:29:43,335 [INFO] xe3 : Command 'show inventory' sent
+2023-07-06 11:29:43,336 [INFO] xe3 : success exporting command to show inventory
+2023-07-06 11:29:43,401 [INFO] xe3 : Command 'show inventory' sent
+2023-07-06 11:29:43,401 [INFO] xe3 : success exporting command to show inventory
+2023-07-06 11:29:43,447 [INFO] xe1 : Command 'show ip arp' sent
+2023-07-06 11:29:43,448 [INFO] xe1 : success exporting command to show ip arp
+2023-07-06 11:29:43,457 [INFO] xe1 : Command 'show ip arp' sent
+2023-07-06 11:29:43,458 [INFO] xe1 : success exporting command to show ip arp
+2023-07-06 11:29:43,483 [INFO] xe3 : Command 'show ip arp' sent
+2023-07-06 11:29:43,484 [INFO] xe3 : success exporting command to show ip arp
+2023-07-06 11:29:43,494 [INFO] xe2 : Command 'dir' sent
+2023-07-06 11:29:43,494 [INFO] xe2 : success exporting command to dir
+2023-07-06 11:29:43,551 [INFO] xe3 : Command 'show ip arp' sent
+2023-07-06 11:29:43,551 [INFO] xe3 : success exporting command to show ip arp
+2023-07-06 11:29:43,593 [INFO] xe2 : Command 'dir' sent
+2023-07-06 11:29:43,593 [INFO] xe2 : success exporting command to dir
+2023-07-06 11:29:43,715 [INFO] xe2 : Command 'show environment temperature status' sent
+2023-07-06 11:29:43,715 [ERROR] xe2 : Output return empty for command [show environment temperature status]
+2023-07-06 11:29:43,773 [INFO] xe3 : Command 'dir' sent
+2023-07-06 11:29:43,774 [INFO] xe3 : success exporting command to dir
+2023-07-06 11:29:43,797 [INFO] xe1 : Command 'dir' sent
+2023-07-06 11:29:43,798 [INFO] xe1 : success exporting command to dir
+2023-07-06 11:29:43,802 [INFO] xe2 : Command 'show environment temperature status' sent
+2023-07-06 11:29:43,802 [ERROR] xe2 : Output return empty for command [show environment temperature status]
+2023-07-06 11:29:43,848 [INFO] xe1 : Command 'dir' sent
+2023-07-06 11:29:43,848 [INFO] xe1 : success exporting command to dir
+2023-07-06 11:29:43,873 [INFO] xe2 : Command 'show environment all' sent
+2023-07-06 11:29:43,874 [ERROR] xe2 : Output return empty for command [show environment all]
+2023-07-06 11:29:43,906 [INFO] xe3 : Command 'dir' sent
+2023-07-06 11:29:43,906 [INFO] xe3 : success exporting command to dir
+2023-07-06 11:29:43,935 [INFO] xe2 : Command 'show environment all' sent
+2023-07-06 11:29:43,936 [ERROR] xe2 : Output return empty for command [show environment all]
+2023-07-06 11:29:43,983 [INFO] xe3 : Command 'show environment temperature status' sent
+2023-07-06 11:29:43,984 [ERROR] xe3 : Output return empty for command [show environment temperature status]
+2023-07-06 11:29:44,022 [INFO] xe2 : Command 'show platform' sent
+2023-07-06 11:29:44,024 [INFO] xe2 : success exporting command to show platform
+2023-07-06 11:29:44,048 [INFO] xe1 : Command 'show environment temperature status' sent
+2023-07-06 11:29:44,049 [INFO] xe1 : Command 'show environment temperature status' sent
+2023-07-06 11:29:44,049 [ERROR] xe1 : Output return empty for command [show environment temperature status]
+2023-07-06 11:29:44,050 [ERROR] xe1 : Output return empty for command [show environment temperature status]
+2023-07-06 11:29:44,094 [INFO] xe2 : Command 'show platform' sent
+2023-07-06 11:29:44,094 [INFO] xe2 : success exporting command to show platform
+2023-07-06 11:29:44,115 [INFO] xe3 : Command 'show environment temperature status' sent
+2023-07-06 11:29:44,115 [ERROR] xe3 : Output return empty for command [show environment temperature status]
+2023-07-06 11:29:44,183 [INFO] xe3 : Command 'show environment all' sent
+2023-07-06 11:29:44,183 [ERROR] xe3 : Output return empty for command [show environment all]
+2023-07-06 11:29:44,202 [INFO] xe2 : Command 'show processes memory statistics' sent
+2023-07-06 11:29:44,202 [ERROR] xe2 : Output return empty for command [show processes memory statistics]
+2023-07-06 11:29:44,230 [INFO] xe1 : Command 'show environment all' sent
+2023-07-06 11:29:44,230 [ERROR] xe1 : Output return empty for command [show environment all]
+2023-07-06 11:29:44,231 [INFO] xe1 : Command 'show environment all' sent
+2023-07-06 11:29:44,233 [ERROR] xe1 : Output return empty for command [show environment all]
+2023-07-06 11:29:44,273 [INFO] xe3 : Command 'show environment all' sent
+2023-07-06 11:29:44,274 [ERROR] xe3 : Output return empty for command [show environment all]
+2023-07-06 11:29:44,294 [INFO] xe2 : Command 'show processes memory statistics' sent
+2023-07-06 11:29:44,294 [ERROR] xe2 : Output return empty for command [show processes memory statistics]
+2023-07-06 11:29:44,353 [INFO] xe3 : Command 'show platform' sent
+2023-07-06 11:29:44,353 [INFO] xe3 : success exporting command to show platform
+2023-07-06 11:29:44,392 [INFO] xe1 : Command 'show platform' sent
+2023-07-06 11:29:44,392 [INFO] xe1 : success exporting command to show platform
+2023-07-06 11:29:44,401 [INFO] xe1 : Command 'show platform' sent
+2023-07-06 11:29:44,402 [INFO] xe1 : success exporting command to show platform
+2023-07-06 11:29:44,482 [INFO] xe3 : Command 'show platform' sent
+2023-07-06 11:29:44,483 [INFO] xe3 : success exporting command to show platform
+2023-07-06 11:29:44,522 [INFO] xe2 : Command 'show processes memory sorted' sent
+2023-07-06 11:29:44,523 [INFO] xe2 : success exporting command to show processes memory sorted
+2023-07-06 11:29:44,546 [INFO] xe1 : Command 'show processes memory statistics' sent
+2023-07-06 11:29:44,546 [ERROR] xe1 : Output return empty for command [show processes memory statistics]
+2023-07-06 11:29:44,553 [INFO] xe3 : Command 'show processes memory statistics' sent
+2023-07-06 11:29:44,555 [ERROR] xe3 : Output return empty for command [show processes memory statistics]
+2023-07-06 11:29:44,603 [INFO] xe1 : Command 'show processes memory statistics' sent
+2023-07-06 11:29:44,606 [ERROR] xe1 : Output return empty for command [show processes memory statistics]
+2023-07-06 11:29:44,632 [INFO] xe2 : Command 'show processes memory sorted' sent
+2023-07-06 11:29:44,633 [INFO] xe2 : success exporting command to show processes memory sorted
+2023-07-06 11:29:44,699 [INFO] xe3 : Command 'show processes memory statistics' sent
+2023-07-06 11:29:44,701 [ERROR] xe3 : Output return empty for command [show processes memory statistics]
+2023-07-06 11:29:44,761 [INFO] xe2 : Command 'show system resources' sent
+2023-07-06 11:29:44,762 [ERROR] xe2 : Output return empty for command [show system resources]
+2023-07-06 11:29:44,829 [INFO] xe2 : Command 'show system resources' sent
+2023-07-06 11:29:44,831 [ERROR] xe2 : Output return empty for command [show system resources]
+2023-07-06 11:29:44,899 [INFO] xe1 : Command 'show processes memory sorted' sent
+2023-07-06 11:29:44,903 [INFO] xe1 : success exporting command to show processes memory sorted
+2023-07-06 11:29:44,942 [INFO] xe1 : Command 'show processes memory sorted' sent
+2023-07-06 11:29:44,945 [INFO] xe3 : Command 'show processes memory sorted' sent
+2023-07-06 11:29:44,949 [INFO] xe1 : success exporting command to show processes memory sorted
+2023-07-06 11:29:44,954 [INFO] xe3 : success exporting command to show processes memory sorted
+2023-07-06 11:29:45,021 [INFO] xe3 : Command 'show processes memory sorted' sent
+2023-07-06 11:29:45,021 [INFO] xe3 : success exporting command to show processes memory sorted
+2023-07-06 11:29:45,091 [INFO] xe1 : Command 'show system resources' sent
+2023-07-06 11:29:45,092 [ERROR] xe1 : Output return empty for command [show system resources]
+2023-07-06 11:29:45,093 [INFO] xe3 : Command 'show system resources' sent
+2023-07-06 11:29:45,094 [ERROR] xe3 : Output return empty for command [show system resources]
+2023-07-06 11:29:45,135 [INFO] xe1 : Command 'show system resources' sent
+2023-07-06 11:29:45,137 [ERROR] xe1 : Output return empty for command [show system resources]
+2023-07-06 11:29:45,189 [INFO] xe3 : Command 'show system resources' sent
+2023-07-06 11:29:45,190 [ERROR] xe3 : Output return empty for command [show system resources]
+2023-07-06 11:29:45,378 [INFO] xe2 : Command 'show processes cpu sorted' sent
+2023-07-06 11:29:45,378 [INFO] xe2 : success exporting command to show processes cpu sorted
+2023-07-06 11:29:45,526 [INFO] xe3 : Command 'show processes cpu sorted' sent
+2023-07-06 11:29:45,527 [INFO] xe3 : success exporting command to show processes cpu sorted
+2023-07-06 11:29:45,622 [INFO] xe2 : Command 'show processes cpu sorted' sent
+2023-07-06 11:29:45,623 [INFO] xe2 : success exporting command to show processes cpu sorted
+2023-07-06 11:29:45,908 [INFO] xe1 : Command 'show processes cpu sorted' sent
+2023-07-06 11:29:45,908 [INFO] xe1 : success exporting command to show processes cpu sorted
+2023-07-06 11:29:46,010 [INFO] xe1 : Command 'show processes cpu sorted' sent
+2023-07-06 11:29:46,011 [INFO] xe1 : success exporting command to show processes cpu sorted
+2023-07-06 11:29:46,141 [INFO] xe3 : Command 'show processes cpu sorted' sent
+2023-07-06 11:29:46,142 [INFO] xe3 : success exporting command to show processes cpu sorted
+2023-07-06 11:29:46,368 [INFO] xe2 : Command 'show processes cpu' sent
+2023-07-06 11:29:46,368 [INFO] xe2 : success exporting command to show processes cpu
+2023-07-06 11:29:46,598 [INFO] xe3 : Command 'show processes cpu' sent
+2023-07-06 11:29:46,599 [INFO] xe3 : success exporting command to show processes cpu
+2023-07-06 11:29:46,718 [INFO] xe2 : Command 'show processes cpu' sent
+2023-07-06 11:29:46,718 [INFO] xe2 : success exporting command to show processes cpu
+2023-07-06 11:29:46,874 [INFO] xe2 : Command 'show platform software status control-processor brief' sent
+2023-07-06 11:29:46,874 [INFO] xe2 : success exporting command to show platform software status control-processor brief
+2023-07-06 11:29:46,935 [INFO] xe1 : Command 'show processes cpu' sent
+2023-07-06 11:29:46,936 [INFO] xe1 : success exporting command to show processes cpu
+2023-07-06 11:29:46,992 [INFO] xe2 : Command 'show platform software status control-processor brief' sent
+2023-07-06 11:29:46,992 [INFO] xe2 : success exporting command to show platform software status control-processor brief
+2023-07-06 11:29:47,048 [INFO] xe2 : Command 'show ip ospf neighbor' sent
+2023-07-06 11:29:47,048 [INFO] xe2 : success exporting command to show ip ospf neighbor
+2023-07-06 11:29:47,151 [INFO] xe2 : Command 'show ip ospf neighbor' sent
+2023-07-06 11:29:47,151 [INFO] xe2 : success exporting command to show ip ospf neighbor
+2023-07-06 11:29:47,160 [INFO] xe1 : Command 'show processes cpu' sent
+2023-07-06 11:29:47,161 [INFO] xe1 : success exporting command to show processes cpu
+2023-07-06 11:29:47,163 [INFO] xe3 : Command 'show processes cpu' sent
+2023-07-06 11:29:47,163 [INFO] xe3 : success exporting command to show processes cpu
+2023-07-06 11:29:47,176 [INFO] xe3 : Command 'show platform software status control-processor brief' sent
+2023-07-06 11:29:47,176 [INFO] xe3 : success exporting command to show platform software status control-processor brief
+2023-07-06 11:29:47,206 [INFO] xe2 : Command 'show ip bgp summary' sent
+2023-07-06 11:29:47,207 [INFO] xe2 : success exporting command to show ip bgp summary
+2023-07-06 11:29:47,331 [INFO] xe2 : Command 'show ip bgp summary' sent
+2023-07-06 11:29:47,333 [INFO] xe2 : success exporting command to show ip bgp summary
+2023-07-06 11:29:47,368 [INFO] xe3 : Command 'show ip ospf neighbor' sent
+2023-07-06 11:29:47,368 [INFO] xe3 : success exporting command to show ip ospf neighbor
+2023-07-06 11:29:47,376 [INFO] xe2 : Command 'show ip route' sent
+2023-07-06 11:29:47,376 [INFO] xe2 : success exporting command to show ip route
+2023-07-06 11:29:47,395 [INFO] xe1 : Command 'show platform software status control-processor brief' sent
+2023-07-06 11:29:47,395 [INFO] xe1 : success exporting command to show platform software status control-processor brief
+2023-07-06 11:29:47,431 [INFO] xe1 : Command 'show platform software status control-processor brief' sent
+2023-07-06 11:29:47,432 [INFO] xe1 : success exporting command to show platform software status control-processor brief
+2023-07-06 11:29:47,448 [INFO] xe3 : Command 'show platform software status control-processor brief' sent
+2023-07-06 11:29:47,448 [INFO] xe3 : success exporting command to show platform software status control-processor brief
+2023-07-06 11:29:47,471 [INFO] xe2 : Command 'show ip route' sent
+2023-07-06 11:29:47,471 [INFO] xe2 : success exporting command to show ip route
+2023-07-06 11:29:47,546 [INFO] xe3 : Command 'show ip bgp summary' sent
+2023-07-06 11:29:47,546 [INFO] xe3 : success exporting command to show ip bgp summary
+2023-07-06 11:29:47,574 [INFO] xe1 : Command 'show ip ospf neighbor' sent
+2023-07-06 11:29:47,575 [INFO] xe1 : success exporting command to show ip ospf neighbor
+2023-07-06 11:29:47,610 [INFO] xe1 : Command 'show ip ospf neighbor' sent
+2023-07-06 11:29:47,610 [INFO] xe1 : success exporting command to show ip ospf neighbor
+2023-07-06 11:29:47,626 [INFO] xe3 : Command 'show ip ospf neighbor' sent
+2023-07-06 11:29:47,627 [INFO] xe3 : success exporting command to show ip ospf neighbor
+2023-07-06 11:29:47,694 [INFO] xe3 : Command 'show ip route' sent
+2023-07-06 11:29:47,694 [INFO] xe3 : success exporting command to show ip route
+2023-07-06 11:29:47,755 [INFO] xe1 : Command 'show ip bgp summary' sent
+2023-07-06 11:29:47,757 [INFO] xe1 : success exporting command to show ip bgp summary
+2023-07-06 11:29:47,788 [INFO] xe1 : Command 'show ip bgp summary' sent
+2023-07-06 11:29:47,788 [INFO] xe1 : success exporting command to show ip bgp summary
+2023-07-06 11:29:47,815 [INFO] xe3 : Command 'show ip bgp summary' sent
+2023-07-06 11:29:47,815 [INFO] xe3 : success exporting command to show ip bgp summary
+2023-07-06 11:29:47,916 [INFO] xe1 : Command 'show ip route' sent
+2023-07-06 11:29:47,917 [INFO] xe1 : success exporting command to show ip route
+2023-07-06 11:29:47,937 [INFO] xe1 : Command 'show ip route' sent
+2023-07-06 11:29:47,939 [INFO] xe1 : success exporting command to show ip route
+2023-07-06 11:29:47,968 [INFO] xe3 : Command 'show ip route' sent
+2023-07-06 11:29:47,969 [INFO] xe3 : success exporting command to show ip route
+2023-07-06 11:29:48,959 [INFO] xe3 : Command 'show logging' sent
+2023-07-06 11:29:48,960 [INFO] xe3 : success exporting command to show logging
+2023-07-06 11:29:49,162 [INFO] xe2 : Command 'show logging' sent
+2023-07-06 11:29:49,162 [INFO] xe2 : success exporting command to show logging
+2023-07-06 11:29:49,338 [INFO] xe3 : Command 'show version' sent
+2023-07-06 11:29:49,340 [INFO] xe3 : success exporting command to show version
+2023-07-06 11:29:49,471 [INFO] xe2 : Command 'show logging' sent
+2023-07-06 11:29:49,473 [INFO] xe2 : success exporting command to show logging
+2023-07-06 11:29:49,505 [INFO] xe2 : Command 'show version' sent
+2023-07-06 11:29:49,506 [INFO] xe2 : success exporting command to show version
+2023-07-06 11:29:49,643 [INFO] xe2 : Command 'show version' sent
+2023-07-06 11:29:49,643 [INFO] xe2 : success exporting command to show version
+2023-07-06 11:29:49,669 [INFO] xe2 : Command 'show clock' sent
+2023-07-06 11:29:49,671 [INFO] xe2 : success exporting command to show clock
+2023-07-06 11:29:49,717 [INFO] xe3 : Command 'show clock' sent
+2023-07-06 11:29:49,718 [INFO] xe3 : success exporting command to show clock
+2023-07-06 11:29:49,736 [INFO] xe1 : Command 'show logging' sent
+2023-07-06 11:29:49,737 [INFO] xe1 : success exporting command to show logging
+2023-07-06 11:29:49,808 [INFO] xe2 : Command 'show clock' sent
+2023-07-06 11:29:49,809 [INFO] xe2 : success exporting command to show clock
+2023-07-06 11:29:49,875 [INFO] xe1 : Command 'show logging' sent
+2023-07-06 11:29:49,876 [INFO] xe1 : success exporting command to show logging
+2023-07-06 11:29:49,923 [INFO] xe3 : Command 'show logging' sent
+2023-07-06 11:29:49,925 [INFO] xe3 : success exporting command to show logging
+2023-07-06 11:29:50,035 [INFO] xe1 : Command 'show version' sent
+2023-07-06 11:29:50,036 [INFO] xe1 : success exporting command to show version
+2023-07-06 11:29:50,066 [INFO] xe2 : Command 'show run' sent
+2023-07-06 11:29:50,067 [INFO] xe2 : success exporting command to show run
+2023-07-06 11:29:50,074 [INFO] xe1 : Command 'show version' sent
+2023-07-06 11:29:50,075 [INFO] xe1 : success exporting command to show version
+2023-07-06 11:29:50,159 [INFO] xe1 : Command 'show clock' sent
+2023-07-06 11:29:50,159 [INFO] xe1 : success exporting command to show clock
+2023-07-06 11:29:50,235 [INFO] xe1 : Command 'show clock' sent
+2023-07-06 11:29:50,237 [INFO] xe1 : success exporting command to show clock
+2023-07-06 11:29:50,277 [INFO] xe2 : Command 'show run' sent
+2023-07-06 11:29:50,277 [INFO] xe2 : success exporting command to show run
+2023-07-06 11:29:50,289 [INFO] xe3 : Command 'show run' sent
+2023-07-06 11:29:50,289 [INFO] xe3 : success exporting command to show run
+2023-07-06 11:29:50,319 [INFO] xe3 : Command 'show version' sent
+2023-07-06 11:29:50,319 [INFO] xe3 : success exporting command to show version
+2023-07-06 11:29:50,392 [INFO] xe2 : Command 'show interfaces status' sent
+2023-07-06 11:29:50,393 [ERROR] xe2 : Output return empty for command [show interfaces status]
+2023-07-06 11:29:50,469 [INFO] xe3 : Command 'show interfaces status' sent
+2023-07-06 11:29:50,470 [ERROR] xe3 : Output return empty for command [show interfaces status]
+2023-07-06 11:29:50,471 [INFO] xe3 : Command 'show clock' sent
+2023-07-06 11:29:50,471 [INFO] xe3 : success exporting command to show clock
+2023-07-06 11:29:50,514 [INFO] xe2 : Command 'show interfaces status' sent
+2023-07-06 11:29:50,515 [ERROR] xe2 : Output return empty for command [show interfaces status]
+2023-07-06 11:29:50,581 [INFO] xe1 : Command 'show run' sent
+2023-07-06 11:29:50,581 [INFO] xe1 : success exporting command to show run
+2023-07-06 11:29:50,604 [INFO] xe2 : Command 'show interfaces description' sent
+2023-07-06 11:29:50,604 [INFO] xe2 : success exporting command to show interfaces description
+2023-07-06 11:29:50,713 [INFO] xe2 : Command 'show interfaces description' sent
+2023-07-06 11:29:50,714 [INFO] xe2 : success exporting command to show interfaces description
+2023-07-06 11:29:50,779 [INFO] xe2 : Command 'show interfaces trunk' sent
+2023-07-06 11:29:50,781 [ERROR] xe2 : Output return empty for command [show interfaces trunk]
+2023-07-06 11:29:50,793 [INFO] xe3 : Command 'show run' sent
+2023-07-06 11:29:50,794 [INFO] xe3 : success exporting command to show run
+2023-07-06 11:29:50,846 [INFO] xe3 : Command 'show interfaces description' sent
+2023-07-06 11:29:50,847 [INFO] xe3 : success exporting command to show interfaces description
+2023-07-06 11:29:50,870 [INFO] xe1 : Command 'show run' sent
+2023-07-06 11:29:50,870 [INFO] xe1 : success exporting command to show run
+2023-07-06 11:29:50,893 [INFO] xe2 : Command 'show interfaces trunk' sent
+2023-07-06 11:29:50,894 [ERROR] xe2 : Output return empty for command [show interfaces trunk]
+2023-07-06 11:29:50,924 [INFO] xe1 : Command 'show interfaces status' sent
+2023-07-06 11:29:50,933 [ERROR] xe1 : Output return empty for command [show interfaces status]
+2023-07-06 11:29:50,982 [INFO] xe2 : Command 'show etherchannel summary' sent
+2023-07-06 11:29:50,984 [INFO] xe2 : success exporting command to show etherchannel summary
+2023-07-06 11:29:50,993 [INFO] xe3 : Command 'show interfaces status' sent
+2023-07-06 11:29:50,993 [ERROR] xe3 : Output return empty for command [show interfaces status]
+2023-07-06 11:29:51,028 [INFO] xe3 : Command 'show interfaces trunk' sent
+2023-07-06 11:29:51,031 [ERROR] xe3 : Output return empty for command [show interfaces trunk]
+2023-07-06 11:29:51,093 [INFO] xe2 : Command 'show etherchannel summary' sent
+2023-07-06 11:29:51,093 [INFO] xe2 : success exporting command to show etherchannel summary
+2023-07-06 11:29:51,114 [INFO] xe1 : Command 'show interfaces status' sent
+2023-07-06 11:29:51,122 [ERROR] xe1 : Output return empty for command [show interfaces status]
+2023-07-06 11:29:51,147 [INFO] xe1 : Command 'show interfaces description' sent
+2023-07-06 11:29:51,150 [INFO] xe1 : success exporting command to show interfaces description
+2023-07-06 11:29:51,180 [INFO] xe2 : Command 'show port-channel' sent
+2023-07-06 11:29:51,182 [ERROR] xe2 : Output return empty for command [show port-channel]
+2023-07-06 11:29:51,205 [INFO] xe3 : Command 'show interfaces description' sent
+2023-07-06 11:29:51,208 [INFO] xe3 : Command 'show etherchannel summary' sent
+2023-07-06 11:29:51,211 [INFO] xe3 : success exporting command to show interfaces description
+2023-07-06 11:29:51,212 [INFO] xe3 : success exporting command to show etherchannel summary
+2023-07-06 11:29:51,297 [INFO] xe2 : Command 'show port-channel' sent
+2023-07-06 11:29:51,300 [ERROR] xe2 : Output return empty for command [show port-channel]
+2023-07-06 11:29:51,313 [INFO] xe1 : Command 'show interfaces trunk' sent
+2023-07-06 11:29:51,313 [ERROR] xe1 : Output return empty for command [show interfaces trunk]
+2023-07-06 11:29:51,325 [INFO] xe1 : Command 'show interfaces description' sent
+2023-07-06 11:29:51,341 [INFO] xe1 : success exporting command to show interfaces description
+2023-07-06 11:29:51,365 [INFO] xe2 : Command 'show ip interface brief' sent
+2023-07-06 11:29:51,365 [INFO] xe2 : success exporting command to show ip interface brief
+2023-07-06 11:29:51,391 [INFO] xe3 : Command 'show port-channel' sent
+2023-07-06 11:29:51,391 [ERROR] xe3 : Output return empty for command [show port-channel]
+2023-07-06 11:29:51,393 [INFO] xe3 : Command 'show interfaces trunk' sent
+2023-07-06 11:29:51,394 [ERROR] xe3 : Output return empty for command [show interfaces trunk]
+2023-07-06 11:29:51,481 [INFO] xe1 : Command 'show etherchannel summary' sent
+2023-07-06 11:29:51,483 [INFO] xe2 : Command 'show ip interface brief' sent
+2023-07-06 11:29:51,484 [INFO] xe1 : success exporting command to show etherchannel summary
+2023-07-06 11:29:51,485 [INFO] xe2 : success exporting command to show ip interface brief
+2023-07-06 11:29:51,584 [INFO] xe3 : Command 'show ip interface brief' sent
+2023-07-06 11:29:51,586 [INFO] xe3 : success exporting command to show ip interface brief
+2023-07-06 11:29:51,591 [INFO] xe2 : Command 'show cdp neighbors' sent
+2023-07-06 11:29:51,592 [INFO] xe2 : success exporting command to show cdp neighbors
+2023-07-06 11:29:51,609 [INFO] xe3 : Command 'show etherchannel summary' sent
+2023-07-06 11:29:51,610 [INFO] xe3 : success exporting command to show etherchannel summary
+2023-07-06 11:29:51,636 [INFO] xe1 : Command 'show interfaces trunk' sent
+2023-07-06 11:29:51,636 [ERROR] xe1 : Output return empty for command [show interfaces trunk]
+2023-07-06 11:29:51,703 [INFO] xe1 : Command 'show port-channel' sent
+2023-07-06 11:29:51,704 [ERROR] xe1 : Output return empty for command [show port-channel]
+2023-07-06 11:29:51,707 [INFO] xe2 : Command 'show cdp neighbors' sent
+2023-07-06 11:29:51,709 [INFO] xe2 : success exporting command to show cdp neighbors
+2023-07-06 11:29:51,768 [INFO] xe3 : Command 'show cdp neighbors' sent
+2023-07-06 11:29:51,768 [INFO] xe3 : success exporting command to show cdp neighbors
+2023-07-06 11:29:51,771 [INFO] xe2 : Command 'show spanning-tree summary' sent
+2023-07-06 11:29:51,773 [INFO] xe2 : success exporting command to show spanning-tree summary
+2023-07-06 11:29:51,792 [INFO] xe3 : Command 'show port-channel' sent
+2023-07-06 11:29:51,792 [ERROR] xe3 : Output return empty for command [show port-channel]
+2023-07-06 11:29:51,834 [INFO] xe1 : Command 'show etherchannel summary' sent
+2023-07-06 11:29:51,834 [INFO] xe1 : success exporting command to show etherchannel summary
+2023-07-06 11:29:51,891 [INFO] xe1 : Command 'show ip interface brief' sent
+2023-07-06 11:29:51,891 [INFO] xe1 : success exporting command to show ip interface brief
+2023-07-06 11:29:51,908 [INFO] xe2 : Command 'show spanning-tree summary' sent
+2023-07-06 11:29:51,908 [INFO] xe2 : success exporting command to show spanning-tree summary
+2023-07-06 11:29:51,939 [INFO] xe3 : Command 'show spanning-tree summary' sent
+2023-07-06 11:29:51,942 [INFO] xe3 : success exporting command to show spanning-tree summary
+2023-07-06 11:29:51,960 [INFO] xe2 : Command 'show vlan brief' sent
+2023-07-06 11:29:51,960 [ERROR] xe2 : Output return empty for command [show vlan brief]
+2023-07-06 11:29:51,977 [INFO] xe3 : Command 'show ip interface brief' sent
+2023-07-06 11:29:51,977 [INFO] xe3 : success exporting command to show ip interface brief
+2023-07-06 11:29:52,014 [INFO] xe1 : Command 'show port-channel' sent
+2023-07-06 11:29:52,014 [ERROR] xe1 : Output return empty for command [show port-channel]
+2023-07-06 11:29:52,055 [INFO] xe1 : Command 'show cdp neighbors' sent
+2023-07-06 11:29:52,058 [INFO] xe2 : Command 'show vlan brief' sent
+2023-07-06 11:29:52,058 [INFO] xe1 : success exporting command to show cdp neighbors
+2023-07-06 11:29:52,059 [ERROR] xe2 : Output return empty for command [show vlan brief]
+2023-07-06 11:29:52,112 [INFO] xe3 : Command 'show vlan brief' sent
+2023-07-06 11:29:52,112 [INFO] xe3 : Command 'show cdp neighbors' sent
+2023-07-06 11:29:52,113 [ERROR] xe3 : Output return empty for command [show vlan brief]
+2023-07-06 11:29:52,113 [INFO] xe3 : success exporting command to show cdp neighbors
+2023-07-06 11:29:52,144 [INFO] xe2 : Command 'show vtp status' sent
+2023-07-06 11:29:52,145 [ERROR] xe2 : Output return empty for command [show vtp status]
+2023-07-06 11:29:52,211 [INFO] xe1 : Command 'show ip interface brief' sent
+2023-07-06 11:29:52,212 [INFO] xe1 : success exporting command to show ip interface brief
+2023-07-06 11:29:52,221 [INFO] xe2 : Command 'show vtp status' sent
+2023-07-06 11:29:52,222 [ERROR] xe2 : Output return empty for command [show vtp status]
+2023-07-06 11:29:52,234 [INFO] xe1 : Command 'show spanning-tree summary' sent
+2023-07-06 11:29:52,235 [INFO] xe1 : success exporting command to show spanning-tree summary
+2023-07-06 11:29:52,249 [INFO] xe3 : Command 'show vtp status' sent
+2023-07-06 11:29:52,250 [ERROR] xe3 : Output return empty for command [show vtp status]
+2023-07-06 11:29:52,271 [INFO] xe3 : Command 'show spanning-tree summary' sent
+2023-07-06 11:29:52,272 [INFO] xe3 : success exporting command to show spanning-tree summary
+2023-07-06 11:29:52,309 [INFO] xe2 : Command 'show vpc brief' sent
+2023-07-06 11:29:52,312 [ERROR] xe2 : Output return empty for command [show vpc brief]
+2023-07-06 11:29:52,350 [INFO] xe2 : Command 'show vpc brief' sent
+2023-07-06 11:29:52,351 [ERROR] xe2 : Output return empty for command [show vpc brief]
+2023-07-06 11:29:52,383 [INFO] xe1 : Command 'show cdp neighbors' sent
+2023-07-06 11:29:52,383 [INFO] xe1 : success exporting command to show cdp neighbors
+2023-07-06 11:29:52,423 [INFO] xe3 : Command 'show vpc brief' sent
+2023-07-06 11:29:52,424 [ERROR] xe3 : Output return empty for command [show vpc brief]
+2023-07-06 11:29:52,436 [INFO] xe1 : Command 'show vlan brief' sent
+2023-07-06 11:29:52,436 [ERROR] xe1 : Output return empty for command [show vlan brief]
+2023-07-06 11:29:52,460 [INFO] xe2 : Command 'show inventory' sent
+2023-07-06 11:29:52,460 [INFO] xe2 : success exporting command to show inventory
+2023-07-06 11:29:52,467 [INFO] xe3 : Command 'show vlan brief' sent
+2023-07-06 11:29:52,468 [ERROR] xe3 : Output return empty for command [show vlan brief]
+2023-07-06 11:29:52,525 [INFO] xe2 : Command 'show inventory' sent
+2023-07-06 11:29:52,526 [INFO] xe2 : success exporting command to show inventory
+2023-07-06 11:29:52,565 [INFO] xe1 : Command 'show spanning-tree summary' sent
+2023-07-06 11:29:52,565 [INFO] xe1 : success exporting command to show spanning-tree summary
+2023-07-06 11:29:52,586 [INFO] xe1 : Command 'show vtp status' sent
+2023-07-06 11:29:52,586 [ERROR] xe1 : Output return empty for command [show vtp status]
+2023-07-06 11:29:52,591 [INFO] xe3 : Command 'show vtp status' sent
+2023-07-06 11:29:52,591 [ERROR] xe3 : Output return empty for command [show vtp status]
+2023-07-06 11:29:52,593 [INFO] xe3 : Command 'show inventory' sent
+2023-07-06 11:29:52,593 [INFO] xe3 : success exporting command to show inventory
+2023-07-06 11:29:52,598 [INFO] xe2 : Command 'show ip arp' sent
+2023-07-06 11:29:52,599 [INFO] xe2 : success exporting command to show ip arp
+2023-07-06 11:29:52,677 [INFO] xe2 : Command 'show ip arp' sent
+2023-07-06 11:29:52,678 [INFO] xe2 : success exporting command to show ip arp
+2023-07-06 11:29:52,735 [INFO] xe1 : Command 'show vlan brief' sent
+2023-07-06 11:29:52,736 [ERROR] xe1 : Output return empty for command [show vlan brief]
+2023-07-06 11:29:52,762 [INFO] xe3 : Command 'show ip arp' sent
+2023-07-06 11:29:52,763 [INFO] xe3 : success exporting command to show ip arp
+2023-07-06 11:29:52,770 [INFO] xe1 : Command 'show vpc brief' sent
+2023-07-06 11:29:52,770 [ERROR] xe1 : Output return empty for command [show vpc brief]
+2023-07-06 11:29:52,772 [INFO] xe3 : Command 'show vpc brief' sent
+2023-07-06 11:29:52,776 [ERROR] xe3 : Output return empty for command [show vpc brief]
+2023-07-06 11:29:52,854 [INFO] xe2 : Command 'dir' sent
+2023-07-06 11:29:52,854 [INFO] xe2 : success exporting command to dir
+2023-07-06 11:29:52,900 [INFO] xe1 : Command 'show vtp status' sent
+2023-07-06 11:29:52,901 [ERROR] xe1 : Output return empty for command [show vtp status]
+2023-07-06 11:29:52,944 [INFO] xe2 : Command 'dir' sent
+2023-07-06 11:29:52,945 [INFO] xe2 : success exporting command to dir
+2023-07-06 11:29:52,947 [INFO] xe3 : Command 'show inventory' sent
+2023-07-06 11:29:52,947 [INFO] xe3 : success exporting command to show inventory
+2023-07-06 11:29:52,949 [INFO] xe1 : Command 'show inventory' sent
+2023-07-06 11:29:52,949 [INFO] xe1 : success exporting command to show inventory
+2023-07-06 11:29:52,969 [INFO] xe3 : Command 'dir' sent
+2023-07-06 11:29:52,969 [INFO] xe3 : success exporting command to dir
+2023-07-06 11:29:53,051 [INFO] xe1 : Command 'show vpc brief' sent
+2023-07-06 11:29:53,051 [ERROR] xe1 : Output return empty for command [show vpc brief]
+2023-07-06 11:29:53,053 [INFO] xe2 : Command 'show environment temperature status' sent
+2023-07-06 11:29:53,054 [ERROR] xe2 : Output return empty for command [show environment temperature status]
+2023-07-06 11:29:53,071 [INFO] xe3 : Command 'show ip arp' sent
+2023-07-06 11:29:53,071 [INFO] xe3 : success exporting command to show ip arp
+2023-07-06 11:29:53,115 [INFO] xe2 : Command 'show environment temperature status' sent
+2023-07-06 11:29:53,116 [ERROR] xe2 : Output return empty for command [show environment temperature status]
+2023-07-06 11:29:53,117 [INFO] xe1 : Command 'show ip arp' sent
+2023-07-06 11:29:53,118 [INFO] xe1 : success exporting command to show ip arp
+2023-07-06 11:29:53,125 [INFO] xe3 : Command 'show environment temperature status' sent
+2023-07-06 11:29:53,125 [ERROR] xe3 : Output return empty for command [show environment temperature status]
+2023-07-06 11:29:53,205 [INFO] xe2 : Command 'show environment all' sent
+2023-07-06 11:29:53,205 [ERROR] xe2 : Output return empty for command [show environment all]
+2023-07-06 11:29:53,211 [INFO] xe1 : Command 'show inventory' sent
+2023-07-06 11:29:53,211 [INFO] xe1 : success exporting command to show inventory
+2023-07-06 11:29:53,249 [INFO] xe2 : Command 'show environment all' sent
+2023-07-06 11:29:53,249 [ERROR] xe2 : Output return empty for command [show environment all]
+2023-07-06 11:29:53,261 [INFO] xe3 : Command 'dir' sent
+2023-07-06 11:29:53,262 [INFO] xe3 : success exporting command to dir
+2023-07-06 11:29:53,287 [INFO] xe3 : Command 'show environment all' sent
+2023-07-06 11:29:53,287 [ERROR] xe3 : Output return empty for command [show environment all]
+2023-07-06 11:29:53,367 [INFO] xe2 : Command 'show platform' sent
+2023-07-06 11:29:53,368 [INFO] xe1 : Command 'dir' sent
+2023-07-06 11:29:53,369 [INFO] xe2 : success exporting command to show platform
+2023-07-06 11:29:53,369 [INFO] xe1 : success exporting command to dir
+2023-07-06 11:29:53,399 [INFO] xe2 : Command 'show platform' sent
+2023-07-06 11:29:53,400 [INFO] xe2 : success exporting command to show platform
+2023-07-06 11:29:53,404 [INFO] xe1 : Command 'show ip arp' sent
+2023-07-06 11:29:53,404 [INFO] xe1 : success exporting command to show ip arp
+2023-07-06 11:29:53,467 [INFO] xe3 : Command 'show platform' sent
+2023-07-06 11:29:53,467 [INFO] xe3 : success exporting command to show platform
+2023-07-06 11:29:53,484 [INFO] xe3 : Command 'show environment temperature status' sent
+2023-07-06 11:29:53,484 [ERROR] xe3 : Output return empty for command [show environment temperature status]
+2023-07-06 11:29:53,577 [INFO] xe1 : Command 'dir' sent
+2023-07-06 11:29:53,578 [INFO] xe1 : success exporting command to dir
+2023-07-06 11:29:53,580 [INFO] xe2 : Command 'show processes memory statistics' sent
+2023-07-06 11:29:53,580 [ERROR] xe2 : Output return empty for command [show processes memory statistics]
+2023-07-06 11:29:53,590 [INFO] xe1 : Command 'show environment temperature status' sent
+2023-07-06 11:29:53,591 [ERROR] xe1 : Output return empty for command [show environment temperature status]
+2023-07-06 11:29:53,592 [INFO] xe2 : Command 'show processes memory statistics' sent
+2023-07-06 11:29:53,593 [ERROR] xe2 : Output return empty for command [show processes memory statistics]
+2023-07-06 11:29:53,676 [INFO] xe3 : Command 'show environment all' sent
+2023-07-06 11:29:53,677 [ERROR] xe3 : Output return empty for command [show environment all]
+2023-07-06 11:29:53,678 [INFO] xe3 : Command 'show processes memory statistics' sent
+2023-07-06 11:29:53,678 [ERROR] xe3 : Output return empty for command [show processes memory statistics]
+2023-07-06 11:29:53,792 [INFO] xe1 : Command 'show environment all' sent
+2023-07-06 11:29:53,792 [ERROR] xe1 : Output return empty for command [show environment all]
+2023-07-06 11:29:53,820 [INFO] xe1 : Command 'show environment temperature status' sent
+2023-07-06 11:29:53,823 [ERROR] xe1 : Output return empty for command [show environment temperature status]
+2023-07-06 11:29:53,848 [INFO] xe3 : Command 'show platform' sent
+2023-07-06 11:29:53,849 [INFO] xe3 : success exporting command to show platform
+2023-07-06 11:29:53,854 [INFO] xe2 : Command 'show processes memory sorted' sent
+2023-07-06 11:29:53,855 [INFO] xe2 : success exporting command to show processes memory sorted
+2023-07-06 11:29:53,900 [INFO] xe2 : Command 'show processes memory sorted' sent
+2023-07-06 11:29:53,901 [INFO] xe2 : success exporting command to show processes memory sorted
+2023-07-06 11:29:53,908 [INFO] xe1 : Command 'show platform' sent
+2023-07-06 11:29:53,908 [INFO] xe1 : success exporting command to show platform
+2023-07-06 11:29:53,961 [INFO] xe3 : Command 'show processes memory sorted' sent
+2023-07-06 11:29:53,962 [INFO] xe3 : success exporting command to show processes memory sorted
+2023-07-06 11:29:53,979 [INFO] xe2 : Command 'show system resources' sent
+2023-07-06 11:29:53,979 [ERROR] xe2 : Output return empty for command [show system resources]
+2023-07-06 11:29:53,993 [INFO] xe1 : Command 'show environment all' sent
+2023-07-06 11:29:53,993 [ERROR] xe1 : Output return empty for command [show environment all]
+2023-07-06 11:29:54,030 [INFO] xe3 : Command 'show processes memory statistics' sent
+2023-07-06 11:29:54,034 [ERROR] xe3 : Output return empty for command [show processes memory statistics]
+2023-07-06 11:29:54,035 [INFO] xe2 : Command 'show system resources' sent
+2023-07-06 11:29:54,035 [ERROR] xe2 : Output return empty for command [show system resources]
+2023-07-06 11:29:54,108 [INFO] xe1 : Command 'show processes memory statistics' sent
+2023-07-06 11:29:54,108 [ERROR] xe1 : Output return empty for command [show processes memory statistics]
+2023-07-06 11:29:54,124 [INFO] xe3 : Command 'show system resources' sent
+2023-07-06 11:29:54,126 [ERROR] xe3 : Output return empty for command [show system resources]
+2023-07-06 11:29:54,168 [INFO] xe1 : Command 'show platform' sent
+2023-07-06 11:29:54,168 [INFO] xe1 : success exporting command to show platform
+2023-07-06 11:29:54,294 [INFO] xe3 : Command 'show processes memory sorted' sent
+2023-07-06 11:29:54,294 [INFO] xe3 : success exporting command to show processes memory sorted
+2023-07-06 11:29:54,352 [INFO] xe1 : Command 'show processes memory statistics' sent
+2023-07-06 11:29:54,352 [ERROR] xe1 : Output return empty for command [show processes memory statistics]
+2023-07-06 11:29:54,489 [INFO] xe1 : Command 'show processes memory sorted' sent
+2023-07-06 11:29:54,490 [INFO] xe1 : success exporting command to show processes memory sorted
+2023-07-06 11:29:54,525 [INFO] xe3 : Command 'show processes cpu sorted' sent
+2023-07-06 11:29:54,531 [INFO] xe3 : success exporting command to show processes cpu sorted
+2023-07-06 11:29:54,566 [INFO] xe3 : Command 'show system resources' sent
+2023-07-06 11:29:54,567 [ERROR] xe3 : Output return empty for command [show system resources]
+2023-07-06 11:29:54,670 [INFO] xe1 : Command 'show processes memory sorted' sent
+2023-07-06 11:29:54,670 [INFO] xe1 : success exporting command to show processes memory sorted
+2023-07-06 11:29:54,671 [INFO] xe1 : Command 'show system resources' sent
+2023-07-06 11:29:54,672 [ERROR] xe1 : Output return empty for command [show system resources]
+2023-07-06 11:29:54,814 [INFO] xe1 : Command 'show system resources' sent
+2023-07-06 11:29:54,814 [ERROR] xe1 : Output return empty for command [show system resources]
+2023-07-06 11:29:54,957 [INFO] xe2 : Command 'show processes cpu sorted' sent
+2023-07-06 11:29:54,958 [INFO] xe2 : Command 'show processes cpu sorted' sent
+2023-07-06 11:29:54,958 [INFO] xe2 : success exporting command to show processes cpu sorted
+2023-07-06 11:29:54,958 [INFO] xe2 : success exporting command to show processes cpu sorted
+2023-07-06 11:29:55,103 [INFO] xe1 : Command 'show processes cpu sorted' sent
+2023-07-06 11:29:55,104 [INFO] xe1 : success exporting command to show processes cpu sorted
+2023-07-06 11:29:55,389 [INFO] xe3 : Command 'show processes cpu' sent
+2023-07-06 11:29:55,390 [INFO] xe3 : success exporting command to show processes cpu
+2023-07-06 11:29:56,007 [INFO] xe3 : Command 'show platform software status control-processor brief' sent
+2023-07-06 11:29:56,007 [INFO] xe3 : success exporting command to show platform software status control-processor brief
+2023-07-06 11:29:56,098 [INFO] xe2 : Command 'show processes cpu' sent
+2023-07-06 11:29:56,099 [INFO] xe2 : success exporting command to show processes cpu
+2023-07-06 11:29:56,162 [INFO] xe2 : Command 'show processes cpu' sent
+2023-07-06 11:29:56,162 [INFO] xe2 : success exporting command to show processes cpu
+2023-07-06 11:29:56,167 [INFO] xe1 : Command 'show processes cpu' sent
+2023-07-06 11:29:56,168 [INFO] xe1 : success exporting command to show processes cpu
+2023-07-06 11:29:56,247 [INFO] xe3 : Command 'show ip ospf neighbor' sent
+2023-07-06 11:29:56,247 [INFO] xe3 : success exporting command to show ip ospf neighbor
+2023-07-06 11:29:56,664 [INFO] xe3 : Command 'show ip bgp summary' sent
+2023-07-06 11:29:56,664 [INFO] xe3 : success exporting command to show ip bgp summary
+2023-07-06 11:29:56,670 [INFO] xe2 : Command 'show platform software status control-processor brief' sent
+2023-07-06 11:29:56,670 [INFO] xe2 : success exporting command to show platform software status control-processor brief
+2023-07-06 11:29:56,715 [INFO] xe1 : Command 'show platform software status control-processor brief' sent
+2023-07-06 11:29:56,715 [INFO] xe1 : success exporting command to show platform software status control-processor brief
+2023-07-06 11:29:56,838 [INFO] xe2 : Command 'show platform software status control-processor brief' sent
+2023-07-06 11:29:56,838 [INFO] xe2 : success exporting command to show platform software status control-processor brief
+2023-07-06 11:29:56,874 [INFO] xe3 : Command 'show ip route' sent
+2023-07-06 11:29:56,874 [INFO] xe3 : success exporting command to show ip route
+2023-07-06 11:29:56,889 [INFO] xe2 : Command 'show ip ospf neighbor' sent
+2023-07-06 11:29:56,889 [INFO] xe2 : success exporting command to show ip ospf neighbor
+2023-07-06 11:29:56,914 [INFO] xe1 : Command 'show ip ospf neighbor' sent
+2023-07-06 11:29:56,915 [INFO] xe1 : success exporting command to show ip ospf neighbor
+2023-07-06 11:29:56,972 [INFO] xe2 : Command 'show ip ospf neighbor' sent
+2023-07-06 11:29:56,972 [INFO] xe2 : success exporting command to show ip ospf neighbor
+2023-07-06 11:29:57,048 [INFO] xe2 : Command 'show ip bgp summary' sent
+2023-07-06 11:29:57,048 [INFO] xe2 : success exporting command to show ip bgp summary
+2023-07-06 11:29:57,073 [INFO] xe1 : Command 'show ip bgp summary' sent
+2023-07-06 11:29:57,073 [INFO] xe1 : success exporting command to show ip bgp summary
+2023-07-06 11:29:57,141 [INFO] xe2 : Command 'show ip bgp summary' sent
+2023-07-06 11:29:57,141 [INFO] xe2 : success exporting command to show ip bgp summary
+2023-07-06 11:29:57,216 [INFO] xe2 : Command 'show ip route' sent
+2023-07-06 11:29:57,217 [INFO] xe2 : success exporting command to show ip route
+2023-07-06 11:29:57,221 [INFO] xe1 : Command 'show ip route' sent
+2023-07-06 11:29:57,222 [INFO] xe1 : success exporting command to show ip route
+2023-07-06 11:29:57,291 [INFO] xe2 : Command 'show ip route' sent
+2023-07-06 11:29:57,292 [INFO] xe2 : success exporting command to show ip route
+2023-07-06 11:29:57,373 [INFO] xe3 : Command 'show logging' sent
+2023-07-06 11:29:57,375 [INFO] xe3 : success exporting command to show logging
+2023-07-06 11:29:57,407 [INFO] xe3 : Disconnected succcessfully
+2023-07-06 11:29:57,615 [INFO] xe1 : Command 'show logging' sent
+2023-07-06 11:29:57,616 [INFO] xe1 : success exporting command to show logging
+2023-07-06 11:29:57,657 [INFO] xe1 : Disconnected succcessfully
+2023-07-06 11:29:57,741 [INFO] xe3 : Command 'show processes cpu sorted' sent
+2023-07-06 11:29:57,742 [INFO] xe3 : success exporting command to show processes cpu sorted
+2023-07-06 11:29:57,747 [INFO] xe1 : Command 'show processes cpu sorted' sent
+2023-07-06 11:29:57,747 [INFO] xe1 : success exporting command to show processes cpu sorted
+2023-07-06 11:29:58,064 [INFO] xe3 : Command 'show processes cpu' sent
+2023-07-06 11:29:58,065 [INFO] xe3 : success exporting command to show processes cpu
+2023-07-06 11:29:58,196 [INFO] xe1 : Command 'show processes cpu' sent
+2023-07-06 11:29:58,198 [INFO] xe1 : success exporting command to show processes cpu
+2023-07-06 11:29:58,330 [INFO] xe3 : Command 'show platform software status control-processor brief' sent
+2023-07-06 11:29:58,330 [INFO] xe3 : success exporting command to show platform software status control-processor brief
+2023-07-06 11:29:58,417 [INFO] xe1 : Command 'show platform software status control-processor brief' sent
+2023-07-06 11:29:58,418 [INFO] xe1 : success exporting command to show platform software status control-processor brief
+2023-07-06 11:29:58,488 [INFO] xe3 : Command 'show ip ospf neighbor' sent
+2023-07-06 11:29:58,488 [INFO] xe3 : success exporting command to show ip ospf neighbor
+2023-07-06 11:29:58,586 [INFO] xe1 : Command 'show ip ospf neighbor' sent
+2023-07-06 11:29:58,586 [INFO] xe1 : success exporting command to show ip ospf neighbor
+2023-07-06 11:29:58,631 [INFO] xe3 : Command 'show ip bgp summary' sent
+2023-07-06 11:29:58,632 [INFO] xe3 : success exporting command to show ip bgp summary
+2023-07-06 11:29:58,757 [INFO] xe1 : Command 'show ip bgp summary' sent
+2023-07-06 11:29:58,758 [INFO] xe1 : success exporting command to show ip bgp summary
+2023-07-06 11:29:58,791 [INFO] xe3 : Command 'show ip route' sent
+2023-07-06 11:29:58,792 [INFO] xe3 : success exporting command to show ip route
+2023-07-06 11:29:58,833 [INFO] xe2 : Command 'show logging' sent
+2023-07-06 11:29:58,836 [INFO] xe2 : success exporting command to show logging
+2023-07-06 11:29:58,872 [INFO] xe2 : Command 'show logging' sent
+2023-07-06 11:29:58,879 [INFO] xe2 : success exporting command to show logging
+2023-07-06 11:29:58,882 [INFO] xe2 : Disconnected succcessfully
+2023-07-06 11:29:58,923 [INFO] xe1 : Command 'show ip route' sent
+2023-07-06 11:29:58,924 [INFO] xe1 : success exporting command to show ip route
+2023-07-06 11:29:59,012 [INFO] xe2 : Disconnected succcessfully
+2023-07-06 11:29:59,233 [INFO] xe3 : Command 'show logging' sent
+2023-07-06 11:29:59,248 [INFO] xe3 : success exporting command to show logging
+2023-07-06 11:29:59,293 [INFO] xe3 : Disconnected succcessfully
+2023-07-06 11:29:59,573 [INFO] xe1 : Command 'show logging' sent
+2023-07-06 11:29:59,575 [INFO] xe1 : success exporting command to show logging
+2023-07-06 11:29:59,632 [INFO] xe1 : Disconnected succcessfully
+2023-07-06 11:29:59,635 [INFO] 127.0.0.1 - - [06/Jul/2023 11:29:59] "POST /customPage HTTP/1.1" 200 -
+2023-07-06 11:30:14,444 [INFO] 127.0.0.1 - - [06/Jul/2023 11:30:14] "GET /getOutput HTTP/1.1" 200 -
+2023-07-06 11:30:15,121 [INFO] 127.0.0.1 - - [06/Jul/2023 11:30:15] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2023-07-06 11:30:15,180 [INFO] 127.0.0.1 - - [06/Jul/2023 11:30:15] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2023-07-06 11:30:15,437 [INFO] 127.0.0.1 - - [06/Jul/2023 11:30:15] "GET /assets/lib/js/apps.js HTTP/1.1" 200 -
+2023-07-06 11:30:15,838 [INFO] 127.0.0.1 - - [06/Jul/2023 11:30:15] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2023-07-06 11:30:15,895 [INFO] 127.0.0.1 - - [06/Jul/2023 11:30:15] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2023-07-06 11:30:15,939 [INFO] 127.0.0.1 - - [06/Jul/2023 11:30:15] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2023-07-06 11:30:17,664 [INFO] 127.0.0.1 - - [06/Jul/2023 11:30:17] "POST /getOutput HTTP/1.1" 200 -
+2023-07-06 11:30:22,533 [INFO] 127.0.0.1 - - [06/Jul/2023 11:30:22] "POST /getOutput HTTP/1.1" 200 -
+2023-07-06 11:30:25,962 [INFO] 127.0.0.1 - - [06/Jul/2023 11:30:25] "POST /downloadFile HTTP/1.1" 200 -
+2023-07-06 11:30:41,798 [INFO] 127.0.0.1 - - [06/Jul/2023 11:30:41] "GET /getOutput HTTP/1.1" 200 -
+2023-07-06 11:30:42,499 [INFO] 127.0.0.1 - - [06/Jul/2023 11:30:42] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2023-07-06 11:30:42,541 [INFO] 127.0.0.1 - - [06/Jul/2023 11:30:42] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2023-07-06 11:30:42,732 [INFO] 127.0.0.1 - - [06/Jul/2023 11:30:42] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2023-07-06 11:30:43,252 [INFO] 127.0.0.1 - - [06/Jul/2023 11:30:43] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2023-07-06 11:30:43,338 [INFO] 127.0.0.1 - - [06/Jul/2023 11:30:43] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2023-07-06 11:30:43,384 [INFO] 127.0.0.1 - - [06/Jul/2023 11:30:43] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2023-07-06 11:30:44,984 [INFO] 127.0.0.1 - - [06/Jul/2023 11:30:44] "GET / HTTP/1.1" 200 -
+2023-07-06 11:30:45,279 [INFO] 127.0.0.1 - - [06/Jul/2023 11:30:45] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2023-07-06 11:30:45,670 [INFO] 127.0.0.1 - - [06/Jul/2023 11:30:45] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2023-07-06 11:30:45,946 [INFO] 127.0.0.1 - - [06/Jul/2023 11:30:45] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2023-07-06 11:30:46,458 [INFO] 127.0.0.1 - - [06/Jul/2023 11:30:46] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2023-07-06 11:30:46,515 [INFO] 127.0.0.1 - - [06/Jul/2023 11:30:46] "[36mGET /assets/lib/js/jquery-3.7.0.min.js HTTP/1.1[0m" 304 -
+2023-07-06 11:30:46,554 [INFO] 127.0.0.1 - - [06/Jul/2023 11:30:46] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2023-07-06 11:30:46,611 [INFO] 127.0.0.1 - - [06/Jul/2023 11:30:46] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2023-07-06 11:31:00,564 [INFO] 127.0.0.1 - - [06/Jul/2023 11:31:00] "GET /deviceList HTTP/1.1" 200 -
+2023-07-06 11:31:00,833 [INFO] 127.0.0.1 - - [06/Jul/2023 11:31:00] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2023-07-06 11:31:01,169 [INFO] 127.0.0.1 - - [06/Jul/2023 11:31:01] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2023-07-06 11:31:01,453 [INFO] 127.0.0.1 - - [06/Jul/2023 11:31:01] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2023-07-06 11:31:01,822 [INFO] 127.0.0.1 - - [06/Jul/2023 11:31:01] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2023-07-06 11:31:01,879 [INFO] 127.0.0.1 - - [06/Jul/2023 11:31:01] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2023-07-06 11:31:01,919 [INFO] 127.0.0.1 - - [06/Jul/2023 11:31:01] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2023-07-06 11:31:03,991 [INFO] 127.0.0.1 - - [06/Jul/2023 11:31:03] "[31m[1mGET /customPage HTTP/1.1[0m" 405 -
+2023-07-06 11:32:48,115 [INFO]  * Detected change in '/opt/Project1/mainWeb.py', reloading
+2023-07-06 14:30:17,495 [INFO] xe1 : Connecting 
+2023-07-06 14:30:17,496 [INFO] xe2 : Connecting 
+2023-07-06 14:30:17,496 [INFO] xe3 : Connecting 
+2023-07-06 14:30:17,542 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 14:30:18,005 [INFO] Authentication (password) successful!
+2023-07-06 14:30:19,774 [WARNING] xe1 : Connect success
+2023-07-06 14:30:20,181 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 14:30:20,182 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 14:30:21,069 [INFO] xe1 : Entered enable mode
+2023-07-06 14:30:22,297 [INFO] xe1 : Command 'show version' sent
+2023-07-06 14:30:22,298 [INFO] xe1 : success exporting command to show version
+2023-07-06 14:30:22,620 [INFO] xe1 : Command 'show clock' sent
+2023-07-06 14:30:22,621 [INFO] xe1 : success exporting command to show clock
+2023-07-06 14:30:23,267 [INFO] xe1 : Command 'show run' sent
+2023-07-06 14:30:23,268 [INFO] xe1 : success exporting command to show run
+2023-07-06 14:30:23,689 [INFO] Authentication (password) successful!
+2023-07-06 14:30:24,472 [INFO] xe1 : Command 'show interfaces status' sent
+2023-07-06 14:30:24,472 [ERROR] xe1 : Output return empty for command [show interfaces status]
+2023-07-06 14:30:24,766 [INFO] xe1 : Command 'show interfaces description' sent
+2023-07-06 14:30:24,766 [INFO] xe1 : success exporting command to show interfaces description
+2023-07-06 14:30:25,971 [INFO] Authentication (password) successful!
+2023-07-06 14:30:25,997 [INFO] xe1 : Command 'show interfaces trunk' sent
+2023-07-06 14:30:25,998 [ERROR] xe1 : Output return empty for command [show interfaces trunk]
+2023-07-06 14:30:29,356 [INFO] xe1 : Command 'show etherchannel summary' sent
+2023-07-06 14:30:29,357 [INFO] xe1 : success exporting command to show etherchannel summary
+2023-07-06 14:30:29,566 [INFO] xe1 : Command 'show port-channel' sent
+2023-07-06 14:30:29,567 [ERROR] xe1 : Output return empty for command [show port-channel]
+2023-07-06 14:30:30,567 [WARNING] xe3 : Connect success
+2023-07-06 14:30:31,401 [WARNING] xe2 : Connect success
+2023-07-06 14:30:32,780 [INFO] xe1 : Command 'show ip interface brief' sent
+2023-07-06 14:30:32,780 [INFO] xe1 : success exporting command to show ip interface brief
+2023-07-06 14:30:33,002 [INFO] xe1 : Command 'show cdp neighbors' sent
+2023-07-06 14:30:33,002 [INFO] xe1 : success exporting command to show cdp neighbors
+2023-07-06 14:30:35,126 [INFO] xe2 : Entered enable mode
+2023-07-06 14:30:36,275 [INFO] xe1 : Command 'show spanning-tree summary' sent
+2023-07-06 14:30:36,275 [INFO] xe1 : success exporting command to show spanning-tree summary
+2023-07-06 14:30:37,445 [INFO] xe1 : Command 'show vlan brief' sent
+2023-07-06 14:30:37,445 [ERROR] xe1 : Output return empty for command [show vlan brief]
+2023-07-06 14:30:39,162 [INFO] xe2 : Command 'show version' sent
+2023-07-06 14:30:39,162 [INFO] xe2 : success exporting command to show version
+2023-07-06 14:30:39,473 [INFO] xe2 : Command 'show clock' sent
+2023-07-06 14:30:39,473 [INFO] xe2 : success exporting command to show clock
+2023-07-06 14:30:39,634 [INFO] xe1 : Command 'show vtp status' sent
+2023-07-06 14:30:39,635 [ERROR] xe1 : Output return empty for command [show vtp status]
+2023-07-06 14:30:39,906 [INFO] xe1 : Command 'show vpc brief' sent
+2023-07-06 14:30:39,906 [ERROR] xe1 : Output return empty for command [show vpc brief]
+2023-07-06 14:30:40,128 [INFO] xe1 : Command 'show inventory' sent
+2023-07-06 14:30:40,128 [INFO] xe1 : success exporting command to show inventory
+2023-07-06 14:30:40,338 [INFO] xe1 : Command 'show ip arp' sent
+2023-07-06 14:30:40,338 [INFO] xe1 : success exporting command to show ip arp
+2023-07-06 14:30:40,653 [ERROR] xe3 : Failed to enter enable mode (1)
+2023-07-06 14:30:40,653 [WARNING] xe3 : Retrying entering enable mode
+2023-07-06 14:30:40,798 [INFO] xe1 : Command 'dir' sent
+2023-07-06 14:30:40,798 [INFO] xe1 : success exporting command to dir
+2023-07-06 14:30:41,406 [INFO] xe3 : Entered enable mode
+2023-07-06 14:30:41,677 [INFO] xe3 : Command 'show version' sent
+2023-07-06 14:30:41,678 [INFO] xe3 : success exporting command to show version
+2023-07-06 14:30:41,868 [INFO] xe3 : Command 'show clock' sent
+2023-07-06 14:30:41,868 [INFO] xe3 : success exporting command to show clock
+2023-07-06 14:30:42,047 [INFO] xe1 : Command 'show environment temperature status' sent
+2023-07-06 14:30:42,048 [ERROR] xe1 : Output return empty for command [show environment temperature status]
+2023-07-06 14:30:42,049 [INFO] xe2 : Command 'show run' sent
+2023-07-06 14:30:42,050 [INFO] xe2 : success exporting command to show run
+2023-07-06 14:30:42,422 [INFO] xe3 : Command 'show run' sent
+2023-07-06 14:30:42,423 [INFO] xe3 : success exporting command to show run
+2023-07-06 14:30:42,643 [INFO] xe3 : Command 'show interfaces status' sent
+2023-07-06 14:30:42,644 [ERROR] xe3 : Output return empty for command [show interfaces status]
+2023-07-06 14:30:42,906 [INFO] xe3 : Command 'show interfaces description' sent
+2023-07-06 14:30:42,907 [INFO] xe3 : success exporting command to show interfaces description
+2023-07-06 14:30:43,258 [INFO] xe2 : Command 'show interfaces status' sent
+2023-07-06 14:30:43,259 [ERROR] xe2 : Output return empty for command [show interfaces status]
+2023-07-06 14:30:43,289 [INFO] xe1 : Command 'show environment all' sent
+2023-07-06 14:30:43,289 [ERROR] xe1 : Output return empty for command [show environment all]
+2023-07-06 14:30:43,353 [INFO] xe3 : Command 'show interfaces trunk' sent
+2023-07-06 14:30:43,354 [ERROR] xe3 : Output return empty for command [show interfaces trunk]
+2023-07-06 14:30:43,491 [INFO] xe1 : Command 'show platform' sent
+2023-07-06 14:30:43,492 [INFO] xe1 : success exporting command to show platform
+2023-07-06 14:30:43,838 [INFO] xe1 : Command 'show processes memory statistics' sent
+2023-07-06 14:30:43,839 [ERROR] xe1 : Output return empty for command [show processes memory statistics]
+2023-07-06 14:30:44,597 [INFO] xe2 : Command 'show interfaces description' sent
+2023-07-06 14:30:44,597 [INFO] xe2 : success exporting command to show interfaces description
+2023-07-06 14:30:44,819 [INFO] xe2 : Command 'show interfaces trunk' sent
+2023-07-06 14:30:44,819 [ERROR] xe2 : Output return empty for command [show interfaces trunk]
+2023-07-06 14:30:45,020 [INFO] xe2 : Command 'show etherchannel summary' sent
+2023-07-06 14:30:45,020 [INFO] xe2 : success exporting command to show etherchannel summary
+2023-07-06 14:30:45,262 [INFO] xe2 : Command 'show port-channel' sent
+2023-07-06 14:30:45,263 [ERROR] xe2 : Output return empty for command [show port-channel]
+2023-07-06 14:30:45,422 [INFO] xe2 : Command 'show ip interface brief' sent
+2023-07-06 14:30:45,422 [INFO] xe2 : success exporting command to show ip interface brief
+2023-07-06 14:30:45,622 [INFO] xe2 : Command 'show cdp neighbors' sent
+2023-07-06 14:30:45,623 [INFO] xe2 : success exporting command to show cdp neighbors
+2023-07-06 14:30:47,894 [INFO] xe2 : Command 'show spanning-tree summary' sent
+2023-07-06 14:30:47,894 [INFO] xe2 : success exporting command to show spanning-tree summary
+2023-07-06 14:30:51,618 [INFO] xe2 : Command 'show vlan brief' sent
+2023-07-06 14:30:51,618 [ERROR] xe2 : Output return empty for command [show vlan brief]
+2023-07-06 14:30:53,436 [ERROR] xe3 : [1] Exception sending command 'show etherchannel summary'
+2023-07-06 14:30:53,809 [INFO] xe2 : Command 'show vtp status' sent
+2023-07-06 14:30:53,809 [ERROR] xe2 : Output return empty for command [show vtp status]
+2023-07-06 14:30:54,067 [INFO] xe2 : Command 'show vpc brief' sent
+2023-07-06 14:30:54,067 [ERROR] xe2 : Output return empty for command [show vpc brief]
+2023-07-06 14:30:54,289 [INFO] xe2 : Command 'show inventory' sent
+2023-07-06 14:30:54,290 [INFO] xe2 : success exporting command to show inventory
+2023-07-06 14:30:54,581 [INFO] xe2 : Command 'show ip arp' sent
+2023-07-06 14:30:54,581 [INFO] xe2 : success exporting command to show ip arp
+2023-07-06 14:30:54,949 [INFO] xe2 : Command 'dir' sent
+2023-07-06 14:30:54,949 [INFO] xe2 : success exporting command to dir
+2023-07-06 14:30:55,233 [INFO] xe2 : Command 'show environment temperature status' sent
+2023-07-06 14:30:55,234 [ERROR] xe2 : Output return empty for command [show environment temperature status]
+2023-07-06 14:30:57,738 [INFO] xe3 : Command 'show etherchannel summary' sent
+2023-07-06 14:30:57,739 [INFO] xe3 : success exporting command to show etherchannel summary
+2023-07-06 14:30:58,924 [ERROR] xe1 : [1] Exception sending command 'show processes memory sorted'
+2023-07-06 14:30:58,945 [INFO] xe2 : Command 'show environment all' sent
+2023-07-06 14:30:58,945 [ERROR] xe2 : Output return empty for command [show environment all]
+2023-07-06 14:30:59,116 [INFO] xe2 : Command 'show platform' sent
+2023-07-06 14:30:59,116 [INFO] xe2 : success exporting command to show platform
+2023-07-06 14:30:59,378 [INFO] xe2 : Command 'show processes memory statistics' sent
+2023-07-06 14:30:59,378 [ERROR] xe2 : Output return empty for command [show processes memory statistics]
+2023-07-06 14:31:02,141 [INFO] xe3 : Command 'show port-channel' sent
+2023-07-06 14:31:02,141 [ERROR] xe3 : Output return empty for command [show port-channel]
+2023-07-06 14:31:06,175 [INFO] xe2 : Command 'show processes memory sorted' sent
+2023-07-06 14:31:06,176 [INFO] xe2 : success exporting command to show processes memory sorted
+2023-07-06 14:31:06,342 [INFO] xe3 : Command 'show ip interface brief' sent
+2023-07-06 14:31:06,342 [INFO] xe3 : success exporting command to show ip interface brief
+2023-07-06 14:31:06,469 [INFO] xe2 : Command 'show system resources' sent
+2023-07-06 14:31:06,470 [ERROR] xe2 : Output return empty for command [show system resources]
+2023-07-06 14:31:06,552 [INFO] xe3 : Command 'show cdp neighbors' sent
+2023-07-06 14:31:06,553 [INFO] xe3 : success exporting command to show cdp neighbors
+2023-07-06 14:31:06,814 [INFO] xe3 : Command 'show spanning-tree summary' sent
+2023-07-06 14:31:06,815 [INFO] xe3 : success exporting command to show spanning-tree summary
+2023-07-06 14:31:06,984 [INFO] xe3 : Command 'show vlan brief' sent
+2023-07-06 14:31:06,985 [ERROR] xe3 : Output return empty for command [show vlan brief]
+2023-07-06 14:31:07,295 [INFO] xe3 : Command 'show vtp status' sent
+2023-07-06 14:31:07,296 [ERROR] xe3 : Output return empty for command [show vtp status]
+2023-07-06 14:31:07,697 [INFO] xe3 : Command 'show vpc brief' sent
+2023-07-06 14:31:07,698 [ERROR] xe3 : Output return empty for command [show vpc brief]
+2023-07-06 14:31:08,009 [INFO] xe3 : Command 'show inventory' sent
+2023-07-06 14:31:08,009 [INFO] xe3 : success exporting command to show inventory
+2023-07-06 14:31:08,168 [INFO] xe3 : Command 'show ip arp' sent
+2023-07-06 14:31:08,168 [INFO] xe3 : success exporting command to show ip arp
+2023-07-06 14:31:08,718 [INFO] xe3 : Command 'dir' sent
+2023-07-06 14:31:08,718 [INFO] xe3 : success exporting command to dir
+2023-07-06 14:31:08,750 [INFO] xe1 : Command 'show processes memory sorted' sent
+2023-07-06 14:31:08,751 [INFO] xe1 : success exporting command to show processes memory sorted
+2023-07-06 14:31:10,950 [INFO] xe1 : Command 'show system resources' sent
+2023-07-06 14:31:10,950 [ERROR] xe1 : Output return empty for command [show system resources]
+2023-07-06 14:31:11,927 [INFO] xe3 : Command 'show environment temperature status' sent
+2023-07-06 14:31:11,928 [ERROR] xe3 : Output return empty for command [show environment temperature status]
+2023-07-06 14:31:12,173 [INFO] xe3 : Command 'show environment all' sent
+2023-07-06 14:31:12,173 [ERROR] xe3 : Output return empty for command [show environment all]
+2023-07-06 14:31:13,382 [INFO] xe3 : Command 'show platform' sent
+2023-07-06 14:31:13,382 [INFO] xe3 : success exporting command to show platform
+2023-07-06 14:31:13,806 [INFO] xe2 : Command 'show processes cpu sorted' sent
+2023-07-06 14:31:13,806 [INFO] xe2 : success exporting command to show processes cpu sorted
+2023-07-06 14:31:14,802 [INFO] xe3 : Command 'show processes memory statistics' sent
+2023-07-06 14:31:14,804 [ERROR] xe3 : Output return empty for command [show processes memory statistics]
+2023-07-06 14:31:22,148 [INFO] xe2 : Command 'show processes cpu' sent
+2023-07-06 14:31:22,148 [INFO] xe2 : success exporting command to show processes cpu
+2023-07-06 14:31:22,618 [INFO] xe2 : Command 'show platform software status control-processor brief' sent
+2023-07-06 14:31:22,618 [INFO] xe2 : success exporting command to show platform software status control-processor brief
+2023-07-06 14:31:22,962 [INFO] xe2 : Command 'show ip ospf neighbor' sent
+2023-07-06 14:31:22,962 [INFO] xe2 : success exporting command to show ip ospf neighbor
+2023-07-06 14:31:24,526 [INFO] xe3 : Command 'show processes memory sorted' sent
+2023-07-06 14:31:24,527 [INFO] xe3 : success exporting command to show processes memory sorted
+2023-07-06 14:31:24,740 [INFO] xe3 : Command 'show system resources' sent
+2023-07-06 14:31:24,740 [ERROR] xe3 : Output return empty for command [show system resources]
+2023-07-06 14:31:25,161 [INFO] xe2 : Command 'show ip bgp summary' sent
+2023-07-06 14:31:25,162 [INFO] xe2 : success exporting command to show ip bgp summary
+2023-07-06 14:31:25,385 [INFO] xe2 : Command 'show ip route' sent
+2023-07-06 14:31:25,385 [INFO] xe2 : success exporting command to show ip route
+2023-07-06 14:31:26,088 [ERROR] xe1 : [2] Exception sending command 'show processes cpu sorted'
+2023-07-06 14:31:29,359 [INFO] xe3 : Command 'show processes cpu sorted' sent
+2023-07-06 14:31:29,362 [INFO] xe3 : success exporting command to show processes cpu sorted
+2023-07-06 14:31:33,356 [INFO] xe3 : Command 'show processes cpu' sent
+2023-07-06 14:31:33,356 [INFO] xe3 : success exporting command to show processes cpu
+2023-07-06 14:31:34,678 [INFO] xe3 : Command 'show platform software status control-processor brief' sent
+2023-07-06 14:31:34,678 [INFO] xe3 : success exporting command to show platform software status control-processor brief
+2023-07-06 14:31:35,837 [INFO] xe3 : Command 'show ip ospf neighbor' sent
+2023-07-06 14:31:35,837 [INFO] xe3 : success exporting command to show ip ospf neighbor
+2023-07-06 14:31:36,097 [INFO] xe3 : Command 'show ip bgp summary' sent
+2023-07-06 14:31:36,097 [INFO] xe3 : success exporting command to show ip bgp summary
+2023-07-06 14:31:38,275 [INFO] xe3 : Command 'show ip route' sent
+2023-07-06 14:31:38,276 [INFO] xe3 : success exporting command to show ip route
+2023-07-06 14:31:40,048 [INFO] xe1 : Command 'show processes cpu sorted' sent
+2023-07-06 14:31:40,051 [INFO] xe1 : success exporting command to show processes cpu sorted
+2023-07-06 14:31:40,487 [ERROR] xe2 : [1] Exception sending command 'show logging'
+2023-07-06 14:31:53,515 [ERROR] xe3 : [2] Exception sending command 'show logging'
+2023-07-06 14:31:55,145 [ERROR] xe1 : [3] Exception sending command 'show processes cpu'
+2023-07-06 14:31:55,146 [ERROR] xe1 : Output return empty for command [show processes cpu]
+2023-07-06 14:31:55,146 [ERROR] xe1 : Output return empty for command [show platform software status control-processor brief]
+2023-07-06 14:31:55,147 [ERROR] xe1 : Output return empty for command [show ip ospf neighbor]
+2023-07-06 14:31:55,147 [ERROR] xe1 : Output return empty for command [show ip bgp summary]
+2023-07-06 14:31:55,147 [ERROR] xe1 : Output return empty for command [show ip route]
+2023-07-06 14:31:55,147 [ERROR] xe1 : Output return empty for command [show logging]
+2023-07-06 14:31:56,298 [INFO] xe1 : Disconnected succcessfully
+2023-07-06 14:32:01,933 [ERROR] xe2 : [2] Exception sending command 'show logging'
+2023-07-06 14:32:10,163 [ERROR] xe3 : [3] Exception sending command 'show logging'
+2023-07-06 14:32:10,163 [ERROR] xe3 : Output return empty for command [show logging]
+2023-07-06 14:32:13,579 [ERROR] xe2 : [3] Exception sending command 'show logging'
+2023-07-06 14:32:13,579 [ERROR] xe2 : Output return empty for command [show logging]
+2023-07-06 14:32:20,168 [INFO] xe3 : Disconnected succcessfully
+2023-07-06 14:32:23,590 [INFO] xe2 : Disconnected succcessfully
+2023-07-06 14:32:23,592 [INFO] 127.0.0.1 - - [06/Jul/2023 14:32:23] "POST /customPage HTTP/1.1" 200 -
+2023-07-06 14:32:35,798 [INFO] 127.0.0.1 - - [06/Jul/2023 14:32:35] "GET /getOutput HTTP/1.1" 200 -
+2023-07-06 14:32:36,104 [INFO] 127.0.0.1 - - [06/Jul/2023 14:32:36] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2023-07-06 14:32:36,466 [INFO] 127.0.0.1 - - [06/Jul/2023 14:32:36] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2023-07-06 14:32:36,848 [INFO] 127.0.0.1 - - [06/Jul/2023 14:32:36] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2023-07-06 14:32:37,154 [INFO] 127.0.0.1 - - [06/Jul/2023 14:32:37] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2023-07-06 14:32:37,219 [INFO] 127.0.0.1 - - [06/Jul/2023 14:32:37] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2023-07-06 14:32:37,293 [INFO] 127.0.0.1 - - [06/Jul/2023 14:32:37] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2023-07-06 14:32:38,692 [INFO] 127.0.0.1 - - [06/Jul/2023 14:32:38] "POST /getOutput HTTP/1.1" 200 -
+2023-07-06 14:33:08,495 [INFO] 127.0.0.1 - - [06/Jul/2023 14:33:08] "POST /downloadFile HTTP/1.1" 200 -
+2023-07-06 14:33:16,067 [INFO] 127.0.0.1 - - [06/Jul/2023 14:33:16] "GET / HTTP/1.1" 200 -
+2023-07-06 14:33:16,359 [INFO] 127.0.0.1 - - [06/Jul/2023 14:33:16] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2023-07-06 14:33:16,741 [INFO] 127.0.0.1 - - [06/Jul/2023 14:33:16] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2023-07-06 14:33:17,090 [INFO] 127.0.0.1 - - [06/Jul/2023 14:33:17] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2023-07-06 14:33:17,529 [INFO] 127.0.0.1 - - [06/Jul/2023 14:33:17] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2023-07-06 14:33:17,595 [INFO] 127.0.0.1 - - [06/Jul/2023 14:33:17] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2023-07-06 14:33:17,649 [INFO] 127.0.0.1 - - [06/Jul/2023 14:33:17] "[36mGET /assets/lib/js/jquery-3.7.0.min.js HTTP/1.1[0m" 304 -
+2023-07-06 14:33:17,718 [INFO] 127.0.0.1 - - [06/Jul/2023 14:33:17] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2023-07-06 14:36:13,271 [INFO]  * Detected change in '/opt/Project1/mainWeb.py', reloading

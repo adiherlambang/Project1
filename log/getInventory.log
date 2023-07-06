@@ -473,3 +473,104 @@
 2023-07-06 09:04:24,788 [INFO] 127.0.0.1 - - [06/Jul/2023 09:04:24] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
 2023-07-06 09:04:25,929 [INFO] 127.0.0.1 - - [06/Jul/2023 09:04:25] "POST /getOutput HTTP/1.1" 200 -
 2023-07-06 09:09:55,464 [INFO]  * Detected change in '/opt/Project1/mainWeb.py', reloading
+2023-07-06 09:15:20,733 [INFO] xe1 : Connecting 
+2023-07-06 09:15:20,734 [INFO] xe3 : Connecting 
+2023-07-06 09:15:20,734 [INFO] xe2 : Connecting 
+2023-07-06 09:15:20,779 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 09:15:20,779 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 09:15:20,782 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 09:15:21,220 [INFO] Authentication (password) successful!
+2023-07-06 09:15:21,236 [INFO] Authentication (password) successful!
+2023-07-06 09:15:21,255 [INFO] Authentication (password) successful!
+2023-07-06 09:15:21,607 [WARNING] xe1 : Connect success
+2023-07-06 09:15:21,608 [WARNING] xe2 : Connect success
+2023-07-06 09:15:21,619 [WARNING] xe3 : Connect success
+2023-07-06 09:15:21,830 [INFO] xe2 : Entered enable mode
+2023-07-06 09:15:21,841 [INFO] xe1 : Entered enable mode
+2023-07-06 09:15:21,874 [INFO] xe3 : Entered enable mode
+2023-07-06 09:15:21,979 [INFO] xe2 : Command 'show inventory' sent
+2023-07-06 09:15:21,985 [INFO] xe2 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 09:15:21,985 [INFO] xe2 : Export success to out/getInventory/Inventory_2023-07-06_09-15.csv
+2023-07-06 09:15:21,999 [INFO] xe3 : Command 'show inventory' sent
+2023-07-06 09:15:22,001 [INFO] xe3 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 09:15:22,001 [INFO] xe3 : Export success to out/getInventory/Inventory_2023-07-06_09-15.csv
+2023-07-06 09:15:22,019 [INFO] xe2 : Disconnected succcessfully
+2023-07-06 09:15:22,033 [INFO] xe3 : Disconnected succcessfully
+2023-07-06 09:15:22,054 [INFO] xe1 : Command 'show inventory' sent
+2023-07-06 09:15:22,056 [INFO] xe1 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 09:15:22,056 [INFO] xe1 : Export success to out/getInventory/Inventory_2023-07-06_09-15.csv
+2023-07-06 09:15:22,088 [INFO] xe1 : Disconnected succcessfully
+2023-07-06 09:15:22,089 [INFO] 127.0.0.1 - - [06/Jul/2023 09:15:22] "POST /getInvent HTTP/1.1" 200 -
+2023-07-06 09:15:26,116 [INFO] 127.0.0.1 - - [06/Jul/2023 09:15:26] "GET /getOutput HTTP/1.1" 200 -
+2023-07-06 09:15:26,819 [INFO] 127.0.0.1 - - [06/Jul/2023 09:15:26] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2023-07-06 09:15:26,868 [INFO] 127.0.0.1 - - [06/Jul/2023 09:15:26] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2023-07-06 09:15:27,137 [INFO] 127.0.0.1 - - [06/Jul/2023 09:15:27] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2023-07-06 09:15:27,539 [INFO] 127.0.0.1 - - [06/Jul/2023 09:15:27] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2023-07-06 09:15:27,616 [INFO] 127.0.0.1 - - [06/Jul/2023 09:15:27] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2023-07-06 09:15:27,678 [INFO] 127.0.0.1 - - [06/Jul/2023 09:15:27] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2023-07-06 09:15:28,874 [INFO] 127.0.0.1 - - [06/Jul/2023 09:15:28] "POST /getOutput HTTP/1.1" 200 -
+2023-07-06 09:15:37,958 [INFO] 127.0.0.1 - - [06/Jul/2023 09:15:37] "POST /downloadFile HTTP/1.1" 200 -
+2023-07-06 09:16:29,718 [INFO] 127.0.0.1 - - [06/Jul/2023 09:16:29] "GET / HTTP/1.1" 200 -
+2023-07-06 09:16:30,032 [INFO] 127.0.0.1 - - [06/Jul/2023 09:16:30] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2023-07-06 09:16:30,376 [INFO] 127.0.0.1 - - [06/Jul/2023 09:16:30] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2023-07-06 09:16:30,657 [INFO] 127.0.0.1 - - [06/Jul/2023 09:16:30] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2023-07-06 09:16:31,089 [INFO] 127.0.0.1 - - [06/Jul/2023 09:16:31] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2023-07-06 09:16:31,133 [INFO] 127.0.0.1 - - [06/Jul/2023 09:16:31] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2023-07-06 09:16:31,184 [INFO] 127.0.0.1 - - [06/Jul/2023 09:16:31] "[36mGET /assets/lib/js/jquery-3.7.0.min.js HTTP/1.1[0m" 304 -
+2023-07-06 09:16:31,231 [INFO] 127.0.0.1 - - [06/Jul/2023 09:16:31] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2023-07-06 09:16:34,437 [INFO] 127.0.0.1 - - [06/Jul/2023 09:16:34] "GET /getOutput HTTP/1.1" 200 -
+2023-07-06 09:16:34,701 [INFO] 127.0.0.1 - - [06/Jul/2023 09:16:34] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2023-07-06 09:16:35,085 [INFO] 127.0.0.1 - - [06/Jul/2023 09:16:35] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2023-07-06 09:16:35,380 [INFO] 127.0.0.1 - - [06/Jul/2023 09:16:35] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2023-07-06 09:16:35,776 [INFO] 127.0.0.1 - - [06/Jul/2023 09:16:35] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2023-07-06 09:16:35,844 [INFO] 127.0.0.1 - - [06/Jul/2023 09:16:35] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2023-07-06 09:16:35,902 [INFO] 127.0.0.1 - - [06/Jul/2023 09:16:35] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2023-07-06 09:16:37,020 [INFO] 127.0.0.1 - - [06/Jul/2023 09:16:37] "POST /getOutput HTTP/1.1" 200 -
+2023-07-06 09:16:38,427 [INFO] 127.0.0.1 - - [06/Jul/2023 09:16:38] "POST /downloadFile HTTP/1.1" 200 -
+2023-07-06 09:16:56,738 [INFO] 127.0.0.1 - - [06/Jul/2023 09:16:56] "GET / HTTP/1.1" 200 -
+2023-07-06 09:16:57,033 [INFO] 127.0.0.1 - - [06/Jul/2023 09:16:57] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2023-07-06 09:16:57,422 [INFO] 127.0.0.1 - - [06/Jul/2023 09:16:57] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2023-07-06 09:16:57,715 [INFO] 127.0.0.1 - - [06/Jul/2023 09:16:57] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2023-07-06 09:16:58,158 [INFO] 127.0.0.1 - - [06/Jul/2023 09:16:58] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2023-07-06 09:16:58,210 [INFO] 127.0.0.1 - - [06/Jul/2023 09:16:58] "[36mGET /assets/lib/js/jquery-3.7.0.min.js HTTP/1.1[0m" 304 -
+2023-07-06 09:16:58,263 [INFO] 127.0.0.1 - - [06/Jul/2023 09:16:58] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2023-07-06 09:16:58,322 [INFO] 127.0.0.1 - - [06/Jul/2023 09:16:58] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2023-07-06 09:25:30,018 [INFO]  * Detected change in '/opt/Project1/mainWeb.py', reloading
+2023-07-06 09:26:49,371 [INFO] xe3 : Connecting 
+2023-07-06 09:26:49,371 [INFO] xe1 : Connecting 
+2023-07-06 09:26:49,372 [INFO] xe2 : Connecting 
+2023-07-06 09:26:49,432 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 09:26:49,432 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 09:26:49,433 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 09:26:49,882 [INFO] Authentication (password) successful!
+2023-07-06 09:26:49,882 [INFO] Authentication (password) successful!
+2023-07-06 09:26:49,903 [INFO] Authentication (password) successful!
+2023-07-06 09:26:50,264 [WARNING] xe2 : Connect success
+2023-07-06 09:26:50,275 [WARNING] xe1 : Connect success
+2023-07-06 09:26:50,286 [WARNING] xe3 : Connect success
+2023-07-06 09:26:50,519 [INFO] xe2 : Entered enable mode
+2023-07-06 09:26:50,530 [INFO] xe1 : Entered enable mode
+2023-07-06 09:26:50,531 [INFO] xe3 : Entered enable mode
+2023-07-06 09:26:50,670 [INFO] xe2 : Command 'show inventory' sent
+2023-07-06 09:26:50,680 [INFO] xe2 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 09:26:50,680 [INFO] xe2 : Export success to out/getInventory/Inventory_2023-07-06_09-25.csv
+2023-07-06 09:26:50,690 [INFO] xe3 : Command 'show inventory' sent
+2023-07-06 09:26:50,692 [INFO] xe3 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 09:26:50,692 [INFO] xe3 : Export success to out/getInventory/Inventory_2023-07-06_09-25.csv
+2023-07-06 09:26:50,712 [INFO] xe1 : Command 'show inventory' sent
+2023-07-06 09:26:50,714 [INFO] xe1 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 09:26:50,714 [INFO] xe1 : Export success to out/getInventory/Inventory_2023-07-06_09-25.csv
+2023-07-06 09:26:50,724 [INFO] xe2 : Disconnected succcessfully
+2023-07-06 09:26:50,734 [INFO] xe3 : Disconnected succcessfully
+2023-07-06 09:26:50,746 [INFO] xe1 : Disconnected succcessfully
+2023-07-06 09:26:50,747 [INFO] 127.0.0.1 - - [06/Jul/2023 09:26:50] "POST /getMemUtils HTTP/1.1" 200 -
+2023-07-06 09:26:53,173 [INFO] 127.0.0.1 - - [06/Jul/2023 09:26:53] "GET /getOutput HTTP/1.1" 200 -
+2023-07-06 09:26:53,890 [INFO] 127.0.0.1 - - [06/Jul/2023 09:26:53] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2023-07-06 09:26:53,937 [INFO] 127.0.0.1 - - [06/Jul/2023 09:26:53] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2023-07-06 09:26:54,232 [INFO] 127.0.0.1 - - [06/Jul/2023 09:26:54] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2023-07-06 09:26:54,651 [INFO] 127.0.0.1 - - [06/Jul/2023 09:26:54] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2023-07-06 09:26:54,726 [INFO] 127.0.0.1 - - [06/Jul/2023 09:26:54] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2023-07-06 09:26:54,789 [INFO] 127.0.0.1 - - [06/Jul/2023 09:26:54] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2023-07-06 09:26:56,258 [INFO] 127.0.0.1 - - [06/Jul/2023 09:26:56] "POST /getOutput HTTP/1.1" 200 -
+2023-07-06 09:26:59,890 [INFO] 127.0.0.1 - - [06/Jul/2023 09:26:59] "POST /getOutput HTTP/1.1" 200 -
+2023-07-06 09:27:20,767 [INFO]  * Detected change in '/opt/Project1/mainWeb.py', reloading

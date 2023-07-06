@@ -486,3 +486,13 @@ INFO 2023-07-05 10:52:09,060 [main.py:captureConfigX:51] xe3_05-07-23_10_52_08.t
 INFO 2023-07-05 11:13:23,032 [main.py:captureConfigX:51] xe1_05-07-23_11_13_22.txt
 INFO 2023-07-05 11:13:23,083 [main.py:captureConfigX:51] xe2_05-07-23_11_13_22.txt
 INFO 2023-07-05 11:13:23,214 [main.py:captureConfigX:51] xe3_05-07-23_11_13_22.txt
+INFO 2023-07-06 14:45:29,780 [main.py:captureConfig:68] Connecting to device xe1
+INFO 2023-07-06 14:45:29,894 [main.py:captureConfig:68] Connecting to device xe2
+INFO 2023-07-06 14:45:30,000 [main.py:captureConfig:68] Connecting to device xe3
+INFO 2023-07-06 14:45:33,874 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-06 14:45:34,575 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-06 14:45:35,191 [main.py:captureConfigX:51] xe2_06-07-23_14_45_34.txt
+INFO 2023-07-06 14:45:35,240 [main.py:captureConfigX:51] xe1_06-07-23_14_45_33.txt
+INFO 2023-07-06 14:45:37,442 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-06 14:45:38,781 [main.py:captureConfigX:51] xe3_06-07-23_14_45_37.txt
+INFO 2023-07-06 14:45:38,785 [main.py:captureConfig:77] Get Config -  execution completed successfully.

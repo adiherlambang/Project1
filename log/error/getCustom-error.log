@@ -1,0 +1,251 @@
+2023-07-06 11:29:27 [ERROR] xe3 : Output return empty for command [show interfaces status]
+2023-07-06 11:29:27 [ERROR] xe2 : Output return empty for command [show interfaces status]
+2023-07-06 11:29:27 [ERROR] xe1 : Output return empty for command [show interfaces status]
+2023-07-06 11:29:27 [ERROR] xe3 : Output return empty for command [show interfaces trunk]
+2023-07-06 11:29:27 [ERROR] xe2 : Output return empty for command [show interfaces trunk]
+2023-07-06 11:29:27 [ERROR] xe1 : Output return empty for command [show interfaces trunk]
+2023-07-06 11:29:27 [ERROR] xe3 : Output return empty for command [show port-channel]
+2023-07-06 11:29:27 [ERROR] xe2 : Output return empty for command [show port-channel]
+2023-07-06 11:29:27 [ERROR] xe1 : Output return empty for command [show port-channel]
+2023-07-06 11:29:28 [ERROR] xe2 : Output return empty for command [show vlan brief]
+2023-07-06 11:29:28 [ERROR] xe3 : Output return empty for command [show vlan brief]
+2023-07-06 11:29:28 [ERROR] xe1 : Output return empty for command [show vlan brief]
+2023-07-06 11:29:28 [ERROR] xe2 : Output return empty for command [show vtp status]
+2023-07-06 11:29:28 [ERROR] xe3 : Output return empty for command [show vtp status]
+2023-07-06 11:29:28 [ERROR] xe1 : Output return empty for command [show vtp status]
+2023-07-06 11:29:28 [ERROR] xe3 : Output return empty for command [show vpc brief]
+2023-07-06 11:29:28 [ERROR] xe2 : Output return empty for command [show vpc brief]
+2023-07-06 11:29:28 [ERROR] xe1 : Output return empty for command [show vpc brief]
+2023-07-06 11:29:29 [ERROR] xe3 : Output return empty for command [show environment temperature status]
+2023-07-06 11:29:29 [ERROR] xe1 : Output return empty for command [show environment temperature status]
+2023-07-06 11:29:29 [ERROR] xe2 : Output return empty for command [show environment temperature status]
+2023-07-06 11:29:29 [ERROR] xe3 : Output return empty for command [show environment all]
+2023-07-06 11:29:29 [ERROR] xe1 : Output return empty for command [show environment all]
+2023-07-06 11:29:29 [ERROR] xe2 : Output return empty for command [show environment all]
+2023-07-06 11:29:30 [ERROR] xe3 : Output return empty for command [show processes memory statistics]
+2023-07-06 11:29:30 [ERROR] xe1 : Output return empty for command [show processes memory statistics]
+2023-07-06 11:29:30 [ERROR] xe2 : Output return empty for command [show processes memory statistics]
+2023-07-06 11:29:30 [ERROR] xe3 : Output return empty for command [show system resources]
+2023-07-06 11:29:30 [ERROR] xe1 : Output return empty for command [show system resources]
+2023-07-06 11:29:30 [ERROR] xe2 : Output return empty for command [show system resources]
+2023-07-06 11:29:41 [ERROR] xe2 : Output return empty for command [show interfaces status]
+2023-07-06 11:29:41 [ERROR] xe1 : Output return empty for command [show interfaces status]
+2023-07-06 11:29:41 [ERROR] xe3 : Output return empty for command [show interfaces status]
+2023-07-06 11:29:41 [ERROR] xe2 : Output return empty for command [show interfaces status]
+2023-07-06 11:29:41 [ERROR] xe3 : Output return empty for command [show interfaces status]
+2023-07-06 11:29:41 [ERROR] xe1 : Output return empty for command [show interfaces status]
+2023-07-06 11:29:41 [ERROR] xe2 : Output return empty for command [show interfaces trunk]
+2023-07-06 11:29:41 [ERROR] xe1 : Output return empty for command [show interfaces trunk]
+2023-07-06 11:29:41 [ERROR] xe2 : Output return empty for command [show interfaces trunk]
+2023-07-06 11:29:41 [ERROR] xe3 : Output return empty for command [show interfaces trunk]
+2023-07-06 11:29:41 [ERROR] xe3 : Output return empty for command [show interfaces trunk]
+2023-07-06 11:29:41 [ERROR] xe1 : Output return empty for command [show interfaces trunk]
+2023-07-06 11:29:41 [ERROR] xe2 : Output return empty for command [show port-channel]
+2023-07-06 11:29:42 [ERROR] xe1 : Output return empty for command [show port-channel]
+2023-07-06 11:29:42 [ERROR] xe2 : Output return empty for command [show port-channel]
+2023-07-06 11:29:42 [ERROR] xe1 : Output return empty for command [show port-channel]
+2023-07-06 11:29:42 [ERROR] xe3 : Output return empty for command [show port-channel]
+2023-07-06 11:29:42 [ERROR] xe3 : Output return empty for command [show port-channel]
+2023-07-06 11:29:42 [ERROR] xe2 : Output return empty for command [show vlan brief]
+2023-07-06 11:29:42 [ERROR] xe2 : Output return empty for command [show vlan brief]
+2023-07-06 11:29:42 [ERROR] xe2 : Output return empty for command [show vtp status]
+2023-07-06 11:29:42 [ERROR] xe1 : Output return empty for command [show vlan brief]
+2023-07-06 11:29:42 [ERROR] xe1 : Output return empty for command [show vlan brief]
+2023-07-06 11:29:42 [ERROR] xe2 : Output return empty for command [show vtp status]
+2023-07-06 11:29:42 [ERROR] xe3 : Output return empty for command [show vlan brief]
+2023-07-06 11:29:42 [ERROR] xe3 : Output return empty for command [show vlan brief]
+2023-07-06 11:29:42 [ERROR] xe2 : Output return empty for command [show vpc brief]
+2023-07-06 11:29:42 [ERROR] xe1 : Output return empty for command [show vtp status]
+2023-07-06 11:29:42 [ERROR] xe1 : Output return empty for command [show vtp status]
+2023-07-06 11:29:43 [ERROR] xe3 : Output return empty for command [show vtp status]
+2023-07-06 11:29:43 [ERROR] xe2 : Output return empty for command [show vpc brief]
+2023-07-06 11:29:43 [ERROR] xe3 : Output return empty for command [show vtp status]
+2023-07-06 11:29:43 [ERROR] xe1 : Output return empty for command [show vpc brief]
+2023-07-06 11:29:43 [ERROR] xe1 : Output return empty for command [show vpc brief]
+2023-07-06 11:29:43 [ERROR] xe3 : Output return empty for command [show vpc brief]
+2023-07-06 11:29:43 [ERROR] xe3 : Output return empty for command [show vpc brief]
+2023-07-06 11:29:43 [ERROR] xe2 : Output return empty for command [show environment temperature status]
+2023-07-06 11:29:43 [ERROR] xe2 : Output return empty for command [show environment temperature status]
+2023-07-06 11:29:43 [ERROR] xe2 : Output return empty for command [show environment all]
+2023-07-06 11:29:43 [ERROR] xe2 : Output return empty for command [show environment all]
+2023-07-06 11:29:43 [ERROR] xe3 : Output return empty for command [show environment temperature status]
+2023-07-06 11:29:44 [ERROR] xe1 : Output return empty for command [show environment temperature status]
+2023-07-06 11:29:44 [ERROR] xe1 : Output return empty for command [show environment temperature status]
+2023-07-06 11:29:44 [ERROR] xe3 : Output return empty for command [show environment temperature status]
+2023-07-06 11:29:44 [ERROR] xe3 : Output return empty for command [show environment all]
+2023-07-06 11:29:44 [ERROR] xe2 : Output return empty for command [show processes memory statistics]
+2023-07-06 11:29:44 [ERROR] xe1 : Output return empty for command [show environment all]
+2023-07-06 11:29:44 [ERROR] xe1 : Output return empty for command [show environment all]
+2023-07-06 11:29:44 [ERROR] xe3 : Output return empty for command [show environment all]
+2023-07-06 11:29:44 [ERROR] xe2 : Output return empty for command [show processes memory statistics]
+2023-07-06 11:29:44 [ERROR] xe1 : Output return empty for command [show processes memory statistics]
+2023-07-06 11:29:44 [ERROR] xe3 : Output return empty for command [show processes memory statistics]
+2023-07-06 11:29:44 [ERROR] xe1 : Output return empty for command [show processes memory statistics]
+2023-07-06 11:29:44 [ERROR] xe3 : Output return empty for command [show processes memory statistics]
+2023-07-06 11:29:44 [ERROR] xe2 : Output return empty for command [show system resources]
+2023-07-06 11:29:44 [ERROR] xe2 : Output return empty for command [show system resources]
+2023-07-06 11:29:45 [ERROR] xe1 : Output return empty for command [show system resources]
+2023-07-06 11:29:45 [ERROR] xe3 : Output return empty for command [show system resources]
+2023-07-06 11:29:45 [ERROR] xe1 : Output return empty for command [show system resources]
+2023-07-06 11:29:45 [ERROR] xe3 : Output return empty for command [show system resources]
+2023-07-06 11:29:50 [ERROR] xe2 : Output return empty for command [show interfaces status]
+2023-07-06 11:29:50 [ERROR] xe3 : Output return empty for command [show interfaces status]
+2023-07-06 11:29:50 [ERROR] xe2 : Output return empty for command [show interfaces status]
+2023-07-06 11:29:50 [ERROR] xe2 : Output return empty for command [show interfaces trunk]
+2023-07-06 11:29:50 [ERROR] xe2 : Output return empty for command [show interfaces trunk]
+2023-07-06 11:29:50 [ERROR] xe1 : Output return empty for command [show interfaces status]
+2023-07-06 11:29:50 [ERROR] xe3 : Output return empty for command [show interfaces status]
+2023-07-06 11:29:51 [ERROR] xe3 : Output return empty for command [show interfaces trunk]
+2023-07-06 11:29:51 [ERROR] xe1 : Output return empty for command [show interfaces status]
+2023-07-06 11:29:51 [ERROR] xe2 : Output return empty for command [show port-channel]
+2023-07-06 11:29:51 [ERROR] xe2 : Output return empty for command [show port-channel]
+2023-07-06 11:29:51 [ERROR] xe1 : Output return empty for command [show interfaces trunk]
+2023-07-06 11:29:51 [ERROR] xe3 : Output return empty for command [show port-channel]
+2023-07-06 11:29:51 [ERROR] xe3 : Output return empty for command [show interfaces trunk]
+2023-07-06 11:29:51 [ERROR] xe1 : Output return empty for command [show interfaces trunk]
+2023-07-06 11:29:51 [ERROR] xe1 : Output return empty for command [show port-channel]
+2023-07-06 11:29:51 [ERROR] xe3 : Output return empty for command [show port-channel]
+2023-07-06 11:29:51 [ERROR] xe2 : Output return empty for command [show vlan brief]
+2023-07-06 11:29:52 [ERROR] xe1 : Output return empty for command [show port-channel]
+2023-07-06 11:29:52 [ERROR] xe2 : Output return empty for command [show vlan brief]
+2023-07-06 11:29:52 [ERROR] xe3 : Output return empty for command [show vlan brief]
+2023-07-06 11:29:52 [ERROR] xe2 : Output return empty for command [show vtp status]
+2023-07-06 11:29:52 [ERROR] xe2 : Output return empty for command [show vtp status]
+2023-07-06 11:29:52 [ERROR] xe3 : Output return empty for command [show vtp status]
+2023-07-06 11:29:52 [ERROR] xe2 : Output return empty for command [show vpc brief]
+2023-07-06 11:29:52 [ERROR] xe2 : Output return empty for command [show vpc brief]
+2023-07-06 11:29:52 [ERROR] xe3 : Output return empty for command [show vpc brief]
+2023-07-06 11:29:52 [ERROR] xe1 : Output return empty for command [show vlan brief]
+2023-07-06 11:29:52 [ERROR] xe3 : Output return empty for command [show vlan brief]
+2023-07-06 11:29:52 [ERROR] xe1 : Output return empty for command [show vtp status]
+2023-07-06 11:29:52 [ERROR] xe3 : Output return empty for command [show vtp status]
+2023-07-06 11:29:52 [ERROR] xe1 : Output return empty for command [show vlan brief]
+2023-07-06 11:29:52 [ERROR] xe1 : Output return empty for command [show vpc brief]
+2023-07-06 11:29:52 [ERROR] xe3 : Output return empty for command [show vpc brief]
+2023-07-06 11:29:52 [ERROR] xe1 : Output return empty for command [show vtp status]
+2023-07-06 11:29:53 [ERROR] xe1 : Output return empty for command [show vpc brief]
+2023-07-06 11:29:53 [ERROR] xe2 : Output return empty for command [show environment temperature status]
+2023-07-06 11:29:53 [ERROR] xe2 : Output return empty for command [show environment temperature status]
+2023-07-06 11:29:53 [ERROR] xe3 : Output return empty for command [show environment temperature status]
+2023-07-06 11:29:53 [ERROR] xe2 : Output return empty for command [show environment all]
+2023-07-06 11:29:53 [ERROR] xe2 : Output return empty for command [show environment all]
+2023-07-06 11:29:53 [ERROR] xe3 : Output return empty for command [show environment all]
+2023-07-06 11:29:53 [ERROR] xe3 : Output return empty for command [show environment temperature status]
+2023-07-06 11:29:53 [ERROR] xe2 : Output return empty for command [show processes memory statistics]
+2023-07-06 11:29:53 [ERROR] xe1 : Output return empty for command [show environment temperature status]
+2023-07-06 11:29:53 [ERROR] xe2 : Output return empty for command [show processes memory statistics]
+2023-07-06 11:29:53 [ERROR] xe3 : Output return empty for command [show environment all]
+2023-07-06 11:29:53 [ERROR] xe3 : Output return empty for command [show processes memory statistics]
+2023-07-06 11:29:53 [ERROR] xe1 : Output return empty for command [show environment all]
+2023-07-06 11:29:53 [ERROR] xe1 : Output return empty for command [show environment temperature status]
+2023-07-06 11:29:53 [ERROR] xe2 : Output return empty for command [show system resources]
+2023-07-06 11:29:53 [ERROR] xe1 : Output return empty for command [show environment all]
+2023-07-06 11:29:54 [ERROR] xe3 : Output return empty for command [show processes memory statistics]
+2023-07-06 11:29:54 [ERROR] xe2 : Output return empty for command [show system resources]
+2023-07-06 11:29:54 [ERROR] xe1 : Output return empty for command [show processes memory statistics]
+2023-07-06 11:29:54 [ERROR] xe3 : Output return empty for command [show system resources]
+2023-07-06 11:29:54 [ERROR] xe1 : Output return empty for command [show processes memory statistics]
+2023-07-06 11:29:54 [ERROR] xe3 : Output return empty for command [show system resources]
+2023-07-06 11:29:54 [ERROR] xe1 : Output return empty for command [show system resources]
+2023-07-06 11:29:54 [ERROR] xe1 : Output return empty for command [show system resources]
+2023-07-06 14:30:24 [ERROR] xe1 : Output return empty for command [show interfaces status]
+2023-07-06 14:30:25 [ERROR] xe1 : Output return empty for command [show interfaces trunk]
+2023-07-06 14:30:29 [ERROR] xe1 : Output return empty for command [show port-channel]
+2023-07-06 14:30:37 [ERROR] xe1 : Output return empty for command [show vlan brief]
+2023-07-06 14:30:39 [ERROR] xe1 : Output return empty for command [show vtp status]
+2023-07-06 14:30:39 [ERROR] xe1 : Output return empty for command [show vpc brief]
+2023-07-06 14:30:40 [ERROR] xe3 : Failed to enter enable mode (1)
+2023-07-06 14:30:40 Pattern not detected: 'xe3' in output. 
+2023-07-06 14:30:40 Things you might try to fix this: 
+2023-07-06 14:30:40 1. Adjust the regex pattern to better identify the terminating string. Note, in 
+2023-07-06 14:30:40 many situations the pattern is automatically based on the network device's prompt. 
+2023-07-06 14:30:40 2. Increase the read_timeout to a larger value. 
+2023-07-06 14:30:40 You can also look at the Netmiko session_log or debug log for more information. 
+2023-07-06 14:30:42 [ERROR] xe1 : Output return empty for command [show environment temperature status]
+2023-07-06 14:30:42 [ERROR] xe3 : Output return empty for command [show interfaces status]
+2023-07-06 14:30:43 [ERROR] xe2 : Output return empty for command [show interfaces status]
+2023-07-06 14:30:43 [ERROR] xe1 : Output return empty for command [show environment all]
+2023-07-06 14:30:43 [ERROR] xe3 : Output return empty for command [show interfaces trunk]
+2023-07-06 14:30:43 [ERROR] xe1 : Output return empty for command [show processes memory statistics]
+2023-07-06 14:30:44 [ERROR] xe2 : Output return empty for command [show interfaces trunk]
+2023-07-06 14:30:45 [ERROR] xe2 : Output return empty for command [show port-channel]
+2023-07-06 14:30:51 [ERROR] xe2 : Output return empty for command [show vlan brief]
+2023-07-06 14:30:53 [ERROR] xe3 : [1] Exception sending command 'show etherchannel summary'
+2023-07-06 14:30:53 Pattern not detected: 'show\\ etherchannel\\ summary' in output. 
+2023-07-06 14:30:53 Things you might try to fix this: 
+2023-07-06 14:30:53 1. Adjust the regex pattern to better identify the terminating string. Note, in 
+2023-07-06 14:30:53 many situations the pattern is automatically based on the network device's prompt. 
+2023-07-06 14:30:53 2. Increase the read_timeout to a larger value. 
+2023-07-06 14:30:53 You can also look at the Netmiko session_log or debug log for more information. 
+2023-07-06 14:30:53 [ERROR] xe2 : Output return empty for command [show vtp status]
+2023-07-06 14:30:54 [ERROR] xe2 : Output return empty for command [show vpc brief]
+2023-07-06 14:30:55 [ERROR] xe2 : Output return empty for command [show environment temperature status]
+2023-07-06 14:30:58 [ERROR] xe1 : [1] Exception sending command 'show processes memory sorted'
+2023-07-06 14:30:58 Pattern not detected: 'xe1\\#' in output. 
+2023-07-06 14:30:58 Things you might try to fix this: 
+2023-07-06 14:30:58 1. Explicitly set your pattern using the expect_string argument. 
+2023-07-06 14:30:58 2. Increase the read_timeout to a larger value. 
+2023-07-06 14:30:58 You can also look at the Netmiko session_log or debug log for more information. 
+2023-07-06 14:30:58 [ERROR] xe2 : Output return empty for command [show environment all]
+2023-07-06 14:30:59 [ERROR] xe2 : Output return empty for command [show processes memory statistics]
+2023-07-06 14:31:02 [ERROR] xe3 : Output return empty for command [show port-channel]
+2023-07-06 14:31:06 [ERROR] xe2 : Output return empty for command [show system resources]
+2023-07-06 14:31:06 [ERROR] xe3 : Output return empty for command [show vlan brief]
+2023-07-06 14:31:07 [ERROR] xe3 : Output return empty for command [show vtp status]
+2023-07-06 14:31:07 [ERROR] xe3 : Output return empty for command [show vpc brief]
+2023-07-06 14:31:10 [ERROR] xe1 : Output return empty for command [show system resources]
+2023-07-06 14:31:11 [ERROR] xe3 : Output return empty for command [show environment temperature status]
+2023-07-06 14:31:12 [ERROR] xe3 : Output return empty for command [show environment all]
+2023-07-06 14:31:14 [ERROR] xe3 : Output return empty for command [show processes memory statistics]
+2023-07-06 14:31:24 [ERROR] xe3 : Output return empty for command [show system resources]
+2023-07-06 14:31:26 [ERROR] xe1 : [2] Exception sending command 'show processes cpu sorted'
+2023-07-06 14:31:26 Pattern not detected: 'xe1\\#' in output. 
+2023-07-06 14:31:26 Things you might try to fix this: 
+2023-07-06 14:31:26 1. Explicitly set your pattern using the expect_string argument. 
+2023-07-06 14:31:26 2. Increase the read_timeout to a larger value. 
+2023-07-06 14:31:26 You can also look at the Netmiko session_log or debug log for more information. 
+2023-07-06 14:31:40 [ERROR] xe2 : [1] Exception sending command 'show logging'
+2023-07-06 14:31:40 Pattern not detected: 'xe2\\#' in output. 
+2023-07-06 14:31:40 Things you might try to fix this: 
+2023-07-06 14:31:40 1. Explicitly set your pattern using the expect_string argument. 
+2023-07-06 14:31:40 2. Increase the read_timeout to a larger value. 
+2023-07-06 14:31:40 You can also look at the Netmiko session_log or debug log for more information. 
+2023-07-06 14:31:53 [ERROR] xe3 : [2] Exception sending command 'show logging'
+2023-07-06 14:31:53 Pattern not detected: 'xe3\\#' in output. 
+2023-07-06 14:31:53 Things you might try to fix this: 
+2023-07-06 14:31:53 1. Explicitly set your pattern using the expect_string argument. 
+2023-07-06 14:31:53 2. Increase the read_timeout to a larger value. 
+2023-07-06 14:31:53 You can also look at the Netmiko session_log or debug log for more information. 
+2023-07-06 14:31:55 [ERROR] xe1 : [3] Exception sending command 'show processes cpu'
+2023-07-06 14:31:55 Pattern not detected: 'xe1\\#' in output. 
+2023-07-06 14:31:55 Things you might try to fix this: 
+2023-07-06 14:31:55 1. Explicitly set your pattern using the expect_string argument. 
+2023-07-06 14:31:55 2. Increase the read_timeout to a larger value. 
+2023-07-06 14:31:55 You can also look at the Netmiko session_log or debug log for more information. 
+2023-07-06 14:31:55 [ERROR] xe1 : Output return empty for command [show processes cpu]
+2023-07-06 14:31:55 [ERROR] xe1 : Output return empty for command [show platform software status control-processor brief]
+2023-07-06 14:31:55 [ERROR] xe1 : Output return empty for command [show ip ospf neighbor]
+2023-07-06 14:31:55 [ERROR] xe1 : Output return empty for command [show ip bgp summary]
+2023-07-06 14:31:55 [ERROR] xe1 : Output return empty for command [show ip route]
+2023-07-06 14:31:55 [ERROR] xe1 : Output return empty for command [show logging]
+2023-07-06 14:32:01 [ERROR] xe2 : [2] Exception sending command 'show logging'
+2023-07-06 14:32:01 Pattern not detected: 'Jun\\ 10\\ 03:46:01\\.632:\\ %SEC_LOGIN\\-5\\-L' in output. 
+2023-07-06 14:32:01 Things you might try to fix this: 
+2023-07-06 14:32:01 1. Explicitly set your pattern using the expect_string argument. 
+2023-07-06 14:32:01 2. Increase the read_timeout to a larger value. 
+2023-07-06 14:32:01 You can also look at the Netmiko session_log or debug log for more information. 
+2023-07-06 14:32:10 [ERROR] xe3 : [3] Exception sending command 'show logging'
+2023-07-06 14:32:10 Pattern not detected: 'Apr\\ 10\\ 07:35:28\\.309:\\ %SYS\\-5\\-CONFIG_I:\\ Configured\\ from\\ console\\ by\\ cisco\\ on\\ vty2\\ \\(10' in output. 
+2023-07-06 14:32:10 Things you might try to fix this: 
+2023-07-06 14:32:10 1. Explicitly set your pattern using the expect_string argument. 
+2023-07-06 14:32:10 2. Increase the read_timeout to a larger value. 
+2023-07-06 14:32:10 You can also look at the Netmiko session_log or debug log for more information. 
+2023-07-06 14:32:10 [ERROR] xe3 : Output return empty for command [show logging]
+2023-07-06 14:32:13 [ERROR] xe2 : [3] Exception sending command 'show logging'
+2023-07-06 14:32:13 Pattern not detected: 'show\\ logging' in output. 
+2023-07-06 14:32:13 Things you might try to fix this: 
+2023-07-06 14:32:13 1. Adjust the regex pattern to better identify the terminating string. Note, in 
+2023-07-06 14:32:13 many situations the pattern is automatically based on the network device's prompt. 
+2023-07-06 14:32:13 2. Increase the read_timeout to a larger value. 
+2023-07-06 14:32:13 You can also look at the Netmiko session_log or debug log for more information. 
+2023-07-06 14:32:13 [ERROR] xe2 : Output return empty for command [show logging]

@@ -1,0 +1,8 @@
+INFO 2023-07-06 14:41:24,121 [main.py:proc_iface_crc_xe:69] Device: xe1
+INFO 2023-07-06 14:41:24,166 [main.py:proc_iface_crc_xe:69] Device: xe2
+INFO 2023-07-06 14:41:24,331 [main.py:proc_iface_crc_xe:69] Device: xe3
+INFO 2023-07-06 14:41:26,073 [main.py:interfaceCRC:176] Script execution completed successfully.
+INFO 2023-07-06 14:42:05,397 [main.py:proc_iface_crc_xe:69] Device: xe1
+INFO 2023-07-06 14:42:05,441 [main.py:proc_iface_crc_xe:69] Device: xe2
+INFO 2023-07-06 14:42:05,643 [main.py:proc_iface_crc_xe:69] Device: xe3
+INFO 2023-07-06 14:42:06,849 [main.py:interfaceCRC:176] Script execution completed successfully.

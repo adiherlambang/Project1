@@ -4,10 +4,14 @@ from jinja2 import ChoiceLoader, FileSystemLoader
 import os,yaml,pytz
 from datetime import datetime
 from lib.createTestbed import createTestbed
-from lib.getConfig.main import captureConfigX
-from lib.getInven.main import main
+from lib.getConfig.main import captureConfig
+from lib.getInven.main import getInventMain
+from lib.getMemmory.main import getMemmoryUtils
+from lib.getCPU.main import getCPUmain
+from lib.getCDP.main import getCDPmain
+from lib.getCustom.main import getCustomMain
+from lib.getCRC.main import interfaceCRC
 from time import sleep
-import threading
 
 
 from genie.testbed import load
@@ -93,54 +97,18 @@ def uploadCSV():
 @app.route('/getConfig', methods=['POST'])
 def getConfig():
     if checkTestbedFile()==True:
-        
-        def captureConfigX(device):
-            # Load the testbed file
-            # Send a command to the device
-            try:
-                device.connect(log_stdout=False)
-                #Print the output
-                hostname = device.name
-                #   logger.info('---getting capture config from device '+hostname+'---')
-                waktu = datetime.now().strftime("%d-%m-%y_%H_%M_%S")
-                NameFile = hostname + "_" + waktu +".txt"
-                file_path = "out/CaptureConfig/"
-                output = device.execute('show running-config')
-                file_name = os.path.join(file_path,NameFile)
-                # flash(f"Succes get config {device.name}")
-                try:
-                    with open(file_name, 'a') as file:
-                        file.write(f'''{output}''')
-                except  Exception as e:
-                    return f"Error write to file for device {device.name}: {e}"
-            except Exception as e:
-            #print(f"Error connecting to device {device.name}: {e}")
-                return f"Error connecting to device {device.name}: {e}"
-            return f"Succes get config {device.name}"
-
-        testbed = load(testbedFile)
-        # Create a list of futures for iosxe and iosxr devices
-        futures = []
-        with concurrent.futures.ThreadPoolExecutor() as executor:
-            for device in testbed:
-                futures.append(executor.submit(captureConfigX, device))
-                # flash(f"Connecting to device {device.name}",'info')
-                sleep(0.1)
-            # Wait for all futures to complete
-
-        for future in concurrent.futures.as_completed(futures):
-            try:
-                flash(future.result())
-            except Exception as exc:
-                flash(f"{exc} occurred while processing device {device.name}")
-        # flash("Get Config -  execution completed successfully.",'info')
+        captureConfig(testbedFile)
+        flash(f"Success to get Configuration devices")
+        return jsonify(data=get_flashed_messages())
+    else:
+        flash(f"device list file is not ready, please check the device list file")
         return jsonify(data=get_flashed_messages())
 
 @app.route('/getInvent', methods=['POST'])
 def getInvent():
     if checkTestbedFile()==True:
-        main()
-        flash(f"Success to get Inventory devices")
+        getInventMain()
+        flash(f"Success to get Memmory Utilization devices")
         return jsonify(data=get_flashed_messages())
     else:
         flash(f"device list file is not ready, please check the device list file")
@@ -148,17 +116,56 @@ def getInvent():
 
 @app.route('/getMemUtils', methods=['POST'])
 def getMemUtils():
-    data = "Getting Memmory Utilization devices"
-    return data
+    if checkTestbedFile()==True:
+        getMemmoryUtils(testbedFile)
+        flash(f"Success to get Memmory devices")
+        return jsonify(data=get_flashed_messages())
+    else:
+        flash(f"device list file is not ready, please check the device list file")
+        return jsonify(data=get_flashed_messages())
 
 @app.route('/getCPUUtils', methods=['POST'])
 def getCPUUtils():
-    data = "Getting CPU Utilization devices"
-    return data
+    if checkTestbedFile()==True:
+        getCPUmain()
+        flash(f"Success to get CPU Utilization devices")
+        return jsonify(data=get_flashed_messages())
+    else:
+        flash(f"device list file is not ready, please check the device list file")
+        return jsonify(data=get_flashed_messages())
 
-@app.route('/customPage', methods=['GET'])
+@app.route('/getCDP', methods=['POST'])
+def getCDP():
+    if checkTestbedFile()==True:
+        getCDPmain()
+        flash(f"Success to get CDP Neighbours devices")
+        return jsonify(data=get_flashed_messages())
+    else:
+        flash(f"device list file is not ready, please check the device list file")
+        return jsonify(data=get_flashed_messages())
+
+@app.route('/customPage', methods=['POST','GET'])
 def customPage():
-    return render_template("customCommand.html") 
+    if request.method=='POST':
+        if checkTestbedFile()==True:
+            getCustomMain()
+            flash(f"Success to get CDP Neighbours devices")
+            return jsonify(data=get_flashed_messages())
+        else:
+            flash(f"device list file is not ready, please check the device list file")
+            return jsonify(data=get_flashed_messages())
+    if request.method=='GET':
+        return render_template("customCommand.html")   
+
+@app.route('/getCRC', methods=['POST'])
+def getCRC():
+    if checkTestbedFile()==True:
+        interfaceCRC(testbedFile)
+        flash(f"Success to get Interface CRC devices")
+        return jsonify(data=get_flashed_messages())
+    else:
+        flash(f"device list file is not ready, please check the device list file")
+        return jsonify(data=get_flashed_messages())
 
 @app.route('/getOutput', methods=['POST','GET'])
 def getOutput():
@@ -190,7 +197,7 @@ def getOutput():
 def downloadFile():
     # Path to the file you want to download
     data = request.get_json('data')
-
+    print(data['file'])
     file_path = './out/'+data['folder']+'/'+data['file']
     print(file_path)
 

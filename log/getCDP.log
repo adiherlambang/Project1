@@ -1,0 +1,511 @@
+2023-07-06 11:04:10,788 [INFO] xe1 : Connecting 
+2023-07-06 11:04:10,790 [INFO] xe3 : Connecting 
+2023-07-06 11:04:10,790 [INFO] xe2 : Connecting 
+2023-07-06 11:04:10,833 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:04:10,834 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:04:10,835 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:04:11,277 [INFO] Authentication (password) successful!
+2023-07-06 11:04:11,288 [INFO] Authentication (password) successful!
+2023-07-06 11:04:11,289 [INFO] Authentication (password) successful!
+2023-07-06 11:04:11,687 [WARNING] xe1 : Connect success
+2023-07-06 11:04:11,687 [WARNING] xe3 : Connect success
+2023-07-06 11:04:11,688 [WARNING] xe2 : Connect success
+2023-07-06 11:04:11,902 [INFO] xe1 : Entered enable mode
+2023-07-06 11:04:11,913 [INFO] xe2 : Entered enable mode
+2023-07-06 11:04:11,955 [INFO] xe3 : Entered enable mode
+2023-07-06 11:04:12,096 [INFO] xe2 : Command 'show cdp neighbors' sent
+2023-07-06 11:04:12,097 [INFO] xe1 : Command 'show cdp neighbors' sent
+2023-07-06 11:04:12,104 [INFO] xe2 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 11:04:12,105 [INFO] xe1 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 11:04:12,146 [INFO] xe3 : Command 'show cdp neighbors' sent
+2023-07-06 11:04:12,147 [INFO] xe3 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 11:04:12,278 [INFO] xe2 : Command 'show platform' sent
+2023-07-06 11:04:12,278 [INFO] xe1 : Command 'show platform' sent
+2023-07-06 11:04:12,281 [INFO] xe1 : [1] Parsing success for template 'show platform 1'
+2023-07-06 11:04:12,281 [INFO] xe2 : [1] Parsing success for template 'show platform 1'
+2023-07-06 11:04:12,281 [INFO] xe1 : Export success to out/getCDP/CDP_2023-07-06_11-02.csv
+2023-07-06 11:04:12,281 [INFO] xe2 : Export success to out/getCDP/CDP_2023-07-06_11-02.csv
+2023-07-06 11:04:12,311 [INFO] xe3 : Command 'show platform' sent
+2023-07-06 11:04:12,312 [INFO] xe3 : [1] Parsing success for template 'show platform 1'
+2023-07-06 11:04:12,312 [INFO] xe3 : Export success to out/getCDP/CDP_2023-07-06_11-02.csv
+2023-07-06 11:04:12,324 [INFO] xe2 : Disconnected succcessfully
+2023-07-06 11:04:12,325 [INFO] xe1 : Disconnected succcessfully
+2023-07-06 11:04:12,345 [INFO] xe3 : Disconnected succcessfully
+2023-07-06 11:04:12,346 [INFO] 127.0.0.1 - - [06/Jul/2023 11:04:12] "POST /getCDP HTTP/1.1" 200 -
+2023-07-06 11:04:14,666 [INFO] 127.0.0.1 - - [06/Jul/2023 11:04:14] "GET /getOutput HTTP/1.1" 200 -
+2023-07-06 11:04:15,328 [INFO] 127.0.0.1 - - [06/Jul/2023 11:04:15] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2023-07-06 11:04:15,385 [INFO] 127.0.0.1 - - [06/Jul/2023 11:04:15] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2023-07-06 11:04:15,456 [INFO] 127.0.0.1 - - [06/Jul/2023 11:04:15] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2023-07-06 11:04:15,634 [INFO] 127.0.0.1 - - [06/Jul/2023 11:04:15] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2023-07-06 11:04:16,060 [INFO] 127.0.0.1 - - [06/Jul/2023 11:04:16] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2023-07-06 11:04:16,110 [INFO] 127.0.0.1 - - [06/Jul/2023 11:04:16] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2023-07-06 11:04:17,573 [INFO] xe1 : Connecting 
+2023-07-06 11:04:17,574 [INFO] xe2 : Connecting 
+2023-07-06 11:04:17,576 [INFO] xe3 : Connecting 
+2023-07-06 11:04:17,577 [INFO] xe1 : Connecting 
+2023-07-06 11:04:17,578 [INFO] xe2 : Connecting 
+2023-07-06 11:04:17,578 [INFO] xe3 : Connecting 
+2023-07-06 11:04:17,607 [INFO] 127.0.0.1 - - [06/Jul/2023 11:04:17] "POST /getOutput HTTP/1.1" 200 -
+2023-07-06 11:04:17,628 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:04:17,628 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:04:17,629 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:04:17,629 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:04:17,630 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:04:17,630 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:04:18,090 [INFO] Authentication (password) successful!
+2023-07-06 11:04:18,113 [INFO] Authentication (password) successful!
+2023-07-06 11:04:18,136 [INFO] Authentication (password) successful!
+2023-07-06 11:04:18,146 [INFO] Authentication (password) successful!
+2023-07-06 11:04:18,172 [INFO] Authentication (password) successful!
+2023-07-06 11:04:18,201 [INFO] Authentication (password) successful!
+2023-07-06 11:04:18,484 [WARNING] xe1 : Connect success
+2023-07-06 11:04:18,511 [WARNING] xe3 : Connect success
+2023-07-06 11:04:18,524 [WARNING] xe1 : Connect success
+2023-07-06 11:04:18,525 [WARNING] xe2 : Connect success
+2023-07-06 11:04:18,544 [WARNING] xe3 : Connect success
+2023-07-06 11:04:18,568 [WARNING] xe2 : Connect success
+2023-07-06 11:04:18,720 [INFO] xe1 : Entered enable mode
+2023-07-06 11:04:18,757 [INFO] xe3 : Entered enable mode
+2023-07-06 11:04:18,761 [INFO] xe2 : Entered enable mode
+2023-07-06 11:04:18,791 [INFO] xe3 : Entered enable mode
+2023-07-06 11:04:18,813 [INFO] xe1 : Entered enable mode
+2023-07-06 11:04:18,813 [INFO] xe2 : Entered enable mode
+2023-07-06 11:04:18,879 [INFO] xe1 : Command 'show cdp neighbors' sent
+2023-07-06 11:04:18,880 [INFO] xe1 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 11:04:18,926 [INFO] xe3 : Command 'show cdp neighbors' sent
+2023-07-06 11:04:18,927 [INFO] xe3 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 11:04:18,939 [INFO] xe2 : Command 'show cdp neighbors' sent
+2023-07-06 11:04:18,942 [INFO] xe2 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 11:04:18,961 [INFO] xe3 : Command 'show cdp neighbors' sent
+2023-07-06 11:04:18,963 [INFO] xe3 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 11:04:18,982 [INFO] xe1 : Command 'show cdp neighbors' sent
+2023-07-06 11:04:18,983 [INFO] xe1 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 11:04:18,993 [INFO] xe2 : Command 'show cdp neighbors' sent
+2023-07-06 11:04:18,994 [INFO] xe2 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 11:04:19,055 [INFO] xe1 : Command 'show platform' sent
+2023-07-06 11:04:19,056 [INFO] xe1 : [1] Parsing success for template 'show platform 1'
+2023-07-06 11:04:19,056 [INFO] xe1 : Export success to out/getCDP/CDP_2023-07-06_11-02.csv
+2023-07-06 11:04:19,088 [INFO] xe1 : Disconnected succcessfully
+2023-07-06 11:04:19,105 [INFO] xe3 : Command 'show platform' sent
+2023-07-06 11:04:19,106 [INFO] xe3 : [1] Parsing success for template 'show platform 1'
+2023-07-06 11:04:19,106 [INFO] xe3 : Export success to out/getCDP/CDP_2023-07-06_11-02.csv
+2023-07-06 11:04:19,120 [INFO] xe2 : Command 'show platform' sent
+2023-07-06 11:04:19,122 [INFO] xe2 : [1] Parsing success for template 'show platform 1'
+2023-07-06 11:04:19,122 [INFO] xe2 : Export success to out/getCDP/CDP_2023-07-06_11-02.csv
+2023-07-06 11:04:19,148 [INFO] xe3 : Disconnected succcessfully
+2023-07-06 11:04:19,151 [INFO] xe3 : Command 'show platform' sent
+2023-07-06 11:04:19,151 [INFO] xe3 : [1] Parsing success for template 'show platform 1'
+2023-07-06 11:04:19,151 [INFO] xe3 : Export success to out/getCDP/CDP_2023-07-06_11-02.csv
+2023-07-06 11:04:19,153 [INFO] xe2 : Disconnected succcessfully
+2023-07-06 11:04:19,183 [INFO] xe3 : Disconnected succcessfully
+2023-07-06 11:04:19,191 [INFO] xe1 : Command 'show platform' sent
+2023-07-06 11:04:19,192 [INFO] xe1 : [1] Parsing success for template 'show platform 1'
+2023-07-06 11:04:19,192 [INFO] xe1 : Export success to out/getCDP/CDP_2023-07-06_11-02.csv
+2023-07-06 11:04:19,193 [INFO] xe2 : Command 'show platform' sent
+2023-07-06 11:04:19,193 [INFO] xe2 : [1] Parsing success for template 'show platform 1'
+2023-07-06 11:04:19,193 [INFO] xe2 : Export success to out/getCDP/CDP_2023-07-06_11-02.csv
+2023-07-06 11:04:19,223 [INFO] xe1 : Disconnected succcessfully
+2023-07-06 11:04:19,224 [INFO] xe2 : Disconnected succcessfully
+2023-07-06 11:04:19,225 [INFO] 127.0.0.1 - - [06/Jul/2023 11:04:19] "POST /getCDP HTTP/1.1" 200 -
+2023-07-06 11:05:37,353 [INFO] xe1 : Connecting 
+2023-07-06 11:05:37,355 [INFO] xe3 : Connecting 
+2023-07-06 11:05:37,355 [INFO] xe2 : Connecting 
+2023-07-06 11:05:37,356 [INFO] xe1 : Connecting 
+2023-07-06 11:05:37,358 [INFO] xe3 : Connecting 
+2023-07-06 11:05:37,359 [INFO] xe2 : Connecting 
+2023-07-06 11:05:37,360 [INFO] xe1 : Connecting 
+2023-07-06 11:05:37,361 [INFO] xe2 : Connecting 
+2023-07-06 11:05:37,362 [INFO] xe3 : Connecting 
+2023-07-06 11:05:37,400 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:05:37,400 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:05:37,401 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:05:37,401 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:05:37,401 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:05:37,403 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:05:37,404 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:05:37,403 [INFO] 127.0.0.1 - - [06/Jul/2023 11:05:37] "POST /getOutput HTTP/1.1" 200 -
+2023-07-06 11:05:37,405 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:05:37,410 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:05:37,867 [INFO] Authentication (password) successful!
+2023-07-06 11:05:37,898 [INFO] Authentication (password) successful!
+2023-07-06 11:05:37,948 [INFO] Authentication (password) successful!
+2023-07-06 11:05:37,951 [INFO] Authentication (password) successful!
+2023-07-06 11:05:37,965 [INFO] Authentication (password) successful!
+2023-07-06 11:05:38,006 [INFO] Authentication (password) successful!
+2023-07-06 11:05:38,007 [INFO] Authentication (password) successful!
+2023-07-06 11:05:38,033 [INFO] Authentication (password) successful!
+2023-07-06 11:05:38,073 [INFO] Authentication (password) successful!
+2023-07-06 11:05:38,273 [WARNING] xe1 : Connect success
+2023-07-06 11:05:38,323 [WARNING] xe1 : Connect success
+2023-07-06 11:05:38,338 [WARNING] xe2 : Connect success
+2023-07-06 11:05:38,343 [WARNING] xe3 : Connect success
+2023-07-06 11:05:38,348 [WARNING] xe1 : Connect success
+2023-07-06 11:05:38,350 [WARNING] xe2 : Connect success
+2023-07-06 11:05:38,374 [WARNING] xe3 : Connect success
+2023-07-06 11:05:38,395 [WARNING] xe2 : Connect success
+2023-07-06 11:05:38,428 [WARNING] xe3 : Connect success
+2023-07-06 11:05:38,478 [INFO] xe1 : Entered enable mode
+2023-07-06 11:05:38,591 [INFO] xe3 : Entered enable mode
+2023-07-06 11:05:38,601 [INFO] xe1 : Entered enable mode
+2023-07-06 11:05:38,615 [INFO] xe2 : Entered enable mode
+2023-07-06 11:05:38,622 [INFO] xe3 : Entered enable mode
+2023-07-06 11:05:38,625 [INFO] xe1 : Entered enable mode
+2023-07-06 11:05:38,626 [INFO] xe2 : Entered enable mode
+2023-07-06 11:05:38,707 [INFO] xe1 : Command 'show cdp neighbors' sent
+2023-07-06 11:05:38,710 [INFO] xe1 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 11:05:38,724 [INFO] xe1 : Command 'show cdp neighbors' sent
+2023-07-06 11:05:38,725 [INFO] xe2 : Entered enable mode
+2023-07-06 11:05:38,725 [INFO] xe1 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 11:05:38,745 [INFO] xe3 : Entered enable mode
+2023-07-06 11:05:38,760 [INFO] xe3 : Command 'show cdp neighbors' sent
+2023-07-06 11:05:38,765 [INFO] xe3 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 11:05:38,791 [INFO] xe3 : Command 'show cdp neighbors' sent
+2023-07-06 11:05:38,793 [INFO] xe3 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 11:05:38,804 [INFO] xe1 : Command 'show cdp neighbors' sent
+2023-07-06 11:05:38,805 [INFO] xe1 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 11:05:38,824 [INFO] xe2 : Command 'show cdp neighbors' sent
+2023-07-06 11:05:38,825 [INFO] xe2 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 11:05:38,835 [INFO] xe2 : Command 'show cdp neighbors' sent
+2023-07-06 11:05:38,838 [INFO] xe2 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 11:05:38,880 [INFO] xe1 : Command 'show platform' sent
+2023-07-06 11:05:38,880 [INFO] xe1 : [1] Parsing success for template 'show platform 1'
+2023-07-06 11:05:38,880 [INFO] xe1 : Export success to out/getCDP/CDP_2023-07-06_11-02.csv
+2023-07-06 11:05:38,887 [INFO] xe3 : Command 'show platform' sent
+2023-07-06 11:05:38,888 [INFO] xe3 : [1] Parsing success for template 'show platform 1'
+2023-07-06 11:05:38,888 [INFO] xe3 : Export success to out/getCDP/CDP_2023-07-06_11-02.csv
+2023-07-06 11:05:38,895 [INFO] xe1 : Command 'show platform' sent
+2023-07-06 11:05:38,895 [INFO] xe1 : [1] Parsing success for template 'show platform 1'
+2023-07-06 11:05:38,896 [INFO] xe1 : Export success to out/getCDP/CDP_2023-07-06_11-02.csv
+2023-07-06 11:05:38,905 [INFO] xe2 : Command 'show cdp neighbors' sent
+2023-07-06 11:05:38,906 [INFO] xe2 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 11:05:38,912 [INFO] xe1 : Disconnected succcessfully
+2023-07-06 11:05:38,915 [INFO] xe3 : Command 'show cdp neighbors' sent
+2023-07-06 11:05:38,916 [INFO] xe3 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 11:05:38,920 [INFO] xe3 : Disconnected succcessfully
+2023-07-06 11:05:38,927 [INFO] xe1 : Disconnected succcessfully
+2023-07-06 11:05:38,953 [INFO] xe3 : Command 'show platform' sent
+2023-07-06 11:05:38,954 [INFO] xe3 : [1] Parsing success for template 'show platform 1'
+2023-07-06 11:05:38,954 [INFO] xe3 : Export success to out/getCDP/CDP_2023-07-06_11-02.csv
+2023-07-06 11:05:38,985 [INFO] xe3 : Disconnected succcessfully
+2023-07-06 11:05:38,994 [INFO] xe2 : Command 'show platform' sent
+2023-07-06 11:05:38,994 [INFO] xe2 : [1] Parsing success for template 'show platform 1'
+2023-07-06 11:05:38,995 [INFO] xe2 : Export success to out/getCDP/CDP_2023-07-06_11-02.csv
+2023-07-06 11:05:39,006 [INFO] xe2 : Command 'show platform' sent
+2023-07-06 11:05:39,007 [INFO] xe2 : [1] Parsing success for template 'show platform 1'
+2023-07-06 11:05:39,007 [INFO] xe2 : Export success to out/getCDP/CDP_2023-07-06_11-02.csv
+2023-07-06 11:05:39,015 [INFO] xe1 : Command 'show platform' sent
+2023-07-06 11:05:39,015 [INFO] xe1 : [1] Parsing success for template 'show platform 1'
+2023-07-06 11:05:39,015 [INFO] xe1 : Export success to out/getCDP/CDP_2023-07-06_11-02.csv
+2023-07-06 11:05:39,054 [INFO] xe2 : Command 'show platform' sent
+2023-07-06 11:05:39,055 [INFO] xe2 : [1] Parsing success for template 'show platform 1'
+2023-07-06 11:05:39,055 [INFO] xe2 : Export success to out/getCDP/CDP_2023-07-06_11-02.csv
+2023-07-06 11:05:39,077 [INFO] xe1 : Disconnected succcessfully
+2023-07-06 11:05:39,077 [INFO] xe2 : Disconnected succcessfully
+2023-07-06 11:05:39,079 [INFO] xe2 : Disconnected succcessfully
+2023-07-06 11:05:39,080 [INFO] xe3 : Command 'show platform' sent
+2023-07-06 11:05:39,080 [INFO] xe3 : [1] Parsing success for template 'show platform 1'
+2023-07-06 11:05:39,080 [INFO] xe3 : Export success to out/getCDP/CDP_2023-07-06_11-02.csv
+2023-07-06 11:05:39,086 [INFO] xe2 : Disconnected succcessfully
+2023-07-06 11:05:39,112 [INFO] xe3 : Disconnected succcessfully
+2023-07-06 11:05:39,113 [INFO] 127.0.0.1 - - [06/Jul/2023 11:05:39] "POST /getCDP HTTP/1.1" 200 -
+2023-07-06 11:10:47,275 [INFO] 127.0.0.1 - - [06/Jul/2023 11:10:47] "GET /getOutput HTTP/1.1" 200 -
+2023-07-06 11:10:47,575 [INFO] 127.0.0.1 - - [06/Jul/2023 11:10:47] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2023-07-06 11:10:47,921 [INFO] 127.0.0.1 - - [06/Jul/2023 11:10:47] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2023-07-06 11:10:48,216 [INFO] 127.0.0.1 - - [06/Jul/2023 11:10:48] "GET /assets/lib/js/apps.js HTTP/1.1" 200 -
+2023-07-06 11:10:48,622 [INFO] 127.0.0.1 - - [06/Jul/2023 11:10:48] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2023-07-06 11:10:48,800 [INFO] 127.0.0.1 - - [06/Jul/2023 11:10:48] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2023-07-06 11:10:48,874 [INFO] 127.0.0.1 - - [06/Jul/2023 11:10:48] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2023-07-06 11:10:50,997 [INFO] 127.0.0.1 - - [06/Jul/2023 11:10:50] "POST /getOutput HTTP/1.1" 200 -
+2023-07-06 11:10:51,046 [INFO] xe1 : Connecting 
+2023-07-06 11:10:51,048 [INFO] xe1 : Connecting 
+2023-07-06 11:10:51,049 [INFO] xe3 : Connecting 
+2023-07-06 11:10:51,052 [INFO] xe2 : Connecting 
+2023-07-06 11:10:51,054 [INFO] xe2 : Connecting 
+2023-07-06 11:10:51,057 [INFO] xe2 : Connecting 
+2023-07-06 11:10:51,058 [INFO] xe3 : Connecting 
+2023-07-06 11:10:51,056 [INFO] xe1 : Connecting 
+2023-07-06 11:10:51,059 [INFO] xe3 : Connecting 
+2023-07-06 11:10:51,059 [INFO] xe1 : Connecting 
+2023-07-06 11:10:51,061 [INFO] xe2 : Connecting 
+2023-07-06 11:10:51,062 [INFO] xe3 : Connecting 
+2023-07-06 11:10:51,129 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:10:51,132 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:10:51,136 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:10:51,137 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:10:51,137 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:10:51,141 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:10:51,147 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:10:51,149 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:10:51,150 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:10:51,153 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:10:51,156 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:10:51,157 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:10:51,731 [INFO] Authentication (password) successful!
+2023-07-06 11:10:51,734 [INFO] Authentication (password) successful!
+2023-07-06 11:10:51,793 [INFO] Authentication (password) successful!
+2023-07-06 11:10:51,795 [INFO] Authentication (password) successful!
+2023-07-06 11:10:51,801 [INFO] Authentication (password) successful!
+2023-07-06 11:10:51,862 [INFO] Authentication (password) successful!
+2023-07-06 11:10:51,865 [INFO] Authentication (password) successful!
+2023-07-06 11:10:51,873 [INFO] Authentication (password) successful!
+2023-07-06 11:10:51,926 [INFO] Authentication (password) successful!
+2023-07-06 11:10:51,933 [INFO] Authentication (password) successful!
+2023-07-06 11:10:51,946 [INFO] Authentication (password) successful!
+2023-07-06 11:10:51,989 [INFO] Authentication (password) successful!
+2023-07-06 11:10:52,073 [WARNING] xe2 : Connect success
+2023-07-06 11:10:52,110 [WARNING] xe1 : Connect success
+2023-07-06 11:10:52,207 [WARNING] xe3 : Connect success
+2023-07-06 11:10:52,219 [WARNING] xe1 : Connect success
+2023-07-06 11:10:52,254 [WARNING] xe2 : Connect success
+2023-07-06 11:10:52,270 [WARNING] xe3 : Connect success
+2023-07-06 11:10:52,273 [WARNING] xe2 : Connect success
+2023-07-06 11:10:52,290 [INFO] xe2 : Entered enable mode
+2023-07-06 11:10:52,294 [WARNING] xe1 : Connect success
+2023-07-06 11:10:52,300 [WARNING] xe3 : Connect success
+2023-07-06 11:10:52,331 [WARNING] xe3 : Connect success
+2023-07-06 11:10:52,336 [INFO] xe1 : Entered enable mode
+2023-07-06 11:10:52,345 [WARNING] xe2 : Connect success
+2023-07-06 11:10:52,361 [WARNING] xe1 : Connect success
+2023-07-06 11:10:52,474 [INFO] xe3 : Entered enable mode
+2023-07-06 11:10:52,495 [INFO] xe1 : Entered enable mode
+2023-07-06 11:10:52,513 [INFO] xe2 : Entered enable mode
+2023-07-06 11:10:52,519 [INFO] xe1 : Entered enable mode
+2023-07-06 11:10:52,556 [INFO] xe3 : Entered enable mode
+2023-07-06 11:10:52,560 [INFO] xe2 : Command 'show cdp neighbors' sent
+2023-07-06 11:10:52,563 [INFO] xe2 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 11:10:52,569 [INFO] xe2 : Entered enable mode
+2023-07-06 11:10:52,627 [INFO] xe1 : Entered enable mode
+2023-07-06 11:10:52,629 [INFO] xe3 : Entered enable mode
+2023-07-06 11:10:52,635 [INFO] xe1 : Command 'show cdp neighbors' sent
+2023-07-06 11:10:52,638 [INFO] xe1 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 11:10:52,669 [INFO] xe3 : Entered enable mode
+2023-07-06 11:10:52,682 [INFO] xe2 : Entered enable mode
+2023-07-06 11:10:52,692 [INFO] xe2 : Command 'show cdp neighbors' sent
+2023-07-06 11:10:52,695 [INFO] xe2 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 11:10:52,704 [INFO] xe1 : Command 'show cdp neighbors' sent
+2023-07-06 11:10:52,705 [INFO] xe1 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 11:10:52,727 [INFO] xe1 : Command 'show cdp neighbors' sent
+2023-07-06 11:10:52,728 [INFO] xe1 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 11:10:52,743 [INFO] xe3 : Command 'show cdp neighbors' sent
+2023-07-06 11:10:52,747 [INFO] xe3 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 11:10:52,772 [INFO] xe2 : Command 'show platform' sent
+2023-07-06 11:10:52,773 [INFO] xe2 : [1] Parsing success for template 'show platform 1'
+2023-07-06 11:10:52,773 [INFO] xe2 : Export success to out/getCDP/CDP_2023-07-06_11-02.csv
+2023-07-06 11:10:52,778 [INFO] xe3 : Command 'show cdp neighbors' sent
+2023-07-06 11:10:52,779 [INFO] xe2 : Command 'show cdp neighbors' sent
+2023-07-06 11:10:52,780 [INFO] xe2 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 11:10:52,781 [INFO] xe3 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 11:10:52,804 [INFO] xe2 : Disconnected succcessfully
+2023-07-06 11:10:52,807 [INFO] xe1 : Command 'show cdp neighbors' sent
+2023-07-06 11:10:52,808 [INFO] xe3 : Command 'show cdp neighbors' sent
+2023-07-06 11:10:52,810 [INFO] xe1 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 11:10:52,813 [INFO] xe3 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 11:10:52,828 [INFO] xe3 : Command 'show cdp neighbors' sent
+2023-07-06 11:10:52,829 [INFO] xe3 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 11:10:52,858 [INFO] xe1 : Command 'show platform' sent
+2023-07-06 11:10:52,858 [INFO] xe1 : [1] Parsing success for template 'show platform 1'
+2023-07-06 11:10:52,859 [INFO] xe1 : Export success to out/getCDP/CDP_2023-07-06_11-02.csv
+2023-07-06 11:10:52,860 [INFO] xe2 : Command 'show cdp neighbors' sent
+2023-07-06 11:10:52,861 [INFO] xe2 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 11:10:52,875 [INFO] xe2 : Command 'show platform' sent
+2023-07-06 11:10:52,875 [INFO] xe1 : Command 'show platform' sent
+2023-07-06 11:10:52,876 [INFO] xe2 : [1] Parsing success for template 'show platform 1'
+2023-07-06 11:10:52,878 [INFO] xe2 : Export success to out/getCDP/CDP_2023-07-06_11-02.csv
+2023-07-06 11:10:52,878 [INFO] xe1 : [1] Parsing success for template 'show platform 1'
+2023-07-06 11:10:52,879 [INFO] xe1 : Export success to out/getCDP/CDP_2023-07-06_11-02.csv
+2023-07-06 11:10:52,890 [INFO] xe1 : Disconnected succcessfully
+2023-07-06 11:10:52,899 [INFO] xe1 : Command 'show platform' sent
+2023-07-06 11:10:52,900 [INFO] xe1 : [1] Parsing success for template 'show platform 1'
+2023-07-06 11:10:52,900 [INFO] xe1 : Export success to out/getCDP/CDP_2023-07-06_11-02.csv
+2023-07-06 11:10:52,910 [INFO] xe2 : Disconnected succcessfully
+2023-07-06 11:10:52,910 [INFO] xe1 : Disconnected succcessfully
+2023-07-06 11:10:52,915 [INFO] xe3 : Command 'show platform' sent
+2023-07-06 11:10:52,916 [INFO] xe3 : [1] Parsing success for template 'show platform 1'
+2023-07-06 11:10:52,918 [INFO] xe3 : Export success to out/getCDP/CDP_2023-07-06_11-02.csv
+2023-07-06 11:10:52,942 [INFO] xe1 : Disconnected succcessfully
+2023-07-06 11:10:52,950 [INFO] xe3 : Disconnected succcessfully
+2023-07-06 11:10:52,961 [INFO] xe3 : Command 'show platform' sent
+2023-07-06 11:10:52,961 [INFO] xe3 : [1] Parsing success for template 'show platform 1'
+2023-07-06 11:10:52,962 [INFO] xe3 : Export success to out/getCDP/CDP_2023-07-06_11-02.csv
+2023-07-06 11:10:52,962 [INFO] xe3 : Command 'show platform' sent
+2023-07-06 11:10:52,963 [INFO] xe3 : [1] Parsing success for template 'show platform 1'
+2023-07-06 11:10:52,963 [INFO] xe3 : Export success to out/getCDP/CDP_2023-07-06_11-02.csv
+2023-07-06 11:10:52,971 [INFO] xe1 : Command 'show platform' sent
+2023-07-06 11:10:52,972 [INFO] xe1 : [1] Parsing success for template 'show platform 1'
+2023-07-06 11:10:52,972 [INFO] xe1 : Export success to out/getCDP/CDP_2023-07-06_11-02.csv
+2023-07-06 11:10:52,982 [INFO] xe3 : Command 'show platform' sent
+2023-07-06 11:10:52,983 [INFO] xe3 : [1] Parsing success for template 'show platform 1'
+2023-07-06 11:10:52,983 [INFO] xe3 : Export success to out/getCDP/CDP_2023-07-06_11-02.csv
+2023-07-06 11:10:52,989 [INFO] xe2 : Command 'show platform' sent
+2023-07-06 11:10:52,990 [INFO] xe2 : [1] Parsing success for template 'show platform 1'
+2023-07-06 11:10:52,992 [INFO] xe2 : Export success to out/getCDP/CDP_2023-07-06_11-02.csv
+2023-07-06 11:10:52,993 [INFO] xe3 : Disconnected succcessfully
+2023-07-06 11:10:52,994 [INFO] xe3 : Disconnected succcessfully
+2023-07-06 11:10:53,003 [INFO] xe1 : Disconnected succcessfully
+2023-07-06 11:10:53,025 [INFO] xe3 : Disconnected succcessfully
+2023-07-06 11:10:53,030 [INFO] xe2 : Command 'show platform' sent
+2023-07-06 11:10:53,031 [INFO] xe2 : [1] Parsing success for template 'show platform 1'
+2023-07-06 11:10:53,031 [INFO] xe2 : Export success to out/getCDP/CDP_2023-07-06_11-02.csv
+2023-07-06 11:10:53,035 [INFO] xe2 : Disconnected succcessfully
+2023-07-06 11:10:53,072 [INFO] xe2 : Disconnected succcessfully
+2023-07-06 11:10:53,074 [INFO] 127.0.0.1 - - [06/Jul/2023 11:10:53] "POST /getCDP HTTP/1.1" 200 -
+2023-07-06 11:11:06,721 [INFO] 127.0.0.1 - - [06/Jul/2023 11:11:06] "POST /getOutput HTTP/1.1" 200 -
+2023-07-06 11:11:19,201 [INFO] 127.0.0.1 - - [06/Jul/2023 11:11:19] "POST /getOutput HTTP/1.1" 200 -
+2023-07-06 11:12:17,346 [INFO]  * Detected change in '/opt/Project1/mainWeb.py', reloading
+2023-07-06 11:18:16,788 [INFO] xe1 : Connecting 
+2023-07-06 11:18:16,788 [INFO] xe2 : Connecting 
+2023-07-06 11:18:16,789 [INFO] xe3 : Connecting 
+2023-07-06 11:18:16,833 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:18:16,833 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:18:16,835 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 11:18:17,275 [INFO] Authentication (password) successful!
+2023-07-06 11:18:17,276 [INFO] Authentication (password) successful!
+2023-07-06 11:18:17,306 [INFO] Authentication (password) successful!
+2023-07-06 11:18:17,650 [WARNING] xe2 : Connect success
+2023-07-06 11:18:17,661 [WARNING] xe3 : Connect success
+2023-07-06 11:18:17,695 [WARNING] xe1 : Connect success
+2023-07-06 11:18:17,877 [INFO] xe2 : Entered enable mode
+2023-07-06 11:18:17,887 [INFO] xe3 : Entered enable mode
+2023-07-06 11:18:17,919 [INFO] xe1 : Entered enable mode
+2023-07-06 11:18:18,067 [INFO] xe3 : Command 'show cdp neighbors' sent
+2023-07-06 11:18:18,068 [INFO] xe2 : Command 'show cdp neighbors' sent
+2023-07-06 11:18:18,073 [INFO] xe3 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 11:18:18,074 [INFO] xe2 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 11:18:18,088 [INFO] xe1 : Command 'show cdp neighbors' sent
+2023-07-06 11:18:18,089 [INFO] xe1 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 11:18:18,243 [INFO] xe1 : Command 'show platform' sent
+2023-07-06 11:18:18,244 [INFO] xe1 : [1] Parsing success for template 'show platform 1'
+2023-07-06 11:18:18,244 [INFO] xe1 : Export success to out/getCDP/CDP_2023-07-06_11-17.csv
+2023-07-06 11:18:18,244 [INFO] xe2 : Command 'show platform' sent
+2023-07-06 11:18:18,245 [INFO] xe2 : [1] Parsing success for template 'show platform 1'
+2023-07-06 11:18:18,245 [INFO] xe3 : Command 'show platform' sent
+2023-07-06 11:18:18,246 [INFO] xe2 : Export success to out/getCDP/CDP_2023-07-06_11-17.csv
+2023-07-06 11:18:18,247 [INFO] xe3 : [1] Parsing success for template 'show platform 1'
+2023-07-06 11:18:18,247 [INFO] xe3 : Export success to out/getCDP/CDP_2023-07-06_11-17.csv
+2023-07-06 11:18:18,287 [INFO] xe1 : Disconnected succcessfully
+2023-07-06 11:18:18,288 [INFO] xe2 : Disconnected succcessfully
+2023-07-06 11:18:18,288 [INFO] xe3 : Disconnected succcessfully
+2023-07-06 11:18:18,289 [INFO] 127.0.0.1 - - [06/Jul/2023 11:18:18] "POST /getCDP HTTP/1.1" 200 -
+2023-07-06 11:18:19,763 [INFO] 127.0.0.1 - - [06/Jul/2023 11:18:19] "GET /getOutput HTTP/1.1" 200 -
+2023-07-06 11:18:20,418 [INFO] 127.0.0.1 - - [06/Jul/2023 11:18:20] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2023-07-06 11:18:20,467 [INFO] 127.0.0.1 - - [06/Jul/2023 11:18:20] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2023-07-06 11:18:20,707 [INFO] 127.0.0.1 - - [06/Jul/2023 11:18:20] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2023-07-06 11:18:21,107 [INFO] 127.0.0.1 - - [06/Jul/2023 11:18:21] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2023-07-06 11:18:21,170 [INFO] 127.0.0.1 - - [06/Jul/2023 11:18:21] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2023-07-06 11:18:21,221 [INFO] 127.0.0.1 - - [06/Jul/2023 11:18:21] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2023-07-06 11:18:22,432 [INFO] 127.0.0.1 - - [06/Jul/2023 11:18:22] "POST /getOutput HTTP/1.1" 200 -
+2023-07-06 11:18:36,708 [INFO] 127.0.0.1 - - [06/Jul/2023 11:18:36] "POST /getOutput HTTP/1.1" 200 -
+2023-07-06 11:18:40,257 [INFO] 127.0.0.1 - - [06/Jul/2023 11:18:40] "POST /getOutput HTTP/1.1" 200 -
+2023-07-06 11:18:42,053 [INFO] 127.0.0.1 - - [06/Jul/2023 11:18:42] "POST /getOutput HTTP/1.1" 200 -
+2023-07-06 11:18:44,641 [INFO] 127.0.0.1 - - [06/Jul/2023 11:18:44] "POST /getOutput HTTP/1.1" 200 -
+2023-07-06 11:18:47,490 [INFO] 127.0.0.1 - - [06/Jul/2023 11:18:47] "POST /getOutput HTTP/1.1" 200 -
+2023-07-06 11:19:05,746 [INFO] 127.0.0.1 - - [06/Jul/2023 11:19:05] "GET / HTTP/1.1" 200 -
+2023-07-06 11:19:06,011 [INFO] 127.0.0.1 - - [06/Jul/2023 11:19:06] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2023-07-06 11:19:06,343 [INFO] 127.0.0.1 - - [06/Jul/2023 11:19:06] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2023-07-06 11:19:06,643 [INFO] 127.0.0.1 - - [06/Jul/2023 11:19:06] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2023-07-06 11:19:07,033 [INFO] 127.0.0.1 - - [06/Jul/2023 11:19:07] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2023-07-06 11:19:07,086 [INFO] 127.0.0.1 - - [06/Jul/2023 11:19:07] "[36mGET /assets/lib/js/jquery-3.7.0.min.js HTTP/1.1[0m" 304 -
+2023-07-06 11:19:07,135 [INFO] 127.0.0.1 - - [06/Jul/2023 11:19:07] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2023-07-06 11:19:07,184 [INFO] 127.0.0.1 - - [06/Jul/2023 11:19:07] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2023-07-06 11:19:27,073 [INFO] 127.0.0.1 - - [06/Jul/2023 11:19:27] "GET / HTTP/1.1" 200 -
+2023-07-06 11:19:27,395 [INFO] 127.0.0.1 - - [06/Jul/2023 11:19:27] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2023-07-06 11:19:27,701 [INFO] 127.0.0.1 - - [06/Jul/2023 11:19:27] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2023-07-06 11:19:27,996 [INFO] 127.0.0.1 - - [06/Jul/2023 11:19:27] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2023-07-06 11:19:28,395 [INFO] 127.0.0.1 - - [06/Jul/2023 11:19:28] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2023-07-06 11:19:28,454 [INFO] 127.0.0.1 - - [06/Jul/2023 11:19:28] "[36mGET /assets/lib/js/jquery-3.7.0.min.js HTTP/1.1[0m" 304 -
+2023-07-06 11:19:28,503 [INFO] 127.0.0.1 - - [06/Jul/2023 11:19:28] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2023-07-06 11:19:28,554 [INFO] 127.0.0.1 - - [06/Jul/2023 11:19:28] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2023-07-06 11:20:01,888 [INFO] 127.0.0.1 - - [06/Jul/2023 11:20:01] "GET / HTTP/1.1" 200 -
+2023-07-06 11:20:02,111 [INFO] 127.0.0.1 - - [06/Jul/2023 11:20:02] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2023-07-06 11:20:02,578 [INFO] 127.0.0.1 - - [06/Jul/2023 11:20:02] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2023-07-06 11:20:02,702 [INFO] 127.0.0.1 - - [06/Jul/2023 11:20:02] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2023-07-06 11:20:03,276 [INFO] 127.0.0.1 - - [06/Jul/2023 11:20:03] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2023-07-06 11:20:03,333 [INFO] 127.0.0.1 - - [06/Jul/2023 11:20:03] "[36mGET /assets/lib/js/jquery-3.7.0.min.js HTTP/1.1[0m" 304 -
+2023-07-06 11:20:03,384 [INFO] 127.0.0.1 - - [06/Jul/2023 11:20:03] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2023-07-06 11:20:03,432 [INFO] 127.0.0.1 - - [06/Jul/2023 11:20:03] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2023-07-06 11:21:33,112 [INFO] 127.0.0.1 - - [06/Jul/2023 11:21:33] "GET / HTTP/1.1" 200 -
+2023-07-06 11:21:33,431 [INFO] 127.0.0.1 - - [06/Jul/2023 11:21:33] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2023-07-06 11:21:33,787 [INFO] 127.0.0.1 - - [06/Jul/2023 11:21:33] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2023-07-06 11:21:34,088 [INFO] 127.0.0.1 - - [06/Jul/2023 11:21:34] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2023-07-06 11:21:34,509 [INFO] 127.0.0.1 - - [06/Jul/2023 11:21:34] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2023-07-06 11:21:34,570 [INFO] 127.0.0.1 - - [06/Jul/2023 11:21:34] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2023-07-06 11:21:34,625 [INFO] 127.0.0.1 - - [06/Jul/2023 11:21:34] "[36mGET /assets/lib/js/jquery-3.7.0.min.js HTTP/1.1[0m" 304 -
+2023-07-06 11:21:34,671 [INFO] 127.0.0.1 - - [06/Jul/2023 11:21:34] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2023-07-06 11:21:49,257 [INFO] 127.0.0.1 - - [06/Jul/2023 11:21:49] "GET / HTTP/1.1" 200 -
+2023-07-06 11:21:49,571 [INFO] 127.0.0.1 - - [06/Jul/2023 11:21:49] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2023-07-06 11:21:49,872 [INFO] 127.0.0.1 - - [06/Jul/2023 11:21:49] "GET /assets/lib/css/apps.css HTTP/1.1" 200 -
+2023-07-06 11:21:50,222 [INFO] 127.0.0.1 - - [06/Jul/2023 11:21:50] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2023-07-06 11:21:50,566 [INFO] 127.0.0.1 - - [06/Jul/2023 11:21:50] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2023-07-06 11:21:50,621 [INFO] 127.0.0.1 - - [06/Jul/2023 11:21:50] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2023-07-06 11:21:50,669 [INFO] 127.0.0.1 - - [06/Jul/2023 11:21:50] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2023-07-06 11:21:50,713 [INFO] 127.0.0.1 - - [06/Jul/2023 11:21:50] "[36mGET /assets/lib/js/jquery-3.7.0.min.js HTTP/1.1[0m" 304 -
+2023-07-06 11:22:14,060 [INFO] 127.0.0.1 - - [06/Jul/2023 11:22:14] "GET / HTTP/1.1" 200 -
+2023-07-06 11:22:14,331 [INFO] 127.0.0.1 - - [06/Jul/2023 11:22:14] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2023-07-06 11:22:14,802 [INFO] 127.0.0.1 - - [06/Jul/2023 11:22:14] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2023-07-06 11:22:14,931 [INFO] 127.0.0.1 - - [06/Jul/2023 11:22:14] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2023-07-06 11:22:15,482 [INFO] 127.0.0.1 - - [06/Jul/2023 11:22:15] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2023-07-06 11:22:15,552 [INFO] 127.0.0.1 - - [06/Jul/2023 11:22:15] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2023-07-06 11:22:15,600 [INFO] 127.0.0.1 - - [06/Jul/2023 11:22:15] "[36mGET /assets/lib/js/jquery-3.7.0.min.js HTTP/1.1[0m" 304 -
+2023-07-06 11:22:15,641 [INFO] 127.0.0.1 - - [06/Jul/2023 11:22:15] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2023-07-06 11:25:14,680 [INFO]  * Detected change in '/opt/Project1/lib/getCustom/main.py', reloading
+2023-07-06 14:26:15,052 [INFO] xe2 : Connecting 
+2023-07-06 14:26:15,054 [INFO] xe1 : Connecting 
+2023-07-06 14:26:15,057 [INFO] xe3 : Connecting 
+2023-07-06 14:26:15,186 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 14:26:15,187 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 14:26:15,188 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 14:26:15,843 [INFO] Authentication (password) successful!
+2023-07-06 14:26:15,844 [INFO] Authentication (password) successful!
+2023-07-06 14:26:15,897 [INFO] Authentication (password) successful!
+2023-07-06 14:26:19,630 [WARNING] xe1 : Connect success
+2023-07-06 14:26:21,150 [INFO] xe1 : Entered enable mode
+2023-07-06 14:26:21,498 [INFO] xe1 : Command 'show cdp neighbors' sent
+2023-07-06 14:26:21,509 [INFO] xe1 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 14:26:21,652 [WARNING] xe2 : Connect success
+2023-07-06 14:26:21,874 [WARNING] xe3 : Connect success
+2023-07-06 14:26:22,766 [INFO] xe1 : Command 'show platform' sent
+2023-07-06 14:26:22,767 [INFO] xe1 : [1] Parsing success for template 'show platform 1'
+2023-07-06 14:26:22,767 [INFO] xe1 : Export success to out/getCDP/CDP_2023-07-06_11-36.csv
+2023-07-06 14:26:22,830 [INFO] xe1 : Disconnected succcessfully
+2023-07-06 14:26:26,305 [INFO] xe3 : Entered enable mode
+2023-07-06 14:26:26,706 [INFO] xe3 : Command 'show cdp neighbors' sent
+2023-07-06 14:26:26,707 [INFO] xe3 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 14:26:27,078 [INFO] xe3 : Command 'show platform' sent
+2023-07-06 14:26:27,079 [INFO] xe3 : [1] Parsing success for template 'show platform 1'
+2023-07-06 14:26:27,079 [INFO] xe3 : Export success to out/getCDP/CDP_2023-07-06_11-36.csv
+2023-07-06 14:26:27,146 [INFO] xe3 : Disconnected succcessfully
+2023-07-06 14:26:31,718 [ERROR] xe2 : Failed to enter enable mode (1)
+2023-07-06 14:26:31,719 [WARNING] xe2 : Retrying entering enable mode
+2023-07-06 14:26:41,728 [ERROR] xe2 : Failed to enter enable mode (2)
+2023-07-06 14:26:56,981 [ERROR] xe2 : [1] Exception sending command 'show cdp neighbors'
+2023-07-06 14:26:58,460 [INFO] xe2 : Command 'show cdp neighbors' sent
+2023-07-06 14:26:58,462 [INFO] xe2 : [1] Parsing success for template 'show cdp neighbors 1'
+2023-07-06 14:26:58,787 [INFO] xe2 : Command 'show platform' sent
+2023-07-06 14:26:58,788 [ERROR] xe2 : Output return empty for command [show platform]
+2023-07-06 14:26:58,789 [INFO] xe2 : Export success to out/getCDP/CDP_2023-07-06_11-36.csv
+2023-07-06 14:26:58,872 [INFO] xe2 : Disconnected succcessfully
+2023-07-06 14:26:58,877 [INFO] 127.0.0.1 - - [06/Jul/2023 14:26:58] "POST /customPage HTTP/1.1" 200 -
+2023-07-06 14:27:19,496 [INFO] 127.0.0.1 - - [06/Jul/2023 14:27:19] "GET /getOutput HTTP/1.1" 200 -
+2023-07-06 14:27:19,791 [INFO] 127.0.0.1 - - [06/Jul/2023 14:27:19] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2023-07-06 14:27:20,182 [INFO] 127.0.0.1 - - [06/Jul/2023 14:27:20] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2023-07-06 14:27:20,455 [INFO] 127.0.0.1 - - [06/Jul/2023 14:27:20] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2023-07-06 14:27:20,878 [INFO] 127.0.0.1 - - [06/Jul/2023 14:27:20] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2023-07-06 14:27:20,953 [INFO] 127.0.0.1 - - [06/Jul/2023 14:27:20] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2023-07-06 14:27:21,001 [INFO] 127.0.0.1 - - [06/Jul/2023 14:27:21] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2023-07-06 14:27:26,770 [INFO] 127.0.0.1 - - [06/Jul/2023 14:27:26] "POST /getOutput HTTP/1.1" 200 -
+2023-07-06 14:28:13,255 [INFO] 127.0.0.1 - - [06/Jul/2023 14:28:13] "GET /getOutput HTTP/1.1" 200 -
+2023-07-06 14:28:13,937 [INFO] 127.0.0.1 - - [06/Jul/2023 14:28:13] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2023-07-06 14:28:13,980 [INFO] 127.0.0.1 - - [06/Jul/2023 14:28:13] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2023-07-06 14:28:14,231 [INFO] 127.0.0.1 - - [06/Jul/2023 14:28:14] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2023-07-06 14:28:14,639 [INFO] 127.0.0.1 - - [06/Jul/2023 14:28:14] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2023-07-06 14:28:14,720 [INFO] 127.0.0.1 - - [06/Jul/2023 14:28:14] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2023-07-06 14:28:14,788 [INFO] 127.0.0.1 - - [06/Jul/2023 14:28:14] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2023-07-06 14:28:15,827 [INFO] 127.0.0.1 - - [06/Jul/2023 14:28:15] "GET / HTTP/1.1" 200 -
+2023-07-06 14:28:16,090 [INFO] 127.0.0.1 - - [06/Jul/2023 14:28:16] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2023-07-06 14:28:16,437 [INFO] 127.0.0.1 - - [06/Jul/2023 14:28:16] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2023-07-06 14:28:16,708 [INFO] 127.0.0.1 - - [06/Jul/2023 14:28:16] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2023-07-06 14:28:17,200 [INFO] 127.0.0.1 - - [06/Jul/2023 14:28:17] "[36mGET /assets/lib/js/jquery-3.7.0.min.js HTTP/1.1[0m" 304 -
+2023-07-06 14:28:17,241 [INFO] 127.0.0.1 - - [06/Jul/2023 14:28:17] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2023-07-06 14:28:17,307 [INFO] 127.0.0.1 - - [06/Jul/2023 14:28:17] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2023-07-06 14:28:17,371 [INFO] 127.0.0.1 - - [06/Jul/2023 14:28:17] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2023-07-06 14:29:44,474 [INFO]  * Detected change in '/opt/Project1/mainWeb.py', reloading

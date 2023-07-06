@@ -112,7 +112,7 @@
                                 <tbody>
                                   {% for item in contents %}
                                     <tr>
-                                      <td><a class="folderOutput" id={{ item }} href="#">{{ item }}</a></td>
+                                      <td><a onclick="folderOutput(event)" id={{ item }} href="#">{{ item }}</a></td>
                                       <td>{{ 'Folder' if item else 'File' }}</td>
                                     </tr>
                                   {% endfor %}

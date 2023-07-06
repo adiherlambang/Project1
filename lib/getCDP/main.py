@@ -16,7 +16,7 @@ devices = []
 success_counter = []
 fail_counter = []
 
-def main(testbed):
+def getCDPmain():
     read_testbed()
     export_headers()
     i = 1
@@ -38,7 +38,7 @@ def process_device(device, i):
     parsed_platform = ""
     num_try = 0
     num_try_p = 0
-    device.command_template = COMMAND1
+    device.command_template = 'CDP'
     device.out_path = f"out/{TITLE}/"
     device.log_path = f"log/{TITLE}.log"
     device.errorlog = f"log/error/{TITLE}-error.log"
@@ -93,7 +93,7 @@ def export_headers():
     if not os.path.exists(outpath):
         os.makedirs(outpath)
 
-    with open(f"{outpath}{COMMAND1}_{TIMESTAMP}.csv", 'w', newline='') as file:
+    with open(f"{outpath}CDP_{TIMESTAMP}.csv", 'w', newline='') as file:
         writer = csv.writer(file)
         writer.writerow(HEADERS)
 

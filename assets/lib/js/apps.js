@@ -1,5 +1,8 @@
 var progressBar = document.getElementById("progress-bar");
 var loading = document.getElementById("loading");
+const modalTitle = document.getElementById("appsModalTitle");
+modalTitle.innerHTML='';
+var id;
 
 function showLoading() {
     $('#flashContainer').html('');
@@ -20,7 +23,6 @@ $('#modalButton').on("click", function(e) {
 $('#getConfig').on('click', function(event) {
     event.preventDefault();
     $('#appsModal').modal('show'); 
-    const modalTitle = document.getElementById("appsModalTitle");
     var alert = '<div class="alert alert-info floating-alert fade show">'+
                 'Getting Configuration Device Success'+
                 '</div>'
@@ -61,7 +63,6 @@ $('#getConfig').on('click', function(event) {
 $('#getInvent').on("click", function(event) {
     event.preventDefault();
     $('#appsModal').modal('show'); 
-    const modalTitle = document.getElementById("appsModalTitle");
     var alert = '<div class="alert alert-info floating-alert fade show">'+
                 'Getting Inventory Device Success'+
                 '</div>'
@@ -99,14 +100,38 @@ $('#getInvent').on("click", function(event) {
 });
 
 
-$('#getMemUtils').on("click", function() {
+$('#getMemUtils').on("click", function(event) {
+    event.preventDefault();
+    $('#appsModal').modal('show'); 
+    var alert = '<div class="alert alert-info floating-alert fade show">'+
+                'Getting Memmory Utilization Success'+
+                '</div>'
+    modalTitle.innerHTML="Get Memmory Utilization Devices"
+    showLoading()
     $.ajax({
         url: '/getMemUtils',
         type: 'post',
         contentType: 'application/json',
         // data: JSON.stringify(chat),
         success: function (resData) {
-            alert(JSON.stringify(resData))
+            hideLoading()
+            // alert(JSON.stringify(resData))
+            var messages = resData.data;
+            var flashContainer = $('#flashContainer');
+            if (messages.length > 0) {
+                var flashList = $('<ul>').addClass('flash-messages');
+                messages.forEach(function(message) {
+                    flashList.append($('<li>').text(message));
+                });
+            flashContainer.append(flashList);
+            }
+        },
+        complete: function(){
+            $('#layoutSidenav_content').append(alert)
+            setTimeout(function() {
+                $('.alert').alert('close')
+            }, 2000); 
+
         },
         error: function (error) {
             console.log("Error getting Memmory Utilization")
@@ -115,14 +140,38 @@ $('#getMemUtils').on("click", function() {
 });
 
 
-$('#getCPUUtils').on("click", function() {
+$('#getCPUUtils').on("click", function(event) {
+    event.preventDefault();
+    $('#appsModal').modal('show'); 
+    var alert = '<div class="alert alert-info floating-alert fade show">'+
+                'Getting CPU Utilization Success'+
+                '</div>'
+    modalTitle.innerHTML="Get CPU Utilization Devices"
+    showLoading()
     $.ajax({
         url: '/getCPUUtils',
         type: 'post',
         contentType: 'application/json',
         // data: JSON.stringify(chat),
         success: function (resData) {
-            alert(JSON.stringify(resData))
+            hideLoading()
+            // alert(JSON.stringify(resData))
+            var messages = resData.data;
+            var flashContainer = $('#flashContainer');
+            if (messages.length > 0) {
+                var flashList = $('<ul>').addClass('flash-messages');
+                messages.forEach(function(message) {
+                    flashList.append($('<li>').text(message));
+                });
+            flashContainer.append(flashList);
+            }
+        },
+        complete: function(){
+            $('#layoutSidenav_content').append(alert)
+            setTimeout(function() {
+                $('.alert').alert('close')
+            }, 2000); 
+
         },
         error: function (error) {
             console.log("Error getting Memmory Utilization")
@@ -130,13 +179,83 @@ $('#getCPUUtils').on("click", function() {
     });
 });
 
-$('#getCDP').on("click", function() {
-    alert("working get CDP Neighbours");
+$('#getCDPDevice').on("click", function(event) {
+    event.preventDefault();
+    $('#appsModal').modal('show'); 
+    var alert = '<div class="alert alert-info floating-alert fade show">'+
+                'Getting CDP Neighbours Success'+
+                '</div>'
+    modalTitle.innerHTML="Get CDP Neighbours Devices"
+    showLoading()
+    $.ajax({
+        url: '/getCDP',
+        type: 'post',
+        contentType: 'application/json',
+        // data: JSON.stringify(chat),
+        success: function (resData) {
+            hideLoading()
+            // alert(JSON.stringify(resData))
+            var messages = resData.data;
+            var flashContainer = $('#flashContainer');
+            if (messages.length > 0) {
+                var flashList = $('<ul>').addClass('flash-messages');
+                messages.forEach(function(message) {
+                    flashList.append($('<li>').text(message));
+                });
+            flashContainer.append(flashList);
+            }
+        },
+        complete: function(){
+            $('#layoutSidenav_content').append(alert)
+            setTimeout(function() {
+                $('.alert').alert('close')
+            }, 2000); 
+
+        },
+        error: function (error) {
+            console.log("Error getting CDP Neighbours Devices")
+        }
+    });
 });
 
 
 $('#getCRCinterface').on("click", function() {
-    alert("working get CRC Interface");
+    event.preventDefault();
+    $('#appsModal').modal('show'); 
+    var alert = '<div class="alert alert-info floating-alert fade show">'+
+                'Getting CRC Interface Success'+
+                '</div>'
+    modalTitle.innerHTML="Get CRC Interface Devices"
+    showLoading()
+    $.ajax({
+        url: '/getCRC',
+        type: 'post',
+        contentType: 'application/json',
+        // data: JSON.stringify(chat),
+        success: function (resData) {
+            hideLoading()
+            // alert(JSON.stringify(resData))
+            var messages = resData.data;
+            var flashContainer = $('#flashContainer');
+            if (messages.length > 0) {
+                var flashList = $('<ul>').addClass('flash-messages');
+                messages.forEach(function(message) {
+                    flashList.append($('<li>').text(message));
+                });
+            flashContainer.append(flashList);
+            }
+        },
+        complete: function(){
+            $('#layoutSidenav_content').append(alert)
+            setTimeout(function() {
+                $('.alert').alert('close')
+            }, 2000); 
+
+        },
+        error: function (error) {
+            console.log("Error getting CRC Interface Devices")
+        }
+    });
 });
 
 
@@ -144,8 +263,43 @@ $('#getEnvi').on("click", function() {
     alert("working get Environment");
 });
 
-$('#getCustom').on("click", function() {
-    alert("working get Custom Command");
+$('#getCustomCmd').on("click", function(event) {
+    event.preventDefault();
+    $('#appsModal').modal('show'); 
+    var alert = '<div class="alert alert-info floating-alert fade show">'+
+                'Getting Custom Command Success'+
+                '</div>'
+    modalTitle.innerHTML="Get Custom Command"
+    showLoading()
+    $.ajax({
+        url: '/customPage',
+        type: 'post',
+        contentType: 'application/json',
+        // data: JSON.stringify(chat),
+        success: function (resData) {
+            hideLoading()
+            // alert(JSON.stringify(resData))
+            var messages = resData.data;
+            var flashContainer = $('#flashContainer');
+            if (messages.length > 0) {
+                var flashList = $('<ul>').addClass('flash-messages');
+                messages.forEach(function(message) {
+                    flashList.append($('<li>').text(message));
+                });
+            flashContainer.append(flashList);
+            }
+        },
+        complete: function(){
+            $('#layoutSidenav_content').append(alert)
+            setTimeout(function() {
+                $('.alert').alert('close')
+            }, 2000); 
+
+        },
+        error: function (error) {
+            console.log("Error getting Custom Command")
+        }
+    });
 });
 
 function clearFileInput(id) 
@@ -224,15 +378,11 @@ $('#uploadButton').on("click", function() {
     }
 });
 
-$('.folderOutput').on("click", function(event) {
-    event.preventDefault();
-    let id;
-    
-    $('.folderOutput').each(function() {
-        id = $(this).attr('id'); // Get the ID of the current element
-        const modalTitle = document.getElementById("appsModalTitle");
-        modalTitle.innerHTML=id
-    });
+function folderOutput(event) {
+    id = event.target.id;; // Get the ID of the current element
+    modalTitle.innerHTML=id;
+
+    console.log(modalTitle.innerHTML)
 
     $('#appsModal').modal('show'); 
     const folder={
@@ -260,7 +410,7 @@ $('.folderOutput').on("click", function(event) {
             console.log("Error"+error)
         }
     });
-});
+};
 
 function downloadFile() {
     const id = document.querySelector(".downloadFile");

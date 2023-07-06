@@ -42,13 +42,13 @@ def captureConfigX(device):
       device.connect(log_stdout=False)
       #Print the output
       hostname = device.name
-    #   logger.info('---getting capture config from device '+hostname+'---')
+      logger.info('---getting capture config from device '+hostname+'---')
       waktu = datetime.now().strftime("%d-%m-%y_%H_%M_%S")
       NameFile = hostname + "_" + waktu +".txt"
       file_path = "out/CaptureConfig/"
       output = device.execute('show running-config')
       file_name = os.path.join(file_path,NameFile)
-    #   logger.info(NameFile)
+      logger.info(NameFile)
       try:
         with open(file_name, 'a') as file:
           file.write(f'''{output}''')

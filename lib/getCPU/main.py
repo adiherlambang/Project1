@@ -14,7 +14,7 @@ devices = []
 success_counter = []
 fail_counter = []
 
-def main(testbed):
+def getCPUmain():
     read_testbed()
     export_headers()
     i = 1
@@ -33,7 +33,7 @@ def main(testbed):
 def process_device(device, i):
     parsed = ""
     num_try = 0
-    device.command_template = COMMAND1
+    device.command_template = 'CPU_Utils'
     device.out_path = f"out/{TITLE}/"
     device.log_path = f"log/{TITLE}.log"
     device.errorlog = f"log/error/{TITLE}-error.log"
@@ -81,7 +81,7 @@ def export_headers():
     if not os.path.exists(outpath):
         os.makedirs(outpath)
 
-    with open(f"{outpath}{COMMAND1}_{TIMESTAMP}.csv", 'w', newline='') as file:
+    with open(f"{outpath}CPU_Utils_{TIMESTAMP}.csv", 'w', newline='') as file:
         writer = csv.writer(file)
         writer.writerow(HEADERS)
 

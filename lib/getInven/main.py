@@ -14,7 +14,7 @@ devices = []
 success_counter = []
 fail_counter = []
 
-def main():
+def getInventMain():
     read_testbed()
     export_headers()
     i = 1
@@ -33,7 +33,7 @@ def main():
 def process_device(device, i):
     parsed = ""
     num_try = 0
-    device.command_template = COMMAND1
+    device.command_template = 'Inventory'
     device.out_path = f"out/{TITLE}/"
     device.log_path = f"log/{TITLE}.log"
     device.errorlog = f"log/error/{TITLE}-error.log"
@@ -76,7 +76,7 @@ def export_headers():
     if not os.path.exists(outpath):
         os.makedirs(outpath)
 
-    with open(f"{outpath}{COMMAND2}_{TIMESTAMP}.csv", 'w', newline='') as file:
+    with open(f"{outpath}Inventory_{TIMESTAMP}.csv", 'w', newline='') as file:
         writer = csv.writer(file)
         writer.writerow(HEADERS)
 

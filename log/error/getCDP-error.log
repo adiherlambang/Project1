@@ -1,0 +1,21 @@
+2023-07-06 14:26:31 [ERROR] xe2 : Failed to enter enable mode (1)
+2023-07-06 14:26:31 Pattern not detected: 'enable' in output. 
+2023-07-06 14:26:31 Things you might try to fix this: 
+2023-07-06 14:26:31 1. Adjust the regex pattern to better identify the terminating string. Note, in 
+2023-07-06 14:26:31 many situations the pattern is automatically based on the network device's prompt. 
+2023-07-06 14:26:31 2. Increase the read_timeout to a larger value. 
+2023-07-06 14:26:31 You can also look at the Netmiko session_log or debug log for more information. 
+2023-07-06 14:26:41 [ERROR] xe2 : Failed to enter enable mode (2)
+2023-07-06 14:26:41 Pattern not detected: 'xe2.*' in output. 
+2023-07-06 14:26:41 Things you might try to fix this: 
+2023-07-06 14:26:41 1. Adjust the regex pattern to better identify the terminating string. Note, in 
+2023-07-06 14:26:41 many situations the pattern is automatically based on the network device's prompt. 
+2023-07-06 14:26:41 2. Increase the read_timeout to a larger value. 
+2023-07-06 14:26:41 You can also look at the Netmiko session_log or debug log for more information. 
+2023-07-06 14:26:56 [ERROR] xe2 : [1] Exception sending command 'show cdp neighbors'
+2023-07-06 14:26:56 Pattern not detected: 'Password:' in output. 
+2023-07-06 14:26:56 Things you might try to fix this: 
+2023-07-06 14:26:56 1. Explicitly set your pattern using the expect_string argument. 
+2023-07-06 14:26:56 2. Increase the read_timeout to a larger value. 
+2023-07-06 14:26:56 You can also look at the Netmiko session_log or debug log for more information. 
+2023-07-06 14:26:58 [ERROR] xe2 : Output return empty for command [show platform]
