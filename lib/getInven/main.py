@@ -14,7 +14,7 @@ devices = []
 success_counter = []
 fail_counter = []
 
-def main(testbed):
+def main():
     read_testbed()
     export_headers()
     i = 1
@@ -76,7 +76,7 @@ def export_headers():
     if not os.path.exists(outpath):
         os.makedirs(outpath)
 
-    with open(f"{outpath}{COMMAND1}_{TIMESTAMP}.csv", 'w', newline='') as file:
+    with open(f"{outpath}{COMMAND2}_{TIMESTAMP}.csv", 'w', newline='') as file:
         writer = csv.writer(file)
         writer.writerow(HEADERS)
 

@@ -58,14 +58,39 @@ $('#getConfig').on('click', function(event) {
 });
 
 
-$('#getInvent').on("click", function() {
+$('#getInvent').on("click", function(event) {
+    event.preventDefault();
+    $('#appsModal').modal('show'); 
+    const modalTitle = document.getElementById("appsModalTitle");
+    var alert = '<div class="alert alert-info floating-alert fade show">'+
+                'Getting Inventory Device Success'+
+                '</div>'
+    modalTitle.innerHTML="Get Inventory Devices"
+    showLoading()
     $.ajax({
         url: '/getInvent',
         type: 'post',
         contentType: 'application/json',
         // data: JSON.stringify(chat),
         success: function (resData) {
-            alert(JSON.stringify(resData))
+            hideLoading()
+            // alert(JSON.stringify(resData))
+            var messages = resData.data;
+            var flashContainer = $('#flashContainer');
+            if (messages.length > 0) {
+                var flashList = $('<ul>').addClass('flash-messages');
+                messages.forEach(function(message) {
+                    flashList.append($('<li>').text(message));
+                });
+            flashContainer.append(flashList);
+            }
+        },
+        complete: function(){
+            $('#layoutSidenav_content').append(alert)
+            setTimeout(function() {
+                $('.alert').alert('close')
+            }, 2000); 
+
         },
         error: function (error) {
             console.log("Error getting Inventory")

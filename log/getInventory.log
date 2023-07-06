@@ -1,0 +1,475 @@
+2023-07-06 08:05:49,286 [INFO] xe1 : Connecting 
+2023-07-06 08:05:49,286 [INFO] xe2 : Connecting 
+2023-07-06 08:05:49,287 [INFO] xe3 : Connecting 
+2023-07-06 08:05:49,338 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:05:49,340 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:05:49,340 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:05:50,042 [INFO] Authentication (password) successful!
+2023-07-06 08:05:50,068 [INFO] Authentication (password) successful!
+2023-07-06 08:05:50,139 [INFO] Authentication (password) successful!
+2023-07-06 08:05:50,401 [WARNING] xe3 : Connect success
+2023-07-06 08:05:50,415 [WARNING] xe2 : Connect success
+2023-07-06 08:05:50,516 [WARNING] xe1 : Connect success
+2023-07-06 08:05:50,616 [INFO] xe3 : Entered enable mode
+2023-07-06 08:05:50,670 [INFO] xe2 : Entered enable mode
+2023-07-06 08:05:50,737 [INFO] xe1 : Entered enable mode
+2023-07-06 08:05:50,751 [INFO] xe3 : Command 'show inventory' sent
+2023-07-06 08:05:50,760 [INFO] xe3 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:05:50,760 [INFO] xe3 : Export success to out/getInventory/show inventory_2023-07-06_08-05.csv
+2023-07-06 08:05:50,793 [INFO] xe3 : Disconnected succcessfully
+2023-07-06 08:05:50,840 [INFO] xe2 : Command 'show inventory' sent
+2023-07-06 08:05:50,841 [INFO] xe2 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:05:50,841 [INFO] xe2 : Export success to out/getInventory/show inventory_2023-07-06_08-05.csv
+2023-07-06 08:05:50,872 [INFO] xe2 : Disconnected succcessfully
+2023-07-06 08:05:50,951 [INFO] xe1 : Command 'show inventory' sent
+2023-07-06 08:05:50,952 [INFO] xe1 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:05:50,952 [INFO] xe1 : Export success to out/getInventory/show inventory_2023-07-06_08-05.csv
+2023-07-06 08:05:51,004 [INFO] xe1 : Disconnected succcessfully
+2023-07-06 08:05:51,005 [INFO] 127.0.0.1 - - [06/Jul/2023 08:05:51] "POST /getInvent HTTP/1.1" 200 -
+2023-07-06 08:05:56,902 [INFO] 127.0.0.1 - - [06/Jul/2023 08:05:56] "GET /getOutput HTTP/1.1" 200 -
+2023-07-06 08:05:57,631 [INFO] 127.0.0.1 - - [06/Jul/2023 08:05:57] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2023-07-06 08:05:57,703 [INFO] 127.0.0.1 - - [06/Jul/2023 08:05:57] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2023-07-06 08:05:57,857 [INFO] 127.0.0.1 - - [06/Jul/2023 08:05:57] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2023-07-06 08:05:58,411 [INFO] 127.0.0.1 - - [06/Jul/2023 08:05:58] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2023-07-06 08:05:58,473 [INFO] 127.0.0.1 - - [06/Jul/2023 08:05:58] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2023-07-06 08:05:58,528 [INFO] 127.0.0.1 - - [06/Jul/2023 08:05:58] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2023-07-06 08:05:59,257 [INFO] 127.0.0.1 - - [06/Jul/2023 08:05:59] "POST /getOutput HTTP/1.1" 200 -
+2023-07-06 08:06:15,522 [INFO] 127.0.0.1 - - [06/Jul/2023 08:06:15] "[35m[1mPOST /downloadFile HTTP/1.1[0m" 500 -
+2023-07-06 08:06:20,351 [INFO] 127.0.0.1 - - [06/Jul/2023 08:06:20] "[35m[1mPOST /downloadFile HTTP/1.1[0m" 500 -
+2023-07-06 08:10:55,722 [INFO] 127.0.0.1 - - [06/Jul/2023 08:10:55] "GET /getOutput HTTP/1.1" 200 -
+2023-07-06 08:10:56,076 [INFO] 127.0.0.1 - - [06/Jul/2023 08:10:56] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2023-07-06 08:10:56,388 [INFO] 127.0.0.1 - - [06/Jul/2023 08:10:56] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2023-07-06 08:10:56,699 [INFO] 127.0.0.1 - - [06/Jul/2023 08:10:56] "GET /assets/lib/js/apps.js HTTP/1.1" 200 -
+2023-07-06 08:10:57,057 [INFO] 127.0.0.1 - - [06/Jul/2023 08:10:57] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2023-07-06 08:10:57,123 [INFO] 127.0.0.1 - - [06/Jul/2023 08:10:57] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2023-07-06 08:10:57,171 [INFO] 127.0.0.1 - - [06/Jul/2023 08:10:57] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2023-07-06 08:10:58,976 [INFO] 127.0.0.1 - - [06/Jul/2023 08:10:58] "POST /getOutput HTTP/1.1" 200 -
+2023-07-06 08:11:16,286 [INFO] 127.0.0.1 - - [06/Jul/2023 08:11:16] "[35m[1mPOST /downloadFile HTTP/1.1[0m" 500 -
+2023-07-06 08:12:24,621 [INFO] 127.0.0.1 - - [06/Jul/2023 08:12:24] "GET /getOutput HTTP/1.1" 200 -
+2023-07-06 08:12:24,963 [INFO] 127.0.0.1 - - [06/Jul/2023 08:12:24] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2023-07-06 08:12:25,259 [INFO] 127.0.0.1 - - [06/Jul/2023 08:12:25] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2023-07-06 08:12:25,609 [INFO] 127.0.0.1 - - [06/Jul/2023 08:12:25] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2023-07-06 08:12:25,950 [INFO] 127.0.0.1 - - [06/Jul/2023 08:12:25] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2023-07-06 08:12:26,007 [INFO] 127.0.0.1 - - [06/Jul/2023 08:12:26] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2023-07-06 08:12:26,061 [INFO] 127.0.0.1 - - [06/Jul/2023 08:12:26] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2023-07-06 08:15:45,098 [INFO] 127.0.0.1 - - [06/Jul/2023 08:15:45] "POST /getOutput HTTP/1.1" 200 -
+2023-07-06 08:16:27,625 [INFO]  * Detected change in '/opt/Project1/lib/getInven/main.py', reloading
+2023-07-06 08:16:40,568 [INFO] xe1 : Connecting 
+2023-07-06 08:16:40,572 [INFO] xe2 : Connecting 
+2023-07-06 08:16:40,573 [INFO] xe3 : Connecting 
+2023-07-06 08:16:40,681 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:16:40,683 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:16:40,685 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:16:41,124 [INFO] Authentication (password) successful!
+2023-07-06 08:16:41,185 [INFO] Authentication (password) successful!
+2023-07-06 08:16:41,276 [INFO] Authentication (password) successful!
+2023-07-06 08:16:41,517 [WARNING] xe3 : Connect success
+2023-07-06 08:16:41,549 [WARNING] xe1 : Connect success
+2023-07-06 08:16:41,671 [WARNING] xe2 : Connect success
+2023-07-06 08:16:41,749 [INFO] xe3 : Entered enable mode
+2023-07-06 08:16:41,783 [INFO] xe1 : Entered enable mode
+2023-07-06 08:16:41,908 [INFO] xe1 : Command 'show inventory' sent
+2023-07-06 08:16:41,911 [INFO] xe3 : Command 'show inventory' sent
+2023-07-06 08:16:41,915 [INFO] xe3 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:16:41,917 [INFO] xe1 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:16:41,920 [INFO] xe1 : Export success to out/getInventory/show inventory_2023-07-06_08-16.csv
+2023-07-06 08:16:41,920 [INFO] xe3 : Export success to out/getInventory/show inventory_2023-07-06_08-16.csv
+2023-07-06 08:16:41,938 [INFO] xe2 : Entered enable mode
+2023-07-06 08:16:41,962 [INFO] xe3 : Disconnected succcessfully
+2023-07-06 08:16:41,963 [INFO] xe1 : Disconnected succcessfully
+2023-07-06 08:16:42,108 [INFO] xe2 : Command 'show inventory' sent
+2023-07-06 08:16:42,109 [INFO] xe2 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:16:42,109 [INFO] xe2 : Export success to out/getInventory/show inventory_2023-07-06_08-16.csv
+2023-07-06 08:16:42,141 [INFO] xe2 : Disconnected succcessfully
+2023-07-06 08:16:42,142 [INFO] 127.0.0.1 - - [06/Jul/2023 08:16:42] "POST /getInvent HTTP/1.1" 200 -
+2023-07-06 08:16:46,917 [INFO] 127.0.0.1 - - [06/Jul/2023 08:16:46] "GET /getOutput HTTP/1.1" 200 -
+2023-07-06 08:16:47,603 [INFO] 127.0.0.1 - - [06/Jul/2023 08:16:47] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2023-07-06 08:16:47,656 [INFO] 127.0.0.1 - - [06/Jul/2023 08:16:47] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2023-07-06 08:16:47,909 [INFO] 127.0.0.1 - - [06/Jul/2023 08:16:47] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2023-07-06 08:16:48,361 [INFO] 127.0.0.1 - - [06/Jul/2023 08:16:48] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2023-07-06 08:16:48,524 [INFO] 127.0.0.1 - - [06/Jul/2023 08:16:48] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2023-07-06 08:16:48,600 [INFO] 127.0.0.1 - - [06/Jul/2023 08:16:48] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2023-07-06 08:16:49,551 [INFO] 127.0.0.1 - - [06/Jul/2023 08:16:49] "POST /getOutput HTTP/1.1" 200 -
+2023-07-06 08:16:57,662 [INFO] 127.0.0.1 - - [06/Jul/2023 08:16:57] "[35m[1mPOST /downloadFile HTTP/1.1[0m" 500 -
+2023-07-06 08:18:07,150 [INFO]  * Detected change in '/opt/Project1/lib/getInven/main.py', reloading
+2023-07-06 08:27:54,340 [INFO] xe3 : Connecting 
+2023-07-06 08:27:54,341 [INFO] xe2 : Connecting 
+2023-07-06 08:27:54,342 [INFO] xe1 : Connecting 
+2023-07-06 08:27:54,451 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:27:54,451 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:27:54,452 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:27:54,928 [INFO] Authentication (password) successful!
+2023-07-06 08:27:54,929 [INFO] Authentication (password) successful!
+2023-07-06 08:27:54,954 [INFO] Authentication (password) successful!
+2023-07-06 08:27:55,293 [WARNING] xe3 : Connect success
+2023-07-06 08:27:55,293 [WARNING] xe2 : Connect success
+2023-07-06 08:27:55,365 [WARNING] xe1 : Connect success
+2023-07-06 08:27:55,516 [INFO] xe2 : Entered enable mode
+2023-07-06 08:27:55,571 [INFO] xe3 : Entered enable mode
+2023-07-06 08:27:55,604 [INFO] xe1 : Entered enable mode
+2023-07-06 08:27:55,665 [INFO] xe2 : Command 'show inventory' sent
+2023-07-06 08:27:55,674 [INFO] xe2 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:27:55,675 [INFO] xe2 : Export success to out/getInventory/show inventory_2023-07-06_08-18.csv
+2023-07-06 08:27:55,707 [INFO] xe2 : Disconnected succcessfully
+2023-07-06 08:27:55,721 [INFO] xe3 : Command 'show inventory' sent
+2023-07-06 08:27:55,722 [INFO] xe3 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:27:55,723 [INFO] xe3 : Export success to out/getInventory/show inventory_2023-07-06_08-18.csv
+2023-07-06 08:27:55,763 [INFO] xe1 : Command 'show inventory' sent
+2023-07-06 08:27:55,764 [INFO] xe1 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:27:55,764 [INFO] xe1 : Export success to out/getInventory/show inventory_2023-07-06_08-18.csv
+2023-07-06 08:27:55,775 [INFO] xe3 : Disconnected succcessfully
+2023-07-06 08:27:55,806 [INFO] xe1 : Disconnected succcessfully
+2023-07-06 08:27:55,807 [INFO] 127.0.0.1 - - [06/Jul/2023 08:27:55] "POST /getInvent HTTP/1.1" 200 -
+2023-07-06 08:28:08,188 [INFO] 127.0.0.1 - - [06/Jul/2023 08:28:08] "GET /getOutput HTTP/1.1" 200 -
+2023-07-06 08:28:08,912 [INFO] 127.0.0.1 - - [06/Jul/2023 08:28:08] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2023-07-06 08:28:08,959 [INFO] 127.0.0.1 - - [06/Jul/2023 08:28:08] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2023-07-06 08:28:09,179 [INFO] 127.0.0.1 - - [06/Jul/2023 08:28:09] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2023-07-06 08:28:09,642 [INFO] 127.0.0.1 - - [06/Jul/2023 08:28:09] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2023-07-06 08:28:09,715 [INFO] 127.0.0.1 - - [06/Jul/2023 08:28:09] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2023-07-06 08:28:09,771 [INFO] 127.0.0.1 - - [06/Jul/2023 08:28:09] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2023-07-06 08:28:10,513 [INFO] 127.0.0.1 - - [06/Jul/2023 08:28:10] "POST /getOutput HTTP/1.1" 200 -
+2023-07-06 08:28:39,281 [INFO]  * Detected change in '/opt/Project1/lib/getInven/main.py', reloading
+2023-07-06 08:28:58,052 [INFO] xe1 : Connecting 
+2023-07-06 08:28:58,054 [INFO] xe3 : Connecting 
+2023-07-06 08:28:58,055 [INFO] xe2 : Connecting 
+2023-07-06 08:28:58,097 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:28:58,111 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:28:58,113 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:28:58,562 [INFO] Authentication (password) successful!
+2023-07-06 08:28:58,593 [INFO] Authentication (password) successful!
+2023-07-06 08:28:58,623 [INFO] Authentication (password) successful!
+2023-07-06 08:28:58,939 [WARNING] xe3 : Connect success
+2023-07-06 08:28:58,950 [WARNING] xe2 : Connect success
+2023-07-06 08:28:59,016 [WARNING] xe1 : Connect success
+2023-07-06 08:28:59,183 [INFO] xe3 : Entered enable mode
+2023-07-06 08:28:59,184 [INFO] xe2 : Entered enable mode
+2023-07-06 08:28:59,272 [INFO] xe1 : Entered enable mode
+2023-07-06 08:28:59,341 [INFO] xe2 : Command 'show inventory' sent
+2023-07-06 08:28:59,341 [INFO] xe3 : Command 'show inventory' sent
+2023-07-06 08:28:59,346 [INFO] xe3 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:28:59,348 [INFO] xe2 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:28:59,349 [INFO] xe3 : Export success to out/getInventory/show inventory_2023-07-06_08-28.csv
+2023-07-06 08:28:59,350 [INFO] xe2 : Export success to out/getInventory/show inventory_2023-07-06_08-28.csv
+2023-07-06 08:28:59,383 [INFO] xe2 : Disconnected succcessfully
+2023-07-06 08:28:59,384 [INFO] xe3 : Disconnected succcessfully
+2023-07-06 08:28:59,465 [INFO] xe1 : Command 'show inventory' sent
+2023-07-06 08:28:59,466 [INFO] xe1 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:28:59,466 [INFO] xe1 : Export success to out/getInventory/show inventory_2023-07-06_08-28.csv
+2023-07-06 08:28:59,497 [INFO] xe1 : Disconnected succcessfully
+2023-07-06 08:28:59,498 [INFO] 127.0.0.1 - - [06/Jul/2023 08:28:59] "POST /getInvent HTTP/1.1" 200 -
+2023-07-06 08:29:01,007 [INFO] 127.0.0.1 - - [06/Jul/2023 08:29:01] "GET /getOutput HTTP/1.1" 200 -
+2023-07-06 08:29:01,674 [INFO] 127.0.0.1 - - [06/Jul/2023 08:29:01] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2023-07-06 08:29:01,739 [INFO] 127.0.0.1 - - [06/Jul/2023 08:29:01] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2023-07-06 08:29:02,009 [INFO] 127.0.0.1 - - [06/Jul/2023 08:29:02] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2023-07-06 08:29:02,392 [INFO] 127.0.0.1 - - [06/Jul/2023 08:29:02] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2023-07-06 08:29:02,463 [INFO] 127.0.0.1 - - [06/Jul/2023 08:29:02] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2023-07-06 08:29:02,519 [INFO] 127.0.0.1 - - [06/Jul/2023 08:29:02] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2023-07-06 08:29:04,018 [INFO] 127.0.0.1 - - [06/Jul/2023 08:29:04] "POST /getOutput HTTP/1.1" 200 -
+2023-07-06 08:35:48,305 [INFO]  * Detected change in '/opt/Project1/lib/getCustom/device.py', reloading
+2023-07-06 08:36:19,338 [INFO] xe2 : Connecting 
+2023-07-06 08:36:19,339 [INFO] xe1 : Connecting 
+2023-07-06 08:36:19,340 [INFO] xe3 : Connecting 
+2023-07-06 08:36:19,394 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:36:19,394 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:36:19,402 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:36:19,837 [INFO] Authentication (password) successful!
+2023-07-06 08:36:19,837 [INFO] Authentication (password) successful!
+2023-07-06 08:36:19,979 [INFO] Authentication (password) successful!
+2023-07-06 08:36:20,199 [WARNING] xe3 : Connect success
+2023-07-06 08:36:20,211 [WARNING] xe1 : Connect success
+2023-07-06 08:36:20,376 [WARNING] xe2 : Connect success
+2023-07-06 08:36:20,420 [INFO] xe3 : Entered enable mode
+2023-07-06 08:36:20,432 [INFO] xe1 : Entered enable mode
+2023-07-06 08:36:20,571 [INFO] xe3 : Command 'show inventory' sent
+2023-07-06 08:36:20,580 [INFO] xe1 : Command 'show inventory' sent
+2023-07-06 08:36:20,585 [INFO] xe3 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:36:20,589 [INFO] xe1 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:36:20,590 [ERROR] xe3 : Export failed to out/getInventory/show inventory_2023-07-06_08-36.csv
+2023-07-06 08:36:20,591 [ERROR] xe1 : Export failed to out/getInventory/show inventory_2023-07-06_08-36.csv
+2023-07-06 08:36:20,621 [INFO] xe2 : Entered enable mode
+2023-07-06 08:36:20,623 [INFO] xe3 : Disconnected succcessfully
+2023-07-06 08:36:20,634 [INFO] xe1 : Disconnected succcessfully
+2023-07-06 08:36:20,772 [INFO] xe2 : Command 'show inventory' sent
+2023-07-06 08:36:20,774 [INFO] xe2 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:36:20,776 [ERROR] xe2 : Export failed to out/getInventory/show inventory_2023-07-06_08-36.csv
+2023-07-06 08:36:20,810 [INFO] xe2 : Disconnected succcessfully
+2023-07-06 08:36:20,812 [INFO] 127.0.0.1 - - [06/Jul/2023 08:36:20] "POST /getInvent HTTP/1.1" 200 -
+2023-07-06 08:36:44,262 [INFO]  * Detected change in '/opt/Project1/lib/getInven/main.py', reloading
+2023-07-06 08:37:02,750 [INFO] xe1 : Connecting 
+2023-07-06 08:37:02,752 [INFO] xe2 : Connecting 
+2023-07-06 08:37:02,754 [INFO] xe3 : Connecting 
+2023-07-06 08:37:02,801 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:37:02,801 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:37:02,804 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:37:03,236 [INFO] Authentication (password) successful!
+2023-07-06 08:37:03,243 [INFO] Authentication (password) successful!
+2023-07-06 08:37:03,314 [INFO] Authentication (password) successful!
+2023-07-06 08:37:03,609 [WARNING] xe3 : Connect success
+2023-07-06 08:37:03,610 [WARNING] xe1 : Connect success
+2023-07-06 08:37:03,710 [WARNING] xe2 : Connect success
+2023-07-06 08:37:03,853 [INFO] xe3 : Entered enable mode
+2023-07-06 08:37:03,931 [INFO] xe2 : Entered enable mode
+2023-07-06 08:37:03,953 [INFO] xe1 : Entered enable mode
+2023-07-06 08:37:03,980 [INFO] xe3 : Command 'show inventory' sent
+2023-07-06 08:37:03,984 [INFO] xe3 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:37:03,984 [ERROR] xe3 : Export failed to out/getInventory/show inventory_2023-07-06_08-36.csv
+2023-07-06 08:37:04,020 [INFO] xe3 : Disconnected succcessfully
+2023-07-06 08:37:04,057 [INFO] xe2 : Command 'show inventory' sent
+2023-07-06 08:37:04,058 [INFO] xe2 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:37:04,059 [ERROR] xe2 : Export failed to out/getInventory/show inventory_2023-07-06_08-36.csv
+2023-07-06 08:37:04,090 [INFO] xe2 : Disconnected succcessfully
+2023-07-06 08:37:04,105 [INFO] xe1 : Command 'show inventory' sent
+2023-07-06 08:37:04,106 [INFO] xe1 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:37:04,106 [ERROR] xe1 : Export failed to out/getInventory/show inventory_2023-07-06_08-36.csv
+2023-07-06 08:37:04,138 [INFO] xe1 : Disconnected succcessfully
+2023-07-06 08:37:04,139 [INFO] 127.0.0.1 - - [06/Jul/2023 08:37:04] "POST /getInvent HTTP/1.1" 200 -
+2023-07-06 08:38:03,664 [INFO]  * Detected change in '/opt/Project1/lib/getCustom/device.py', reloading
+2023-07-06 08:39:33,167 [INFO] xe2 : Connecting 
+2023-07-06 08:39:33,169 [INFO] xe1 : Connecting 
+2023-07-06 08:39:33,169 [INFO] xe3 : Connecting 
+2023-07-06 08:39:33,221 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:39:33,222 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:39:33,223 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:39:33,712 [INFO] Authentication (password) successful!
+2023-07-06 08:39:33,734 [INFO] Authentication (password) successful!
+2023-07-06 08:39:33,772 [INFO] Authentication (password) successful!
+2023-07-06 08:39:34,095 [WARNING] xe1 : Connect success
+2023-07-06 08:39:34,106 [WARNING] xe3 : Connect success
+2023-07-06 08:39:34,140 [WARNING] xe2 : Connect success
+2023-07-06 08:39:34,318 [INFO] xe3 : Entered enable mode
+2023-07-06 08:39:34,328 [INFO] xe1 : Entered enable mode
+2023-07-06 08:39:34,384 [INFO] xe2 : Entered enable mode
+2023-07-06 08:39:34,478 [INFO] xe1 : Command 'show inventory' sent
+2023-07-06 08:39:34,483 [INFO] xe1 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:39:34,485 [ERROR] xe1 : Export failed to out/getInventory/show inventory_2023-07-06_08-39.csv
+2023-07-06 08:39:34,487 [INFO] xe3 : Command 'show inventory' sent
+2023-07-06 08:39:34,489 [INFO] xe3 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:39:34,489 [ERROR] xe3 : Export failed to out/getInventory/show inventory_2023-07-06_08-39.csv
+2023-07-06 08:39:34,518 [INFO] xe1 : Disconnected succcessfully
+2023-07-06 08:39:34,521 [INFO] xe3 : Disconnected succcessfully
+2023-07-06 08:39:34,533 [INFO] xe2 : Command 'show inventory' sent
+2023-07-06 08:39:34,534 [INFO] xe2 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:39:34,535 [ERROR] xe2 : Export failed to out/getInventory/show inventory_2023-07-06_08-39.csv
+2023-07-06 08:39:34,566 [INFO] xe2 : Disconnected succcessfully
+2023-07-06 08:39:34,567 [INFO] 127.0.0.1 - - [06/Jul/2023 08:39:34] "POST /getInvent HTTP/1.1" 200 -
+2023-07-06 08:46:05,403 [INFO]  * Detected change in '/opt/Project1/lib/getCustom/device.py', reloading
+2023-07-06 08:46:08,796 [INFO] xe1 : Connecting 
+2023-07-06 08:46:08,797 [INFO] xe2 : Connecting 
+2023-07-06 08:46:08,798 [INFO] xe3 : Connecting 
+2023-07-06 08:46:08,846 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:46:08,847 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:46:08,848 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:46:09,281 [INFO] Authentication (password) successful!
+2023-07-06 08:46:09,281 [INFO] Authentication (password) successful!
+2023-07-06 08:46:09,381 [INFO] Authentication (password) successful!
+2023-07-06 08:46:09,656 [WARNING] xe2 : Connect success
+2023-07-06 08:46:09,667 [WARNING] xe3 : Connect success
+2023-07-06 08:46:09,768 [WARNING] xe1 : Connect success
+2023-07-06 08:46:09,878 [INFO] xe2 : Entered enable mode
+2023-07-06 08:46:09,879 [INFO] xe3 : Entered enable mode
+2023-07-06 08:46:10,018 [INFO] xe3 : Command 'show inventory' sent
+2023-07-06 08:46:10,025 [INFO] xe3 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:46:10,025 [ERROR] xe3 : Export failed to out/getInventory/show inventory_2023-07-06_08-46.csv
+2023-07-06 08:46:10,026 [INFO] xe1 : Entered enable mode
+2023-07-06 08:46:10,029 [INFO] xe2 : Command 'show inventory' sent
+2023-07-06 08:46:10,030 [INFO] xe2 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:46:10,030 [ERROR] xe2 : Export failed to out/getInventory/show inventory_2023-07-06_08-46.csv
+2023-07-06 08:46:10,057 [INFO] xe3 : Disconnected succcessfully
+2023-07-06 08:46:10,061 [INFO] xe2 : Disconnected succcessfully
+2023-07-06 08:46:10,149 [INFO] xe1 : Command 'show inventory' sent
+2023-07-06 08:46:10,150 [INFO] xe1 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:46:10,151 [ERROR] xe1 : Export failed to out/getInventory/show inventory_2023-07-06_08-46.csv
+2023-07-06 08:46:10,183 [INFO] xe1 : Disconnected succcessfully
+2023-07-06 08:46:10,184 [INFO] 127.0.0.1 - - [06/Jul/2023 08:46:10] "POST /getInvent HTTP/1.1" 200 -
+2023-07-06 08:51:54,060 [INFO]  * Detected change in '/opt/Project1/lib/getCustom/device.py', reloading
+2023-07-06 08:51:57,775 [INFO] xe2 : Connecting 
+2023-07-06 08:51:57,775 [INFO] xe1 : Connecting 
+2023-07-06 08:51:57,777 [INFO] xe3 : Connecting 
+2023-07-06 08:51:57,823 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:51:57,867 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:51:57,868 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:51:58,325 [INFO] Authentication (password) successful!
+2023-07-06 08:51:58,325 [INFO] Authentication (password) successful!
+2023-07-06 08:51:58,418 [INFO] Authentication (password) successful!
+2023-07-06 08:51:58,717 [WARNING] xe3 : Connect success
+2023-07-06 08:51:58,718 [WARNING] xe2 : Connect success
+2023-07-06 08:51:58,806 [WARNING] xe1 : Connect success
+2023-07-06 08:51:59,006 [INFO] xe3 : Entered enable mode
+2023-07-06 08:51:59,007 [INFO] xe2 : Entered enable mode
+2023-07-06 08:51:59,128 [INFO] xe1 : Entered enable mode
+2023-07-06 08:51:59,132 [INFO] xe3 : Command 'show inventory' sent
+2023-07-06 08:51:59,138 [INFO] xe3 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:51:59,141 [ERROR] xe3 : Export failed to out/getInventory/show inventory_2023-07-06_08-51.csv
+2023-07-06 08:51:59,174 [INFO] xe3 : Disconnected succcessfully
+2023-07-06 08:51:59,176 [INFO] xe2 : Command 'show inventory' sent
+2023-07-06 08:51:59,177 [INFO] xe2 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:51:59,177 [ERROR] xe2 : Export failed to out/getInventory/show inventory_2023-07-06_08-51.csv
+2023-07-06 08:51:59,208 [INFO] xe2 : Disconnected succcessfully
+2023-07-06 08:51:59,554 [INFO] xe1 : Command 'show inventory' sent
+2023-07-06 08:51:59,555 [INFO] xe1 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:51:59,555 [ERROR] xe1 : Export failed to out/getInventory/show inventory_2023-07-06_08-51.csv
+2023-07-06 08:51:59,587 [INFO] xe1 : Disconnected succcessfully
+2023-07-06 08:51:59,588 [INFO] 127.0.0.1 - - [06/Jul/2023 08:51:59] "POST /getInvent HTTP/1.1" 200 -
+2023-07-06 08:52:56,368 [INFO]  * Detected change in '/opt/Project1/lib/getCustom/device.py', reloading
+2023-07-06 08:54:48,665 [INFO] xe1 : Connecting 
+2023-07-06 08:54:48,666 [INFO] xe3 : Connecting 
+2023-07-06 08:54:48,667 [INFO] xe2 : Connecting 
+2023-07-06 08:54:48,716 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:54:48,718 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:54:48,718 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:54:49,172 [INFO] Authentication (password) successful!
+2023-07-06 08:54:49,180 [INFO] Authentication (password) successful!
+2023-07-06 08:54:49,227 [INFO] Authentication (password) successful!
+2023-07-06 08:54:49,537 [WARNING] xe2 : Connect success
+2023-07-06 08:54:49,560 [WARNING] xe3 : Connect success
+2023-07-06 08:54:49,615 [WARNING] xe1 : Connect success
+2023-07-06 08:54:49,759 [INFO] xe2 : Entered enable mode
+2023-07-06 08:54:49,815 [INFO] xe3 : Entered enable mode
+2023-07-06 08:54:49,837 [INFO] xe1 : Entered enable mode
+2023-07-06 08:54:49,930 [INFO] xe2 : Command 'show inventory' sent
+2023-07-06 08:54:49,938 [INFO] xe2 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:54:49,941 [ERROR] xe2 : Export failed to out/getInventory/show inventory_2023-07-06_08-54.csv
+2023-07-06 08:54:49,965 [INFO] xe3 : Command 'show inventory' sent
+2023-07-06 08:54:49,966 [INFO] xe3 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:54:49,966 [ERROR] xe3 : Export failed to out/getInventory/show inventory_2023-07-06_08-54.csv
+2023-07-06 08:54:49,973 [INFO] xe2 : Disconnected succcessfully
+2023-07-06 08:54:49,974 [INFO] xe1 : Command 'show inventory' sent
+2023-07-06 08:54:49,975 [INFO] xe1 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:54:49,975 [ERROR] xe1 : Export failed to out/getInventory/show inventory_2023-07-06_08-54.csv
+2023-07-06 08:54:50,007 [INFO] xe1 : Disconnected succcessfully
+2023-07-06 08:54:50,008 [INFO] xe3 : Disconnected succcessfully
+2023-07-06 08:54:50,009 [INFO] 127.0.0.1 - - [06/Jul/2023 08:54:50] "POST /getInvent HTTP/1.1" 200 -
+2023-07-06 08:55:07,772 [INFO]  * Detected change in '/opt/Project1/lib/getCustom/device.py', reloading
+2023-07-06 08:55:58,716 [INFO] xe1 : Connecting 
+2023-07-06 08:55:58,718 [INFO] xe2 : Connecting 
+2023-07-06 08:55:58,718 [INFO] xe3 : Connecting 
+2023-07-06 08:55:58,763 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:55:58,767 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:55:58,769 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:55:59,259 [INFO] Authentication (password) successful!
+2023-07-06 08:55:59,260 [INFO] Authentication (password) successful!
+2023-07-06 08:55:59,308 [INFO] Authentication (password) successful!
+2023-07-06 08:55:59,636 [WARNING] xe3 : Connect success
+2023-07-06 08:55:59,636 [WARNING] xe2 : Connect success
+2023-07-06 08:55:59,669 [WARNING] xe1 : Connect success
+2023-07-06 08:55:59,869 [INFO] xe2 : Entered enable mode
+2023-07-06 08:55:59,892 [INFO] xe3 : Entered enable mode
+2023-07-06 08:55:59,924 [INFO] xe1 : Entered enable mode
+2023-07-06 08:56:00,018 [INFO] xe3 : Command 'show inventory' sent
+2023-07-06 08:56:00,019 [INFO] xe2 : Command 'show inventory' sent
+2023-07-06 08:56:00,032 [INFO] xe2 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:56:00,033 [INFO] xe3 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:56:00,035 [INFO] xe2 : Export success to out/getInventory/show inventory_2023-07-06_08-55.csv
+2023-07-06 08:56:00,037 [INFO] xe3 : Export success to out/getInventory/show inventory_2023-07-06_08-55.csv
+2023-07-06 08:56:00,072 [INFO] xe3 : Disconnected succcessfully
+2023-07-06 08:56:00,094 [INFO] xe2 : Disconnected succcessfully
+2023-07-06 08:56:00,121 [INFO] xe1 : Command 'show inventory' sent
+2023-07-06 08:56:00,126 [INFO] xe1 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:56:00,127 [INFO] xe1 : Export success to out/getInventory/show inventory_2023-07-06_08-55.csv
+2023-07-06 08:56:00,160 [INFO] xe1 : Disconnected succcessfully
+2023-07-06 08:56:00,164 [INFO] 127.0.0.1 - - [06/Jul/2023 08:56:00] "POST /getInvent HTTP/1.1" 200 -
+2023-07-06 08:58:31,945 [INFO]  * Detected change in '/opt/Project1/lib/getInven/main.py', reloading
+2023-07-06 08:58:35,885 [INFO] xe1 : Connecting 
+2023-07-06 08:58:35,887 [INFO] xe3 : Connecting 
+2023-07-06 08:58:35,889 [INFO] xe2 : Connecting 
+2023-07-06 08:58:35,935 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:58:35,936 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:58:35,938 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:58:36,382 [INFO] Authentication (password) successful!
+2023-07-06 08:58:36,441 [INFO] Authentication (password) successful!
+2023-07-06 08:58:36,441 [INFO] Authentication (password) successful!
+2023-07-06 08:58:36,778 [WARNING] xe2 : Connect success
+2023-07-06 08:58:36,858 [WARNING] xe3 : Connect success
+2023-07-06 08:58:36,880 [WARNING] xe1 : Connect success
+2023-07-06 08:58:37,172 [INFO] xe2 : Entered enable mode
+2023-07-06 08:58:37,241 [INFO] xe1 : Entered enable mode
+2023-07-06 08:58:37,240 [INFO] xe3 : Entered enable mode
+2023-07-06 08:58:37,421 [INFO] xe2 : Command 'show_inventory' sent
+2023-07-06 08:58:37,423 [ERROR] xe2 : Command [show_inventory] Failed, trying [show inventory]
+2023-07-06 08:58:37,504 [INFO] xe1 : Command 'show_inventory' sent
+2023-07-06 08:58:37,506 [INFO] xe3 : Command 'show_inventory' sent
+2023-07-06 08:58:37,507 [ERROR] xe3 : Command [show_inventory] Failed, trying [show inventory]
+2023-07-06 08:58:37,508 [ERROR] xe1 : Command [show_inventory] Failed, trying [show inventory]
+2023-07-06 08:58:37,651 [INFO] xe2 : Command 'show inventory' sent
+2023-07-06 08:58:37,654 [ERROR] xe2 : [1] Parsing exception for template 'show_inventory 1'
+2023-07-06 08:58:37,661 [ERROR] xe2 : [2] Parsing exception for template 'show_inventory 2'
+2023-07-06 08:58:37,662 [ERROR] xe2 : Parsing failed after [2] tries.
+2023-07-06 08:58:37,673 [INFO] xe1 : Command 'show inventory' sent
+2023-07-06 08:58:37,675 [ERROR] xe1 : [1] Parsing exception for template 'show_inventory 1'
+2023-07-06 08:58:37,691 [ERROR] xe1 : [2] Parsing exception for template 'show_inventory 2'
+2023-07-06 08:58:37,693 [ERROR] xe1 : Parsing failed after [2] tries.
+2023-07-06 08:58:37,705 [INFO] xe3 : Command 'show inventory' sent
+2023-07-06 08:58:37,712 [ERROR] xe3 : [1] Parsing exception for template 'show_inventory 1'
+2023-07-06 08:58:37,715 [INFO] xe2 : Disconnected succcessfully
+2023-07-06 08:58:37,714 [ERROR] xe3 : [2] Parsing exception for template 'show_inventory 2'
+2023-07-06 08:58:37,716 [ERROR] xe3 : Parsing failed after [2] tries.
+2023-07-06 08:58:37,740 [INFO] xe1 : Disconnected succcessfully
+2023-07-06 08:58:37,776 [INFO] xe3 : Disconnected succcessfully
+2023-07-06 08:58:37,782 [INFO] 127.0.0.1 - - [06/Jul/2023 08:58:37] "POST /getInvent HTTP/1.1" 200 -
+2023-07-06 08:58:55,426 [INFO]  * Detected change in '/opt/Project1/lib/getInven/main.py', reloading
+2023-07-06 08:59:12,312 [INFO] xe2 : Connecting 
+2023-07-06 08:59:12,313 [INFO] xe1 : Connecting 
+2023-07-06 08:59:12,313 [INFO] xe3 : Connecting 
+2023-07-06 08:59:12,368 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:59:12,368 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:59:12,369 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 08:59:12,902 [INFO] Authentication (password) successful!
+2023-07-06 08:59:12,903 [INFO] Authentication (password) successful!
+2023-07-06 08:59:12,929 [INFO] Authentication (password) successful!
+2023-07-06 08:59:13,277 [WARNING] xe1 : Connect success
+2023-07-06 08:59:13,278 [WARNING] xe2 : Connect success
+2023-07-06 08:59:13,325 [WARNING] xe3 : Connect success
+2023-07-06 08:59:13,511 [INFO] xe2 : Entered enable mode
+2023-07-06 08:59:13,512 [INFO] xe1 : Entered enable mode
+2023-07-06 08:59:13,555 [INFO] xe3 : Entered enable mode
+2023-07-06 08:59:13,636 [INFO] xe1 : Command 'show inventory' sent
+2023-07-06 08:59:13,642 [INFO] xe1 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:59:13,645 [INFO] xe1 : Export success to out/getInventory/show inventory_2023-07-06_08-59.csv
+2023-07-06 08:59:13,650 [INFO] xe2 : Command 'show inventory' sent
+2023-07-06 08:59:13,651 [INFO] xe2 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:59:13,652 [INFO] xe2 : Export success to out/getInventory/show inventory_2023-07-06_08-59.csv
+2023-07-06 08:59:13,678 [INFO] xe1 : Disconnected succcessfully
+2023-07-06 08:59:13,681 [INFO] xe3 : Command 'show inventory' sent
+2023-07-06 08:59:13,682 [INFO] xe3 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 08:59:13,682 [INFO] xe3 : Export success to out/getInventory/show inventory_2023-07-06_08-59.csv
+2023-07-06 08:59:13,693 [INFO] xe2 : Disconnected succcessfully
+2023-07-06 08:59:13,713 [INFO] xe3 : Disconnected succcessfully
+2023-07-06 08:59:13,714 [INFO] 127.0.0.1 - - [06/Jul/2023 08:59:13] "POST /getInvent HTTP/1.1" 200 -
+2023-07-06 09:01:36,365 [INFO]  * Detected change in '/opt/Project1/lib/getInven/main.py', reloading
+2023-07-06 09:04:20,057 [INFO] xe2 : Connecting 
+2023-07-06 09:04:20,058 [INFO] xe1 : Connecting 
+2023-07-06 09:04:20,060 [INFO] xe3 : Connecting 
+2023-07-06 09:04:20,121 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 09:04:20,121 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 09:04:20,122 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-07-06 09:04:20,575 [INFO] Authentication (password) successful!
+2023-07-06 09:04:20,586 [INFO] Authentication (password) successful!
+2023-07-06 09:04:20,609 [INFO] Authentication (password) successful!
+2023-07-06 09:04:20,939 [WARNING] xe3 : Connect success
+2023-07-06 09:04:20,973 [WARNING] xe2 : Connect success
+2023-07-06 09:04:20,986 [WARNING] xe1 : Connect success
+2023-07-06 09:04:21,162 [INFO] xe3 : Entered enable mode
+2023-07-06 09:04:21,184 [INFO] xe2 : Entered enable mode
+2023-07-06 09:04:21,218 [INFO] xe1 : Entered enable mode
+2023-07-06 09:04:21,322 [INFO] xe3 : Command 'show inventory' sent
+2023-07-06 09:04:21,327 [INFO] xe3 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 09:04:21,328 [INFO] xe3 : Export success to out/getInventory/show inventory_2023-07-06_09-01.csv
+2023-07-06 09:04:21,334 [INFO] xe2 : Command 'show inventory' sent
+2023-07-06 09:04:21,335 [INFO] xe2 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 09:04:21,335 [INFO] xe2 : Export success to out/getInventory/show inventory_2023-07-06_09-01.csv
+2023-07-06 09:04:21,362 [INFO] xe3 : Disconnected succcessfully
+2023-07-06 09:04:21,367 [INFO] xe2 : Disconnected succcessfully
+2023-07-06 09:04:21,398 [INFO] xe1 : Command 'show inventory' sent
+2023-07-06 09:04:21,399 [INFO] xe1 : [1] Parsing success for template 'show inventory 1'
+2023-07-06 09:04:21,399 [INFO] xe1 : Export success to out/getInventory/show inventory_2023-07-06_09-01.csv
+2023-07-06 09:04:21,431 [INFO] xe1 : Disconnected succcessfully
+2023-07-06 09:04:21,432 [INFO] 127.0.0.1 - - [06/Jul/2023 09:04:21] "POST /getInvent HTTP/1.1" 200 -
+2023-07-06 09:04:23,204 [INFO] 127.0.0.1 - - [06/Jul/2023 09:04:23] "GET /getOutput HTTP/1.1" 200 -
+2023-07-06 09:04:23,481 [INFO] 127.0.0.1 - - [06/Jul/2023 09:04:23] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2023-07-06 09:04:23,921 [INFO] 127.0.0.1 - - [06/Jul/2023 09:04:23] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2023-07-06 09:04:24,167 [INFO] 127.0.0.1 - - [06/Jul/2023 09:04:24] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2023-07-06 09:04:24,645 [INFO] 127.0.0.1 - - [06/Jul/2023 09:04:24] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2023-07-06 09:04:24,729 [INFO] 127.0.0.1 - - [06/Jul/2023 09:04:24] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2023-07-06 09:04:24,788 [INFO] 127.0.0.1 - - [06/Jul/2023 09:04:24] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2023-07-06 09:04:25,929 [INFO] 127.0.0.1 - - [06/Jul/2023 09:04:25] "POST /getOutput HTTP/1.1" 200 -
+2023-07-06 09:09:55,464 [INFO]  * Detected change in '/opt/Project1/mainWeb.py', reloading

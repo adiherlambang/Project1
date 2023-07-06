@@ -5,7 +5,9 @@ import os,yaml,pytz
 from datetime import datetime
 from lib.createTestbed import createTestbed
 from lib.getConfig.main import captureConfigX
+from lib.getInven.main import main
 from time import sleep
+import threading
 
 
 from genie.testbed import load
@@ -136,8 +138,13 @@ def getConfig():
 
 @app.route('/getInvent', methods=['POST'])
 def getInvent():
-    data = "Getting Inventory devices"
-    return data
+    if checkTestbedFile()==True:
+        main()
+        flash(f"Success to get Inventory devices")
+        return jsonify(data=get_flashed_messages())
+    else:
+        flash(f"device list file is not ready, please check the device list file")
+        return jsonify(data=get_flashed_messages())
 
 @app.route('/getMemUtils', methods=['POST'])
 def getMemUtils():
