@@ -17,3 +17,68 @@ INFO 2023-06-30 21:38:25,311 [Apps.py:init:92] ---Initialize testbed file---
 INFO 2023-06-30 21:38:25,312 [Apps.py:init:100] ---testbed file ready---
 INFO 2023-06-30 21:38:27,108 [Apps.py:init:106] ---Opening Main Menu Application---
 INFO 2023-06-30 21:38:29,182 [Apps.py:inputMenu:192] ---Create Network Topology ---
+INFO 2023-07-06 10:10:08,794 [Apps.py:init:89] ---Starting the Application---
+INFO 2023-07-06 10:10:08,803 [Apps.py:init:92] ---Initialize testbed file---
+INFO 2023-07-06 10:10:08,804 [Apps.py:init:100] ---testbed file ready---
+INFO 2023-07-06 10:10:16,391 [Apps.py:create:71] Importing file...env.csv
+INFO 2023-07-06 10:10:17,591 [Apps.py:create:75] Success: Semicolons replaced with commas in file: import/env.csv
+Testbed file generated: 
+import/env.csv -> testbed/device.yaml
+INFO 2023-07-06 10:10:17,592 [Apps.py:create:76] ---testbed file ready---
+INFO 2023-07-06 10:10:18,095 [Apps.py:init:106] ---Opening Main Menu Application---
+INFO 2023-07-06 10:10:27,549 [Apps.py:inputMenu:143] ---Get Inventory Device---
+INFO 2023-07-06 10:10:47,325 [Apps.py:init:89] ---Starting the Application---
+INFO 2023-07-06 10:10:47,334 [Apps.py:init:92] ---Initialize testbed file---
+INFO 2023-07-06 10:10:47,336 [Apps.py:init:100] ---testbed file ready---
+INFO 2023-07-06 10:10:52,610 [Apps.py:create:71] Importing file...env.csv
+INFO 2023-07-06 10:10:53,817 [Apps.py:create:75] Success: Semicolons replaced with commas in file: import/env.csv
+Testbed file generated: 
+import/env.csv -> testbed/device.yaml
+INFO 2023-07-06 10:10:53,819 [Apps.py:create:76] ---testbed file ready---
+INFO 2023-07-06 10:10:54,325 [Apps.py:init:106] ---Opening Main Menu Application---
+INFO 2023-07-06 10:10:57,146 [Apps.py:inputMenu:143] ---Get Inventory Device---
+INFO 2023-07-06 10:11:32,272 [Apps.py:init:89] ---Starting the Application---
+INFO 2023-07-06 10:11:32,281 [Apps.py:init:92] ---Initialize testbed file---
+INFO 2023-07-06 10:11:32,282 [Apps.py:init:100] ---testbed file ready---
+INFO 2023-07-06 10:11:34,806 [Apps.py:init:106] ---Opening Main Menu Application---
+INFO 2023-07-06 10:11:38,829 [Apps.py:inputMenu:186] ---Get Custom Commands from txt ---
+INFO 2023-07-06 10:12:45,427 [Apps.py:init:89] ---Starting the Application---
+INFO 2023-07-06 10:12:45,438 [Apps.py:init:92] ---Initialize testbed file---
+INFO 2023-07-06 10:12:45,439 [Apps.py:init:100] ---testbed file ready---
+INFO 2023-07-06 10:12:47,315 [Apps.py:init:106] ---Opening Main Menu Application---
+INFO 2023-07-06 10:12:51,270 [Apps.py:inputMenu:174] ---Get CDP Neighbours ---
+INFO 2023-07-06 10:13:45,870 [Apps.py:init:89] ---Starting the Application---
+INFO 2023-07-06 10:13:45,879 [Apps.py:init:92] ---Initialize testbed file---
+INFO 2023-07-06 10:13:45,880 [Apps.py:init:100] ---testbed file ready---
+INFO 2023-07-06 10:14:19,917 [Apps.py:create:71] Importing file...env.csv
+INFO 2023-07-06 10:14:21,126 [Apps.py:create:75] Success: Semicolons replaced with commas in file: import/env.csv
+Testbed file generated: 
+import/env.csv -> testbed/device.yaml
+INFO 2023-07-06 10:14:21,127 [Apps.py:create:76] ---testbed file ready---
+INFO 2023-07-06 10:14:21,628 [Apps.py:init:106] ---Opening Main Menu Application---
+INFO 2023-07-06 10:14:41,806 [Apps.py:inputMenu:143] ---Get Inventory Device---
+INFO 2023-07-06 10:15:28,641 [Apps.py:init:89] ---Starting the Application---
+INFO 2023-07-06 10:15:28,650 [Apps.py:init:92] ---Initialize testbed file---
+INFO 2023-07-06 10:15:28,651 [Apps.py:init:100] ---testbed file ready---
+INFO 2023-07-06 10:15:30,626 [Apps.py:init:106] ---Opening Main Menu Application---
+INFO 2023-07-06 10:15:48,939 [Apps.py:inputMenu:186] ---Get Custom Commands from txt ---
+INFO 2023-07-06 10:16:24,384 [Apps.py:init:89] ---Starting the Application---
+INFO 2023-07-06 10:16:24,394 [Apps.py:init:92] ---Initialize testbed file---
+INFO 2023-07-06 10:16:24,396 [Apps.py:init:100] ---testbed file ready---
+INFO 2023-07-06 10:16:26,296 [Apps.py:init:106] ---Opening Main Menu Application---
+INFO 2023-07-06 10:16:29,929 [Apps.py:inputMenu:192] ---Create Network Topology ---
+INFO 2023-07-06 15:41:04,553 [Apps.py:init:89] ---Starting the Application---
+INFO 2023-07-06 15:41:04,561 [Apps.py:init:92] ---Initialize testbed file---
+INFO 2023-07-06 15:41:04,562 [Apps.py:init:100] ---testbed file ready---
+INFO 2023-07-06 15:41:10,309 [Apps.py:create:71] Importing file...env.csv
+INFO 2023-07-06 15:41:11,544 [Apps.py:create:75] Success: Semicolons replaced with commas in file: import/env.csv
+Testbed file generated: 
+import/env.csv -> testbed/device.yaml
+INFO 2023-07-06 15:41:11,547 [Apps.py:create:76] ---testbed file ready---
+INFO 2023-07-06 15:41:12,054 [Apps.py:init:106] ---Opening Main Menu Application---
+INFO 2023-07-06 15:41:15,429 [Apps.py:inputMenu:156] ---Get CPU Utilization---
+INFO 2023-07-06 15:41:38,699 [Apps.py:init:89] ---Starting the Application---
+INFO 2023-07-06 15:41:38,704 [Apps.py:init:92] ---Initialize testbed file---
+INFO 2023-07-06 15:41:38,705 [Apps.py:init:100] ---testbed file ready---
+INFO 2023-07-06 15:41:40,668 [Apps.py:init:106] ---Opening Main Menu Application---
+INFO 2023-07-06 15:41:43,693 [Apps.py:inputMenu:174] ---Get CDP Neighbours ---

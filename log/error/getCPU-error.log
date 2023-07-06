@@ -1,0 +1,9 @@
+2023-07-06 15:41:32 [ERROR] xr1 : [1] Exception sending command 'show processes cpu'
+2023-07-06 15:41:32 Pattern not detected: 'Thu\\ Jul\\ \\ 6\\ 08:32:21\\.339\\ UTC' in output. 
+2023-07-06 15:41:32 Things you might try to fix this: 
+2023-07-06 15:41:32 1. Explicitly set your pattern using the expect_string argument. 
+2023-07-06 15:41:32 2. Increase the read_timeout to a larger value. 
+2023-07-06 15:41:32 You can also look at the Netmiko session_log or debug log for more information. 
+2023-07-06 15:41:32 [ERROR] xr1 : [1] Parsing empty for template 'show processes cpu 1'
+2023-07-06 15:41:32 [ERROR] xr1 : [2] Parsing empty for template 'show processes cpu 2'
+2023-07-06 15:41:32 [ERROR] xr1 : [3] Parsing empty for template 'show processes cpu 3'
