@@ -10,6 +10,8 @@ import traceback
 import concurrent.futures
 from time import sleep
 import time
+from netmiko import ConnectHandler
+from pyats.utils.secret_strings import to_plaintext
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
@@ -35,6 +37,14 @@ logger.addHandler(file_handler)
 if not os.path.exists("out/CaptureConfig"):
     os.makedirs("out/CaptureConfig")
 
+def convert_to_netmiko(device):
+    netmiko_device = {}
+    netmiko_device['device_type'] = "cisco_ios"
+    netmiko_device['host'] = str(device.connections.cli.ip)
+    netmiko_device['username'] = device.credentials.default.username
+    netmiko_device['password'] = to_plaintext(device.credentials.default.password)
+    netmiko_device['secret'] = to_plaintext(device.credentials.enable.password)
+    return netmiko_device
 
 def captureConfigX(device):
     # Send a command to the device
@@ -42,27 +52,45 @@ def captureConfigX(device):
         attempt = 1
         retry = 0
         mx_retry = 3
-        while retry < mx_retry:
-            try:
-                device.connect(learn_hostname = True, learn_os = True, log_stdout=False,mit=True)
-                break
-            except Exception as conn_error:
-                    retry += 1
-                    attempt +=1
-                    if retry < mx_retry:
-                        logger.error(f"Connection attempt {retry}/{mx_retry} failed for {device.name} ({device.connections.cli.ip}): {conn_error}")
-                        logger.info(f"Retrying in 1 seconds...")
-                        time.sleep(2)
-                    else:
-                        logger.error(f"Failed to establish connection to {device.name} ({device.connections.cli.ip}) after {mx_retry} attempts.")
-                        break  # Exit the loop after max retries
+        try:
+            while retry < mx_retry:
+                try:
+                    device.connect(learn_hostname = True, learn_os = True, log_stdout=False,mit=True)
+                    break
+                except Exception as conn_error:
+                        retry += 1
+                        attempt +=1
+                        if retry < mx_retry:
+                            logger.error(f"Connection attempt {retry}/{mx_retry} failed for {device.name} ({device.connections.cli.ip}): {conn_error}")
+                            logger.info(f"Retrying in 1 seconds...")
+                            time.sleep(2)
+                        else:
+                            logger.error(f"Failed to establish connection to {device.name} ({device.connections.cli.ip}) after {mx_retry} attempts.")
+                            break  # Exit the loop after max 
+            
+            output = device.execute('show running-config')
+
+        except:
+            logger.error("Failed to connect using pyats get Config function")
+            
+            # Convert the device to Netmiko format
+            netmiko_device = convert_to_netmiko(device)
+
+            # Establish the Netmiko connection
+            logger.info("Establishing Netmiko connection...")
+            connection = ConnectHandler(**netmiko_device)
+            connection.enable()
+            logger.info("Connection established successfully.")
+
+            # Send a command and retrieve the output
+            command = "show running-config"
+            output = connection.send_command(command)
         #Print the output
         hostname = device.name
         logger.info('---getting capture config from device '+hostname+'---')
         waktu = datetime.now().strftime("%d-%m-%y_%H_%M_%S")
         NameFile = hostname + "_" + waktu +".txt"
         file_path = "out/CaptureConfig/"
-        output = device.execute('show running-config')
         file_name = os.path.join(file_path,NameFile)
         logger.info(NameFile)
         try:
