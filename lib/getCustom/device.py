@@ -73,7 +73,10 @@ class Routers:
         if self.port == 23:
             device_type = "cisco_ios_telnet"
         else:
-            device_type = "cisco_ios"
+            if self.ios_os == "nxos":
+                device_type = "cisco_nxos"
+            else:
+                device_type = "cisco_ios"
 
         device = {
             "device_type": device_type,
@@ -117,7 +120,7 @@ class Routers:
 
     def connect_command(self, command):
         try:
-            output = self.connection.send_command(command, read_timeout=15)
+            output = self.connection.send_command(command, read_timeout=30)
             logging.info(f"{self.hostname} : Command '{command}' sent")
             return output
         except Exception as e:
