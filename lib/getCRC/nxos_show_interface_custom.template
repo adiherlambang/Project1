@@ -1,0 +1,23 @@
+Value Required INTERFACE (\S+)
+Value LINK_STATUS (.+?)
+Value PROTOCOL_STATUS (.+?)
+Value INPUT_ERRORS (\d+)
+Value CRC (\d+)
+Value OUTPUT_ERRORS (\d+)
+
+
+Start
+  ^\S+\s+is\s+.+?,\s+line\s+protocol.*$$ -> Continue.Record
+  ^\S+\s+is\s+.+?.*$$ -> Continue.Record
+  ^${INTERFACE}\s+is\s+${LINK_STATUS}\s*$$
+  ^\S+\s+is\s+${PROTOCOL_STATUS}\s*$$
+  ^${INTERFACE}\s+is\s+${LINK_STATUS},\s+line\s+protocol\s+is\s+${PROTOCOL_STATUS}\s*$$
+  ^\s+\d+\s+runts\s+\d\s+giants\s+${CRC}\s+CRC\s+\s+\d\s+no\s+buffer\s*$$
+  ^\s+${INPUT_ERRORS}\s+input\s+errors,\s+${CRC}\s+CRC,\s+\d+\s+frame,\s+\d+\s+overrun,\s+\d+\s+ignored\s*$$
+  ^\s+${INPUT_ERRORS}\s+input\s+errors,\s+${CRC}\s+CRC,\s+\d+\s+frame,\s+\d+\s+overrun,\s+\d+\s+ignored,\s+\d+\s+abort\s*$$
+  ^\s+${INPUT_ERRORS}\s+input\s+error\s+\s+\d+\s+short\s+frame\s+\s+\d+\s+overrun\s+\s+\s+\d+\s+underrun\s+\s+\d\s+ignored*$$
+  ^\s+${INPUT_ERRORS}\s+input\s+error\s+\s+\d+short\s+frame\s+\s+\d+\s+overrun\s+\s+\s+\d+\s+underrun\s+\s+\d+\s+ignored\s*$$
+  ^\s+${OUTPUT_ERRORS}\s+output\s+errors,\s+\d+\s+collisions,\s+\d+\s+interface\s+resets\s*$$
+  ^\s+${OUTPUT_ERRORS}\s+output\s+errors,\s+\d+\s+underruns,\s+\d+\s+applique,\s+\d+\s+resets\s*$$
+  ^\s+${OUTPUT_ERRORS}\s+output\s+errors,\s+\d+\s+interface\s+resets\s*$$
+  ^\s+${OUTPUT_ERRORS}\s+output\s+errors\s+\s+\d+\s+collision\s+\s+\d+\s+deferred\s+\s+\d+\s+late\s+collision\s*$$

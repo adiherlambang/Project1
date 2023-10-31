@@ -39,7 +39,12 @@ if not os.path.exists("out/LogDevice"):
 
 def convert_to_netmiko(device):
     netmiko_device = {}
-    netmiko_device['device_type'] = "cisco_ios"
+    if device.os =="nxos":
+        netmiko_device['device_type'] = "cisco_nxos"
+    elif device.os == "ios":
+        netmiko_device['device_type'] = "cisco_ios"
+    elif device.os == "iosxe":
+        netmiko_device['device_type'] = "cisco_iosxe"
     netmiko_device['host'] = str(device.connections.cli.ip)
     netmiko_device['username'] = device.credentials.default.username
     netmiko_device['password'] = to_plaintext(device.credentials.default.password)
@@ -52,56 +57,64 @@ def captureLogX(device):
         attempt = 1
         retry = 0
         mx_retry = 3
-        try:
-            while retry < mx_retry:
-                try:
-                    device.connect(learn_hostname = True, learn_os = True, log_stdout=False,mit=True)
-                    break
-                except Exception as conn_error:
-                        retry += 1
-                        attempt +=1
-                        if retry < mx_retry:
-                            logger.error(f"Connection attempt {retry}/{mx_retry} failed for {device.name} ({device.connections.cli.ip}): {conn_error}")
-                            logger.info(f"Retrying in 1 seconds...")
-                            time.sleep(2)
-                        else:
-                            logger.error(f"Failed to establish connection to {device.name} ({device.connections.cli.ip}) after {mx_retry} attempts.")
-                            break  # Exit the loop after max 
-            
-            output = device.execute('show logging')
+        logger.info(f"device is {device.os}")
+        if device.os != "nxos":
+            try:
+                while retry < mx_retry:
+                    try:
+                        device.connect(learn_hostname = True, learn_os = True, log_stdout=False,mit=True)
+                        break
+                    except Exception as conn_error:
+                            retry += 1
+                            attempt +=1
+                            if retry < mx_retry:
+                                logger.error(f"Connection attempt {retry}/{mx_retry} failed for {device.name} ({device.connections.cli.ip}): {conn_error}")
+                                logger.info(f"Retrying in 1 seconds...")
+                                time.sleep(2)
+                            else:
+                                logger.error(f"Failed to establish connection to {device.name} ({device.connections.cli.ip}) after {mx_retry} attempts.")
+                                break  # Exit the loop after max 
+                
+                output = device.execute('show logging')
 
-        except:
-            logger.error("Failed to connect using pyats get Config function")
-            
-            # Convert the device to Netmiko format
-            netmiko_device = convert_to_netmiko(device)
-
-            # Establish the Netmiko connection
-            logger.info("Establishing Netmiko connection...")
-            connection = ConnectHandler(**netmiko_device)
-            # Enter enable mode
-            connection.enable()
-            logger.info("Connection established successfully.")
-
-            # Send a command and retrieve the output
-            command = "show logging"
-            output = connection.send_command(command,read_timeout=100)
-        #Print the output
-        hostname = device.name
-        logger.info('---getting capture log from device '+hostname+'---')
-        waktu = datetime.now().strftime("%d-%m-%y_%H_%M_%S")
-        NameFile = hostname + "_" + waktu +".txt"
-        file_path = "out/LogDevice/"
-        file_name = os.path.join(file_path,NameFile)
-        logger.info(NameFile)
-        try:
-            with open(file_name, 'a') as file:
-                file.write(f'''{output}''')
-        except:
-            logger.error("exception ",exc_info=1)
+            except:
+                logger.error("Failed to connect using pyats get Config function")
+                
+                runNetmiko(device)
+        else:
+           runNetmiko(device)
     except Exception as e:
         #print(f"Error connecting to device {device.name}: {e}")
         logger.error(f"Error connecting to device {device.name}: {e}")
+
+def runNetmiko(device):
+    # Convert the device to Netmiko format
+    netmiko_device = convert_to_netmiko(device)
+
+    # Establish the Netmiko connection
+    logger.info("Establishing Netmiko connection...")
+    connection = ConnectHandler(**netmiko_device)
+    # Enter enable mode
+    connection.enable()
+    logger.info("Connection established successfully.")
+
+    # Send a command and retrieve the output
+    command = "show logging"
+    output = connection.send_command(command,read_timeout=100)
+
+    #Print the output
+    hostname = device.name
+    logger.info('---getting capture log from device '+hostname+'---')
+    waktu = datetime.now().strftime("%d-%m-%y_%H_%M_%S")
+    NameFile = hostname + "_" + waktu +".txt"
+    file_path = "out/LogDevice/"
+    file_name = os.path.join(file_path,NameFile)
+    logger.info(NameFile)
+    try:
+        with open(file_name, 'a') as file:
+            file.write(f'''{output}''')
+    except:
+        logger.error("exception ",exc_info=1)
 
 def captureLog(testbedFile):
     testbed = load(testbedFile)
