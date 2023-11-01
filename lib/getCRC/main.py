@@ -45,7 +45,7 @@ def proc_iface_crc_ios(device,counter):
     try:
         device.connect(learn_hostname = True, learn_os = True, log_stdout=False,mit=True)
         logger.info(f"Device: {device.name}")
-        output_iface_crc = device.parse('show interface')
+        output_iface_crc = device.parse('show interfaces')
         for iface in output_iface_crc:
             if "Ethernet" in iface:
                 crc = output_iface_crc[iface]['counters']['in_crc_errors']
