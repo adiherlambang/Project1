@@ -180,7 +180,7 @@ def runNetmiko(device,counter):
     # Send a command and retrieve the output
     command = "show interface"
     logger.info(f"Sending command {command} to {device}")
-    output = connection.send_command(command,read_timeout=800)
+    output = connection.send_command(command,read_timeout=500)
 
     with open('lib/getCRC/nxos_show_interface_custom.template') as template:
         template = textfsm.TextFSM(template)
