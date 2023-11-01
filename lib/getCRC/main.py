@@ -194,32 +194,35 @@ def runNetmiko(device,counter):
     for item in parsed_output:
         #logger.info(item)
         result_dict["INTERFACE"] = item[0]
-        if item[3]!='' or item[5]!='' or item[4]!='':
-          result_dict["INPUT_ERRORS"] = int(item[3])
-          result_dict["OUTPUT_ERRORS"] = int(item[5])
-          result_dict["CRC"] = int(item[4])
-        else:
-          result_dict["INPUT_ERRORS"] = 0
-          result_dict["OUTPUT_ERRORS"] = 0
-          result_dict["CRC"] = 0
-        #logger.info(result_dict)
+        if any(dot in result_dict["INTERFACE"] for dot in result_dict["INTERFACE"]):
+            return
+        else:    
+            if item[3]!='' or item[5]!='' or item[4]!='':
+                result_dict["INPUT_ERRORS"] = int(item[3])
+                result_dict["OUTPUT_ERRORS"] = int(item[5])
+                result_dict["CRC"] = int(item[4])
+            else:
+                result_dict["INPUT_ERRORS"] = 0
+                result_dict["OUTPUT_ERRORS"] = 0
+                result_dict["CRC"] = 0
+            #logger.info(result_dict)
 
-        interface =result_dict["INTERFACE"]
-        crc = result_dict["CRC"]
-        input_errors = result_dict["INPUT_ERRORS"]
-        output_errors = result_dict["OUTPUT_ERRORS"]
-    
-        with open(
-        f"out/InterfaceCRC/show_int_crc_{timestamp}.csv", "a", newline=""
-        ) as csvfile:
-            writer = csv.writer(csvfile)  
-            writer.writerow([counter,device.name,interface,crc,input_errors,output_errors])
-        if crc > 0 or input_errors > 0 or output_errors > 0:
-                with open(
-                f"out/InterfaceCRC/found_int_crc_{timestamp}.csv", "a", newline=""
-                ) as csvfile:
-                    writer = csv.writer(csvfile)  
-                    writer.writerow([counter,device.name,interface,crc,input_errors,output_errors])  
+            interface =result_dict["INTERFACE"]
+            crc = result_dict["CRC"]
+            input_errors = result_dict["INPUT_ERRORS"]
+            output_errors = result_dict["OUTPUT_ERRORS"]
+        
+            with open(
+            f"out/InterfaceCRC/show_int_crc_{timestamp}.csv", "a", newline=""
+            ) as csvfile:
+                writer = csv.writer(csvfile)  
+                writer.writerow([counter,device.name,interface,crc,input_errors,output_errors])
+            if crc > 0 or input_errors > 0 or output_errors > 0:
+                    with open(
+                    f"out/InterfaceCRC/found_int_crc_{timestamp}.csv", "a", newline=""
+                    ) as csvfile:
+                        writer = csv.writer(csvfile)  
+                        writer.writerow([counter,device.name,interface,crc,input_errors,output_errors])  
 
 
 def interfaceCRC(testbedFile):
