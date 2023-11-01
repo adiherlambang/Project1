@@ -130,7 +130,7 @@ def proc_iface_crc_nx(device,counter):
             #logger.info(output_iface_crc)
             if 'Ethernet' in iface:
                 if any(dot in iface for dot in check):
-                    return
+                    logger.info(f"Skip subInterface for device: {device.name}")
                 else:
                     #logger.info(output_iface_crc[iface]['counters']['out_errors'])
                     crc = output_iface_crc[iface]['counters']['in_crc_errors']
@@ -168,6 +168,7 @@ def convert_to_netmiko(device):
     return netmiko_device
 
 def runNetmiko(device,counter):
+    check=['.']
     logger.error("Retrying connect to device with netmiko")
     # Convert the device to Netmiko format
     netmiko_device = convert_to_netmiko(device)
@@ -194,8 +195,8 @@ def runNetmiko(device,counter):
     for item in parsed_output:
         #logger.info(item)
         result_dict["INTERFACE"] = item[0]
-        if any(dot in result_dict["INTERFACE"] for dot in result_dict["INTERFACE"]):
-            return
+        if any(dot in result_dict["INTERFACE"] for dot in check):
+            logger.info(f"Skip subInterface for device: {device.name}")
         else:    
             if item[3]!='' or item[5]!='' or item[4]!='':
                 result_dict["INPUT_ERRORS"] = int(item[3])
