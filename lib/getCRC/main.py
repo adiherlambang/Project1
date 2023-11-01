@@ -41,6 +41,7 @@ if not os.path.exists("out/InterfaceCRC"):
     os.makedirs("out/InterfaceCRC")
 
 def proc_iface_crc_ios(device,counter):
+    logger.info("Pyats parser with ios type function")
     try:
         device.connect(learn_hostname = True, learn_os = True, log_stdout=False,mit=True)
         logger.info(f"Device: {device.name}")
@@ -67,6 +68,7 @@ def proc_iface_crc_ios(device,counter):
 
 
 def proc_iface_crc_xe(device,counter):
+    logger.info("Pyats parser with iosXE type function")
     try:
         device.connect(learn_hostname = True, learn_os = True, log_stdout=False,mit=True)
         logger.info(f"Device: {device.name}")
@@ -90,6 +92,7 @@ def proc_iface_crc_xe(device,counter):
         logger.error(f"Error connecting to device {device.name}: {e}")
 
 def proc_iface_crc_xr(device,counter):
+    logger.info("Pyats parser with iosXR type function")
     try:
         device.connect(learn_hostname = True, learn_os = True, log_stdout=False,mit=True)
         print(f"Device: {device.name}")
@@ -118,7 +121,7 @@ def proc_iface_crc_xr(device,counter):
 
 def proc_iface_crc_nx(device,counter):
     try:
-        logger.info("nxos")
+        logger.info("Pyats parser with ios type function")
         device.connect(learn_hostname = True, learn_os = True, log_stdout=False, mit=True)
         logger.info(f"Device: {device.name}")
         output_iface_crc = device.parse('show interface')
