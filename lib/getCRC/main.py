@@ -64,7 +64,8 @@ def proc_iface_crc_ios(device,counter):
                         writer.writerow([counter,device.name,iface,crc,input_errors,output_errors])
    
     except Exception as e:
-        logger.error(f"Error connecting to device {device.name}: {e}")
+        logger.warning(f"Error get CRC for device {device.name} using pyAts")
+        runNetmiko(device,counter)
 
 
 def proc_iface_crc_xe(device,counter):
@@ -150,7 +151,7 @@ def proc_iface_crc_nx(device,counter):
                                 writer.writerow([counter,device.name,iface,crc,input_errors,output_errors])
 
     except :
-        logger.error(f"Error get CRC for device {device.name}")
+        logger.warning(f"Error get CRC for device {device.name} using pyAts")
         runNetmiko(device,counter)
 
 def convert_to_netmiko(device):
