@@ -120,7 +120,7 @@ class Routers:
 
     def connect_command(self, command):
         try:
-            output = self.connection.send_command(command, read_timeout=30)
+            output = self.connection.send_command(command, read_timeout=300)
             logging.info(f"{self.hostname} : Command '{command}' sent")
             return output
         except Exception as e:
