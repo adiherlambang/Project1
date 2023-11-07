@@ -48,20 +48,23 @@ def proc_iface_crc_ios(device,counter):
         output_iface_crc = device.parse('show interfaces')
         for iface in output_iface_crc:
             if "Ethernet" in iface:
-                crc = output_iface_crc[iface]['counters']['in_crc_errors']
-                input_errors = output_iface_crc[iface]['counters']['in_errors']
-                output_errors = output_iface_crc[iface]['counters']['out_errors']
-                with open(
-                f"out/InterfaceCRC/show_int_crc_{timestamp}.csv", "a", newline=""
-                ) as csvfile:
-                    writer = csv.writer(csvfile)  
-                    writer.writerow([counter,device.name,iface,crc,input_errors,output_errors])
-                if crc > 0 or input_errors > 0 or output_errors > 0:
+                if output_iface_crc[iface]['counters'] in iface :
+                    crc = output_iface_crc[iface]['counters']['in_crc_errors']
+                    input_errors = output_iface_crc[iface]['counters']['in_errors']
+                    output_errors = output_iface_crc[iface]['counters']['out_errors']
                     with open(
-                    f"out/InterfaceCRC/found_int_crc_{timestamp}.csv", "a", newline=""
+                    f"out/InterfaceCRC/show_int_crc_{timestamp}.csv", "a", newline=""
                     ) as csvfile:
                         writer = csv.writer(csvfile)  
                         writer.writerow([counter,device.name,iface,crc,input_errors,output_errors])
+                    if crc > 0 or input_errors > 0 or output_errors > 0:
+                        with open(
+                        f"out/InterfaceCRC/found_int_crc_{timestamp}.csv", "a", newline=""
+                        ) as csvfile:
+                            writer = csv.writer(csvfile)  
+                            writer.writerow([counter,device.name,iface,crc,input_errors,output_errors])
+                else:
+                    return
    
     except Exception as e:
         logger.warning(f"Error get CRC for device {device.name} using pyAts")
