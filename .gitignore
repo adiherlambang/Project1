@@ -1,3 +1,6 @@
 out/
-__pycache__/
+*/__pycache__/
 import/
+*.pyc
+*.cpython-310.pyc
+log/
