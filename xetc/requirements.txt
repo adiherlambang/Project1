@@ -21,4 +21,5 @@ pyvis==0.3.2
 PyYAML==6.0
 rich==13.4.2
 textfsm==1.1.3
+pandas==2.1.4
 pyats.contrib
