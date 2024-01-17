@@ -93,7 +93,7 @@ def proc_iface_crc_xe(device,counter):
                         writer = csv.writer(csvfile)  
                         writer.writerow([counter,device.name,iface,crc,input_errors,output_errors])  
     except Exception as e:
-        logger.error(f"Error connecting to device {device.name}: {e}")
+        logger.warning(f"Error get CRC for device {device.name} using pyAts")
 
 def proc_iface_crc_xr(device,counter):
     logger.info("Pyats parser with iosXR type function")
@@ -121,7 +121,7 @@ def proc_iface_crc_xr(device,counter):
                             writer.writerow([counter,device.name,iface,crc,input_errors,output_errors])  
                 
     except Exception as e:
-        logger.error(f"Error connecting to device {device.name}: {e}")
+        logger.warning(f"Error get CRC for device {device.name} using pyAts")
 
 def proc_iface_crc_nx(device,counter):
     try:
@@ -172,7 +172,7 @@ def convert_to_netmiko(device):
     return netmiko_device
 
 def runNetmiko(device,counter):
-    check=['.']
+    check=['.','mgmt0']
     logger.error("Retrying connect to device with netmiko")
     # Convert the device to Netmiko format
     netmiko_device = convert_to_netmiko(device)
