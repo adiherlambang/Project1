@@ -33,6 +33,7 @@ file_handler.setFormatter(file_formatter)
 logger.addHandler(shell_handler)
 logger.addHandler(file_handler)
 
+
 # Check if output folder is available, create it if not
 if not os.path.exists("out/CaptureConfig"):
     os.makedirs("out/CaptureConfig")
@@ -61,7 +62,7 @@ def captureConfigX(device):
                         retry += 1
                         attempt +=1
                         if retry < mx_retry:
-                            logger.error(f"Connection attempt {retry}/{mx_retry} failed for {device.name} ({device.connections.cli.ip}): {conn_error}")
+                            logger.warning(f"Connection attempt {retry}/{mx_retry} failed for {device.name} ({device.connections.cli.ip}): {conn_error}")
                             logger.info(f"Retrying in 1 seconds...")
                             time.sleep(2)
                         else:
@@ -72,7 +73,7 @@ def captureConfigX(device):
 
         except:
             logger.error("Failed to connect using pyats get Config function")
-            
+            # raise Exception("Failed to connect using pyats get Config function")
             # Convert the device to Netmiko format
             netmiko_device = convert_to_netmiko(device)
 
@@ -96,11 +97,13 @@ def captureConfigX(device):
         try:
             with open(file_name, 'a') as file:
                 file.write(f'''{output}''')
-        except:
+        except Exception as e:
             logger.error("exception ",exc_info=1)
+            raise Exception(f"{e}")
     except Exception as e:
         #print(f"Error connecting to device {device.name}: {e}")
-        logger.error(f"Error connecting to device {device.name}: {e}")
+        logger.error(f"Error connecting to device {device.name} using Netmiko")
+        raise Exception(f"Finish getting config from all device with an Error")
 
 def captureConfig(testbedFile):
     testbed = load(testbedFile)
@@ -117,5 +120,8 @@ def captureConfig(testbedFile):
         try:
             future.result()
         except Exception as exc:
-            logger.error(f"{exc} occurred while processing device {device.name}")
-    logger.info("Get Config -  execution completed successfully.")
+            logger.error(f"{exc} occurred while processing")
+            return str(exc)
+    
+    logger.info("Get Config -  execution completed")
+    return 'Finish get config from all device'

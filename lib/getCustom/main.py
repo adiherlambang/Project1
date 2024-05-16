@@ -5,13 +5,13 @@ import yaml
 
 TITLE = "getCustom"
 TESTBED =  "testbed/device.yaml"
-CUSTOM_FILE = "import/custom.txt"
+CUSTOM_FILE = "assets/import/custom.txt"
 devices = []
 custom_commands = []
 success_counter = []
 fail_counter = []
 
-def main(testbed):
+def getCustomMain():
     read_testbed()
     create_folder_1()
     read_custom_commands()

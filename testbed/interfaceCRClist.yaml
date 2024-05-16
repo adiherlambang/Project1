@@ -1,0 +1,15 @@
+devices:
+  DC1INEAGG-12:
+    connections:
+      cli:
+        ip: 10.0.0.1
+        protocol: ssh
+    credentials:
+      default:
+        password: cisco
+        username: cisco
+      enable:
+        password: cisco
+    interface: Eth1/1
+    os: ios
+    type: ios

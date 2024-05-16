@@ -2,7 +2,7 @@
 
 # Function to ask for confirmation
 ask_confirmation() {
-    read -p "Updating will delete all the output and log files. Continue? (y/n): " choice
+    read -p "Are you sure want to update. Continue? (y/n): " choice
     case "$choice" in
         y|Y ) return 0;;
         n|N ) return 1;;

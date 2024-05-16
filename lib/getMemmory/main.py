@@ -37,7 +37,7 @@ if not os.path.exists("out/MemmoryUtils"):
 
 # Load the topology from the YAML file
 
-timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H-%M-%S")
+timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 
 def convert_to_netmiko(device):
     netmiko_device = {}
@@ -109,7 +109,7 @@ def get_iosxe_memory_info(device, counter):
 
             # Write the output to the CSV file
             with open(
-                f"out/MemmoryUtils/summary_show_memory_{timestamp}.csv", "a", newline=""
+                f"out/MemmoryUtils/Memmory_{timestamp}.csv", "a", newline=""
             ) as csvfile:
                 writer = csv.writer(csvfile)
                 writer.writerow([f"{counter}", f"{device.name}", used, total, percentage, category])
@@ -165,7 +165,7 @@ def get_iosxe_memory_info(device, counter):
             print(category)
     
             with open(
-                        f"out/MemmoryUtils/summary_show_memory_{timestamp}.csv", "a", newline=""
+                        f"out/MemmoryUtils/Memmory_{timestamp}.csv", "a", newline=""
                     ) as csvfile:
                         writer = csv.writer(csvfile)
                         writer.writerow([f"{counter}", f"{device.name}", used, total, percentage, category])       
@@ -215,7 +215,7 @@ def get_iosxr_memory_info(device, counter):
 
         # Write the output to the CSV file
         with open(
-            f"out/MemmoryUtils/summary_show_memory_{timestamp}.csv", "a", newline=""
+            f"out/MemmoryUtils/Memmory_{timestamp}.csv", "a", newline=""
         ) as csvfile:
             writer = csv.writer(csvfile)
             writer.writerow([f"{counter}", f"{device.name}", used_memory_mb, physical_memory_mb, percentage, category])
@@ -270,7 +270,7 @@ def get_ios_memory_info(device, counter):
 
         # Write the output to the CSV file
         with open(
-            f"out/MemmoryUtils/summary_show_memory_{timestamp}.csv", "a", newline=""
+            f"out/MemmoryUtils/Memmory_{timestamp}.csv", "a", newline=""
         ) as csvfile:
             writer = csv.writer(csvfile)
             writer.writerow([f"{counter}", f"{device.name}", used, total, percentage, category])
@@ -322,7 +322,7 @@ def get_nxos_memory_info(device, counter):
 
             # Write the output to the CSV file
             with open(
-                f"out/MemmoryUtils/summary_show_memory_{timestamp}.csv", "a", newline=""
+                f"out/MemmoryUtils/Memmory_{timestamp}.csv", "a", newline=""
             ) as csvfile:
                 writer = csv.writer(csvfile)
                 writer.writerow([f"{counter}", f"{device.name}", used, total, percentage, category])
@@ -380,7 +380,7 @@ def get_nxos_memory_info(device, counter):
             print(category)
     
             with open(
-                        f"out/MemmoryUtils/summary_show_memory_{timestamp}.csv", "a", newline=""
+                        f"out/MemmoryUtils/Memmory_{timestamp}.csv", "a", newline=""
                     ) as csvfile:
                         writer = csv.writer(csvfile)
                         writer.writerow([f"{counter}", f"{device.name}", used, total, percentage, category])       
@@ -392,7 +392,7 @@ def get_nxos_memory_info(device, counter):
 def getMemmoryUtils(testbedFile):
     testbed = load(testbedFile)
     # Open the output file in append mode
-    with open(f"out/MemmoryUtils/summary_show_memory_{timestamp}.csv", "a", newline="") as csvfile:
+    with open(f"out/MemmoryUtils/Memmory_{timestamp}.csv", "a", newline="") as csvfile:
         writer = csv.writer(csvfile)
         # Write the header row
         writer.writerow(["No", "Device", "Memory Used in MB", "Memory Total in MB", "Percentage", "Category"])

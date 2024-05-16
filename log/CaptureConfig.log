@@ -1,0 +1,2211 @@
+INFO 2023-07-04 16:29:52,536 [main.py:captureConfig:68] Connecting to device xe1
+INFO 2023-07-04 16:29:52,649 [main.py:captureConfig:68] Connecting to device xe2
+INFO 2023-07-04 16:29:52,754 [main.py:captureConfig:68] Connecting to device xe3
+INFO 2023-07-04 16:29:52,858 [main.py:captureConfig:68] Connecting to device xr1
+INFO 2023-07-04 16:29:52,964 [main.py:captureConfig:68] Connecting to device xr2
+INFO 2023-07-04 16:29:53,070 [main.py:captureConfig:68] Connecting to device xr3
+INFO 2023-07-04 16:29:55,134 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-04 16:29:55,181 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-04 16:29:55,289 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-04 16:29:55,692 [main.py:captureConfigX:51] xe2_04-07-23_16_29_55.txt
+INFO 2023-07-04 16:29:55,768 [main.py:captureConfigX:51] xe1_04-07-23_16_29_55.txt
+INFO 2023-07-04 16:29:55,985 [main.py:captureConfigX:51] xe3_04-07-23_16_29_55.txt
+ERROR 2023-07-04 16:30:04,282 [main.py:captureConfigX:59] Error connecting to device xr1: failed to connect to xr1
+Failed while bringing device to "any" state
+ERROR 2023-07-04 16:30:04,434 [main.py:captureConfigX:59] Error connecting to device xr2: failed to connect to xr2
+Failed while bringing device to "any" state
+ERROR 2023-07-04 16:30:25,148 [main.py:captureConfigX:59] Error connecting to device xr3: failed to connect to xr3
+Failed while bringing device to "any" state
+INFO 2023-07-04 16:30:25,151 [main.py:captureConfig:77] Get Config -  execution completed successfully.
+INFO 2023-07-04 16:41:32,742 [main.py:captureConfig:68] Connecting to device xe1
+INFO 2023-07-04 16:41:32,848 [main.py:captureConfig:68] Connecting to device xe2
+INFO 2023-07-04 16:41:32,953 [main.py:captureConfig:68] Connecting to device xe3
+INFO 2023-07-04 16:41:33,061 [main.py:captureConfig:68] Connecting to device xr1
+INFO 2023-07-04 16:41:33,172 [main.py:captureConfig:68] Connecting to device xr2
+INFO 2023-07-04 16:41:33,290 [main.py:captureConfig:68] Connecting to device xr3
+INFO 2023-07-04 16:41:35,124 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-04 16:41:35,166 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-04 16:41:35,292 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-04 16:41:35,657 [main.py:captureConfigX:51] xe2_04-07-23_16_41_35.txt
+INFO 2023-07-04 16:41:35,663 [main.py:captureConfigX:51] xe1_04-07-23_16_41_35.txt
+INFO 2023-07-04 16:41:35,895 [main.py:captureConfigX:51] xe3_04-07-23_16_41_35.txt
+ERROR 2023-07-04 16:41:44,406 [main.py:captureConfigX:59] Error connecting to device xr1: failed to connect to xr1
+Failed while bringing device to "any" state
+ERROR 2023-07-04 16:41:44,518 [main.py:captureConfigX:59] Error connecting to device xr2: failed to connect to xr2
+Failed while bringing device to "any" state
+ERROR 2023-07-04 16:42:05,366 [main.py:captureConfigX:59] Error connecting to device xr3: failed to connect to xr3
+Failed while bringing device to "any" state
+INFO 2023-07-04 16:42:05,369 [main.py:captureConfig:77] Get Config -  execution completed successfully.
+INFO 2023-07-04 16:43:05,672 [main.py:captureConfig:68] Connecting to device xe1
+INFO 2023-07-04 16:43:05,775 [main.py:captureConfig:68] Connecting to device xe2
+INFO 2023-07-04 16:43:05,881 [main.py:captureConfig:68] Connecting to device xe3
+INFO 2023-07-04 16:43:05,986 [main.py:captureConfig:68] Connecting to device xr1
+INFO 2023-07-04 16:43:06,092 [main.py:captureConfig:68] Connecting to device xr2
+INFO 2023-07-04 16:43:06,195 [main.py:captureConfig:68] Connecting to device xr3
+INFO 2023-07-04 16:43:08,200 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-04 16:43:08,313 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-04 16:43:08,372 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-04 16:43:08,772 [main.py:captureConfigX:51] xe1_04-07-23_16_43_08.txt
+INFO 2023-07-04 16:43:08,854 [main.py:captureConfigX:51] xe2_04-07-23_16_43_08.txt
+INFO 2023-07-04 16:43:08,891 [main.py:captureConfigX:51] xe3_04-07-23_16_43_08.txt
+ERROR 2023-07-04 16:43:17,398 [main.py:captureConfigX:59] Error connecting to device xr1: failed to connect to xr1
+Failed while bringing device to "any" state
+ERROR 2023-07-04 16:43:17,516 [main.py:captureConfigX:59] Error connecting to device xr2: failed to connect to xr2
+Failed while bringing device to "any" state
+ERROR 2023-07-04 16:43:38,314 [main.py:captureConfigX:59] Error connecting to device xr3: failed to connect to xr3
+Failed while bringing device to "any" state
+INFO 2023-07-04 16:43:38,316 [main.py:captureConfig:77] Get Config -  execution completed successfully.
+INFO 2023-07-04 16:44:05,735 [main.py:captureConfig:68] Connecting to device xe1
+INFO 2023-07-04 16:44:05,840 [main.py:captureConfig:68] Connecting to device xe2
+INFO 2023-07-04 16:44:05,948 [main.py:captureConfig:68] Connecting to device xe3
+INFO 2023-07-04 16:44:06,057 [main.py:captureConfig:68] Connecting to device xr1
+INFO 2023-07-04 16:44:06,161 [main.py:captureConfig:68] Connecting to device xr2
+INFO 2023-07-04 16:44:06,267 [main.py:captureConfig:68] Connecting to device xr3
+INFO 2023-07-04 16:44:08,086 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-04 16:44:08,152 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-04 16:44:08,313 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-04 16:44:08,604 [main.py:captureConfigX:51] xe1_04-07-23_16_44_08.txt
+INFO 2023-07-04 16:44:08,685 [main.py:captureConfigX:51] xe2_04-07-23_16_44_08.txt
+INFO 2023-07-04 16:44:08,887 [main.py:captureConfigX:51] xe3_04-07-23_16_44_08.txt
+ERROR 2023-07-04 16:44:17,404 [main.py:captureConfigX:59] Error connecting to device xr1: failed to connect to xr1
+Failed while bringing device to "any" state
+ERROR 2023-07-04 16:44:17,538 [main.py:captureConfigX:59] Error connecting to device xr2: failed to connect to xr2
+Failed while bringing device to "any" state
+INFO 2023-07-04 16:44:23,963 [main.py:captureConfig:68] Connecting to device xe1
+INFO 2023-07-04 16:44:24,079 [main.py:captureConfig:68] Connecting to device xe2
+INFO 2023-07-04 16:44:24,182 [main.py:captureConfig:68] Connecting to device xe3
+INFO 2023-07-04 16:44:24,289 [main.py:captureConfig:68] Connecting to device xr1
+INFO 2023-07-04 16:44:24,393 [main.py:captureConfig:68] Connecting to device xr2
+INFO 2023-07-04 16:44:24,503 [main.py:captureConfig:68] Connecting to device xr3
+INFO 2023-07-04 16:44:26,536 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-04 16:44:26,620 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-04 16:44:26,641 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-04 16:44:27,112 [main.py:captureConfigX:51] xe3_04-07-23_16_44_26.txt
+INFO 2023-07-04 16:44:27,144 [main.py:captureConfigX:51] xe2_04-07-23_16_44_26.txt
+INFO 2023-07-04 16:44:27,248 [main.py:captureConfigX:51] xe1_04-07-23_16_44_26.txt
+ERROR 2023-07-04 16:44:35,751 [main.py:captureConfigX:59] Error connecting to device xr1: failed to connect to xr1
+Failed while bringing device to "any" state
+ERROR 2023-07-04 16:44:35,853 [main.py:captureConfigX:59] Error connecting to device xr2: failed to connect to xr2
+Failed while bringing device to "any" state
+ERROR 2023-07-04 16:44:38,368 [main.py:captureConfigX:59] Error connecting to device xr3: failed to connect to xr3
+Failed while bringing device to "any" state
+INFO 2023-07-04 16:44:38,370 [main.py:captureConfig:77] Get Config -  execution completed successfully.
+ERROR 2023-07-04 16:44:56,688 [main.py:captureConfigX:59] Error connecting to device xr3: failed to connect to xr3
+Failed while bringing device to "any" state
+INFO 2023-07-04 16:44:56,690 [main.py:captureConfig:77] Get Config -  execution completed successfully.
+INFO 2023-07-04 16:45:01,743 [main.py:captureConfig:68] Connecting to device xe1
+INFO 2023-07-04 16:45:01,849 [main.py:captureConfig:68] Connecting to device xe2
+INFO 2023-07-04 16:45:01,954 [main.py:captureConfig:68] Connecting to device xe3
+INFO 2023-07-04 16:45:02,061 [main.py:captureConfig:68] Connecting to device xr1
+INFO 2023-07-04 16:45:02,167 [main.py:captureConfig:68] Connecting to device xr2
+INFO 2023-07-04 16:45:02,271 [main.py:captureConfig:68] Connecting to device xr3
+INFO 2023-07-04 16:45:04,053 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-04 16:45:04,144 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-04 16:45:04,221 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-04 16:45:04,720 [main.py:captureConfigX:51] xe3_04-07-23_16_45_04.txt
+INFO 2023-07-04 16:45:04,759 [main.py:captureConfigX:51] xe2_04-07-23_16_45_04.txt
+INFO 2023-07-04 16:45:04,782 [main.py:captureConfigX:51] xe1_04-07-23_16_45_04.txt
+ERROR 2023-07-04 16:45:13,388 [main.py:captureConfigX:59] Error connecting to device xr1: failed to connect to xr1
+Failed while bringing device to "any" state
+ERROR 2023-07-04 16:45:13,588 [main.py:captureConfigX:59] Error connecting to device xr2: failed to connect to xr2
+Failed while bringing device to "any" state
+ERROR 2023-07-04 16:45:34,348 [main.py:captureConfigX:59] Error connecting to device xr3: failed to connect to xr3
+Failed while bringing device to "any" state
+INFO 2023-07-04 16:45:34,350 [main.py:captureConfig:77] Get Config -  execution completed successfully.
+INFO 2023-07-04 16:47:46,072 [main.py:captureConfig:68] Connecting to device xe1
+INFO 2023-07-04 16:47:46,177 [main.py:captureConfig:68] Connecting to device xe2
+INFO 2023-07-04 16:47:46,281 [main.py:captureConfig:68] Connecting to device xe3
+INFO 2023-07-04 16:47:46,387 [main.py:captureConfig:68] Connecting to device xr1
+INFO 2023-07-04 16:47:46,492 [main.py:captureConfig:68] Connecting to device xr2
+INFO 2023-07-04 16:47:46,601 [main.py:captureConfig:68] Connecting to device xr3
+INFO 2023-07-04 16:47:48,627 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-04 16:47:48,857 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-04 16:47:48,901 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-04 16:47:49,207 [main.py:captureConfigX:51] xe1_04-07-23_16_47_48.txt
+INFO 2023-07-04 16:47:49,412 [main.py:captureConfigX:51] xe3_04-07-23_16_47_48.txt
+INFO 2023-07-04 16:47:49,492 [main.py:captureConfigX:51] xe2_04-07-23_16_47_48.txt
+ERROR 2023-07-04 16:47:57,884 [main.py:captureConfigX:59] Error connecting to device xr1: failed to connect to xr1
+Failed while bringing device to "any" state
+ERROR 2023-07-04 16:47:57,929 [main.py:captureConfigX:59] Error connecting to device xr2: failed to connect to xr2
+Failed while bringing device to "any" state
+INFO 2023-07-04 16:48:01,790 [main.py:captureConfig:68] Connecting to device xe1
+INFO 2023-07-04 16:48:01,899 [main.py:captureConfig:68] Connecting to device xe2
+INFO 2023-07-04 16:48:02,008 [main.py:captureConfig:68] Connecting to device xe3
+INFO 2023-07-04 16:48:02,115 [main.py:captureConfig:68] Connecting to device xr1
+INFO 2023-07-04 16:48:02,218 [main.py:captureConfig:68] Connecting to device xr2
+INFO 2023-07-04 16:48:02,324 [main.py:captureConfig:68] Connecting to device xr3
+INFO 2023-07-04 16:48:04,373 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-04 16:48:04,470 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-04 16:48:04,474 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-04 16:48:04,975 [main.py:captureConfigX:51] xe2_04-07-23_16_48_04.txt
+INFO 2023-07-04 16:48:04,982 [main.py:captureConfigX:51] xe3_04-07-23_16_48_04.txt
+INFO 2023-07-04 16:48:05,245 [main.py:captureConfigX:51] xe1_04-07-23_16_48_04.txt
+ERROR 2023-07-04 16:48:13,507 [main.py:captureConfigX:59] Error connecting to device xr1: failed to connect to xr1
+Failed while bringing device to "any" state
+ERROR 2023-07-04 16:48:13,618 [main.py:captureConfigX:59] Error connecting to device xr2: failed to connect to xr2
+Failed while bringing device to "any" state
+ERROR 2023-07-04 16:48:18,701 [main.py:captureConfigX:59] Error connecting to device xr3: failed to connect to xr3
+Failed while bringing device to "any" state
+INFO 2023-07-04 16:48:18,704 [main.py:captureConfig:77] Get Config -  execution completed successfully.
+ERROR 2023-07-04 16:48:34,428 [main.py:captureConfigX:59] Error connecting to device xr3: failed to connect to xr3
+Failed while bringing device to "any" state
+INFO 2023-07-04 16:48:34,434 [main.py:captureConfig:77] Get Config -  execution completed successfully.
+INFO 2023-07-04 16:48:48,157 [main.py:captureConfig:68] Connecting to device xe1
+INFO 2023-07-04 16:48:48,261 [main.py:captureConfig:68] Connecting to device xe2
+INFO 2023-07-04 16:48:48,367 [main.py:captureConfig:68] Connecting to device xe3
+INFO 2023-07-04 16:48:48,471 [main.py:captureConfig:68] Connecting to device xr1
+INFO 2023-07-04 16:48:48,578 [main.py:captureConfig:68] Connecting to device xr2
+INFO 2023-07-04 16:48:48,685 [main.py:captureConfig:68] Connecting to device xr3
+INFO 2023-07-04 16:48:50,490 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-04 16:48:50,521 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-04 16:48:50,711 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-04 16:48:51,054 [main.py:captureConfigX:51] xe2_04-07-23_16_48_50.txt
+INFO 2023-07-04 16:48:51,109 [main.py:captureConfigX:51] xe1_04-07-23_16_48_50.txt
+INFO 2023-07-04 16:48:51,249 [main.py:captureConfigX:51] xe3_04-07-23_16_48_50.txt
+ERROR 2023-07-04 16:48:59,788 [main.py:captureConfigX:59] Error connecting to device xr1: failed to connect to xr1
+Failed while bringing device to "any" state
+ERROR 2023-07-04 16:48:59,944 [main.py:captureConfigX:59] Error connecting to device xr2: failed to connect to xr2
+Failed while bringing device to "any" state
+ERROR 2023-07-04 16:49:20,770 [main.py:captureConfigX:59] Error connecting to device xr3: failed to connect to xr3
+Failed while bringing device to "any" state
+INFO 2023-07-04 16:49:20,774 [main.py:captureConfig:77] Get Config -  execution completed successfully.
+INFO 2023-07-04 16:49:21,008 [main.py:captureConfig:68] Connecting to device xe1
+INFO 2023-07-04 16:49:21,111 [main.py:captureConfig:68] Connecting to device xe2
+INFO 2023-07-04 16:49:21,214 [main.py:captureConfig:68] Connecting to device xe3
+INFO 2023-07-04 16:49:21,319 [main.py:captureConfig:68] Connecting to device xr1
+INFO 2023-07-04 16:49:21,479 [main.py:captureConfig:68] Connecting to device xr2
+INFO 2023-07-04 16:49:21,590 [main.py:captureConfig:68] Connecting to device xr3
+INFO 2023-07-04 16:49:21,599 [main.py:captureConfig:68] Connecting to device xe1
+INFO 2023-07-04 16:49:21,705 [main.py:captureConfig:68] Connecting to device xe2
+INFO 2023-07-04 16:49:21,758 [main.py:captureConfig:68] Connecting to device xe1
+INFO 2023-07-04 16:49:21,811 [main.py:captureConfig:68] Connecting to device xe3
+INFO 2023-07-04 16:49:21,867 [main.py:captureConfig:68] Connecting to device xe2
+INFO 2023-07-04 16:49:21,915 [main.py:captureConfig:68] Connecting to device xr1
+INFO 2023-07-04 16:49:21,973 [main.py:captureConfig:68] Connecting to device xe3
+INFO 2023-07-04 16:49:22,021 [main.py:captureConfig:68] Connecting to device xr2
+INFO 2023-07-04 16:49:22,079 [main.py:captureConfig:68] Connecting to device xr1
+INFO 2023-07-04 16:49:22,127 [main.py:captureConfig:68] Connecting to device xr3
+INFO 2023-07-04 16:49:22,183 [main.py:captureConfig:68] Connecting to device xr2
+INFO 2023-07-04 16:49:22,289 [main.py:captureConfig:68] Connecting to device xr3
+INFO 2023-07-04 16:49:23,794 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-04 16:49:23,814 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-04 16:49:23,839 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-04 16:49:24,231 [main.py:captureConfigX:51] xe3_04-07-23_16_49_23.txt
+INFO 2023-07-04 16:49:24,272 [main.py:captureConfigX:51] xe2_04-07-23_16_49_23.txt
+INFO 2023-07-04 16:49:24,382 [main.py:captureConfigX:51] xe1_04-07-23_16_49_23.txt
+INFO 2023-07-04 16:49:24,466 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-04 16:49:24,512 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-04 16:49:24,514 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-04 16:49:24,542 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-04 16:49:24,675 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-04 16:49:24,715 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-04 16:49:24,896 [main.py:captureConfigX:51] xe3_04-07-23_16_49_24.txt
+INFO 2023-07-04 16:49:24,955 [main.py:captureConfigX:51] xe2_04-07-23_16_49_24.txt
+INFO 2023-07-04 16:49:25,095 [main.py:captureConfigX:51] xe3_04-07-23_16_49_24.txt
+INFO 2023-07-04 16:49:25,159 [main.py:captureConfigX:51] xe2_04-07-23_16_49_24.txt
+INFO 2023-07-04 16:49:25,225 [main.py:captureConfigX:51] xe1_04-07-23_16_49_24.txt
+INFO 2023-07-04 16:49:25,526 [main.py:captureConfigX:51] xe1_04-07-23_16_49_24.txt
+ERROR 2023-07-04 16:49:32,740 [main.py:captureConfigX:59] Error connecting to device xr1: failed to connect to xr1
+Failed while bringing device to "any" state
+ERROR 2023-07-04 16:49:32,878 [main.py:captureConfigX:59] Error connecting to device xr2: failed to connect to xr2
+Failed while bringing device to "any" state
+ERROR 2023-07-04 16:49:33,020 [main.py:captureConfigX:59] Error connecting to device xr1: failed to connect to xr1
+Failed while bringing device to "any" state
+ERROR 2023-07-04 16:49:33,130 [main.py:captureConfigX:59] Error connecting to device xr2: failed to connect to xr2
+Failed while bringing device to "any" state
+ERROR 2023-07-04 16:49:33,181 [main.py:captureConfigX:59] Error connecting to device xr1: failed to connect to xr1
+Failed while bringing device to "any" state
+ERROR 2023-07-04 16:49:33,292 [main.py:captureConfigX:59] Error connecting to device xr2: failed to connect to xr2
+Failed while bringing device to "any" state
+ERROR 2023-07-04 16:49:53,748 [main.py:captureConfigX:59] Error connecting to device xr3: failed to connect to xr3
+Failed while bringing device to "any" state
+INFO 2023-07-04 16:49:53,750 [main.py:captureConfig:77] Get Config -  execution completed successfully.
+ERROR 2023-07-04 16:49:54,248 [main.py:captureConfigX:59] Error connecting to device xr3: failed to connect to xr3
+Failed while bringing device to "any" state
+INFO 2023-07-04 16:49:54,252 [main.py:captureConfig:77] Get Config -  execution completed successfully.
+ERROR 2023-07-04 16:49:54,379 [main.py:captureConfigX:59] Error connecting to device xr3: failed to connect to xr3
+Failed while bringing device to "any" state
+INFO 2023-07-04 16:49:54,380 [main.py:captureConfig:77] Get Config -  execution completed successfully.
+INFO 2023-07-04 17:11:12,608 [main.py:captureConfig:68] Connecting to device xe1
+INFO 2023-07-04 17:11:12,715 [main.py:captureConfig:68] Connecting to device xe2
+INFO 2023-07-04 17:11:12,820 [main.py:captureConfig:68] Connecting to device xe3
+INFO 2023-07-04 17:11:12,924 [main.py:captureConfig:68] Connecting to device xr1
+INFO 2023-07-04 17:11:13,029 [main.py:captureConfig:68] Connecting to device xr2
+INFO 2023-07-04 17:11:13,138 [main.py:captureConfig:68] Connecting to device xr3
+INFO 2023-07-04 17:11:15,098 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-04 17:11:15,100 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-04 17:11:15,247 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-04 17:11:15,616 [main.py:captureConfigX:51] xe2_04-07-23_17_11_15.txt
+INFO 2023-07-04 17:11:15,709 [main.py:captureConfigX:51] xe1_04-07-23_17_11_15.txt
+INFO 2023-07-04 17:11:15,807 [main.py:captureConfigX:51] xe3_04-07-23_17_11_15.txt
+ERROR 2023-07-04 17:11:24,278 [main.py:captureConfigX:59] Error connecting to device xr1: failed to connect to xr1
+Failed while bringing device to "any" state
+ERROR 2023-07-04 17:11:24,400 [main.py:captureConfigX:59] Error connecting to device xr2: failed to connect to xr2
+Failed while bringing device to "any" state
+ERROR 2023-07-04 17:11:45,242 [main.py:captureConfigX:59] Error connecting to device xr3: failed to connect to xr3
+Failed while bringing device to "any" state
+INFO 2023-07-04 17:11:45,257 [main.py:captureConfig:77] Get Config -  execution completed successfully.
+INFO 2023-07-04 17:19:23,742 [main.py:captureConfig:69] Connecting to device xe1
+INFO 2023-07-04 17:19:23,849 [main.py:captureConfig:69] Connecting to device xe2
+INFO 2023-07-04 17:19:23,953 [main.py:captureConfig:69] Connecting to device xe3
+INFO 2023-07-04 17:19:24,058 [main.py:captureConfig:69] Connecting to device xr1
+INFO 2023-07-04 17:19:24,164 [main.py:captureConfig:69] Connecting to device xr2
+INFO 2023-07-04 17:19:24,268 [main.py:captureConfig:69] Connecting to device xr3
+INFO 2023-07-04 17:19:26,218 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-04 17:19:26,306 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-04 17:19:26,345 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-04 17:19:26,779 [main.py:captureConfigX:51] xe1_04-07-23_17_19_26.txt
+INFO 2023-07-04 17:19:26,812 [main.py:captureConfigX:51] xe2_04-07-23_17_19_26.txt
+INFO 2023-07-04 17:19:26,868 [main.py:captureConfigX:51] xe3_04-07-23_17_19_26.txt
+ERROR 2023-07-04 17:19:35,468 [main.py:captureConfigX:60] Error connecting to device xr1: failed to connect to xr1
+Failed while bringing device to "any" state
+ERROR 2023-07-04 17:19:35,531 [main.py:captureConfigX:60] Error connecting to device xr2: failed to connect to xr2
+Failed while bringing device to "any" state
+ERROR 2023-07-04 17:19:56,378 [main.py:captureConfigX:60] Error connecting to device xr3: failed to connect to xr3
+Failed while bringing device to "any" state
+INFO 2023-07-04 17:19:56,382 [main.py:captureConfig:78] Get Config -  execution completed successfully.
+INFO 2023-07-04 18:14:23,686 [main.py:captureConfig:68] Connecting to device xe1
+INFO 2023-07-04 18:14:23,794 [main.py:captureConfig:68] Connecting to device xe2
+INFO 2023-07-04 18:14:23,900 [main.py:captureConfig:68] Connecting to device xe3
+INFO 2023-07-04 18:14:24,004 [main.py:captureConfig:68] Connecting to device xr1
+INFO 2023-07-04 18:14:24,110 [main.py:captureConfig:68] Connecting to device xr2
+INFO 2023-07-04 18:14:24,214 [main.py:captureConfig:68] Connecting to device xr3
+INFO 2023-07-04 18:14:26,235 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-04 18:14:26,245 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-04 18:14:26,266 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-04 18:14:26,753 [main.py:captureConfigX:51] xe3_04-07-23_18_14_26.txt
+INFO 2023-07-04 18:14:26,790 [main.py:captureConfigX:51] xe2_04-07-23_18_14_26.txt
+INFO 2023-07-04 18:14:26,791 [main.py:captureConfigX:51] xe1_04-07-23_18_14_26.txt
+ERROR 2023-07-04 18:14:35,457 [main.py:captureConfigX:59] Error connecting to device xr1: failed to connect to xr1
+Failed while bringing device to "any" state
+ERROR 2023-07-04 18:14:35,459 [main.py:captureConfigX:59] Error connecting to device xr2: failed to connect to xr2
+Failed while bringing device to "any" state
+ERROR 2023-07-04 18:14:56,286 [main.py:captureConfigX:59] Error connecting to device xr3: failed to connect to xr3
+Failed while bringing device to "any" state
+INFO 2023-07-04 18:14:56,288 [main.py:captureConfig:77] Get Config -  execution completed successfully.
+INFO 2023-07-04 18:16:05,695 [main.py:captureConfig:68] Connecting to device xe1
+INFO 2023-07-04 18:16:05,814 [main.py:captureConfig:68] Connecting to device xe2
+INFO 2023-07-04 18:16:05,937 [main.py:captureConfig:68] Connecting to device xe3
+INFO 2023-07-04 18:16:06,061 [main.py:captureConfig:68] Connecting to device xr1
+INFO 2023-07-04 18:16:06,169 [main.py:captureConfig:68] Connecting to device xr2
+INFO 2023-07-04 18:16:06,275 [main.py:captureConfig:68] Connecting to device xr3
+INFO 2023-07-04 18:16:08,334 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-04 18:16:08,342 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-04 18:16:08,379 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-04 18:16:08,825 [main.py:captureConfigX:51] xe3_04-07-23_18_16_08.txt
+INFO 2023-07-04 18:16:08,831 [main.py:captureConfigX:51] xe2_04-07-23_18_16_08.txt
+INFO 2023-07-04 18:16:08,907 [main.py:captureConfigX:51] xe1_04-07-23_18_16_08.txt
+ERROR 2023-07-04 18:16:17,554 [main.py:captureConfigX:59] Error connecting to device xr2: failed to connect to xr2
+Failed while bringing device to "any" state
+ERROR 2023-07-04 18:16:17,562 [main.py:captureConfigX:59] Error connecting to device xr1: failed to connect to xr1
+Failed while bringing device to "any" state
+ERROR 2023-07-04 18:16:38,387 [main.py:captureConfigX:59] Error connecting to device xr3: failed to connect to xr3
+Failed while bringing device to "any" state
+INFO 2023-07-04 18:16:38,389 [main.py:captureConfig:77] Get Config -  execution completed successfully.
+INFO 2023-07-04 18:17:38,970 [main.py:captureConfig:68] Connecting to device xe1
+INFO 2023-07-04 18:17:39,074 [main.py:captureConfig:68] Connecting to device xe2
+INFO 2023-07-04 18:17:39,178 [main.py:captureConfig:68] Connecting to device xe3
+INFO 2023-07-04 18:17:39,283 [main.py:captureConfig:68] Connecting to device xr1
+INFO 2023-07-04 18:17:39,388 [main.py:captureConfig:68] Connecting to device xr2
+INFO 2023-07-04 18:17:39,495 [main.py:captureConfig:68] Connecting to device xr3
+INFO 2023-07-04 18:17:41,451 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-04 18:17:41,476 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-04 18:17:41,500 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-04 18:17:42,011 [main.py:captureConfigX:51] xe3_04-07-23_18_17_41.txt
+INFO 2023-07-04 18:17:42,012 [main.py:captureConfigX:51] xe2_04-07-23_18_17_41.txt
+INFO 2023-07-04 18:17:42,078 [main.py:captureConfigX:51] xe1_04-07-23_18_17_41.txt
+ERROR 2023-07-04 18:17:50,615 [main.py:captureConfigX:59] Error connecting to device xr1: failed to connect to xr1
+Failed while bringing device to "any" state
+ERROR 2023-07-04 18:17:50,737 [main.py:captureConfigX:59] Error connecting to device xr2: failed to connect to xr2
+Failed while bringing device to "any" state
+ERROR 2023-07-04 18:18:11,601 [main.py:captureConfigX:59] Error connecting to device xr3: failed to connect to xr3
+Failed while bringing device to "any" state
+INFO 2023-07-04 18:18:11,603 [main.py:captureConfig:77] Get Config -  execution completed successfully.
+INFO 2023-07-04 18:22:00,771 [main.py:captureConfig:68] Connecting to device xe1
+INFO 2023-07-04 18:22:00,885 [main.py:captureConfig:68] Connecting to device xe2
+INFO 2023-07-04 18:22:00,990 [main.py:captureConfig:68] Connecting to device xe3
+INFO 2023-07-04 18:22:01,094 [main.py:captureConfig:68] Connecting to device xr1
+INFO 2023-07-04 18:22:01,203 [main.py:captureConfig:68] Connecting to device xr2
+INFO 2023-07-04 18:22:01,313 [main.py:captureConfig:68] Connecting to device xr3
+INFO 2023-07-04 18:22:03,264 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-04 18:22:03,403 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-04 18:22:03,434 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-04 18:22:03,838 [main.py:captureConfigX:51] xe1_04-07-23_18_22_03.txt
+INFO 2023-07-04 18:22:03,988 [main.py:captureConfigX:51] xe2_04-07-23_18_22_03.txt
+INFO 2023-07-04 18:22:04,015 [main.py:captureConfigX:51] xe3_04-07-23_18_22_03.txt
+ERROR 2023-07-04 18:22:12,508 [main.py:captureConfigX:59] Error connecting to device xr1: failed to connect to xr1
+Failed while bringing device to "any" state
+ERROR 2023-07-04 18:22:12,559 [main.py:captureConfigX:59] Error connecting to device xr2: failed to connect to xr2
+Failed while bringing device to "any" state
+ERROR 2023-07-04 18:22:33,408 [main.py:captureConfigX:59] Error connecting to device xr3: failed to connect to xr3
+Failed while bringing device to "any" state
+INFO 2023-07-04 18:22:33,411 [main.py:captureConfig:77] Get Config -  execution completed successfully.
+INFO 2023-07-04 18:23:10,098 [main.py:captureConfig:68] Connecting to device xe1
+INFO 2023-07-04 18:23:10,203 [main.py:captureConfig:68] Connecting to device xe2
+INFO 2023-07-04 18:23:10,306 [main.py:captureConfig:68] Connecting to device xe3
+INFO 2023-07-04 18:23:10,411 [main.py:captureConfig:68] Connecting to device xr1
+INFO 2023-07-04 18:23:10,515 [main.py:captureConfig:68] Connecting to device xr2
+INFO 2023-07-04 18:23:10,620 [main.py:captureConfig:68] Connecting to device xr3
+INFO 2023-07-04 18:23:12,495 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-04 18:23:12,544 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-04 18:23:12,611 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-04 18:23:13,057 [main.py:captureConfigX:51] xe2_04-07-23_18_23_12.txt
+INFO 2023-07-04 18:23:13,107 [main.py:captureConfigX:51] xe3_04-07-23_18_23_12.txt
+INFO 2023-07-04 18:23:13,130 [main.py:captureConfigX:51] xe1_04-07-23_18_23_12.txt
+ERROR 2023-07-04 18:23:21,799 [main.py:captureConfigX:59] Error connecting to device xr1: failed to connect to xr1
+Failed while bringing device to "any" state
+ERROR 2023-07-04 18:23:21,958 [main.py:captureConfigX:59] Error connecting to device xr2: failed to connect to xr2
+Failed while bringing device to "any" state
+ERROR 2023-07-04 18:23:42,705 [main.py:captureConfigX:59] Error connecting to device xr3: failed to connect to xr3
+Failed while bringing device to "any" state
+INFO 2023-07-04 18:23:42,707 [main.py:captureConfig:77] Get Config -  execution completed successfully.
+INFO 2023-07-04 18:24:31,288 [main.py:captureConfig:68] Connecting to device xe1
+INFO 2023-07-04 18:24:31,392 [main.py:captureConfig:68] Connecting to device xe2
+INFO 2023-07-04 18:24:31,497 [main.py:captureConfig:68] Connecting to device xe3
+INFO 2023-07-04 18:24:31,603 [main.py:captureConfig:68] Connecting to device xr1
+INFO 2023-07-04 18:24:31,707 [main.py:captureConfig:68] Connecting to device xr2
+INFO 2023-07-04 18:24:31,812 [main.py:captureConfig:68] Connecting to device xr3
+INFO 2023-07-04 18:24:33,654 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-04 18:24:33,712 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-04 18:24:33,917 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-04 18:24:34,215 [main.py:captureConfigX:51] xe2_04-07-23_18_24_33.txt
+INFO 2023-07-04 18:24:34,243 [main.py:captureConfigX:51] xe1_04-07-23_18_24_33.txt
+INFO 2023-07-04 18:24:34,454 [main.py:captureConfigX:51] xe3_04-07-23_18_24_33.txt
+ERROR 2023-07-04 18:24:42,931 [main.py:captureConfigX:59] Error connecting to device xr1: failed to connect to xr1
+Failed while bringing device to "any" state
+ERROR 2023-07-04 18:24:43,070 [main.py:captureConfigX:59] Error connecting to device xr2: failed to connect to xr2
+Failed while bringing device to "any" state
+ERROR 2023-07-04 18:25:03,919 [main.py:captureConfigX:59] Error connecting to device xr3: failed to connect to xr3
+Failed while bringing device to "any" state
+INFO 2023-07-04 18:25:03,923 [main.py:captureConfig:77] Get Config -  execution completed successfully.
+INFO 2023-07-04 18:25:23,326 [main.py:captureConfig:68] Connecting to device xe1
+INFO 2023-07-04 18:25:23,443 [main.py:captureConfig:68] Connecting to device xe2
+INFO 2023-07-04 18:25:23,554 [main.py:captureConfig:68] Connecting to device xe3
+INFO 2023-07-04 18:25:23,701 [main.py:captureConfig:68] Connecting to device xr1
+INFO 2023-07-04 18:25:23,827 [main.py:captureConfig:68] Connecting to device xr2
+INFO 2023-07-04 18:25:23,939 [main.py:captureConfig:68] Connecting to device xr3
+INFO 2023-07-04 18:25:25,937 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-04 18:25:26,059 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-04 18:25:26,072 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-04 18:25:26,421 [main.py:captureConfigX:51] xe3_04-07-23_18_25_25.txt
+INFO 2023-07-04 18:25:26,562 [main.py:captureConfigX:51] xe2_04-07-23_18_25_26.txt
+INFO 2023-07-04 18:25:26,618 [main.py:captureConfigX:51] xe1_04-07-23_18_25_26.txt
+ERROR 2023-07-04 18:25:35,098 [main.py:captureConfigX:59] Error connecting to device xr1: failed to connect to xr1
+Failed while bringing device to "any" state
+ERROR 2023-07-04 18:25:35,231 [main.py:captureConfigX:59] Error connecting to device xr2: failed to connect to xr2
+Failed while bringing device to "any" state
+ERROR 2023-07-04 18:25:56,055 [main.py:captureConfigX:59] Error connecting to device xr3: failed to connect to xr3
+Failed while bringing device to "any" state
+INFO 2023-07-04 18:25:56,057 [main.py:captureConfig:77] Get Config -  execution completed successfully.
+INFO 2023-07-05 09:54:51,368 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-05 09:54:51,989 [main.py:captureConfigX:51] xe1_05-07-23_09_54_51.txt
+INFO 2023-07-05 09:56:03,411 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-05 09:56:03,433 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-05 09:56:03,582 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-05 09:56:03,966 [main.py:captureConfigX:51] xe2_05-07-23_09_56_03.txt
+INFO 2023-07-05 09:56:03,978 [main.py:captureConfigX:51] xe1_05-07-23_09_56_03.txt
+INFO 2023-07-05 09:56:04,120 [main.py:captureConfigX:51] xe3_05-07-23_09_56_03.txt
+INFO 2023-07-05 09:56:13,071 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-05 09:56:13,143 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-05 09:56:13,325 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-05 09:56:13,620 [main.py:captureConfigX:51] xe1_05-07-23_09_56_13.txt
+INFO 2023-07-05 09:56:13,620 [main.py:captureConfigX:51] xe2_05-07-23_09_56_13.txt
+INFO 2023-07-05 09:56:13,799 [main.py:captureConfigX:51] xe3_05-07-23_09_56_13.txt
+INFO 2023-07-05 10:04:04,107 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-05 10:04:04,194 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-05 10:04:04,517 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-05 10:04:04,685 [main.py:captureConfigX:51] xe2_05-07-23_10_04_04.txt
+INFO 2023-07-05 10:04:04,737 [main.py:captureConfigX:51] xe1_05-07-23_10_04_04.txt
+INFO 2023-07-05 10:04:05,011 [main.py:captureConfigX:51] xe3_05-07-23_10_04_04.txt
+INFO 2023-07-05 10:04:26,092 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-05 10:04:26,280 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-05 10:04:26,325 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-05 10:04:26,657 [main.py:captureConfigX:51] xe1_05-07-23_10_04_26.txt
+INFO 2023-07-05 10:04:26,766 [main.py:captureConfigX:51] xe2_05-07-23_10_04_26.txt
+INFO 2023-07-05 10:04:26,810 [main.py:captureConfigX:51] xe3_05-07-23_10_04_26.txt
+INFO 2023-07-05 10:04:34,658 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-05 10:04:34,878 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-05 10:04:34,955 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-05 10:04:35,233 [main.py:captureConfigX:51] xe1_05-07-23_10_04_34.txt
+INFO 2023-07-05 10:04:35,399 [main.py:captureConfigX:51] xe2_05-07-23_10_04_34.txt
+INFO 2023-07-05 10:04:35,535 [main.py:captureConfigX:51] xe3_05-07-23_10_04_34.txt
+INFO 2023-07-05 10:05:29,202 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-05 10:05:29,335 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-05 10:05:29,425 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-05 10:05:29,766 [main.py:captureConfigX:51] xe1_05-07-23_10_05_29.txt
+INFO 2023-07-05 10:05:29,854 [main.py:captureConfigX:51] xe2_05-07-23_10_05_29.txt
+INFO 2023-07-05 10:05:29,922 [main.py:captureConfigX:51] xe3_05-07-23_10_05_29.txt
+INFO 2023-07-05 10:05:40,545 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-05 10:05:40,632 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-05 10:05:40,779 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-05 10:05:41,103 [main.py:captureConfigX:51] xe1_05-07-23_10_05_40.txt
+INFO 2023-07-05 10:05:41,109 [main.py:captureConfigX:51] xe2_05-07-23_10_05_40.txt
+INFO 2023-07-05 10:05:41,265 [main.py:captureConfigX:51] xe3_05-07-23_10_05_40.txt
+INFO 2023-07-05 10:08:06,720 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-05 10:08:06,943 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-05 10:08:06,960 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-05 10:08:07,286 [main.py:captureConfigX:51] xe1_05-07-23_10_08_06.txt
+INFO 2023-07-05 10:08:07,506 [main.py:captureConfigX:51] xe3_05-07-23_10_08_06.txt
+INFO 2023-07-05 10:08:07,511 [main.py:captureConfigX:51] xe2_05-07-23_10_08_06.txt
+INFO 2023-07-05 10:09:55,060 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-05 10:09:55,082 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-05 10:09:55,123 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-05 10:09:55,577 [main.py:captureConfigX:51] xe2_05-07-23_10_09_55.txt
+INFO 2023-07-05 10:09:55,635 [main.py:captureConfigX:51] xe3_05-07-23_10_09_55.txt
+INFO 2023-07-05 10:09:55,673 [main.py:captureConfigX:51] xe1_05-07-23_10_09_55.txt
+INFO 2023-07-05 10:42:08,883 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-05 10:42:09,072 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-05 10:42:09,132 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-05 10:42:09,519 [main.py:captureConfigX:51] xe1_05-07-23_10_42_08.txt
+INFO 2023-07-05 10:42:09,584 [main.py:captureConfigX:51] xe3_05-07-23_10_42_09.txt
+INFO 2023-07-05 10:42:09,674 [main.py:captureConfigX:51] xe2_05-07-23_10_42_09.txt
+INFO 2023-07-05 10:42:17,319 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-05 10:42:17,339 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-05 10:42:17,356 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-05 10:42:17,836 [main.py:captureConfigX:51] xe3_05-07-23_10_42_17.txt
+INFO 2023-07-05 10:42:17,857 [main.py:captureConfigX:51] xe2_05-07-23_10_42_17.txt
+INFO 2023-07-05 10:42:18,019 [main.py:captureConfigX:51] xe1_05-07-23_10_42_17.txt
+INFO 2023-07-05 10:49:32,633 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-05 10:49:33,029 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-05 10:49:33,030 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-05 10:49:33,261 [main.py:captureConfigX:51] xe1_05-07-23_10_49_32.txt
+INFO 2023-07-05 10:49:33,488 [main.py:captureConfigX:51] xe3_05-07-23_10_49_33.txt
+INFO 2023-07-05 10:49:33,511 [main.py:captureConfigX:51] xe2_05-07-23_10_49_33.txt
+INFO 2023-07-05 10:50:10,494 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-05 10:50:10,605 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-05 10:50:10,672 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-05 10:50:11,085 [main.py:captureConfigX:51] xe1_05-07-23_10_50_10.txt
+INFO 2023-07-05 10:50:11,180 [main.py:captureConfigX:51] xe3_05-07-23_10_50_10.txt
+INFO 2023-07-05 10:50:11,213 [main.py:captureConfigX:51] xe2_05-07-23_10_50_10.txt
+INFO 2023-07-05 10:52:08,478 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-05 10:52:08,492 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-05 10:52:08,561 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-05 10:52:09,005 [main.py:captureConfigX:51] xe2_05-07-23_10_52_08.txt
+INFO 2023-07-05 10:52:09,047 [main.py:captureConfigX:51] xe1_05-07-23_10_52_08.txt
+INFO 2023-07-05 10:52:09,060 [main.py:captureConfigX:51] xe3_05-07-23_10_52_08.txt
+INFO 2023-07-05 11:13:23,032 [main.py:captureConfigX:51] xe1_05-07-23_11_13_22.txt
+INFO 2023-07-05 11:13:23,083 [main.py:captureConfigX:51] xe2_05-07-23_11_13_22.txt
+INFO 2023-07-05 11:13:23,214 [main.py:captureConfigX:51] xe3_05-07-23_11_13_22.txt
+INFO 2023-07-06 14:45:29,780 [main.py:captureConfig:68] Connecting to device xe1
+INFO 2023-07-06 14:45:29,894 [main.py:captureConfig:68] Connecting to device xe2
+INFO 2023-07-06 14:45:30,000 [main.py:captureConfig:68] Connecting to device xe3
+INFO 2023-07-06 14:45:33,874 [main.py:captureConfigX:45] ---getting capture config from device xe1---
+INFO 2023-07-06 14:45:34,575 [main.py:captureConfigX:45] ---getting capture config from device xe2---
+INFO 2023-07-06 14:45:35,191 [main.py:captureConfigX:51] xe2_06-07-23_14_45_34.txt
+INFO 2023-07-06 14:45:35,240 [main.py:captureConfigX:51] xe1_06-07-23_14_45_33.txt
+INFO 2023-07-06 14:45:37,442 [main.py:captureConfigX:45] ---getting capture config from device xe3---
+INFO 2023-07-06 14:45:38,781 [main.py:captureConfigX:51] xe3_06-07-23_14_45_37.txt
+INFO 2023-07-06 14:45:38,785 [main.py:captureConfig:77] Get Config -  execution completed successfully.
+INFO 2024-05-06 06:32:43,630 [main.py:captureConfig:112] Connecting to device xe1
+INFO 2024-05-06 06:32:43,745 [main.py:captureConfig:112] Connecting to device xe2
+INFO 2024-05-06 06:32:43,854 [main.py:captureConfig:112] Connecting to device xr1
+ERROR 2024-05-06 06:33:17,730 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe2 (198.18.0.129): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 06:33:17,734 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 06:33:17,737 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+ERROR 2024-05-06 06:33:17,739 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xr1 (198.18.0.131): failed to connect to xr1
+Failed while bringing device to "any" state
+INFO 2024-05-06 06:33:17,741 [main.py:captureConfigX:65] Retrying in 1 seconds...
+INFO 2024-05-06 06:33:17,742 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 06:33:49,998 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 06:33:50,000 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 06:33:50,002 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xr1 (198.18.0.131): failed to connect to xr1
+Failed while bringing device to "any" state
+INFO 2024-05-06 06:33:50,004 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 06:33:50,009 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe2 (198.18.0.129): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 06:33:50,011 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 06:34:22,228 [main.py:captureConfigX:68] Failed to establish connection to xe2 (198.18.0.129) after 3 attempts.
+ERROR 2024-05-06 06:34:22,238 [main.py:captureConfigX:68] Failed to establish connection to xr1 (198.18.0.131) after 3 attempts.
+ERROR 2024-05-06 06:34:22,241 [main.py:captureConfigX:68] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-06 06:34:52,495 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 06:34:52,498 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 06:34:52,503 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 06:34:52,506 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 06:34:52,535 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 06:34:52,541 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 06:35:02,548 [main.py:captureConfigX:103] Error connecting to device xe1: Paramiko: 'No existing session' error: try increasing 'conn_timeout' to 15 seconds or larger.
+ERROR 2024-05-06 06:35:02,563 [main.py:captureConfigX:103] Error connecting to device xr1: Paramiko: 'No existing session' error: try increasing 'conn_timeout' to 15 seconds or larger.
+ERROR 2024-05-06 06:35:02,621 [main.py:captureConfigX:103] Error connecting to device xe2: Paramiko: 'No existing session' error: try increasing 'conn_timeout' to 15 seconds or larger.
+INFO 2024-05-06 06:35:02,629 [main.py:captureConfig:121] Get Config -  execution completed successfully.
+INFO 2024-05-06 10:32:26,294 [main.py:captureConfig:112] Connecting to device xe1
+INFO 2024-05-06 10:32:26,411 [main.py:captureConfig:112] Connecting to device xe2
+INFO 2024-05-06 10:32:26,522 [main.py:captureConfig:112] Connecting to device xr1
+ERROR 2024-05-06 10:32:40,411 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:32:40,414 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:32:40,485 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe2 (198.18.0.129): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:32:40,487 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:32:40,583 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xr1 (198.18.0.131): failed to connect to xr1
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:32:40,585 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:32:56,476 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:32:56,481 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:32:56,548 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe2 (198.18.0.129): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:32:56,552 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:32:56,653 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xr1 (198.18.0.131): failed to connect to xr1
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:32:56,655 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:33:12,533 [main.py:captureConfigX:68] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-06 10:33:12,602 [main.py:captureConfigX:68] Failed to establish connection to xe2 (198.18.0.129) after 3 attempts.
+ERROR 2024-05-06 10:33:12,713 [main.py:captureConfigX:68] Failed to establish connection to xr1 (198.18.0.131) after 3 attempts.
+ERROR 2024-05-06 10:33:26,593 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 10:33:26,596 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 10:33:26,665 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 10:33:26,669 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 10:33:26,774 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 10:33:26,776 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 10:33:29,683 [main.py:captureConfigX:103] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 10:33:29,733 [main.py:captureConfigX:103] Error connecting to device xe2: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 10:33:29,799 [main.py:captureConfigX:103] Error connecting to device xr1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+INFO 2024-05-06 10:33:29,803 [main.py:captureConfig:121] Get Config -  execution completed successfully.
+INFO 2024-05-06 10:38:48,548 [main.py:captureConfig:112] Connecting to device xe1
+INFO 2024-05-06 10:38:48,666 [main.py:captureConfig:112] Connecting to device xe2
+INFO 2024-05-06 10:38:48,783 [main.py:captureConfig:112] Connecting to device xr1
+ERROR 2024-05-06 10:39:02,635 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:39:02,638 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:39:02,740 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe2 (198.18.0.129): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:39:02,742 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:39:02,841 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xr1 (198.18.0.131): failed to connect to xr1
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:39:02,847 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:39:18,704 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:39:18,708 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:39:18,864 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe2 (198.18.0.129): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:39:18,866 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:39:18,918 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xr1 (198.18.0.131): failed to connect to xr1
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:39:18,938 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:39:34,787 [main.py:captureConfigX:68] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-06 10:39:34,931 [main.py:captureConfigX:68] Failed to establish connection to xe2 (198.18.0.129) after 3 attempts.
+ERROR 2024-05-06 10:39:35,010 [main.py:captureConfigX:68] Failed to establish connection to xr1 (198.18.0.131) after 3 attempts.
+ERROR 2024-05-06 10:39:48,849 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 10:39:48,854 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 10:39:48,980 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 10:39:48,982 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 10:39:49,074 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 10:39:49,078 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 10:39:51,886 [main.py:captureConfigX:103] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 10:39:52,008 [main.py:captureConfigX:103] Error connecting to device xe2: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 10:39:52,106 [main.py:captureConfigX:103] Error connecting to device xr1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+INFO 2024-05-06 10:39:52,108 [main.py:captureConfig:123] Get Config -  execution completed successfully.
+INFO 2024-05-06 10:43:40,085 [main.py:captureConfig:112] Connecting to device xe1
+INFO 2024-05-06 10:43:40,206 [main.py:captureConfig:112] Connecting to device xe2
+INFO 2024-05-06 10:43:40,313 [main.py:captureConfig:112] Connecting to device xr1
+ERROR 2024-05-06 10:43:54,199 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:43:54,203 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:43:54,281 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe2 (198.18.0.129): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:43:54,284 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:43:54,410 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xr1 (198.18.0.131): failed to connect to xr1
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:43:54,414 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:44:10,249 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:44:10,252 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:44:10,329 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe2 (198.18.0.129): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:44:10,332 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:44:10,464 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xr1 (198.18.0.131): failed to connect to xr1
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:44:10,466 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:44:26,292 [main.py:captureConfigX:68] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-06 10:44:26,370 [main.py:captureConfigX:68] Failed to establish connection to xe2 (198.18.0.129) after 3 attempts.
+ERROR 2024-05-06 10:44:26,507 [main.py:captureConfigX:68] Failed to establish connection to xr1 (198.18.0.131) after 3 attempts.
+ERROR 2024-05-06 10:44:40,347 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 10:44:40,349 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 10:44:40,423 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 10:44:40,425 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 10:44:40,565 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 10:44:40,566 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 10:44:43,369 [main.py:captureConfigX:103] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 10:44:43,443 [main.py:captureConfigX:103] Error connecting to device xe2: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 10:44:43,582 [main.py:captureConfigX:103] Error connecting to device xr1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+INFO 2024-05-06 10:44:43,584 [main.py:captureConfig:123] Get Config -  execution completed successfully.
+INFO 2024-05-06 10:46:23,741 [main.py:captureConfig:112] Connecting to device xe1
+INFO 2024-05-06 10:46:23,854 [main.py:captureConfig:112] Connecting to device xe2
+INFO 2024-05-06 10:46:23,969 [main.py:captureConfig:112] Connecting to device xr1
+ERROR 2024-05-06 10:46:37,840 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:46:37,843 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:46:37,922 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe2 (198.18.0.129): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:46:37,927 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:46:38,054 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xr1 (198.18.0.131): failed to connect to xr1
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:46:38,058 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:46:54,113 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xr1 (198.18.0.131): failed to connect to xr1
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:46:54,118 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:47:10,172 [main.py:captureConfigX:68] Failed to establish connection to xr1 (198.18.0.131) after 3 attempts.
+ERROR 2024-05-06 10:47:16,584 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+ERROR 2024-05-06 10:47:16,590 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe2 (198.18.0.129): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:47:16,592 [main.py:captureConfigX:65] Retrying in 1 seconds...
+INFO 2024-05-06 10:47:16,594 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:47:24,225 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 10:47:24,230 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 10:47:27,258 [main.py:captureConfigX:103] Error connecting to device xr1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 10:47:32,665 [main.py:captureConfigX:68] Failed to establish connection to xe2 (198.18.0.129) after 3 attempts.
+ERROR 2024-05-06 10:47:32,697 [main.py:captureConfigX:68] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-06 10:47:46,769 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 10:47:46,772 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 10:47:46,807 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 10:47:46,812 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 10:47:49,788 [main.py:captureConfigX:103] Error connecting to device xe2: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 10:47:49,830 [main.py:captureConfigX:103] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+INFO 2024-05-06 10:47:49,834 [main.py:captureConfig:123] Get Config -  execution completed successfully.
+INFO 2024-05-06 10:51:48,690 [main.py:captureConfig:112] Connecting to device xe1
+INFO 2024-05-06 10:51:48,807 [main.py:captureConfig:112] Connecting to device xe2
+INFO 2024-05-06 10:51:48,918 [main.py:captureConfig:112] Connecting to device xr1
+ERROR 2024-05-06 10:52:02,786 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:52:02,789 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:52:02,933 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe2 (198.18.0.129): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:52:02,935 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:52:03,019 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xr1 (198.18.0.131): failed to connect to xr1
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:52:03,021 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:52:18,840 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:52:18,843 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:52:18,989 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe2 (198.18.0.129): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:52:18,991 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:52:19,077 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xr1 (198.18.0.131): failed to connect to xr1
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:52:19,079 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:52:34,894 [main.py:captureConfigX:68] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-06 10:52:35,046 [main.py:captureConfigX:68] Failed to establish connection to xe2 (198.18.0.129) after 3 attempts.
+ERROR 2024-05-06 10:52:35,134 [main.py:captureConfigX:68] Failed to establish connection to xr1 (198.18.0.131) after 3 attempts.
+ERROR 2024-05-06 10:52:48,957 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 10:52:48,961 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 10:52:49,112 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 10:52:49,114 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 10:52:49,190 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 10:52:49,192 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 10:52:52,001 [main.py:captureConfigX:103] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 10:52:52,138 [main.py:captureConfigX:103] Error connecting to device xe2: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 10:52:52,216 [main.py:captureConfigX:103] Error connecting to device xr1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+INFO 2024-05-06 10:52:52,218 [main.py:captureConfig:123] Get Config -  execution completed successfully.
+INFO 2024-05-06 10:58:13,299 [main.py:captureConfig:112] Connecting to device xe1
+INFO 2024-05-06 10:58:13,414 [main.py:captureConfig:112] Connecting to device xe2
+INFO 2024-05-06 10:58:13,519 [main.py:captureConfig:112] Connecting to device xr1
+ERROR 2024-05-06 10:58:27,395 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:58:27,399 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:58:27,485 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe2 (198.18.0.129): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:58:27,487 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:58:27,597 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xr1 (198.18.0.131): failed to connect to xr1
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:58:27,600 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:58:43,462 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:58:43,464 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:58:43,544 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe2 (198.18.0.129): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:58:43,547 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:58:43,664 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xr1 (198.18.0.131): failed to connect to xr1
+Failed while bringing device to "any" state
+INFO 2024-05-06 10:58:43,668 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 10:58:59,524 [main.py:captureConfigX:68] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-06 10:58:59,604 [main.py:captureConfigX:68] Failed to establish connection to xe2 (198.18.0.129) after 3 attempts.
+ERROR 2024-05-06 10:58:59,832 [main.py:captureConfigX:68] Failed to establish connection to xr1 (198.18.0.131) after 3 attempts.
+ERROR 2024-05-06 10:59:13,574 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 10:59:13,577 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 10:59:13,664 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 10:59:13,666 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 10:59:13,885 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 10:59:13,888 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 10:59:16,596 [main.py:captureConfigX:103] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 10:59:16,683 [main.py:captureConfigX:103] Error connecting to device xe2: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 10:59:16,910 [main.py:captureConfigX:103] Error connecting to device xr1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+INFO 2024-05-06 10:59:16,913 [main.py:captureConfig:123] Get Config -  execution completed successfully.
+INFO 2024-05-06 11:00:09,947 [main.py:captureConfig:112] Connecting to device xe1
+INFO 2024-05-06 11:00:10,070 [main.py:captureConfig:112] Connecting to device xe2
+INFO 2024-05-06 11:00:10,178 [main.py:captureConfig:112] Connecting to device xr1
+ERROR 2024-05-06 11:00:24,057 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 11:00:24,061 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 11:00:24,169 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe2 (198.18.0.129): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 11:00:24,171 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 11:00:24,273 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xr1 (198.18.0.131): failed to connect to xr1
+Failed while bringing device to "any" state
+INFO 2024-05-06 11:00:24,275 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 11:00:40,122 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 11:00:40,127 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 11:00:40,232 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe2 (198.18.0.129): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 11:00:40,234 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 11:00:40,354 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xr1 (198.18.0.131): failed to connect to xr1
+Failed while bringing device to "any" state
+INFO 2024-05-06 11:00:40,356 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 11:00:56,189 [main.py:captureConfigX:68] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-06 11:00:56,284 [main.py:captureConfigX:68] Failed to establish connection to xe2 (198.18.0.129) after 3 attempts.
+ERROR 2024-05-06 11:00:56,417 [main.py:captureConfigX:68] Failed to establish connection to xr1 (198.18.0.131) after 3 attempts.
+ERROR 2024-05-06 11:01:10,249 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 11:01:10,254 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 11:01:10,337 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 11:01:10,339 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 11:01:10,472 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 11:01:10,475 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 11:01:13,269 [main.py:captureConfigX:103] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 11:01:13,352 [main.py:captureConfigX:103] Error connecting to device xe2: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 11:01:13,488 [main.py:captureConfigX:103] Error connecting to device xr1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+INFO 2024-05-06 11:01:13,491 [main.py:captureConfig:123] Get Config -  execution completed successfully.
+INFO 2024-05-06 11:33:18,626 [main.py:captureConfig:112] Connecting to device xe1
+ERROR 2024-05-06 11:33:32,833 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 11:33:32,836 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 11:33:48,889 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 11:33:48,892 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 11:34:04,948 [main.py:captureConfigX:68] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-06 11:34:19,005 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 11:34:19,009 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 11:34:22,029 [main.py:captureConfigX:103] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+INFO 2024-05-06 11:34:22,032 [main.py:captureConfig:123] Get Config -  execution completed successfully.
+INFO 2024-05-06 11:38:14,327 [main.py:captureConfig:112] Connecting to device xe1
+ERROR 2024-05-06 11:38:28,424 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 11:38:28,427 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 11:38:44,502 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 11:38:44,505 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 11:39:00,582 [main.py:captureConfigX:68] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-06 11:39:14,652 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 11:39:14,655 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 11:39:17,674 [main.py:captureConfigX:103] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+INFO 2024-05-06 11:39:17,676 [main.py:captureConfig:123] Get Config -  execution completed
+INFO 2024-05-06 11:39:44,029 [main.py:captureConfig:112] Connecting to device xe1
+ERROR 2024-05-06 11:39:58,148 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 11:39:58,153 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 11:40:14,218 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 11:40:14,220 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 11:40:30,285 [main.py:captureConfigX:68] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-06 11:40:44,335 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 11:40:44,337 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 11:40:47,359 [main.py:captureConfigX:103] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+INFO 2024-05-06 11:40:47,362 [main.py:captureConfig:123] Get Config -  execution completed
+INFO 2024-05-06 15:24:46,167 [main.py:captureConfig:114] Connecting to device xe1
+ERROR 2024-05-06 15:24:57,234 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 15:24:57,237 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 15:25:10,278 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 15:25:10,280 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 15:25:23,336 [main.py:captureConfigX:68] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-06 15:25:34,378 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 15:25:34,381 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 15:25:37,415 [main.py:captureConfigX:104] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 15:25:37,419 [main.py:captureConfig:122] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+ occurred while processing device xe1
+INFO 2024-05-06 15:27:08,790 [main.py:captureConfig:114] Connecting to device xe1
+ERROR 2024-05-06 15:27:19,865 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 15:27:19,868 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 15:27:32,910 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 15:27:32,913 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 15:27:45,954 [main.py:captureConfigX:68] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-06 15:27:56,988 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 15:27:56,991 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 15:28:00,020 [main.py:captureConfigX:104] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 15:28:00,024 [main.py:captureConfig:122] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+ occurred while processing device xe1
+INFO 2024-05-06 15:29:01,234 [main.py:captureConfig:114] Connecting to device xe1
+ERROR 2024-05-06 15:29:12,317 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 15:29:12,319 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 15:29:25,360 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 15:29:25,363 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 15:29:38,405 [main.py:captureConfigX:68] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-06 15:29:49,459 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 15:29:49,462 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 15:29:52,491 [main.py:captureConfigX:104] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 15:29:52,493 [main.py:captureConfig:122] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+ occurred while processing device xe1
+INFO 2024-05-06 15:31:40,080 [main.py:captureConfig:114] Connecting to device xe1
+INFO 2024-05-06 15:31:40,196 [main.py:captureConfig:114] Connecting to device xe2
+ERROR 2024-05-06 15:31:51,136 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 15:31:51,139 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 15:31:51,225 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 15:31:51,228 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 15:32:04,176 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 15:32:04,179 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 15:32:04,265 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 15:32:04,268 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 15:32:17,222 [main.py:captureConfigX:68] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-06 15:32:17,305 [main.py:captureConfigX:68] Failed to establish connection to xe2 (198.18.0.122) after 3 attempts.
+ERROR 2024-05-06 15:32:28,263 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 15:32:28,266 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 15:32:28,346 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 15:32:28,348 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 15:32:31,293 [main.py:captureConfigX:104] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 15:32:31,369 [main.py:captureConfigX:104] Error connecting to device xe2: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 15:32:31,372 [main.py:captureConfig:122] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+ occurred while processing device xe2
+INFO 2024-05-06 15:36:30,226 [main.py:captureConfig:114] Connecting to device xe1
+INFO 2024-05-06 15:36:30,343 [main.py:captureConfig:114] Connecting to device xe2
+ERROR 2024-05-06 15:36:41,307 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 15:36:41,310 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 15:36:41,394 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 15:36:41,396 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 15:36:54,346 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 15:36:54,349 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 15:36:54,433 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 15:36:54,435 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 15:37:07,390 [main.py:captureConfigX:68] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-06 15:37:07,468 [main.py:captureConfigX:68] Failed to establish connection to xe2 (198.18.0.122) after 3 attempts.
+ERROR 2024-05-06 15:37:18,426 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 15:37:18,429 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 15:37:18,515 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 15:37:18,518 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 15:37:21,457 [main.py:captureConfigX:104] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 15:37:21,546 [main.py:captureConfigX:104] Error connecting to device xe2: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+INFO 2024-05-06 15:37:21,550 [main.py:captureConfig:125] Get Config -  execution completed
+INFO 2024-05-06 15:38:13,377 [main.py:captureConfig:114] Connecting to device xe1
+INFO 2024-05-06 15:38:13,492 [main.py:captureConfig:114] Connecting to device xe2
+ERROR 2024-05-06 15:38:24,436 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 15:38:24,439 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 15:38:24,546 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 15:38:24,548 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 15:38:37,482 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 15:38:37,485 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 15:38:37,586 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 15:38:37,588 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 15:38:50,526 [main.py:captureConfigX:68] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-06 15:38:50,631 [main.py:captureConfigX:68] Failed to establish connection to xe2 (198.18.0.122) after 3 attempts.
+ERROR 2024-05-06 15:39:01,566 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 15:39:01,568 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 15:39:01,671 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 15:39:01,673 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 15:39:04,584 [main.py:captureConfigX:104] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 15:39:04,686 [main.py:captureConfigX:104] Error connecting to device xe2: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 15:39:04,688 [main.py:captureConfig:122] Finish getting config from all device with an Error occurred while processing device xe2
+INFO 2024-05-06 17:35:15,455 [main.py:captureConfig:114] Connecting to device xe1
+INFO 2024-05-06 17:35:15,576 [main.py:captureConfig:114] Connecting to device xe2
+WARNING 2024-05-06 17:35:26,528 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 17:35:26,532 [main.py:captureConfigX:65] Retrying in 1 seconds...
+WARNING 2024-05-06 17:35:26,648 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 17:35:26,650 [main.py:captureConfigX:65] Retrying in 1 seconds...
+WARNING 2024-05-06 17:35:39,573 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 17:35:39,576 [main.py:captureConfigX:65] Retrying in 1 seconds...
+WARNING 2024-05-06 17:35:39,687 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 17:35:39,690 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 17:35:52,607 [main.py:captureConfigX:68] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-06 17:35:52,729 [main.py:captureConfigX:68] Failed to establish connection to xe2 (198.18.0.122) after 3 attempts.
+ERROR 2024-05-06 17:36:03,637 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 17:36:03,640 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 17:36:03,767 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 17:36:03,770 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 17:36:06,676 [main.py:captureConfigX:104] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 17:36:06,798 [main.py:captureConfigX:104] Error connecting to device xe2: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 17:36:06,801 [main.py:captureConfig:122] Finish getting config from all device with an Error occurred while processing device xe2
+INFO 2024-05-06 17:36:08,375 [main.py:captureConfig:114] Connecting to device xe1
+INFO 2024-05-06 17:36:08,494 [main.py:captureConfig:114] Connecting to device xe2
+WARNING 2024-05-06 17:36:19,422 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 17:36:19,425 [main.py:captureConfigX:65] Retrying in 1 seconds...
+WARNING 2024-05-06 17:36:19,527 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 17:36:19,530 [main.py:captureConfigX:65] Retrying in 1 seconds...
+WARNING 2024-05-06 17:36:32,457 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 17:36:32,461 [main.py:captureConfigX:65] Retrying in 1 seconds...
+WARNING 2024-05-06 17:36:32,561 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 17:36:32,564 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 17:36:45,517 [main.py:captureConfigX:68] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-06 17:36:45,599 [main.py:captureConfigX:68] Failed to establish connection to xe2 (198.18.0.122) after 3 attempts.
+ERROR 2024-05-06 17:36:56,567 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 17:36:56,570 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 17:36:56,644 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 17:36:56,646 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 17:36:59,605 [main.py:captureConfigX:104] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 17:36:59,667 [main.py:captureConfigX:104] Error connecting to device xe2: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 17:36:59,670 [main.py:captureConfig:122] Finish getting config from all device with an Error occurred while processing device xe2
+INFO 2024-05-06 17:48:11,799 [main.py:captureConfig:114] Connecting to device xe1
+INFO 2024-05-06 17:48:11,925 [main.py:captureConfig:114] Connecting to device xe2
+WARNING 2024-05-06 17:48:22,927 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 17:48:22,930 [main.py:captureConfigX:65] Retrying in 1 seconds...
+WARNING 2024-05-06 17:48:23,006 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 17:48:23,009 [main.py:captureConfigX:65] Retrying in 1 seconds...
+WARNING 2024-05-06 17:48:35,965 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 17:48:35,969 [main.py:captureConfigX:65] Retrying in 1 seconds...
+WARNING 2024-05-06 17:48:36,045 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 17:48:36,047 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 17:48:49,005 [main.py:captureConfigX:68] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-06 17:48:49,084 [main.py:captureConfigX:68] Failed to establish connection to xe2 (198.18.0.122) after 3 attempts.
+ERROR 2024-05-06 17:49:00,055 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 17:49:00,057 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 17:49:00,133 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 17:49:00,135 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 17:49:03,093 [main.py:captureConfigX:104] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 17:49:03,161 [main.py:captureConfigX:104] Error connecting to device xe2: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 17:49:03,164 [main.py:captureConfig:122] Finish getting config from all device with an Error occurred while processing device xe2
+INFO 2024-05-06 17:49:37,157 [main.py:captureConfig:114] Connecting to device xe1
+INFO 2024-05-06 17:49:37,272 [main.py:captureConfig:114] Connecting to device xe2
+WARNING 2024-05-06 17:49:48,231 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 17:49:48,237 [main.py:captureConfigX:65] Retrying in 1 seconds...
+WARNING 2024-05-06 17:49:48,336 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 17:49:48,339 [main.py:captureConfigX:65] Retrying in 1 seconds...
+WARNING 2024-05-06 17:50:01,280 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 17:50:01,284 [main.py:captureConfigX:65] Retrying in 1 seconds...
+WARNING 2024-05-06 17:50:01,380 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 17:50:01,383 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 17:50:14,326 [main.py:captureConfigX:68] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-06 17:50:14,416 [main.py:captureConfigX:68] Failed to establish connection to xe2 (198.18.0.122) after 3 attempts.
+ERROR 2024-05-06 17:50:25,367 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 17:50:25,370 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 17:50:25,450 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 17:50:25,453 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 17:50:28,388 [main.py:captureConfigX:104] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 17:50:28,468 [main.py:captureConfigX:104] Error connecting to device xe2: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+INFO 2024-05-06 17:50:28,471 [main.py:captureConfig:125] Get Config -  execution completed
+INFO 2024-05-06 17:51:31,311 [main.py:captureConfig:114] Connecting to device xe1
+INFO 2024-05-06 17:51:31,425 [main.py:captureConfig:114] Connecting to device xe2
+WARNING 2024-05-06 17:51:42,357 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 17:51:42,361 [main.py:captureConfigX:65] Retrying in 1 seconds...
+WARNING 2024-05-06 17:51:42,467 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 17:51:42,469 [main.py:captureConfigX:65] Retrying in 1 seconds...
+WARNING 2024-05-06 17:51:55,397 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 17:51:55,401 [main.py:captureConfigX:65] Retrying in 1 seconds...
+WARNING 2024-05-06 17:51:55,507 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 17:51:55,510 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 17:52:08,444 [main.py:captureConfigX:68] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-06 17:52:08,552 [main.py:captureConfigX:68] Failed to establish connection to xe2 (198.18.0.122) after 3 attempts.
+ERROR 2024-05-06 17:52:19,487 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 17:52:19,491 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 17:52:19,605 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 17:52:19,606 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 17:52:22,500 [main.py:captureConfigX:104] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 17:52:22,612 [main.py:captureConfigX:104] Error connecting to device xe2: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 17:52:22,615 [main.py:captureConfig:122] Finish getting config from all device with an Error occurred while processing device xe2
+INFO 2024-05-06 17:53:46,224 [main.py:captureConfig:114] Connecting to device xe1
+INFO 2024-05-06 17:53:46,337 [main.py:captureConfig:114] Connecting to device xe2
+WARNING 2024-05-06 17:53:57,287 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 17:53:57,293 [main.py:captureConfigX:65] Retrying in 1 seconds...
+WARNING 2024-05-06 17:53:57,384 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 17:53:57,387 [main.py:captureConfigX:65] Retrying in 1 seconds...
+WARNING 2024-05-06 17:54:10,355 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 17:54:10,359 [main.py:captureConfigX:65] Retrying in 1 seconds...
+WARNING 2024-05-06 17:54:10,433 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 17:54:10,435 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 17:54:23,393 [main.py:captureConfigX:68] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-06 17:54:23,479 [main.py:captureConfigX:68] Failed to establish connection to xe2 (198.18.0.122) after 3 attempts.
+ERROR 2024-05-06 17:54:34,436 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 17:54:34,439 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 17:54:34,513 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 17:54:34,515 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 17:54:37,467 [main.py:captureConfigX:104] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 17:54:37,543 [main.py:captureConfigX:104] Error connecting to device xe2: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 17:54:37,546 [main.py:captureConfig:122] Finish getting config from all device with an Error occurred while processing device xe2
+INFO 2024-05-06 17:56:20,278 [main.py:captureConfig:114] Connecting to device xe1
+INFO 2024-05-06 17:56:20,395 [main.py:captureConfig:114] Connecting to device xe2
+WARNING 2024-05-06 17:56:31,353 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 17:56:31,357 [main.py:captureConfigX:65] Retrying in 1 seconds...
+WARNING 2024-05-06 17:56:31,440 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 17:56:31,443 [main.py:captureConfigX:65] Retrying in 1 seconds...
+WARNING 2024-05-06 17:56:44,400 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 17:56:44,402 [main.py:captureConfigX:65] Retrying in 1 seconds...
+WARNING 2024-05-06 17:56:44,479 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 17:56:44,481 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 17:56:57,445 [main.py:captureConfigX:68] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-06 17:56:57,524 [main.py:captureConfigX:68] Failed to establish connection to xe2 (198.18.0.122) after 3 attempts.
+ERROR 2024-05-06 17:57:08,488 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 17:57:08,492 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 17:57:08,559 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 17:57:08,561 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 17:57:11,526 [main.py:captureConfigX:104] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 17:57:11,593 [main.py:captureConfigX:104] Error connecting to device xe2: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 17:57:11,596 [main.py:captureConfig:122] Finish getting config from all device with an Error occurred while processing device xe2
+INFO 2024-05-06 17:57:32,872 [main.py:captureConfig:114] Connecting to device xe1
+INFO 2024-05-06 17:57:32,984 [main.py:captureConfig:114] Connecting to device xe2
+WARNING 2024-05-06 17:57:43,919 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 17:57:43,922 [main.py:captureConfigX:65] Retrying in 1 seconds...
+WARNING 2024-05-06 17:57:44,029 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 17:57:44,031 [main.py:captureConfigX:65] Retrying in 1 seconds...
+WARNING 2024-05-06 17:57:56,966 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-06 17:57:56,969 [main.py:captureConfigX:65] Retrying in 1 seconds...
+WARNING 2024-05-06 17:57:57,069 [main.py:captureConfigX:64] Connection attempt 2/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-06 17:57:57,071 [main.py:captureConfigX:65] Retrying in 1 seconds...
+ERROR 2024-05-06 17:58:10,014 [main.py:captureConfigX:68] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-06 17:58:10,109 [main.py:captureConfigX:68] Failed to establish connection to xe2 (198.18.0.122) after 3 attempts.
+ERROR 2024-05-06 17:58:21,058 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 17:58:21,063 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 17:58:21,149 [main.py:captureConfigX:74] Failed to connect using pyats get Config function
+INFO 2024-05-06 17:58:21,152 [main.py:captureConfigX:80] Establishing Netmiko connection...
+ERROR 2024-05-06 17:58:24,080 [main.py:captureConfigX:104] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 17:58:24,180 [main.py:captureConfigX:104] Error connecting to device xe2: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-06 17:58:24,182 [main.py:captureConfig:122] Finish getting config from all device with an Error occurred while processing device xe2
+INFO 2024-05-07 07:36:25,797 [main.py:captureConfig:119] Connecting to device xe1
+INFO 2024-05-07 07:36:25,909 [main.py:captureConfig:119] Connecting to device xe2
+WARNING 2024-05-07 07:36:36,849 [main.py:captureConfigX:69] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 07:36:36,852 [main.py:captureConfigX:70] Retrying in 1 seconds...
+WARNING 2024-05-07 07:36:36,948 [main.py:captureConfigX:69] Connection attempt 1/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-07 07:36:36,950 [main.py:captureConfigX:70] Retrying in 1 seconds...
+WARNING 2024-05-07 07:36:49,893 [main.py:captureConfigX:69] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 07:36:49,898 [main.py:captureConfigX:70] Retrying in 1 seconds...
+WARNING 2024-05-07 07:36:49,983 [main.py:captureConfigX:69] Connection attempt 2/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-07 07:36:49,985 [main.py:captureConfigX:70] Retrying in 1 seconds...
+ERROR 2024-05-07 07:37:02,937 [main.py:captureConfigX:73] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-07 07:37:03,023 [main.py:captureConfigX:73] Failed to establish connection to xe2 (198.18.0.122) after 3 attempts.
+ERROR 2024-05-07 07:37:13,974 [main.py:captureConfigX:79] Failed to connect using pyats get Config function
+INFO 2024-05-07 07:37:13,977 [main.py:captureConfigX:85] Establishing Netmiko connection...
+ERROR 2024-05-07 07:37:14,061 [main.py:captureConfigX:79] Failed to connect using pyats get Config function
+INFO 2024-05-07 07:37:14,063 [main.py:captureConfigX:85] Establishing Netmiko connection...
+ERROR 2024-05-07 07:37:17,007 [main.py:captureConfigX:109] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 07:37:17,087 [main.py:captureConfigX:109] Error connecting to device xe2: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 07:37:17,090 [main.py:captureConfig:127] unhashable type: 'dict' occurred while processing device xe2
+INFO 2024-05-07 07:38:31,327 [main.py:captureConfig:119] Connecting to device xe1
+INFO 2024-05-07 07:38:31,435 [main.py:captureConfig:119] Connecting to device xe2
+WARNING 2024-05-07 07:38:42,373 [main.py:captureConfigX:69] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 07:38:42,378 [main.py:captureConfigX:70] Retrying in 1 seconds...
+WARNING 2024-05-07 07:38:42,469 [main.py:captureConfigX:69] Connection attempt 1/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-07 07:38:42,471 [main.py:captureConfigX:70] Retrying in 1 seconds...
+INFO 2024-05-07 07:42:00,187 [main.py:captureConfig:119] Connecting to device xe1
+INFO 2024-05-07 07:42:00,296 [main.py:captureConfig:119] Connecting to device xe2
+WARNING 2024-05-07 07:42:11,231 [main.py:captureConfigX:69] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 07:42:11,237 [main.py:captureConfigX:70] Retrying in 1 seconds...
+WARNING 2024-05-07 07:42:11,336 [main.py:captureConfigX:69] Connection attempt 1/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-07 07:42:11,338 [main.py:captureConfigX:70] Retrying in 1 seconds...
+WARNING 2024-05-07 07:42:24,273 [main.py:captureConfigX:69] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 07:42:24,276 [main.py:captureConfigX:70] Retrying in 1 seconds...
+WARNING 2024-05-07 07:42:24,373 [main.py:captureConfigX:69] Connection attempt 2/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-07 07:42:24,376 [main.py:captureConfigX:70] Retrying in 1 seconds...
+ERROR 2024-05-07 07:42:37,319 [main.py:captureConfigX:73] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-07 07:42:37,408 [main.py:captureConfigX:73] Failed to establish connection to xe2 (198.18.0.122) after 3 attempts.
+ERROR 2024-05-07 07:42:48,371 [main.py:captureConfigX:79] Failed to connect using pyats get Config function
+INFO 2024-05-07 07:42:48,375 [main.py:captureConfigX:85] Establishing Netmiko connection...
+ERROR 2024-05-07 07:42:48,447 [main.py:captureConfigX:79] Failed to connect using pyats get Config function
+INFO 2024-05-07 07:42:48,449 [main.py:captureConfigX:85] Establishing Netmiko connection...
+ERROR 2024-05-07 07:42:51,401 [main.py:captureConfigX:109] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 07:42:51,475 [main.py:captureConfigX:109] Error connecting to device xe2: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 07:42:51,478 [main.py:captureConfig:127] {'msg': 'Finish getting config from all device with an Error', 'logs': 'abasdasd'} occurred while processing device xe2
+INFO 2024-05-07 07:47:35,080 [main.py:captureConfig:119] Connecting to device xe1
+INFO 2024-05-07 07:47:35,188 [main.py:captureConfig:119] Connecting to device xe2
+WARNING 2024-05-07 07:47:46,125 [main.py:captureConfigX:69] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 07:47:46,128 [main.py:captureConfigX:70] Retrying in 1 seconds...
+WARNING 2024-05-07 07:47:46,229 [main.py:captureConfigX:69] Connection attempt 1/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-07 07:47:46,231 [main.py:captureConfigX:70] Retrying in 1 seconds...
+WARNING 2024-05-07 07:47:59,170 [main.py:captureConfigX:69] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 07:47:59,174 [main.py:captureConfigX:70] Retrying in 1 seconds...
+WARNING 2024-05-07 07:47:59,267 [main.py:captureConfigX:69] Connection attempt 2/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-07 07:47:59,269 [main.py:captureConfigX:70] Retrying in 1 seconds...
+ERROR 2024-05-07 07:48:12,213 [main.py:captureConfigX:73] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-07 07:48:12,303 [main.py:captureConfigX:73] Failed to establish connection to xe2 (198.18.0.122) after 3 attempts.
+ERROR 2024-05-07 07:48:23,253 [main.py:captureConfigX:79] Failed to connect using pyats get Config function
+INFO 2024-05-07 07:48:23,257 [main.py:captureConfigX:85] Establishing Netmiko connection...
+ERROR 2024-05-07 07:48:23,347 [main.py:captureConfigX:79] Failed to connect using pyats get Config function
+INFO 2024-05-07 07:48:23,349 [main.py:captureConfigX:85] Establishing Netmiko connection...
+ERROR 2024-05-07 07:48:26,283 [main.py:captureConfigX:109] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 07:48:26,374 [main.py:captureConfigX:109] Error connecting to device xe2: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 07:48:26,377 [main.py:captureConfig:127] ('Finish getting config from all device with an Error', 'abasdasd') occurred while processing device xe2
+INFO 2024-05-07 07:48:51,462 [main.py:captureConfig:119] Connecting to device xe1
+INFO 2024-05-07 07:48:51,572 [main.py:captureConfig:119] Connecting to device xe2
+WARNING 2024-05-07 07:49:02,508 [main.py:captureConfigX:69] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 07:49:02,512 [main.py:captureConfigX:70] Retrying in 1 seconds...
+WARNING 2024-05-07 07:49:02,611 [main.py:captureConfigX:69] Connection attempt 1/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-07 07:49:02,613 [main.py:captureConfigX:70] Retrying in 1 seconds...
+WARNING 2024-05-07 07:49:15,552 [main.py:captureConfigX:69] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 07:49:15,557 [main.py:captureConfigX:70] Retrying in 1 seconds...
+WARNING 2024-05-07 07:49:15,647 [main.py:captureConfigX:69] Connection attempt 2/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-07 07:49:15,649 [main.py:captureConfigX:70] Retrying in 1 seconds...
+ERROR 2024-05-07 07:49:28,593 [main.py:captureConfigX:73] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-07 07:49:28,689 [main.py:captureConfigX:73] Failed to establish connection to xe2 (198.18.0.122) after 3 attempts.
+ERROR 2024-05-07 07:49:39,631 [main.py:captureConfigX:79] Failed to connect using pyats get Config function
+INFO 2024-05-07 07:49:39,635 [main.py:captureConfigX:85] Establishing Netmiko connection...
+ERROR 2024-05-07 07:49:39,722 [main.py:captureConfigX:79] Failed to connect using pyats get Config function
+INFO 2024-05-07 07:49:39,724 [main.py:captureConfigX:85] Establishing Netmiko connection...
+ERROR 2024-05-07 07:49:42,656 [main.py:captureConfigX:109] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 07:49:42,743 [main.py:captureConfigX:109] Error connecting to device xe2: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 07:49:42,746 [main.py:captureConfig:127] ('Finish getting config from all device with an Error', 'abasdasd') occurred while processing device xe2
+INFO 2024-05-07 08:00:17,814 [main.py:captureConfig:119] Connecting to device xe1
+INFO 2024-05-07 08:00:17,920 [main.py:captureConfig:119] Connecting to device xe2
+WARNING 2024-05-07 08:00:28,858 [main.py:captureConfigX:69] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:00:28,862 [main.py:captureConfigX:70] Retrying in 1 seconds...
+WARNING 2024-05-07 08:00:28,961 [main.py:captureConfigX:69] Connection attempt 1/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:00:28,963 [main.py:captureConfigX:70] Retrying in 1 seconds...
+WARNING 2024-05-07 08:00:41,903 [main.py:captureConfigX:69] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:00:41,906 [main.py:captureConfigX:70] Retrying in 1 seconds...
+WARNING 2024-05-07 08:00:42,019 [main.py:captureConfigX:69] Connection attempt 2/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:00:42,022 [main.py:captureConfigX:70] Retrying in 1 seconds...
+ERROR 2024-05-07 08:00:54,959 [main.py:captureConfigX:73] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-07 08:00:55,082 [main.py:captureConfigX:73] Failed to establish connection to xe2 (198.18.0.122) after 3 attempts.
+ERROR 2024-05-07 08:01:06,000 [main.py:captureConfigX:79] Failed to connect using pyats get Config function
+INFO 2024-05-07 08:01:06,003 [main.py:captureConfigX:85] Establishing Netmiko connection...
+ERROR 2024-05-07 08:01:06,123 [main.py:captureConfigX:79] Failed to connect using pyats get Config function
+INFO 2024-05-07 08:01:06,125 [main.py:captureConfigX:85] Establishing Netmiko connection...
+ERROR 2024-05-07 08:01:09,024 [main.py:captureConfigX:109] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 08:01:09,145 [main.py:captureConfigX:109] Error connecting to device xe2: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 08:01:09,148 [main.py:captureConfig:127] ('Finish getting config from all device with an Error', 'abasdasd') occurred while processing device xe2
+INFO 2024-05-07 08:02:45,417 [main.py:captureConfig:119] Connecting to device xe1
+INFO 2024-05-07 08:02:45,527 [main.py:captureConfig:119] Connecting to device xe2
+WARNING 2024-05-07 08:02:56,463 [main.py:captureConfigX:69] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:02:56,467 [main.py:captureConfigX:70] Retrying in 1 seconds...
+WARNING 2024-05-07 08:02:56,564 [main.py:captureConfigX:69] Connection attempt 1/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:02:56,566 [main.py:captureConfigX:70] Retrying in 1 seconds...
+WARNING 2024-05-07 08:03:09,507 [main.py:captureConfigX:69] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:03:09,509 [main.py:captureConfigX:70] Retrying in 1 seconds...
+WARNING 2024-05-07 08:03:09,606 [main.py:captureConfigX:69] Connection attempt 2/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:03:09,609 [main.py:captureConfigX:70] Retrying in 1 seconds...
+ERROR 2024-05-07 08:03:22,549 [main.py:captureConfigX:73] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-07 08:03:22,642 [main.py:captureConfigX:73] Failed to establish connection to xe2 (198.18.0.122) after 3 attempts.
+ERROR 2024-05-07 08:03:33,591 [main.py:captureConfigX:79] Failed to connect using pyats get Config function
+INFO 2024-05-07 08:03:33,593 [main.py:captureConfigX:85] Establishing Netmiko connection...
+ERROR 2024-05-07 08:03:33,672 [main.py:captureConfigX:79] Failed to connect using pyats get Config function
+INFO 2024-05-07 08:03:33,674 [main.py:captureConfigX:85] Establishing Netmiko connection...
+ERROR 2024-05-07 08:03:36,621 [main.py:captureConfigX:109] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 08:03:36,696 [main.py:captureConfigX:109] Error connecting to device xe2: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 08:03:36,699 [main.py:captureConfig:127] {'msg': 'Finish getting config from all device with an Error', 'log': 'abasdasd'} occurred while processing device xe2
+INFO 2024-05-07 08:06:53,815 [main.py:captureConfig:119] Connecting to device xe1
+INFO 2024-05-07 08:06:53,922 [main.py:captureConfig:119] Connecting to device xe2
+WARNING 2024-05-07 08:07:04,860 [main.py:captureConfigX:69] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:07:04,864 [main.py:captureConfigX:70] Retrying in 1 seconds...
+WARNING 2024-05-07 08:07:04,964 [main.py:captureConfigX:69] Connection attempt 1/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:07:04,966 [main.py:captureConfigX:70] Retrying in 1 seconds...
+WARNING 2024-05-07 08:07:17,904 [main.py:captureConfigX:69] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:07:17,906 [main.py:captureConfigX:70] Retrying in 1 seconds...
+WARNING 2024-05-07 08:07:17,998 [main.py:captureConfigX:69] Connection attempt 2/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:07:18,000 [main.py:captureConfigX:70] Retrying in 1 seconds...
+ERROR 2024-05-07 08:07:30,945 [main.py:captureConfigX:73] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-07 08:07:31,032 [main.py:captureConfigX:73] Failed to establish connection to xe2 (198.18.0.122) after 3 attempts.
+ERROR 2024-05-07 08:07:41,984 [main.py:captureConfigX:79] Failed to connect using pyats get Config function
+INFO 2024-05-07 08:07:41,986 [main.py:captureConfigX:85] Establishing Netmiko connection...
+ERROR 2024-05-07 08:07:42,062 [main.py:captureConfigX:79] Failed to connect using pyats get Config function
+INFO 2024-05-07 08:07:42,064 [main.py:captureConfigX:85] Establishing Netmiko connection...
+ERROR 2024-05-07 08:07:45,012 [main.py:captureConfigX:109] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 08:07:45,087 [main.py:captureConfigX:109] Error connecting to device xe2: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 08:07:45,089 [main.py:captureConfig:127] {'msg': 'Finish getting config from all device with an Error', 'log': 'abasdasd'} occurred while processing device xe2
+INFO 2024-05-07 08:09:47,887 [main.py:captureConfig:119] Connecting to device xe1
+INFO 2024-05-07 08:09:47,997 [main.py:captureConfig:119] Connecting to device xe2
+WARNING 2024-05-07 08:09:58,934 [main.py:captureConfigX:69] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:09:58,938 [main.py:captureConfigX:70] Retrying in 1 seconds...
+WARNING 2024-05-07 08:09:59,038 [main.py:captureConfigX:69] Connection attempt 1/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:09:59,040 [main.py:captureConfigX:70] Retrying in 1 seconds...
+WARNING 2024-05-07 08:10:11,978 [main.py:captureConfigX:69] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:10:11,983 [main.py:captureConfigX:70] Retrying in 1 seconds...
+WARNING 2024-05-07 08:10:12,073 [main.py:captureConfigX:69] Connection attempt 2/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:10:12,075 [main.py:captureConfigX:70] Retrying in 1 seconds...
+ERROR 2024-05-07 08:10:25,023 [main.py:captureConfigX:73] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-07 08:10:25,114 [main.py:captureConfigX:73] Failed to establish connection to xe2 (198.18.0.122) after 3 attempts.
+ERROR 2024-05-07 08:10:36,061 [main.py:captureConfigX:79] Failed to connect using pyats get Config function
+INFO 2024-05-07 08:10:36,064 [main.py:captureConfigX:85] Establishing Netmiko connection...
+ERROR 2024-05-07 08:10:36,154 [main.py:captureConfigX:79] Failed to connect using pyats get Config function
+INFO 2024-05-07 08:10:36,157 [main.py:captureConfigX:85] Establishing Netmiko connection...
+ERROR 2024-05-07 08:10:39,090 [main.py:captureConfigX:109] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 08:10:39,181 [main.py:captureConfigX:109] Error connecting to device xe2: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 08:10:39,184 [main.py:captureConfig:127] {'msg': 'Finish getting config from all device with an Error', 'log': 'abasdasd'} occurred while processing device xe2
+INFO 2024-05-07 08:11:32,619 [main.py:captureConfig:119] Connecting to device xe1
+INFO 2024-05-07 08:11:32,731 [main.py:captureConfig:119] Connecting to device xe2
+WARNING 2024-05-07 08:11:43,666 [main.py:captureConfigX:69] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:11:43,670 [main.py:captureConfigX:70] Retrying in 1 seconds...
+WARNING 2024-05-07 08:11:43,771 [main.py:captureConfigX:69] Connection attempt 1/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:11:43,773 [main.py:captureConfigX:70] Retrying in 1 seconds...
+WARNING 2024-05-07 08:11:56,712 [main.py:captureConfigX:69] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:11:56,716 [main.py:captureConfigX:70] Retrying in 1 seconds...
+WARNING 2024-05-07 08:11:56,813 [main.py:captureConfigX:69] Connection attempt 2/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:11:56,815 [main.py:captureConfigX:70] Retrying in 1 seconds...
+ERROR 2024-05-07 08:12:09,757 [main.py:captureConfigX:73] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-07 08:12:09,853 [main.py:captureConfigX:73] Failed to establish connection to xe2 (198.18.0.122) after 3 attempts.
+ERROR 2024-05-07 08:12:20,799 [main.py:captureConfigX:79] Failed to connect using pyats get Config function
+INFO 2024-05-07 08:12:20,803 [main.py:captureConfigX:85] Establishing Netmiko connection...
+ERROR 2024-05-07 08:12:20,892 [main.py:captureConfigX:79] Failed to connect using pyats get Config function
+INFO 2024-05-07 08:12:20,894 [main.py:captureConfigX:85] Establishing Netmiko connection...
+ERROR 2024-05-07 08:12:23,838 [main.py:captureConfigX:109] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 08:12:23,924 [main.py:captureConfigX:109] Error connecting to device xe2: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 08:12:23,926 [main.py:captureConfig:127] {'msg': 'Finish getting config from all device with an Error', 'log': 'abasdasd'} occurred while processing device xe2
+INFO 2024-05-07 08:15:56,822 [main.py:captureConfig:115] Connecting to device xe1
+INFO 2024-05-07 08:15:56,932 [main.py:captureConfig:115] Connecting to device xe2
+WARNING 2024-05-07 08:16:07,881 [main.py:captureConfigX:65] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:16:07,886 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 08:16:07,974 [main.py:captureConfigX:65] Connection attempt 1/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:16:07,976 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 08:16:20,929 [main.py:captureConfigX:65] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:16:20,931 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 08:16:21,017 [main.py:captureConfigX:65] Connection attempt 2/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:16:21,020 [main.py:captureConfigX:66] Retrying in 1 seconds...
+ERROR 2024-05-07 08:16:33,974 [main.py:captureConfigX:69] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-07 08:16:34,061 [main.py:captureConfigX:69] Failed to establish connection to xe2 (198.18.0.122) after 3 attempts.
+ERROR 2024-05-07 08:16:45,006 [main.py:captureConfigX:75] Failed to connect using pyats get Config function
+INFO 2024-05-07 08:16:45,009 [main.py:captureConfigX:81] Establishing Netmiko connection...
+ERROR 2024-05-07 08:16:45,094 [main.py:captureConfigX:75] Failed to connect using pyats get Config function
+INFO 2024-05-07 08:16:45,095 [main.py:captureConfigX:81] Establishing Netmiko connection...
+ERROR 2024-05-07 08:16:48,035 [main.py:captureConfigX:105] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 08:16:48,119 [main.py:captureConfigX:105] Error connecting to device xe2: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 08:16:48,122 [main.py:captureConfig:123] Finish getting config from all device with an Error occurred while processing device xe2
+INFO 2024-05-07 08:17:14,186 [main.py:captureConfig:115] Connecting to device xe1
+INFO 2024-05-07 08:17:14,295 [main.py:captureConfig:115] Connecting to device xe2
+WARNING 2024-05-07 08:17:25,226 [main.py:captureConfigX:65] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:17:25,231 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 08:17:25,336 [main.py:captureConfigX:65] Connection attempt 1/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:17:25,338 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 08:17:38,273 [main.py:captureConfigX:65] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:17:38,275 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 08:17:38,372 [main.py:captureConfigX:65] Connection attempt 2/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:17:38,374 [main.py:captureConfigX:66] Retrying in 1 seconds...
+ERROR 2024-05-07 08:17:51,317 [main.py:captureConfigX:69] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-07 08:17:51,416 [main.py:captureConfigX:69] Failed to establish connection to xe2 (198.18.0.122) after 3 attempts.
+ERROR 2024-05-07 08:18:02,358 [main.py:captureConfigX:75] Failed to connect using pyats get Config function
+INFO 2024-05-07 08:18:02,361 [main.py:captureConfigX:81] Establishing Netmiko connection...
+ERROR 2024-05-07 08:18:02,455 [main.py:captureConfigX:75] Failed to connect using pyats get Config function
+INFO 2024-05-07 08:18:02,458 [main.py:captureConfigX:81] Establishing Netmiko connection...
+ERROR 2024-05-07 08:18:05,396 [main.py:captureConfigX:105] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 08:18:05,487 [main.py:captureConfigX:105] Error connecting to device xe2: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 08:18:05,489 [main.py:captureConfig:123] Finish getting config from all device with an Error occurred while processing device xe2
+INFO 2024-05-07 08:49:43,903 [main.py:captureConfig:115] Connecting to device xe1
+INFO 2024-05-07 08:49:44,010 [main.py:captureConfig:115] Connecting to device xe2
+WARNING 2024-05-07 08:49:54,950 [main.py:captureConfigX:65] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:49:54,954 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 08:49:55,051 [main.py:captureConfigX:65] Connection attempt 1/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:49:55,053 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 08:50:07,996 [main.py:captureConfigX:65] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:50:08,000 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 08:50:08,085 [main.py:captureConfigX:65] Connection attempt 2/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:50:08,087 [main.py:captureConfigX:66] Retrying in 1 seconds...
+ERROR 2024-05-07 08:50:21,039 [main.py:captureConfigX:69] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-07 08:50:21,127 [main.py:captureConfigX:69] Failed to establish connection to xe2 (198.18.0.122) after 3 attempts.
+ERROR 2024-05-07 08:50:32,078 [main.py:captureConfigX:75] Failed to connect using pyats get Config function
+INFO 2024-05-07 08:50:32,081 [main.py:captureConfigX:81] Establishing Netmiko connection...
+ERROR 2024-05-07 08:50:32,167 [main.py:captureConfigX:75] Failed to connect using pyats get Config function
+INFO 2024-05-07 08:50:32,169 [main.py:captureConfigX:81] Establishing Netmiko connection...
+ERROR 2024-05-07 08:50:35,103 [main.py:captureConfigX:105] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 08:50:35,193 [main.py:captureConfigX:105] Error connecting to device xe2: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 08:50:35,195 [main.py:captureConfig:123] Finish getting config from all device with an Error occurred while processing
+INFO 2024-05-07 08:51:10,074 [main.py:captureConfig:115] Connecting to device xe1
+INFO 2024-05-07 08:51:10,182 [main.py:captureConfig:115] Connecting to device xe2
+WARNING 2024-05-07 08:51:21,119 [main.py:captureConfigX:65] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:51:21,123 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 08:51:21,224 [main.py:captureConfigX:65] Connection attempt 1/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:51:21,226 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 08:51:34,161 [main.py:captureConfigX:65] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:51:34,163 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 08:51:34,261 [main.py:captureConfigX:65] Connection attempt 2/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:51:34,264 [main.py:captureConfigX:66] Retrying in 1 seconds...
+ERROR 2024-05-07 08:51:47,205 [main.py:captureConfigX:69] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-07 08:51:47,299 [main.py:captureConfigX:69] Failed to establish connection to xe2 (198.18.0.122) after 3 attempts.
+ERROR 2024-05-07 08:51:58,241 [main.py:captureConfigX:75] Failed to connect using pyats get Config function
+INFO 2024-05-07 08:51:58,243 [main.py:captureConfigX:81] Establishing Netmiko connection...
+ERROR 2024-05-07 08:51:58,339 [main.py:captureConfigX:75] Failed to connect using pyats get Config function
+INFO 2024-05-07 08:51:58,340 [main.py:captureConfigX:81] Establishing Netmiko connection...
+ERROR 2024-05-07 08:52:01,267 [main.py:captureConfigX:105] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 08:52:01,360 [main.py:captureConfigX:105] Error connecting to device xe2: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 08:52:01,362 [main.py:captureConfig:123] Finish getting config from all device with an Error occurred while processing
+INFO 2024-05-07 08:52:45,625 [main.py:captureConfig:115] Connecting to device xe1
+INFO 2024-05-07 08:52:45,736 [main.py:captureConfig:115] Connecting to device xe2
+WARNING 2024-05-07 08:52:56,673 [main.py:captureConfigX:65] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:52:56,679 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 08:52:56,776 [main.py:captureConfigX:65] Connection attempt 1/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:52:56,778 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 08:53:09,720 [main.py:captureConfigX:65] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:53:09,723 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 08:53:09,817 [main.py:captureConfigX:65] Connection attempt 2/3 failed for xe2 (198.18.0.122): failed to connect to xe2
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:53:09,819 [main.py:captureConfigX:66] Retrying in 1 seconds...
+ERROR 2024-05-07 08:53:22,765 [main.py:captureConfigX:69] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-07 08:53:22,861 [main.py:captureConfigX:69] Failed to establish connection to xe2 (198.18.0.122) after 3 attempts.
+ERROR 2024-05-07 08:53:33,805 [main.py:captureConfigX:75] Failed to connect using pyats get Config function
+INFO 2024-05-07 08:53:33,808 [main.py:captureConfigX:81] Establishing Netmiko connection...
+ERROR 2024-05-07 08:53:33,902 [main.py:captureConfigX:75] Failed to connect using pyats get Config function
+INFO 2024-05-07 08:53:33,904 [main.py:captureConfigX:81] Establishing Netmiko connection...
+ERROR 2024-05-07 08:53:36,830 [main.py:captureConfigX:105] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 08:53:36,920 [main.py:captureConfigX:105] Error connecting to device xe2: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 08:53:36,923 [main.py:captureConfig:123] Finish getting config from all device with an Error occurred while processing
+INFO 2024-05-07 08:54:23,114 [main.py:captureConfig:115] Connecting to device xe1
+WARNING 2024-05-07 08:54:34,155 [main.py:captureConfigX:65] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:54:34,159 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 08:54:47,197 [main.py:captureConfigX:65] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:54:47,200 [main.py:captureConfigX:66] Retrying in 1 seconds...
+ERROR 2024-05-07 08:55:00,251 [main.py:captureConfigX:69] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-07 08:55:11,291 [main.py:captureConfigX:75] Failed to connect using pyats get Config function
+INFO 2024-05-07 08:55:11,293 [main.py:captureConfigX:81] Establishing Netmiko connection...
+ERROR 2024-05-07 08:55:14,333 [main.py:captureConfigX:105] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 08:55:14,336 [main.py:captureConfig:123] Finish getting config from all device with an Error occurred while processing
+INFO 2024-05-07 08:55:33,710 [main.py:captureConfig:115] Connecting to device xe1
+WARNING 2024-05-07 08:55:44,757 [main.py:captureConfigX:65] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:55:44,760 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 08:55:57,801 [main.py:captureConfigX:65] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 08:55:57,804 [main.py:captureConfigX:66] Retrying in 1 seconds...
+ERROR 2024-05-07 08:56:10,845 [main.py:captureConfigX:69] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-07 08:56:21,899 [main.py:captureConfigX:75] Failed to connect using pyats get Config function
+INFO 2024-05-07 08:56:21,901 [main.py:captureConfigX:81] Establishing Netmiko connection...
+ERROR 2024-05-07 08:56:24,936 [main.py:captureConfigX:105] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 08:56:24,939 [main.py:captureConfig:123] Finish getting config from all device with an Error occurred while processing
+INFO 2024-05-07 09:00:00,539 [main.py:captureConfig:115] Connecting to device xe1
+WARNING 2024-05-07 09:00:11,587 [main.py:captureConfigX:65] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 09:00:11,590 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 09:00:24,632 [main.py:captureConfigX:65] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 09:00:24,637 [main.py:captureConfigX:66] Retrying in 1 seconds...
+ERROR 2024-05-07 09:00:37,678 [main.py:captureConfigX:69] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-07 09:00:48,730 [main.py:captureConfigX:75] Failed to connect using pyats get Config function
+INFO 2024-05-07 09:00:48,734 [main.py:captureConfigX:81] Establishing Netmiko connection...
+ERROR 2024-05-07 09:00:51,764 [main.py:captureConfigX:105] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 09:00:51,768 [main.py:captureConfig:123] Finish getting config from all device with an Error occurred while processing
+INFO 2024-05-07 09:55:55,317 [main.py:captureConfig:115] Connecting to device xe1
+WARNING 2024-05-07 09:56:06,381 [main.py:captureConfigX:65] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 09:56:06,384 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 09:56:19,427 [main.py:captureConfigX:65] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 09:56:19,430 [main.py:captureConfigX:66] Retrying in 1 seconds...
+ERROR 2024-05-07 09:56:32,472 [main.py:captureConfigX:69] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-07 09:56:43,513 [main.py:captureConfigX:75] Failed to connect using pyats get Config function
+INFO 2024-05-07 09:56:43,516 [main.py:captureConfigX:81] Establishing Netmiko connection...
+ERROR 2024-05-07 09:56:46,548 [main.py:captureConfigX:105] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 09:56:46,551 [main.py:captureConfig:123] Finish getting config from all device with an Error occurred while processing
+INFO 2024-05-07 09:58:42,960 [main.py:captureConfig:115] Connecting to device xe1
+WARNING 2024-05-07 09:58:54,005 [main.py:captureConfigX:65] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 09:58:54,008 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 09:59:07,048 [main.py:captureConfigX:65] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 09:59:07,051 [main.py:captureConfigX:66] Retrying in 1 seconds...
+ERROR 2024-05-07 09:59:20,088 [main.py:captureConfigX:69] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-07 09:59:31,122 [main.py:captureConfigX:75] Failed to connect using pyats get Config function
+INFO 2024-05-07 09:59:31,125 [main.py:captureConfigX:81] Establishing Netmiko connection...
+ERROR 2024-05-07 09:59:34,152 [main.py:captureConfigX:105] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 09:59:34,155 [main.py:captureConfig:123] Finish getting config from all device with an Error occurred while processing
+INFO 2024-05-07 10:01:05,719 [main.py:captureConfig:115] Connecting to device xe1
+WARNING 2024-05-07 10:01:16,761 [main.py:captureConfigX:65] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 10:01:16,764 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 10:01:29,807 [main.py:captureConfigX:65] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 10:01:29,809 [main.py:captureConfigX:66] Retrying in 1 seconds...
+ERROR 2024-05-07 10:01:42,851 [main.py:captureConfigX:69] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-07 10:01:53,891 [main.py:captureConfigX:75] Failed to connect using pyats get Config function
+INFO 2024-05-07 10:01:53,895 [main.py:captureConfigX:81] Establishing Netmiko connection...
+ERROR 2024-05-07 10:01:56,922 [main.py:captureConfigX:105] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 10:01:56,926 [main.py:captureConfig:123] Finish getting config from all device with an Error occurred while processing
+INFO 2024-05-07 10:02:09,720 [main.py:captureConfig:115] Connecting to device xe1
+WARNING 2024-05-07 10:02:20,762 [main.py:captureConfigX:65] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 10:02:20,765 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 10:02:33,807 [main.py:captureConfigX:65] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 10:02:33,811 [main.py:captureConfigX:66] Retrying in 1 seconds...
+ERROR 2024-05-07 10:02:46,853 [main.py:captureConfigX:69] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-07 10:02:57,893 [main.py:captureConfigX:75] Failed to connect using pyats get Config function
+INFO 2024-05-07 10:02:57,897 [main.py:captureConfigX:81] Establishing Netmiko connection...
+ERROR 2024-05-07 10:03:00,925 [main.py:captureConfigX:105] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 10:03:00,928 [main.py:captureConfig:123] Finish getting config from all device with an Error occurred while processing
+INFO 2024-05-07 10:07:59,120 [main.py:captureConfig:115] Connecting to device xe1
+WARNING 2024-05-07 10:08:10,165 [main.py:captureConfigX:65] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 10:08:10,167 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 10:08:23,211 [main.py:captureConfigX:65] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 10:08:23,214 [main.py:captureConfigX:66] Retrying in 1 seconds...
+ERROR 2024-05-07 10:08:36,256 [main.py:captureConfigX:69] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-07 10:08:47,296 [main.py:captureConfigX:75] Failed to connect using pyats get Config function
+INFO 2024-05-07 10:08:47,300 [main.py:captureConfigX:81] Establishing Netmiko connection...
+ERROR 2024-05-07 10:08:50,323 [main.py:captureConfigX:105] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 10:08:50,326 [main.py:captureConfig:123] Finish getting config from all device with an Error occurred while processing
+INFO 2024-05-07 10:11:20,548 [main.py:captureConfig:115] Connecting to device xe1
+WARNING 2024-05-07 10:11:31,592 [main.py:captureConfigX:65] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 10:11:31,597 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 10:11:44,639 [main.py:captureConfigX:65] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 10:11:44,641 [main.py:captureConfigX:66] Retrying in 1 seconds...
+ERROR 2024-05-07 10:11:57,676 [main.py:captureConfigX:69] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-07 10:12:08,720 [main.py:captureConfigX:75] Failed to connect using pyats get Config function
+INFO 2024-05-07 10:12:08,724 [main.py:captureConfigX:81] Establishing Netmiko connection...
+ERROR 2024-05-07 10:12:11,747 [main.py:captureConfigX:105] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 10:12:11,750 [main.py:captureConfig:123] Finish getting config from all device with an Error occurred while processing
+INFO 2024-05-07 10:13:45,395 [main.py:captureConfig:115] Connecting to device xe1
+WARNING 2024-05-07 10:13:56,440 [main.py:captureConfigX:65] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 10:13:56,445 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 10:14:09,486 [main.py:captureConfigX:65] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 10:14:09,488 [main.py:captureConfigX:66] Retrying in 1 seconds...
+ERROR 2024-05-07 10:14:22,532 [main.py:captureConfigX:69] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-07 10:14:33,573 [main.py:captureConfigX:75] Failed to connect using pyats get Config function
+INFO 2024-05-07 10:14:33,577 [main.py:captureConfigX:81] Establishing Netmiko connection...
+ERROR 2024-05-07 10:14:36,603 [main.py:captureConfigX:105] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 10:14:36,606 [main.py:captureConfig:123] Finish getting config from all device with an Error occurred while processing
+INFO 2024-05-07 10:16:03,494 [main.py:captureConfig:115] Connecting to device xe1
+WARNING 2024-05-07 10:16:14,535 [main.py:captureConfigX:65] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 10:16:14,538 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 10:16:27,581 [main.py:captureConfigX:65] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 10:16:27,585 [main.py:captureConfigX:66] Retrying in 1 seconds...
+ERROR 2024-05-07 10:16:40,629 [main.py:captureConfigX:69] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-07 10:16:51,672 [main.py:captureConfigX:75] Failed to connect using pyats get Config function
+INFO 2024-05-07 10:16:51,674 [main.py:captureConfigX:81] Establishing Netmiko connection...
+ERROR 2024-05-07 10:16:54,700 [main.py:captureConfigX:105] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 10:16:54,703 [main.py:captureConfig:123] Finish getting config from all device with an Error occurred while processing
+INFO 2024-05-07 10:20:20,916 [main.py:captureConfig:115] Connecting to device xe1
+WARNING 2024-05-07 10:20:31,955 [main.py:captureConfigX:65] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 10:20:31,958 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 10:20:45,002 [main.py:captureConfigX:65] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 10:20:45,006 [main.py:captureConfigX:66] Retrying in 1 seconds...
+ERROR 2024-05-07 10:20:58,049 [main.py:captureConfigX:69] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-07 10:21:09,092 [main.py:captureConfigX:75] Failed to connect using pyats get Config function
+INFO 2024-05-07 10:21:09,096 [main.py:captureConfigX:81] Establishing Netmiko connection...
+ERROR 2024-05-07 10:21:12,122 [main.py:captureConfigX:105] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 10:21:12,124 [main.py:captureConfig:123] Finish getting config from all device with an Error occurred while processing
+INFO 2024-05-07 10:22:04,600 [main.py:captureConfig:115] Connecting to device xe1
+WARNING 2024-05-07 10:22:15,643 [main.py:captureConfigX:65] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 10:22:15,647 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 10:22:28,689 [main.py:captureConfigX:65] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 10:22:28,693 [main.py:captureConfigX:66] Retrying in 1 seconds...
+INFO 2024-05-07 10:22:33,998 [main.py:captureConfig:115] Connecting to device xe1
+ERROR 2024-05-07 10:22:41,736 [main.py:captureConfigX:69] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+WARNING 2024-05-07 10:22:45,036 [main.py:captureConfigX:65] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 10:22:45,039 [main.py:captureConfigX:66] Retrying in 1 seconds...
+ERROR 2024-05-07 10:22:52,781 [main.py:captureConfigX:75] Failed to connect using pyats get Config function
+INFO 2024-05-07 10:22:52,783 [main.py:captureConfigX:81] Establishing Netmiko connection...
+ERROR 2024-05-07 10:22:55,809 [main.py:captureConfigX:105] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 10:22:55,812 [main.py:captureConfig:123] Finish getting config from all device with an Error occurred while processing
+WARNING 2024-05-07 10:22:58,085 [main.py:captureConfigX:65] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 10:22:58,087 [main.py:captureConfigX:66] Retrying in 1 seconds...
+INFO 2024-05-07 10:23:02,223 [main.py:captureConfig:115] Connecting to device xe1
+INFO 2024-05-07 10:23:04,415 [main.py:captureConfig:115] Connecting to device xe1
+INFO 2024-05-07 10:23:06,029 [main.py:captureConfig:115] Connecting to device xe1
+INFO 2024-05-07 10:23:14,792 [main.py:captureConfig:115] Connecting to device xe1
+WARNING 2024-05-07 10:23:25,841 [main.py:captureConfigX:65] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 10:23:25,844 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 10:23:38,886 [main.py:captureConfigX:65] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 10:23:38,890 [main.py:captureConfigX:66] Retrying in 1 seconds...
+ERROR 2024-05-07 10:23:51,926 [main.py:captureConfigX:69] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-07 10:24:02,968 [main.py:captureConfigX:75] Failed to connect using pyats get Config function
+INFO 2024-05-07 10:24:02,971 [main.py:captureConfigX:81] Establishing Netmiko connection...
+ERROR 2024-05-07 10:24:05,994 [main.py:captureConfigX:105] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 10:24:05,998 [main.py:captureConfig:123] Finish getting config from all device with an Error occurred while processing
+INFO 2024-05-07 10:24:12,141 [main.py:captureConfig:115] Connecting to device xe1
+WARNING 2024-05-07 10:24:23,184 [main.py:captureConfigX:65] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 10:24:23,186 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 10:24:36,229 [main.py:captureConfigX:65] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 10:24:36,231 [main.py:captureConfigX:66] Retrying in 1 seconds...
+ERROR 2024-05-07 10:24:49,265 [main.py:captureConfigX:69] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-07 10:25:00,306 [main.py:captureConfigX:75] Failed to connect using pyats get Config function
+INFO 2024-05-07 10:25:00,310 [main.py:captureConfigX:81] Establishing Netmiko connection...
+ERROR 2024-05-07 10:25:03,336 [main.py:captureConfigX:105] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 10:25:03,338 [main.py:captureConfig:123] Finish getting config from all device with an Error occurred while processing
+INFO 2024-05-07 10:25:18,240 [main.py:captureConfig:115] Connecting to device xe1
+WARNING 2024-05-07 10:25:29,288 [main.py:captureConfigX:65] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 10:25:29,292 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 10:25:42,334 [main.py:captureConfigX:65] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 10:25:42,337 [main.py:captureConfigX:66] Retrying in 1 seconds...
+ERROR 2024-05-07 10:25:55,375 [main.py:captureConfigX:69] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-07 10:26:06,415 [main.py:captureConfigX:75] Failed to connect using pyats get Config function
+INFO 2024-05-07 10:26:06,420 [main.py:captureConfigX:81] Establishing Netmiko connection...
+ERROR 2024-05-07 10:26:09,438 [main.py:captureConfigX:105] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 10:26:09,441 [main.py:captureConfig:123] Finish getting config from all device with an Error occurred while processing
+INFO 2024-05-07 10:26:17,882 [main.py:captureConfig:115] Connecting to device xe1
+WARNING 2024-05-07 10:26:28,926 [main.py:captureConfigX:65] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 10:26:28,928 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 10:26:41,960 [main.py:captureConfigX:65] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 10:26:41,965 [main.py:captureConfigX:66] Retrying in 1 seconds...
+ERROR 2024-05-07 10:26:55,007 [main.py:captureConfigX:69] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-07 10:27:06,052 [main.py:captureConfigX:75] Failed to connect using pyats get Config function
+INFO 2024-05-07 10:27:06,055 [main.py:captureConfigX:81] Establishing Netmiko connection...
+ERROR 2024-05-07 10:27:09,073 [main.py:captureConfigX:105] Error connecting to device xe1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+ERROR 2024-05-07 10:27:09,076 [main.py:captureConfig:123] Finish getting config from all device with an Error occurred while processing
+INFO 2024-05-07 14:24:00,409 [main.py:captureConfig:115] Connecting to device xe1
+WARNING 2024-05-07 14:24:11,476 [main.py:captureConfigX:65] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 14:24:11,479 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 14:24:24,534 [main.py:captureConfigX:65] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 14:24:24,536 [main.py:captureConfigX:66] Retrying in 1 seconds...
+ERROR 2024-05-07 14:24:37,591 [main.py:captureConfigX:69] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-07 14:24:48,634 [main.py:captureConfigX:75] Failed to connect using pyats get Config function
+INFO 2024-05-07 14:24:48,637 [main.py:captureConfigX:81] Establishing Netmiko connection...
+ERROR 2024-05-07 14:24:51,655 [main.py:captureConfigX:105] Error connecting to device xe1 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+ using Netmiko
+ERROR 2024-05-07 14:24:51,659 [main.py:captureConfig:123] Finish getting config from all device with an Error occurred while processing
+INFO 2024-05-07 14:26:11,470 [main.py:captureConfig:115] Connecting to device xe1
+WARNING 2024-05-07 14:26:22,540 [main.py:captureConfigX:65] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 14:26:22,543 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 14:26:35,603 [main.py:captureConfigX:65] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 14:26:35,608 [main.py:captureConfigX:66] Retrying in 1 seconds...
+ERROR 2024-05-07 14:26:48,663 [main.py:captureConfigX:69] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-07 14:26:59,716 [main.py:captureConfigX:75] Failed to connect using pyats get Config function
+INFO 2024-05-07 14:26:59,718 [main.py:captureConfigX:81] Establishing Netmiko connection...
+ERROR 2024-05-07 14:27:02,740 [main.py:captureConfigX:105] Error connecting to device xe1 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+ using Netmiko
+ERROR 2024-05-07 14:27:02,744 [main.py:captureConfig:123] Finish getting config from all device with an Error occurred while processing
+INFO 2024-05-07 14:39:17,846 [main.py:captureConfig:115] Connecting to device xe1
+WARNING 2024-05-07 14:39:28,904 [main.py:captureConfigX:65] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 14:39:28,908 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 14:39:41,963 [main.py:captureConfigX:65] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 14:39:41,966 [main.py:captureConfigX:66] Retrying in 1 seconds...
+ERROR 2024-05-07 14:39:55,010 [main.py:captureConfigX:69] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-07 14:40:06,053 [main.py:captureConfigX:75] Failed to connect using pyats get Config function
+INFO 2024-05-07 14:40:06,056 [main.py:captureConfigX:81] Establishing Netmiko connection...
+ERROR 2024-05-07 14:40:09,081 [main.py:captureConfigX:105] Error connecting to device xe1 using Netmiko
+ERROR 2024-05-07 14:40:09,083 [main.py:captureConfig:123] Finish getting config from all device with an Error occurred while processing
+INFO 2024-05-07 14:50:01,083 [main.py:captureConfig:115] Connecting to device xe1
+WARNING 2024-05-07 14:50:12,129 [main.py:captureConfigX:65] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 14:50:12,132 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-07 14:50:25,173 [main.py:captureConfigX:65] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-07 14:50:25,176 [main.py:captureConfigX:66] Retrying in 1 seconds...
+ERROR 2024-05-07 14:50:38,219 [main.py:captureConfigX:69] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-07 14:50:49,252 [main.py:captureConfigX:75] Failed to connect using pyats get Config function
+INFO 2024-05-07 14:50:49,255 [main.py:captureConfigX:81] Establishing Netmiko connection...
+ERROR 2024-05-07 14:50:52,283 [main.py:captureConfigX:105] Error connecting to device xe1 using Netmiko
+ERROR 2024-05-07 14:50:52,285 [main.py:captureConfig:123] Finish getting config from all device with an Error occurred while processing
+INFO 2024-05-08 02:12:25,015 [main.py:captureConfig:115] Connecting to device xe1
+WARNING 2024-05-08 02:12:36,090 [main.py:captureConfigX:65] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-08 02:12:36,094 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-08 02:12:49,139 [main.py:captureConfigX:65] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-08 02:12:49,141 [main.py:captureConfigX:66] Retrying in 1 seconds...
+ERROR 2024-05-08 02:13:02,176 [main.py:captureConfigX:69] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-08 02:13:13,234 [main.py:captureConfigX:75] Failed to connect using pyats get Config function
+INFO 2024-05-08 02:13:13,237 [main.py:captureConfigX:81] Establishing Netmiko connection...
+ERROR 2024-05-08 02:13:16,268 [main.py:captureConfigX:105] Error connecting to device xe1 using Netmiko
+ERROR 2024-05-08 02:13:16,271 [main.py:captureConfig:123] Finish getting config from all device with an Error occurred while processing
+INFO 2024-05-08 02:18:50,494 [main.py:captureConfig:115] Connecting to device xe1
+WARNING 2024-05-08 02:19:01,598 [main.py:captureConfigX:65] Connection attempt 1/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-08 02:19:01,602 [main.py:captureConfigX:66] Retrying in 1 seconds...
+WARNING 2024-05-08 02:19:14,646 [main.py:captureConfigX:65] Connection attempt 2/3 failed for xe1 (198.18.0.121): failed to connect to xe1
+Failed while bringing device to "any" state
+INFO 2024-05-08 02:19:14,650 [main.py:captureConfigX:66] Retrying in 1 seconds...
+ERROR 2024-05-08 02:19:27,692 [main.py:captureConfigX:69] Failed to establish connection to xe1 (198.18.0.121) after 3 attempts.
+ERROR 2024-05-08 02:19:38,732 [main.py:captureConfigX:75] Failed to connect using pyats get Config function
+INFO 2024-05-08 02:19:38,735 [main.py:captureConfigX:81] Establishing Netmiko connection...
+ERROR 2024-05-08 02:19:41,760 [main.py:captureConfigX:105] Error connecting to device xe1 using Netmiko
+ERROR 2024-05-08 02:19:41,762 [main.py:captureConfig:123] Finish getting config from all device with an Error occurred while processing
