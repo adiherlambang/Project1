@@ -12,6 +12,7 @@ from lib.getCPU.main import getCPUmain
 from lib.getCDP.main import getCDPmain
 from lib.getCustom.main import getCustomMain
 from lib.getCRC.main import interfaceCRC
+from lib.getCRC_InterfaceList.main import main_InterfaceCRC
 from time import sleep
 from lib.logSummary.main import summary_log
 
@@ -30,6 +31,7 @@ app = Flask(__name__,static_folder="assets/")
 app.jinja_loader = template_loader
 
 testbedFile = 'testbed/device.yaml'
+crcListedFile = 'testbed/interfaceCRClist.yaml'
 
 app.secret_key = 'myApps'
 
@@ -206,15 +208,28 @@ def customPage():
     if request.method=='GET':
         return render_template("customCommand.html")   
 
-@app.route('/getCRC', methods=['POST'])
-def getCRC():
+@app.route('/getCRCAll', methods=['POST'])
+def getCRCAll():      
     if checkTestbedFile()==True:
-        interfaceCRC(testbedFile)
-        flash(f"Success to get Interface CRC devices")
+        # waktu = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        result = interfaceCRC(testbedFile)
+        flash(result)
+        # flash("Logs details : "+summary_log(waktu))
         return jsonify(data=get_flashed_messages())
     else:
         flash(f"device list file is not ready, please check the device list file")
         return jsonify(data=get_flashed_messages())
+    
+@app.route('/getCRClisted', methods=['POST'])
+def getCRClisted():
+    if checkTestbedFile()==True:
+        # waktu = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        result = main_InterfaceCRC(crcListedFile)
+        flash(result)
+        # flash("Logs details : "+summary_log(waktu))
+        return jsonify(data=get_flashed_messages())
+    else:
+        flash(f"device list file is not ready, please check the device list file")
 
 @app.route('/getOutput', methods=['POST','GET'])
 def getOutput():

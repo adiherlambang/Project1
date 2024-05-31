@@ -140,15 +140,32 @@ $('#getMemUtils').on("click", function(event) {
             flashContainer.append(flashList);
             }
         },
-        complete: function(){
-            $('#layoutSidenav_content').append(alert)
-            setTimeout(function() {
-                $('.alert').alert('close')
-            }, 2000); 
-
-        },
-        error: function (error) {
-            console.log("Error getting Memmory Utilization")
+        error: function(xhr, status, error) {           
+            if (xhr.status === 500) {
+                hideLoading()
+                console.log("Error API getting Memory Utilization");
+                var messages = ["Error API getting memory utilization, please contact your administrator"];
+                var flashContainer = $('#flashContainer');
+                if (messages.length > 0) {
+                    var flashList = $('<ul>').addClass('flash-messages');
+                    messages.forEach(function(message) {
+                        flashList.append($('<li>').text(message));
+                    });
+                flashContainer.append(flashList);
+                }
+            }else{
+                hideLoading()
+                console.log("Error API getting Memory Utilization");
+                var messages = ["Error API getting memory utilization, please contact your administrator"];
+                var flashContainer = $('#flashContainer');
+                if (messages.length > 0) {
+                    var flashList = $('<ul>').addClass('flash-messages');
+                    messages.forEach(function(message) {
+                        flashList.append($('<li>').text(message));
+                    });
+                flashContainer.append(flashList);
+                }
+            }
         }
     });
 });
@@ -236,19 +253,85 @@ $('#getCDPDevice').on("click", function(event) {
 $('#getCRCinterface').on("click", function() {
     event.preventDefault();
     $('#appsModal').modal('show'); 
-    var crcMenu = '<div class="card mb-3"> <div class="card-body text-center"> <i class="fas fa-network-wired fa-2x mb-3"></i> <h5 class="card-title">Get all CRC from all devices</h5> <button id="getCRCinterface" class="btn btn-primary">Start</button> </div> </div>'+
-                  '<div class="card mb-3"> <div class="card-body text-center"> <i class="fas fa-list fa-2x mb-3"></i> <h5 class="card-title">Get CRC from interface listed</h5> <button id="getCRCfromInterfaceList" class="btn btn-primary">Start</button> </div> </div>';
+    var crcMenu1 = '<div class="card mb-3"> <div class="card-body text-center"> <i class="fas fa-network-wired fa-2x mb-3"></i> <h5 class="card-title">Get all CRC from all devices</h5> <button id="getCRCinterfaceAll" class="btn btn-primary">Start</button> </div> </div>';
+    var crcMenu2 = '<div class="card mb-3"> <div class="card-body text-center"> <i class="fas fa-list fa-2x mb-3"></i> <h5 class="card-title">Get CRC from interface listed</h5> <button id="getCRCfromInterfaceList" class="btn btn-primary">Start</button> </div> </div>';
     var closeCRCMenu = $('<button type="button" class="btn btn-secondary" id="modalButton">Close</button>');
     modalTitle.innerHTML="Get CRC Interface Devices";
     $('#warningProcess').html('');
-    $('#appsModalBody').html(crcMenu);
+    $('#appsModalBody').html(crcMenu1+crcMenu2);
     
     $('#appsModalFooter').append(closeCRCMenu);
 
-            closeCRCMenu.click(function () {  
-                $('#appsModal').modal('hide'); 
-                $(this).remove();
-            })
+    closeCRCMenu.click(function () {  
+        $('#appsModal').modal('hide'); 
+        $(this).remove();
+    })
+
+    $('#getCRCinterfaceAll').on("click",function () {  
+        showLoading()
+        $.ajax({
+            url: '/getCRCAll',
+            type: 'post',
+            contentType: 'application/json',
+            // data: JSON.stringify(chat),
+            success: function (resData) {
+                hideLoading()
+                // alert(JSON.stringify(resData))
+                var messages = resData.data;
+                var flashContainer = $('#flashContainer');
+                if (messages.length > 0) {
+                    var flashList = $('<ul>').addClass('flash-messages');
+                    messages.forEach(function(message) {
+                        flashList.append($('<li>').text(message));
+                    });
+                flashContainer.append(flashList);
+                }
+            },
+            complete: function(){
+                // $('#layoutSidenav_content').append(alert)
+                // setTimeout(function() {
+                //     $('.alert').alert('close')
+                // }, 2000); 
+
+            },
+            error: function (error) {
+                console.log("Error getting CRC Interface Devices")
+            }
+        });
+    })
+
+    $('#getCRCfromInterfaceList').on("click",function () {  
+        showLoading()
+        $.ajax({
+            url: '/getCRClisted',
+            type: 'post',
+            contentType: 'application/json',
+            // data: JSON.stringify(chat),
+            success: function (resData) {
+                hideLoading()
+                // alert(JSON.stringify(resData))
+                var messages = resData.data;
+                var flashContainer = $('#flashContainer');
+                if (messages.length > 0) {
+                    var flashList = $('<ul>').addClass('flash-messages');
+                    messages.forEach(function(message) {
+                        flashList.append($('<li>').text(message));
+                    });
+                flashContainer.append(flashList);
+                }
+            },
+            complete: function(){
+                // $('#layoutSidenav_content').append(alert)
+                // setTimeout(function() {
+                //     $('.alert').alert('close')
+                // }, 2000); 
+
+            },
+            error: function (error) {
+                console.log("Error getting CRC Interface Devices")
+            }
+        });
+    })
     // showLoading()
     // $.ajax({
     //     url: '/getCRC',

@@ -7,4 +7,31 @@ function run(){
 	python3 Main.py
 }
 
+function update(){
 
+ask_confirmation() {
+    read -p "Are you sure want to update. Continue? (y/n): " choice
+    case "$choice" in
+        y|Y ) return 0;;
+        n|N ) return 1;;
+        * ) echo "Invalid choice. Please enter 'y' or 'n'." && ask_confirmation;;
+    esac
+}
+
+# Ask for confirmation
+ask_confirmation
+
+# Check the return value of the function
+if [ $? -eq 0 ]; then
+    cd ~/Project1
+    git add .
+    git stash
+    git pull
+    echo ""
+    echo "Project1 Successfully Updated"
+else
+    echo "Update Cancelled"
+fi
+
+
+}

@@ -6,3 +6,23 @@ INFO 2023-07-06 14:42:05,397 [main.py:proc_iface_crc_xe:69] Device: xe1
 INFO 2023-07-06 14:42:05,441 [main.py:proc_iface_crc_xe:69] Device: xe2
 INFO 2023-07-06 14:42:05,643 [main.py:proc_iface_crc_xe:69] Device: xe3
 INFO 2023-07-06 14:42:06,849 [main.py:interfaceCRC:176] Script execution completed successfully.
+INFO 2024-05-31 17:40:59,666 [main.py:proc_iface_crc_nx:125] Pyats parser with nxos type function
+INFO 2024-05-31 17:41:00,756 [main.py:proc_iface_crc_nx:127] Device: DC1CORSWT-12
+WARNING 2024-05-31 17:41:08,531 [main.py:proc_iface_crc_nx:149] Error get CRC for device DC1CORSWT-12 using pyAts
+ERROR 2024-05-31 17:41:08,533 [main.py:runNetmiko:168] Retrying connect to device with netmiko
+INFO 2024-05-31 17:41:08,535 [main.py:runNetmiko:173] Establishing Netmiko connection...
+INFO 2024-05-31 17:41:09,419 [main.py:runNetmiko:175] Connection established successfully.
+INFO 2024-05-31 17:41:09,424 [main.py:runNetmiko:179] Sending command show interface to Device DC1CORSWT-12, type nxos
+INFO 2024-05-31 17:41:11,585 [main.py:runNetmiko:195] Skip subInterface for device: DC1CORSWT-12
+INFO 2024-05-31 17:41:11,588 [main.py:interfaceCRC:262] invalid literal for int() with base 10: '' occurred while processing device DC1CORSWT-12
+INFO 2024-05-31 17:41:11,590 [main.py:interfaceCRC:264] Script execution completed successfully.
+INFO 2024-05-31 17:42:51,355 [main.py:proc_iface_crc_nx:125] Pyats parser with nxos type function
+INFO 2024-05-31 17:42:52,393 [main.py:proc_iface_crc_nx:127] Device: DC1CORSWT-12
+WARNING 2024-05-31 17:42:59,247 [main.py:proc_iface_crc_nx:149] Error get CRC for device DC1CORSWT-12 using pyAts
+ERROR 2024-05-31 17:42:59,254 [main.py:runNetmiko:168] Retrying connect to device with netmiko
+INFO 2024-05-31 17:42:59,255 [main.py:runNetmiko:173] Establishing Netmiko connection...
+INFO 2024-05-31 17:43:00,140 [main.py:runNetmiko:175] Connection established successfully.
+INFO 2024-05-31 17:43:00,146 [main.py:runNetmiko:179] Sending command show interface to Device DC1CORSWT-12, type nxos
+INFO 2024-05-31 17:43:02,669 [main.py:runNetmiko:195] Skip subInterface for device: DC1CORSWT-12
+INFO 2024-05-31 17:43:02,679 [main.py:interfaceCRC:262] invalid literal for int() with base 10: '' occurred while processing device DC1CORSWT-12
+INFO 2024-05-31 17:43:02,681 [main.py:interfaceCRC:264] Script execution completed successfully.
