@@ -64,3 +64,129 @@
 2024-05-08 02:18:51 [ERROR] xe1 : Connect Failed (4)
 2024-05-08 02:18:51 A paramiko SSHException occurred during connection creation: 
 2024-05-08 02:18:51 Error reading SSH protocol banner 
+2024-05-31 14:45:58 [ERROR] xe1 : Connect Failed (1)
+2024-05-31 14:45:58 TCP connection to device failed. 
+2024-05-31 14:45:58 Common causes of this problem are: 
+2024-05-31 14:45:58 1. Incorrect hostname or IP address. 
+2024-05-31 14:45:58 2. Wrong TCP port. 
+2024-05-31 14:45:58 3. Intermediate firewall blocking access. 
+2024-05-31 14:45:58 Device settings: cisco_ios 198.18.0.121:22 
+2024-05-31 14:45:58 [ERROR] xe2 : Connect Failed (1)
+2024-05-31 14:45:58 TCP connection to device failed. 
+2024-05-31 14:45:58 Common causes of this problem are: 
+2024-05-31 14:45:58 1. Incorrect hostname or IP address. 
+2024-05-31 14:45:58 2. Wrong TCP port. 
+2024-05-31 14:45:58 3. Intermediate firewall blocking access. 
+2024-05-31 14:45:58 Device settings: cisco_ios 198.18.0.122:22 
+2024-05-31 14:45:58 [ERROR] xe3 : Connect Failed (1)
+2024-05-31 14:45:58 TCP connection to device failed. 
+2024-05-31 14:45:58 Common causes of this problem are: 
+2024-05-31 14:45:58 1. Incorrect hostname or IP address. 
+2024-05-31 14:45:58 2. Wrong TCP port. 
+2024-05-31 14:45:58 3. Intermediate firewall blocking access. 
+2024-05-31 14:45:58 Device settings: cisco_ios 198.18.0.123:22 
+2024-05-31 14:45:58 [ERROR] xr1 : Connect Failed (1)
+2024-05-31 14:45:58 TCP connection to device failed. 
+2024-05-31 14:45:58 Common causes of this problem are: 
+2024-05-31 14:45:58 1. Incorrect hostname or IP address. 
+2024-05-31 14:45:58 2. Wrong TCP port. 
+2024-05-31 14:45:58 3. Intermediate firewall blocking access. 
+2024-05-31 14:45:58 Device settings: cisco_ios 198.18.0.131:22 
+2024-05-31 14:45:58 [ERROR] xr2 : Connect Failed (1)
+2024-05-31 14:45:58 TCP connection to device failed. 
+2024-05-31 14:45:58 Common causes of this problem are: 
+2024-05-31 14:45:58 1. Incorrect hostname or IP address. 
+2024-05-31 14:45:58 2. Wrong TCP port. 
+2024-05-31 14:45:58 3. Intermediate firewall blocking access. 
+2024-05-31 14:45:58 Device settings: cisco_ios 198.18.0.132:22 
+2024-05-31 14:45:58 [ERROR] xr3 : Connect Failed (1)
+2024-05-31 14:45:58 TCP connection to device failed. 
+2024-05-31 14:45:58 Common causes of this problem are: 
+2024-05-31 14:45:58 1. Incorrect hostname or IP address. 
+2024-05-31 14:45:58 2. Wrong TCP port. 
+2024-05-31 14:45:58 3. Intermediate firewall blocking access. 
+2024-05-31 14:45:58 Device settings: cisco_ios 198.18.0.133:22 
+2024-05-31 14:46:18 [ERROR] xe1 : Connect Failed (2)
+2024-05-31 14:46:18 TCP connection to device failed. 
+2024-05-31 14:46:18 Common causes of this problem are: 
+2024-05-31 14:46:18 1. Incorrect hostname or IP address. 
+2024-05-31 14:46:18 2. Wrong TCP port. 
+2024-05-31 14:46:18 3. Intermediate firewall blocking access. 
+2024-05-31 14:46:18 Device settings: cisco_ios 198.18.0.121:22 
+2024-05-31 14:46:18 [ERROR] xe2 : Connect Failed (2)
+2024-05-31 14:46:18 TCP connection to device failed. 
+2024-05-31 14:46:18 Common causes of this problem are: 
+2024-05-31 14:46:18 1. Incorrect hostname or IP address. 
+2024-05-31 14:46:18 2. Wrong TCP port. 
+2024-05-31 14:46:18 3. Intermediate firewall blocking access. 
+2024-05-31 14:46:18 Device settings: cisco_ios 198.18.0.122:22 
+2024-05-31 14:46:18 [ERROR] xe3 : Connect Failed (2)
+2024-05-31 14:46:18 TCP connection to device failed. 
+2024-05-31 14:46:18 Common causes of this problem are: 
+2024-05-31 14:46:18 1. Incorrect hostname or IP address. 
+2024-05-31 14:46:18 2. Wrong TCP port. 
+2024-05-31 14:46:18 3. Intermediate firewall blocking access. 
+2024-05-31 14:46:18 Device settings: cisco_ios 198.18.0.123:22 
+2024-05-31 14:46:18 [ERROR] xr1 : Connect Failed (2)
+2024-05-31 14:46:18 TCP connection to device failed. 
+2024-05-31 14:46:18 Common causes of this problem are: 
+2024-05-31 14:46:18 1. Incorrect hostname or IP address. 
+2024-05-31 14:46:18 2. Wrong TCP port. 
+2024-05-31 14:46:18 3. Intermediate firewall blocking access. 
+2024-05-31 14:46:18 Device settings: cisco_ios 198.18.0.131:22 
+2024-05-31 14:46:18 [ERROR] xr2 : Connect Failed (2)
+2024-05-31 14:46:18 TCP connection to device failed. 
+2024-05-31 14:46:18 Common causes of this problem are: 
+2024-05-31 14:46:18 1. Incorrect hostname or IP address. 
+2024-05-31 14:46:18 2. Wrong TCP port. 
+2024-05-31 14:46:18 3. Intermediate firewall blocking access. 
+2024-05-31 14:46:18 Device settings: cisco_ios 198.18.0.132:22 
+2024-05-31 14:46:18 [ERROR] xr3 : Connect Failed (2)
+2024-05-31 14:46:18 TCP connection to device failed. 
+2024-05-31 14:46:18 Common causes of this problem are: 
+2024-05-31 14:46:18 1. Incorrect hostname or IP address. 
+2024-05-31 14:46:18 2. Wrong TCP port. 
+2024-05-31 14:46:18 3. Intermediate firewall blocking access. 
+2024-05-31 14:46:18 Device settings: cisco_ios 198.18.0.133:22 
+2024-05-31 14:46:38 [ERROR] xe1 : Connect Failed (3)
+2024-05-31 14:46:38 TCP connection to device failed. 
+2024-05-31 14:46:38 Common causes of this problem are: 
+2024-05-31 14:46:38 1. Incorrect hostname or IP address. 
+2024-05-31 14:46:38 2. Wrong TCP port. 
+2024-05-31 14:46:38 3. Intermediate firewall blocking access. 
+2024-05-31 14:46:38 Device settings: cisco_ios 198.18.0.121:22 
+2024-05-31 14:46:38 [ERROR] xe2 : Connect Failed (3)
+2024-05-31 14:46:38 TCP connection to device failed. 
+2024-05-31 14:46:38 Common causes of this problem are: 
+2024-05-31 14:46:38 1. Incorrect hostname or IP address. 
+2024-05-31 14:46:38 2. Wrong TCP port. 
+2024-05-31 14:46:38 3. Intermediate firewall blocking access. 
+2024-05-31 14:46:38 Device settings: cisco_ios 198.18.0.122:22 
+2024-05-31 14:46:38 [ERROR] xe3 : Connect Failed (3)
+2024-05-31 14:46:38 TCP connection to device failed. 
+2024-05-31 14:46:38 Common causes of this problem are: 
+2024-05-31 14:46:38 1. Incorrect hostname or IP address. 
+2024-05-31 14:46:38 2. Wrong TCP port. 
+2024-05-31 14:46:38 3. Intermediate firewall blocking access. 
+2024-05-31 14:46:38 Device settings: cisco_ios 198.18.0.123:22 
+2024-05-31 14:46:38 [ERROR] xr1 : Connect Failed (3)
+2024-05-31 14:46:38 TCP connection to device failed. 
+2024-05-31 14:46:38 Common causes of this problem are: 
+2024-05-31 14:46:38 1. Incorrect hostname or IP address. 
+2024-05-31 14:46:38 2. Wrong TCP port. 
+2024-05-31 14:46:38 3. Intermediate firewall blocking access. 
+2024-05-31 14:46:38 Device settings: cisco_ios 198.18.0.131:22 
+2024-05-31 14:46:38 [ERROR] xr2 : Connect Failed (3)
+2024-05-31 14:46:38 TCP connection to device failed. 
+2024-05-31 14:46:38 Common causes of this problem are: 
+2024-05-31 14:46:38 1. Incorrect hostname or IP address. 
+2024-05-31 14:46:38 2. Wrong TCP port. 
+2024-05-31 14:46:38 3. Intermediate firewall blocking access. 
+2024-05-31 14:46:38 Device settings: cisco_ios 198.18.0.132:22 
+2024-05-31 14:46:39 [ERROR] xr3 : Connect Failed (3)
+2024-05-31 14:46:39 TCP connection to device failed. 
+2024-05-31 14:46:39 Common causes of this problem are: 
+2024-05-31 14:46:39 1. Incorrect hostname or IP address. 
+2024-05-31 14:46:39 2. Wrong TCP port. 
+2024-05-31 14:46:39 3. Intermediate firewall blocking access. 
+2024-05-31 14:46:39 Device settings: cisco_ios 198.18.0.133:22 

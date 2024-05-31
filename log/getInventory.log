@@ -729,3 +729,45 @@ Failed while bringing device to "any" state
 2024-05-08 02:20:28,540 [INFO] 127.0.0.1 - - [08/May/2024 02:20:28] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
 2024-05-08 02:20:28,604 [INFO] 127.0.0.1 - - [08/May/2024 02:20:28] "[36mGET /assets/lib/js/jquery-3.7.0.min.js HTTP/1.1[0m" 304 -
 2024-05-08 02:20:28,933 [INFO] 127.0.0.1 - - [08/May/2024 02:20:28] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2024-05-31 14:45:38,904 [INFO] xe1 : Connecting 
+2024-05-31 14:45:38,914 [INFO] xe2 : Connecting 
+2024-05-31 14:45:38,922 [INFO] xe3 : Connecting 
+2024-05-31 14:45:38,930 [INFO] xr1 : Connecting 
+2024-05-31 14:45:38,937 [INFO] xr2 : Connecting 
+2024-05-31 14:45:38,942 [INFO] xr3 : Connecting 
+2024-05-31 14:45:58,922 [ERROR] xe1 : Connect Failed (1)
+2024-05-31 14:45:58,923 [ERROR] xe2 : Connect Failed (1)
+2024-05-31 14:45:58,924 [WARNING] xe1 : Retrying connection
+2024-05-31 14:45:58,926 [WARNING] xe2 : Retrying connection
+2024-05-31 14:45:58,942 [ERROR] xe3 : Connect Failed (1)
+2024-05-31 14:45:58,943 [WARNING] xe3 : Retrying connection
+2024-05-31 14:45:58,950 [ERROR] xr1 : Connect Failed (1)
+2024-05-31 14:45:58,950 [WARNING] xr1 : Retrying connection
+2024-05-31 14:45:58,957 [ERROR] xr2 : Connect Failed (1)
+2024-05-31 14:45:58,957 [WARNING] xr2 : Retrying connection
+2024-05-31 14:45:58,969 [ERROR] xr3 : Connect Failed (1)
+2024-05-31 14:45:58,970 [WARNING] xr3 : Retrying connection
+2024-05-31 14:46:18,933 [ERROR] xe1 : Connect Failed (2)
+2024-05-31 14:46:18,934 [ERROR] xe2 : Connect Failed (2)
+2024-05-31 14:46:18,936 [WARNING] xe1 : Retrying connection
+2024-05-31 14:46:18,938 [WARNING] xe2 : Retrying connection
+2024-05-31 14:46:18,962 [ERROR] xe3 : Connect Failed (2)
+2024-05-31 14:46:18,963 [WARNING] xe3 : Retrying connection
+2024-05-31 14:46:18,970 [ERROR] xr1 : Connect Failed (2)
+2024-05-31 14:46:18,971 [WARNING] xr1 : Retrying connection
+2024-05-31 14:46:18,974 [ERROR] xr2 : Connect Failed (2)
+2024-05-31 14:46:18,974 [WARNING] xr2 : Retrying connection
+2024-05-31 14:46:18,989 [ERROR] xr3 : Connect Failed (2)
+2024-05-31 14:46:18,990 [WARNING] xr3 : Retrying connection
+2024-05-31 14:46:38,954 [ERROR] xe1 : Connect Failed (3)
+2024-05-31 14:46:38,956 [WARNING] xe1 : Retrying connection
+2024-05-31 14:46:38,958 [ERROR] xe2 : Connect Failed (3)
+2024-05-31 14:46:38,959 [WARNING] xe2 : Retrying connection
+2024-05-31 14:46:38,982 [ERROR] xe3 : Connect Failed (3)
+2024-05-31 14:46:38,983 [WARNING] xe3 : Retrying connection
+2024-05-31 14:46:38,990 [ERROR] xr1 : Connect Failed (3)
+2024-05-31 14:46:38,990 [WARNING] xr1 : Retrying connection
+2024-05-31 14:46:38,994 [ERROR] xr2 : Connect Failed (3)
+2024-05-31 14:46:38,994 [WARNING] xr2 : Retrying connection
+2024-05-31 14:46:39,009 [ERROR] xr3 : Connect Failed (3)
+2024-05-31 14:46:39,010 [WARNING] xr3 : Retrying connection
