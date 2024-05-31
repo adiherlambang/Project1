@@ -26,3 +26,1547 @@ INFO 2024-05-31 17:43:00,146 [main.py:runNetmiko:179] Sending command show inter
 INFO 2024-05-31 17:43:02,669 [main.py:runNetmiko:195] Skip subInterface for device: DC1CORSWT-12
 INFO 2024-05-31 17:43:02,679 [main.py:interfaceCRC:262] invalid literal for int() with base 10: '' occurred while processing device DC1CORSWT-12
 INFO 2024-05-31 17:43:02,681 [main.py:interfaceCRC:264] Script execution completed successfully.
+INFO 2024-05-31 18:12:53,010 [main.py:proc_iface_crc_nx:125] Pyats parser with nxos type function
+INFO 2024-05-31 18:12:54,029 [main.py:proc_iface_crc_nx:127] Device: DC1CORSWT-12
+WARNING 2024-05-31 18:13:00,884 [main.py:proc_iface_crc_nx:149] Error get CRC for device DC1CORSWT-12 using pyAts
+ERROR 2024-05-31 18:13:00,886 [main.py:runNetmiko:168] Retrying connect to device with netmiko
+INFO 2024-05-31 18:13:00,888 [main.py:runNetmiko:173] Establishing Netmiko connection...
+INFO 2024-05-31 18:13:01,776 [main.py:runNetmiko:175] Connection established successfully.
+INFO 2024-05-31 18:13:01,781 [main.py:runNetmiko:179] Sending command show interface to Device DC1CORSWT-12, type nxos
+INFO 2024-05-31 18:13:05,908 [main.py:interfaceCRC:263] 'Device' object is not subscriptable occurred while processing device DC1CORSWT-12
+INFO 2024-05-31 18:13:05,913 [main.py:interfaceCRC:265] Script execution completed successfully.
+INFO 2024-05-31 18:14:52,945 [main.py:proc_iface_crc_nx:125] Pyats parser with nxos type function
+INFO 2024-05-31 18:14:53,975 [main.py:proc_iface_crc_nx:127] Device: DC1CORSWT-12
+WARNING 2024-05-31 18:15:00,659 [main.py:proc_iface_crc_nx:149] Error get CRC for device DC1CORSWT-12 using pyAts
+ERROR 2024-05-31 18:15:00,661 [main.py:runNetmiko:168] Retrying connect to device with netmiko
+INFO 2024-05-31 18:15:00,663 [main.py:runNetmiko:173] Establishing Netmiko connection...
+INFO 2024-05-31 18:15:01,550 [main.py:runNetmiko:175] Connection established successfully.
+INFO 2024-05-31 18:15:01,552 [main.py:runNetmiko:179] Sending command show interface to Device DC1CORSWT-12, type nxos
+INFO 2024-05-31 18:15:04,981 [main.py:interfaceCRC:263] 'Device' object is not subscriptable occurred while processing device DC1CORSWT-12
+INFO 2024-05-31 18:15:04,983 [main.py:interfaceCRC:265] Script execution completed successfully.
+INFO 2024-05-31 18:15:30,084 [main.py:proc_iface_crc_nx:125] Pyats parser with nxos type function
+INFO 2024-05-31 18:15:31,142 [main.py:proc_iface_crc_nx:127] Device: DC1CORSWT-12
+WARNING 2024-05-31 18:15:37,634 [main.py:proc_iface_crc_nx:149] Error get CRC for device DC1CORSWT-12 using pyAts
+ERROR 2024-05-31 18:15:37,636 [main.py:runNetmiko:168] Retrying connect to device with netmiko
+INFO 2024-05-31 18:15:37,637 [main.py:runNetmiko:173] Establishing Netmiko connection...
+INFO 2024-05-31 18:15:38,629 [main.py:runNetmiko:175] Connection established successfully.
+INFO 2024-05-31 18:15:38,634 [main.py:runNetmiko:179] Sending command show interface to Device DC1CORSWT-12, type nxos
+INFO 2024-05-31 18:22:48,355 [main.py:proc_iface_crc_nx:125] Pyats parser with nxos type function
+INFO 2024-05-31 18:22:49,666 [main.py:proc_iface_crc_nx:127] Device: DC1CORSWT-12
+WARNING 2024-05-31 18:22:56,398 [main.py:proc_iface_crc_nx:149] Error get CRC for device DC1CORSWT-12 using pyAts
+ERROR 2024-05-31 18:22:56,401 [main.py:runNetmiko:168] Retrying connect to device with netmiko
+INFO 2024-05-31 18:22:56,403 [main.py:runNetmiko:173] Establishing Netmiko connection...
+INFO 2024-05-31 18:22:57,274 [main.py:runNetmiko:175] Connection established successfully.
+INFO 2024-05-31 18:22:57,280 [main.py:runNetmiko:179] Sending command show interface to Device DC1CORSWT-12, type nxos
+INFO 2024-05-31 18:22:59,485 [main.py:interfaceCRC:263] 'Device' object is not subscriptable occurred while processing device Device DC1CORSWT-12, type nxos
+INFO 2024-05-31 18:22:59,488 [main.py:interfaceCRC:265] Script execution completed successfully.
+INFO 2024-05-31 18:56:07,826 [main.py:proc_iface_crc_nx:125] Pyats parser with nxos type function
+INFO 2024-05-31 18:56:08,895 [main.py:proc_iface_crc_nx:127] Device: DC1CORSWT-12
+WARNING 2024-05-31 18:56:26,010 [main.py:proc_iface_crc_nx:149] Error get CRC for device DC1CORSWT-12 using pyAts
+ERROR 2024-05-31 18:56:26,012 [main.py:runNetmiko:168] Retrying connect to device with netmiko
+INFO 2024-05-31 18:56:26,018 [main.py:runNetmiko:173] Establishing Netmiko connection...
+INFO 2024-05-31 18:56:26,899 [main.py:runNetmiko:175] Connection established successfully.
+INFO 2024-05-31 18:56:26,905 [main.py:runNetmiko:179] Sending command show interface to Device DC1CORSWT-12, type nxos
+INFO 2024-05-31 18:56:29,188 [main.py:interfaceCRC:263] 'Device' object is not subscriptable occurred while processing device Device DC1CORSWT-12, type nxos
+INFO 2024-05-31 18:56:29,191 [main.py:interfaceCRC:265] Script execution completed successfully.
+INFO 2024-05-31 18:59:07,174 [main.py:proc_iface_crc_nx:125] Pyats parser with nxos type function
+INFO 2024-05-31 18:59:08,235 [main.py:proc_iface_crc_nx:127] Device: DC1CORSWT-12
+WARNING 2024-05-31 18:59:14,742 [main.py:proc_iface_crc_nx:149] Error get CRC for device DC1CORSWT-12 using pyAts
+ERROR 2024-05-31 18:59:14,743 [main.py:runNetmiko:168] Retrying connect to device with netmiko
+INFO 2024-05-31 18:59:14,745 [main.py:runNetmiko:173] Establishing Netmiko connection...
+INFO 2024-05-31 18:59:15,611 [main.py:runNetmiko:175] Connection established successfully.
+INFO 2024-05-31 18:59:15,616 [main.py:runNetmiko:179] Sending command show interface to Device DC1CORSWT-12, type nxos
+INFO 2024-05-31 18:59:18,139 [main.py:interfaceCRC:263] 'Device' object is not subscriptable occurred while processing device Device DC1CORSWT-12, type nxos
+INFO 2024-05-31 18:59:18,141 [main.py:interfaceCRC:265] Script execution completed successfully.
+INFO 2024-05-31 19:01:28,097 [main.py:proc_iface_crc_nx:125] Pyats parser with nxos type function
+INFO 2024-05-31 19:01:29,217 [main.py:proc_iface_crc_nx:127] Device: DC1CORSWT-12
+WARNING 2024-05-31 19:01:41,928 [main.py:proc_iface_crc_nx:149] Error get CRC for device DC1CORSWT-12 using pyAts
+ERROR 2024-05-31 19:01:41,930 [main.py:runNetmiko:168] Retrying connect to device with netmiko
+INFO 2024-05-31 19:01:41,932 [main.py:runNetmiko:173] Establishing Netmiko connection...
+INFO 2024-05-31 19:01:42,961 [main.py:runNetmiko:175] Connection established successfully.
+INFO 2024-05-31 19:01:42,967 [main.py:runNetmiko:179] Sending command show interface to Device DC1CORSWT-12, type nxos
+INFO 2024-05-31 19:01:45,427 [main.py:interfaceCRC:264] 'Device' object is not subscriptable occurred while processing device Device DC1CORSWT-12, type nxos
+INFO 2024-05-31 19:01:45,430 [main.py:interfaceCRC:266] Script execution completed successfully.
+INFO 2024-05-31 19:03:10,264 [main.py:proc_iface_crc_nx:125] Pyats parser with nxos type function
+INFO 2024-05-31 19:03:11,386 [main.py:proc_iface_crc_nx:127] Device: DC1CORSWT-12
+WARNING 2024-05-31 19:03:18,396 [main.py:proc_iface_crc_nx:149] Error get CRC for device DC1CORSWT-12 using pyAts
+ERROR 2024-05-31 19:03:18,398 [main.py:runNetmiko:168] Retrying connect to device with netmiko
+INFO 2024-05-31 19:03:18,402 [main.py:runNetmiko:173] Establishing Netmiko connection...
+INFO 2024-05-31 19:03:19,419 [main.py:runNetmiko:175] Connection established successfully.
+INFO 2024-05-31 19:03:19,425 [main.py:runNetmiko:179] Sending command show interface to Device DC1CORSWT-12, type nxos
+INFO 2024-05-31 19:03:21,637 [main.py:interfaceCRC:264] 'Device' object is not subscriptable occurred while processing device Device DC1CORSWT-12, type nxos
+INFO 2024-05-31 19:03:21,639 [main.py:interfaceCRC:266] Script execution completed successfully.
+INFO 2024-05-31 19:05:40,982 [main.py:proc_iface_crc_nx:125] Pyats parser with nxos type function
+INFO 2024-05-31 19:05:42,029 [main.py:proc_iface_crc_nx:127] Device: DC1CORSWT-12
+WARNING 2024-05-31 19:05:48,955 [main.py:proc_iface_crc_nx:148] Error get CRC for device DC1CORSWT-12 using pyAts
+ERROR 2024-05-31 19:05:48,958 [main.py:runNetmiko:167] Retrying connect to device with netmiko
+INFO 2024-05-31 19:05:48,962 [main.py:runNetmiko:172] Establishing Netmiko connection...
+INFO 2024-05-31 19:05:49,837 [main.py:runNetmiko:174] Connection established successfully.
+INFO 2024-05-31 19:05:49,843 [main.py:interfaceCRC:263] 'Device' object is not subscriptable occurred while processing device Device DC1CORSWT-12, type nxos
+INFO 2024-05-31 19:05:49,845 [main.py:interfaceCRC:265] Script execution completed successfully.
+INFO 2024-05-31 19:07:28,563 [main.py:proc_iface_crc_nx:125] Pyats parser with nxos type function
+INFO 2024-05-31 19:07:29,637 [main.py:proc_iface_crc_nx:127] Device: DC1CORSWT-12
+WARNING 2024-05-31 19:07:36,072 [main.py:proc_iface_crc_nx:148] Error get CRC for device DC1CORSWT-12 using pyAts
+ERROR 2024-05-31 19:07:36,074 [main.py:runNetmiko:167] Retrying connect to device with netmiko
+INFO 2024-05-31 19:07:36,076 [main.py:runNetmiko:172] Establishing Netmiko connection...
+INFO 2024-05-31 19:07:37,057 [main.py:runNetmiko:174] Connection established successfully.
+INFO 2024-05-31 19:07:37,060 [main.py:runNetmiko:178] Sending command show interface to Device DC1CORSWT-12, type nxos
+INFO 2024-05-31 19:07:39,556 [main.py:runNetmiko:195] Skip mgmt0
+INFO 2024-05-31 19:07:39,558 [main.py:runNetmiko:195] Skip port-channel1
+INFO 2024-05-31 19:07:39,560 [main.py:runNetmiko:195] Skip port-channel1.50
+INFO 2024-05-31 19:07:39,561 [main.py:runNetmiko:195] Skip port-channel2
+INFO 2024-05-31 19:07:39,563 [main.py:runNetmiko:195] Skip port-channel3
+INFO 2024-05-31 19:07:39,565 [main.py:runNetmiko:195] Skip port-channel4
+INFO 2024-05-31 19:07:39,566 [main.py:runNetmiko:195] Skip loopback0
+INFO 2024-05-31 19:07:39,568 [main.py:runNetmiko:195] Skip loopback1
+INFO 2024-05-31 19:07:39,569 [main.py:runNetmiko:195] Skip loopback99
+INFO 2024-05-31 19:07:39,571 [main.py:runNetmiko:195] Skip loopback201
+INFO 2024-05-31 19:07:39,573 [main.py:runNetmiko:195] Skip loopback202
+INFO 2024-05-31 19:07:39,574 [main.py:runNetmiko:195] Skip loopback203
+INFO 2024-05-31 19:07:39,576 [main.py:runNetmiko:195] Skip loopback204
+INFO 2024-05-31 19:07:39,577 [main.py:runNetmiko:195] Skip loopback205
+INFO 2024-05-31 19:07:39,579 [main.py:runNetmiko:195] Skip loopback206
+INFO 2024-05-31 19:07:39,580 [main.py:runNetmiko:195] Skip loopback207
+INFO 2024-05-31 19:07:39,582 [main.py:runNetmiko:195] Skip loopback208
+INFO 2024-05-31 19:07:39,584 [main.py:runNetmiko:195] Skip loopback209
+INFO 2024-05-31 19:07:39,585 [main.py:runNetmiko:195] Skip loopback210
+INFO 2024-05-31 19:07:39,587 [main.py:runNetmiko:195] Skip loopback211
+INFO 2024-05-31 19:07:39,588 [main.py:runNetmiko:195] Skip loopback212
+INFO 2024-05-31 19:07:39,590 [main.py:runNetmiko:195] Skip loopback213
+INFO 2024-05-31 19:07:39,592 [main.py:runNetmiko:195] Skip loopback214
+INFO 2024-05-31 19:07:39,593 [main.py:runNetmiko:195] Skip loopback215
+INFO 2024-05-31 19:07:39,595 [main.py:runNetmiko:195] Skip loopback401
+INFO 2024-05-31 19:07:39,596 [main.py:runNetmiko:195] Skip loopback402
+INFO 2024-05-31 19:07:39,598 [main.py:runNetmiko:195] Skip loopback403
+INFO 2024-05-31 19:07:39,600 [main.py:runNetmiko:195] Skip loopback404
+INFO 2024-05-31 19:07:39,601 [main.py:runNetmiko:195] Skip loopback405
+INFO 2024-05-31 19:07:39,603 [main.py:runNetmiko:195] Skip loopback406
+INFO 2024-05-31 19:07:39,604 [main.py:runNetmiko:195] Skip loopback407
+INFO 2024-05-31 19:07:39,606 [main.py:runNetmiko:195] Skip loopback408
+INFO 2024-05-31 19:07:39,607 [main.py:runNetmiko:195] Skip loopback409
+INFO 2024-05-31 19:07:39,609 [main.py:runNetmiko:195] Skip loopback410
+INFO 2024-05-31 19:07:39,610 [main.py:runNetmiko:195] Skip loopback411
+INFO 2024-05-31 19:07:39,612 [main.py:runNetmiko:195] Skip loopback412
+INFO 2024-05-31 19:07:39,613 [main.py:runNetmiko:195] Skip loopback501
+INFO 2024-05-31 19:07:39,615 [main.py:runNetmiko:195] Skip loopback502
+INFO 2024-05-31 19:07:39,616 [main.py:runNetmiko:195] Skip Vlan1
+INFO 2024-05-31 19:07:39,619 [main.py:interfaceCRC:265] Script execution completed successfully.
+INFO 2024-05-31 19:08:13,448 [main.py:proc_iface_crc_nx:125] Pyats parser with nxos type function
+INFO 2024-05-31 19:08:14,487 [main.py:proc_iface_crc_nx:127] Device: DC1CORSWT-12
+WARNING 2024-05-31 19:08:21,066 [main.py:proc_iface_crc_nx:148] Error get CRC for device DC1CORSWT-12 using pyAts
+ERROR 2024-05-31 19:08:21,068 [main.py:runNetmiko:167] Retrying connect to device with netmiko
+INFO 2024-05-31 19:08:21,070 [main.py:runNetmiko:172] Establishing Netmiko connection...
+INFO 2024-05-31 19:08:21,945 [main.py:runNetmiko:174] Connection established successfully.
+INFO 2024-05-31 19:08:21,947 [main.py:runNetmiko:178] Sending command show interface to Device DC1CORSWT-12, type nxos
+INFO 2024-05-31 19:08:24,304 [main.py:runNetmiko:195] Skip mgmt0 for device: DC1CORSWT-12
+INFO 2024-05-31 19:08:24,307 [main.py:interfaceCRC:263] invalid literal for int() with base 10: '' occurred while processing device Device DC1CORSWT-12, type nxos
+INFO 2024-05-31 19:08:24,309 [main.py:interfaceCRC:265] Script execution completed successfully.
+INFO 2024-05-31 19:09:28,019 [main.py:proc_iface_crc_nx:125] Pyats parser with nxos type function
+INFO 2024-05-31 19:09:29,088 [main.py:proc_iface_crc_nx:127] Device: DC1CORSWT-12
+WARNING 2024-05-31 19:09:35,720 [main.py:proc_iface_crc_nx:148] Error get CRC for device DC1CORSWT-12 using pyAts
+ERROR 2024-05-31 19:09:35,730 [main.py:runNetmiko:167] Retrying connect to device with netmiko
+INFO 2024-05-31 19:09:35,731 [main.py:runNetmiko:172] Establishing Netmiko connection...
+INFO 2024-05-31 19:09:36,604 [main.py:runNetmiko:174] Connection established successfully.
+INFO 2024-05-31 19:09:36,611 [main.py:runNetmiko:178] Sending command show interface to Device DC1CORSWT-12, type nxos
+INFO 2024-05-31 19:09:39,202 [main.py:runNetmiko:195] Skip mgmt0 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,204 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,206 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,207 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,209 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,211 [main.py:runNetmiko:197] 3166 , ('', {'3166'})
+INFO 2024-05-31 19:09:39,212 [main.py:runNetmiko:197]  , ('', {''})
+INFO 2024-05-31 19:09:39,215 [main.py:runNetmiko:197] 2914 , ('', {'2914'})
+INFO 2024-05-31 19:09:39,216 [main.py:runNetmiko:197]  , ('', {''})
+INFO 2024-05-31 19:09:39,218 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,219 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,221 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,222 [main.py:runNetmiko:197]  , ('', {''})
+INFO 2024-05-31 19:09:39,224 [main.py:runNetmiko:197] 49 , ('', {'49'})
+INFO 2024-05-31 19:09:39,226 [main.py:runNetmiko:197]  , ('', {''})
+INFO 2024-05-31 19:09:39,227 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,229 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,230 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,232 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,233 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,235 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,236 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,238 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,240 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,241 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,244 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,245 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,247 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,248 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,250 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,252 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,253 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,255 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,256 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,258 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,259 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,261 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,263 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,264 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,266 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,267 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,269 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,270 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,272 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,273 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,275 [main.py:runNetmiko:197] 4101 , ('', {'4101'})
+INFO 2024-05-31 19:09:39,277 [main.py:runNetmiko:197]  , ('', {''})
+INFO 2024-05-31 19:09:39,278 [main.py:runNetmiko:197] 3577 , ('', {'3577'})
+INFO 2024-05-31 19:09:39,281 [main.py:runNetmiko:197]  , ('', {''})
+INFO 2024-05-31 19:09:39,282 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,284 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,286 [main.py:runNetmiko:197] 1376 , ('', {'1376'})
+INFO 2024-05-31 19:09:39,288 [main.py:runNetmiko:197]  , ('', {''})
+INFO 2024-05-31 19:09:39,289 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,291 [main.py:runNetmiko:197]  , ('', {''})
+INFO 2024-05-31 19:09:39,293 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,294 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,296 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,297 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,299 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,300 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,302 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,304 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,306 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,307 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,309 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,311 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,313 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,314 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,316 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,317 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,319 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,321 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,322 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,324 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,325 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,327 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,328 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,330 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,331 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,333 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,335 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,337 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,338 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,340 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,342 [main.py:runNetmiko:197]  , ('', {''})
+INFO 2024-05-31 19:09:39,343 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,345 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,346 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,348 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,349 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,351 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,352 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,354 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,356 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,357 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,359 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,360 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,362 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,363 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,365 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,375 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,382 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,383 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,385 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,390 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,391 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,393 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,398 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,399 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,410 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,411 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,413 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,414 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,416 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,417 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,426 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,427 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,429 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,431 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,432 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,442 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,443 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,445 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,446 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,448 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,458 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,460 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,461 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,463 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,464 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,470 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,471 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,473 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,481 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,485 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,494 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,495 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,497 [main.py:runNetmiko:197]  , ('', {''})
+INFO 2024-05-31 19:09:39,498 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,505 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,507 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,508 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,510 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,511 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,522 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,523 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,525 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,527 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,533 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,535 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,537 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,538 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,545 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,547 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,548 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,550 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,558 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,559 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,561 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,562 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,569 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,571 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,572 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,574 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,578 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,579 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,585 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,586 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,594 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,595 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,597 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,598 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,600 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,610 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,611 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,613 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,614 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,616 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,626 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,627 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,629 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,630 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,637 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,639 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,640 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,642 [main.py:runNetmiko:197] 0 , ('', {'0'})
+INFO 2024-05-31 19:09:39,649 [main.py:runNetmiko:195] Skip port-channel1 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,651 [main.py:runNetmiko:195] Skip port-channel1.50 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,653 [main.py:runNetmiko:195] Skip port-channel2 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,654 [main.py:runNetmiko:195] Skip port-channel3 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,661 [main.py:runNetmiko:195] Skip port-channel4 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,663 [main.py:runNetmiko:195] Skip loopback0 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,665 [main.py:runNetmiko:195] Skip loopback1 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,666 [main.py:runNetmiko:195] Skip loopback99 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,668 [main.py:runNetmiko:195] Skip loopback201 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,677 [main.py:runNetmiko:195] Skip loopback202 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,679 [main.py:runNetmiko:195] Skip loopback203 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,680 [main.py:runNetmiko:195] Skip loopback204 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,682 [main.py:runNetmiko:195] Skip loopback205 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,683 [main.py:runNetmiko:195] Skip loopback206 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,685 [main.py:runNetmiko:195] Skip loopback207 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,693 [main.py:runNetmiko:195] Skip loopback208 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,695 [main.py:runNetmiko:195] Skip loopback209 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,696 [main.py:runNetmiko:195] Skip loopback210 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,698 [main.py:runNetmiko:195] Skip loopback211 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,699 [main.py:runNetmiko:195] Skip loopback212 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,709 [main.py:runNetmiko:195] Skip loopback213 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,711 [main.py:runNetmiko:195] Skip loopback214 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,712 [main.py:runNetmiko:195] Skip loopback215 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,714 [main.py:runNetmiko:195] Skip loopback401 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,721 [main.py:runNetmiko:195] Skip loopback402 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,723 [main.py:runNetmiko:195] Skip loopback403 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,725 [main.py:runNetmiko:195] Skip loopback404 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,726 [main.py:runNetmiko:195] Skip loopback405 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,733 [main.py:runNetmiko:195] Skip loopback406 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,735 [main.py:runNetmiko:195] Skip loopback407 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,736 [main.py:runNetmiko:195] Skip loopback408 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,738 [main.py:runNetmiko:195] Skip loopback409 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,739 [main.py:runNetmiko:195] Skip loopback410 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,749 [main.py:runNetmiko:195] Skip loopback411 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,751 [main.py:runNetmiko:195] Skip loopback412 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,752 [main.py:runNetmiko:195] Skip loopback501 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,754 [main.py:runNetmiko:195] Skip loopback502 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,761 [main.py:runNetmiko:195] Skip Vlan1 for device: DC1CORSWT-12
+INFO 2024-05-31 19:09:39,764 [main.py:interfaceCRC:265] Script execution completed successfully.
+INFO 2024-05-31 19:10:27,150 [main.py:proc_iface_crc_nx:125] Pyats parser with nxos type function
+INFO 2024-05-31 19:10:28,170 [main.py:proc_iface_crc_nx:127] Device: DC1CORSWT-12
+WARNING 2024-05-31 19:10:35,297 [main.py:proc_iface_crc_nx:148] Error get CRC for device DC1CORSWT-12 using pyAts
+ERROR 2024-05-31 19:10:35,299 [main.py:runNetmiko:167] Retrying connect to device with netmiko
+INFO 2024-05-31 19:10:35,302 [main.py:runNetmiko:172] Establishing Netmiko connection...
+INFO 2024-05-31 19:10:36,302 [main.py:runNetmiko:174] Connection established successfully.
+INFO 2024-05-31 19:10:36,310 [main.py:runNetmiko:178] Sending command show interface to Device DC1CORSWT-12, type nxos
+INFO 2024-05-31 19:10:38,425 [main.py:runNetmiko:195] Skip mgmt0 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,427 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,429 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,431 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,432 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,434 [main.py:runNetmiko:197] 3166 , , 3166
+INFO 2024-05-31 19:10:38,435 [main.py:runNetmiko:197]  , , 
+INFO 2024-05-31 19:10:38,437 [main.py:runNetmiko:197] 2914 , , 2914
+INFO 2024-05-31 19:10:38,439 [main.py:runNetmiko:197]  , , 
+INFO 2024-05-31 19:10:38,440 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,442 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,444 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,445 [main.py:runNetmiko:197]  , , 
+INFO 2024-05-31 19:10:38,447 [main.py:runNetmiko:197] 49 , , 49
+INFO 2024-05-31 19:10:38,449 [main.py:runNetmiko:197]  , , 
+INFO 2024-05-31 19:10:38,450 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,452 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,453 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,455 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,457 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,458 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,460 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,462 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,463 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,465 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,466 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,468 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,470 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,471 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,473 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,475 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,476 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,478 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,480 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,481 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,483 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,485 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,486 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,488 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,490 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,492 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,494 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,496 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,498 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,500 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,501 [main.py:runNetmiko:197] 4101 , , 4101
+INFO 2024-05-31 19:10:38,503 [main.py:runNetmiko:197]  , , 
+INFO 2024-05-31 19:10:38,504 [main.py:runNetmiko:197] 3577 , , 3577
+INFO 2024-05-31 19:10:38,506 [main.py:runNetmiko:197]  , , 
+INFO 2024-05-31 19:10:38,508 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,509 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,511 [main.py:runNetmiko:197] 1376 , , 1376
+INFO 2024-05-31 19:10:38,513 [main.py:runNetmiko:197]  , , 
+INFO 2024-05-31 19:10:38,514 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,516 [main.py:runNetmiko:197]  , , 
+INFO 2024-05-31 19:10:38,518 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,519 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,521 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,523 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,524 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,526 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,527 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,529 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,531 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,533 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,534 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,536 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,537 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,539 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,541 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,543 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,544 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,546 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,548 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,549 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,551 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,553 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,554 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,556 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,558 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,559 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,561 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,563 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,564 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,566 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,567 [main.py:runNetmiko:197]  , , 
+INFO 2024-05-31 19:10:38,569 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,571 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,572 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,574 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,576 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,577 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,579 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,581 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,582 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,584 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,586 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,587 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,589 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,590 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,592 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,594 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,595 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,597 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,599 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,600 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,602 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,603 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,605 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,607 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,608 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,610 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,612 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,613 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,615 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,616 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,618 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,619 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,621 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,623 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,624 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,626 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,627 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,629 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,630 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,632 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,634 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,635 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,637 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,638 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,640 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,641 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,643 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,645 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,646 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,648 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,650 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,651 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,653 [main.py:runNetmiko:197]  , , 
+INFO 2024-05-31 19:10:38,655 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,656 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,658 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,659 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,661 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,663 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,664 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,666 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,667 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,669 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,670 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,672 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,673 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,675 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,677 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,678 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,680 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,681 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,683 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,685 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,686 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,688 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,689 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,691 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,692 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,694 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,696 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,697 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,699 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,700 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,702 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,704 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,705 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,707 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,708 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,710 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,711 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,713 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,715 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,716 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,718 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,720 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,721 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,723 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,724 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,726 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,727 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,729 [main.py:runNetmiko:197] 0 , , 0
+INFO 2024-05-31 19:10:38,731 [main.py:runNetmiko:195] Skip port-channel1 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,732 [main.py:runNetmiko:195] Skip port-channel1.50 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,734 [main.py:runNetmiko:195] Skip port-channel2 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,736 [main.py:runNetmiko:195] Skip port-channel3 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,737 [main.py:runNetmiko:195] Skip port-channel4 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,739 [main.py:runNetmiko:195] Skip loopback0 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,741 [main.py:runNetmiko:195] Skip loopback1 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,742 [main.py:runNetmiko:195] Skip loopback99 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,744 [main.py:runNetmiko:195] Skip loopback201 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,746 [main.py:runNetmiko:195] Skip loopback202 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,747 [main.py:runNetmiko:195] Skip loopback203 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,749 [main.py:runNetmiko:195] Skip loopback204 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,751 [main.py:runNetmiko:195] Skip loopback205 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,752 [main.py:runNetmiko:195] Skip loopback206 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,754 [main.py:runNetmiko:195] Skip loopback207 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,756 [main.py:runNetmiko:195] Skip loopback208 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,758 [main.py:runNetmiko:195] Skip loopback209 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,759 [main.py:runNetmiko:195] Skip loopback210 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,761 [main.py:runNetmiko:195] Skip loopback211 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,763 [main.py:runNetmiko:195] Skip loopback212 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,764 [main.py:runNetmiko:195] Skip loopback213 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,766 [main.py:runNetmiko:195] Skip loopback214 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,768 [main.py:runNetmiko:195] Skip loopback215 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,769 [main.py:runNetmiko:195] Skip loopback401 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,771 [main.py:runNetmiko:195] Skip loopback402 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,772 [main.py:runNetmiko:195] Skip loopback403 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,774 [main.py:runNetmiko:195] Skip loopback404 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,776 [main.py:runNetmiko:195] Skip loopback405 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,778 [main.py:runNetmiko:195] Skip loopback406 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,779 [main.py:runNetmiko:195] Skip loopback407 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,781 [main.py:runNetmiko:195] Skip loopback408 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,783 [main.py:runNetmiko:195] Skip loopback409 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,784 [main.py:runNetmiko:195] Skip loopback410 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,786 [main.py:runNetmiko:195] Skip loopback411 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,788 [main.py:runNetmiko:195] Skip loopback412 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,789 [main.py:runNetmiko:195] Skip loopback501 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,791 [main.py:runNetmiko:195] Skip loopback502 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,793 [main.py:runNetmiko:195] Skip Vlan1 for device: DC1CORSWT-12
+INFO 2024-05-31 19:10:38,795 [main.py:interfaceCRC:265] Script execution completed successfully.
+INFO 2024-05-31 19:12:19,685 [main.py:proc_iface_crc_nx:125] Pyats parser with nxos type function
+INFO 2024-05-31 19:12:20,778 [main.py:proc_iface_crc_nx:127] Device: DC1CORSWT-12
+WARNING 2024-05-31 19:12:27,296 [main.py:proc_iface_crc_nx:148] Error get CRC for device DC1CORSWT-12 using pyAts
+ERROR 2024-05-31 19:12:27,299 [main.py:runNetmiko:167] Retrying connect to device with netmiko
+INFO 2024-05-31 19:12:27,301 [main.py:runNetmiko:172] Establishing Netmiko connection...
+INFO 2024-05-31 19:12:28,282 [main.py:runNetmiko:174] Connection established successfully.
+INFO 2024-05-31 19:12:28,289 [main.py:runNetmiko:178] Sending command show interface to Device DC1CORSWT-12, type nxos
+INFO 2024-05-31 19:12:30,652 [main.py:runNetmiko:195] Skip mgmt0 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:30,654 [main.py:runNetmiko:197] Ethernet1/1 : 0 , , 0
+INFO 2024-05-31 19:12:30,656 [main.py:runNetmiko:197] Ethernet1/2 : 0 , , 0
+INFO 2024-05-31 19:12:30,658 [main.py:runNetmiko:197] Ethernet1/3 : 0 , , 0
+INFO 2024-05-31 19:12:30,660 [main.py:runNetmiko:197] Ethernet1/4 : 0 , , 0
+INFO 2024-05-31 19:12:30,662 [main.py:runNetmiko:197] Ethernet1/5 : 3166 , , 3166
+INFO 2024-05-31 19:12:30,664 [main.py:runNetmiko:197] Ethernet1/5.4 :  , , 
+INFO 2024-05-31 19:12:30,665 [main.py:runNetmiko:197] Ethernet1/6 : 2914 , , 2914
+INFO 2024-05-31 19:12:30,667 [main.py:runNetmiko:197] Ethernet1/6.4 :  , , 
+INFO 2024-05-31 19:12:30,669 [main.py:runNetmiko:197] Ethernet1/7 : 0 , , 0
+INFO 2024-05-31 19:12:30,670 [main.py:runNetmiko:197] Ethernet1/8 : 0 , , 0
+INFO 2024-05-31 19:12:30,672 [main.py:runNetmiko:197] Ethernet1/9 : 0 , , 0
+INFO 2024-05-31 19:12:30,674 [main.py:runNetmiko:197] Ethernet1/9.4 :  , , 
+INFO 2024-05-31 19:12:30,676 [main.py:runNetmiko:197] Ethernet1/10 : 49 , , 49
+INFO 2024-05-31 19:12:30,677 [main.py:runNetmiko:197] Ethernet1/10.4 :  , , 
+INFO 2024-05-31 19:12:30,679 [main.py:runNetmiko:197] Ethernet1/11 : 0 , , 0
+INFO 2024-05-31 19:12:30,681 [main.py:runNetmiko:197] Ethernet1/12 : 0 , , 0
+INFO 2024-05-31 19:12:30,683 [main.py:runNetmiko:197] Ethernet1/13 : 0 , , 0
+INFO 2024-05-31 19:12:30,684 [main.py:runNetmiko:197] Ethernet1/14 : 0 , , 0
+INFO 2024-05-31 19:12:30,686 [main.py:runNetmiko:197] Ethernet1/15 : 0 , , 0
+INFO 2024-05-31 19:12:30,688 [main.py:runNetmiko:197] Ethernet1/16 : 0 , , 0
+INFO 2024-05-31 19:12:30,690 [main.py:runNetmiko:197] Ethernet1/17 : 0 , , 0
+INFO 2024-05-31 19:12:30,692 [main.py:runNetmiko:197] Ethernet1/18 : 0 , , 0
+INFO 2024-05-31 19:12:30,693 [main.py:runNetmiko:197] Ethernet1/19 : 0 , , 0
+INFO 2024-05-31 19:12:30,695 [main.py:runNetmiko:197] Ethernet1/20 : 0 , , 0
+INFO 2024-05-31 19:12:30,697 [main.py:runNetmiko:197] Ethernet1/21 : 0 , , 0
+INFO 2024-05-31 19:12:30,699 [main.py:runNetmiko:197] Ethernet1/22 : 0 , , 0
+INFO 2024-05-31 19:12:30,700 [main.py:runNetmiko:197] Ethernet1/23 : 0 , , 0
+INFO 2024-05-31 19:12:30,702 [main.py:runNetmiko:197] Ethernet1/24 : 0 , , 0
+INFO 2024-05-31 19:12:30,704 [main.py:runNetmiko:197] Ethernet1/25 : 0 , , 0
+INFO 2024-05-31 19:12:30,706 [main.py:runNetmiko:197] Ethernet1/26 : 0 , , 0
+INFO 2024-05-31 19:12:30,708 [main.py:runNetmiko:197] Ethernet1/27 : 0 , , 0
+INFO 2024-05-31 19:12:30,709 [main.py:runNetmiko:197] Ethernet1/28 : 0 , , 0
+INFO 2024-05-31 19:12:30,711 [main.py:runNetmiko:197] Ethernet1/29 : 0 , , 0
+INFO 2024-05-31 19:12:30,713 [main.py:runNetmiko:197] Ethernet1/30 : 0 , , 0
+INFO 2024-05-31 19:12:30,715 [main.py:runNetmiko:197] Ethernet1/31 : 0 , , 0
+INFO 2024-05-31 19:12:30,716 [main.py:runNetmiko:197] Ethernet1/32 : 0 , , 0
+INFO 2024-05-31 19:12:30,718 [main.py:runNetmiko:197] Ethernet1/33 : 0 , , 0
+INFO 2024-05-31 19:12:30,720 [main.py:runNetmiko:197] Ethernet1/34 : 0 , , 0
+INFO 2024-05-31 19:12:30,721 [main.py:runNetmiko:197] Ethernet1/35 : 0 , , 0
+INFO 2024-05-31 19:12:30,723 [main.py:runNetmiko:197] Ethernet1/36 : 0 , , 0
+INFO 2024-05-31 19:12:30,725 [main.py:runNetmiko:197] Ethernet2/1 : 0 , , 0
+INFO 2024-05-31 19:12:30,726 [main.py:runNetmiko:197] Ethernet2/2 : 0 , , 0
+INFO 2024-05-31 19:12:30,728 [main.py:runNetmiko:197] Ethernet2/3 : 0 , , 0
+INFO 2024-05-31 19:12:30,730 [main.py:runNetmiko:197] Ethernet2/4 : 0 , , 0
+INFO 2024-05-31 19:12:30,731 [main.py:runNetmiko:197] Ethernet2/5 : 4101 , , 4101
+INFO 2024-05-31 19:12:30,733 [main.py:runNetmiko:197] Ethernet2/5.4 :  , , 
+INFO 2024-05-31 19:12:30,735 [main.py:runNetmiko:197] Ethernet2/6 : 3577 , , 3577
+INFO 2024-05-31 19:12:30,737 [main.py:runNetmiko:197] Ethernet2/6.4 :  , , 
+INFO 2024-05-31 19:12:30,738 [main.py:runNetmiko:197] Ethernet2/7 : 0 , , 0
+INFO 2024-05-31 19:12:30,740 [main.py:runNetmiko:197] Ethernet2/8 : 0 , , 0
+INFO 2024-05-31 19:12:30,742 [main.py:runNetmiko:197] Ethernet2/9 : 1376 , , 1376
+INFO 2024-05-31 19:12:30,743 [main.py:runNetmiko:197] Ethernet2/9.4 :  , , 
+INFO 2024-05-31 19:12:30,745 [main.py:runNetmiko:197] Ethernet2/10 : 0 , , 0
+INFO 2024-05-31 19:12:30,747 [main.py:runNetmiko:197] Ethernet2/10.4 :  , , 
+INFO 2024-05-31 19:12:30,749 [main.py:runNetmiko:197] Ethernet2/11 : 0 , , 0
+INFO 2024-05-31 19:12:30,750 [main.py:runNetmiko:197] Ethernet2/12 : 0 , , 0
+INFO 2024-05-31 19:12:30,752 [main.py:runNetmiko:197] Ethernet2/13 : 0 , , 0
+INFO 2024-05-31 19:12:30,754 [main.py:runNetmiko:197] Ethernet2/14 : 0 , , 0
+INFO 2024-05-31 19:12:30,756 [main.py:runNetmiko:197] Ethernet2/15 : 0 , , 0
+INFO 2024-05-31 19:12:30,757 [main.py:runNetmiko:197] Ethernet2/16 : 0 , , 0
+INFO 2024-05-31 19:12:30,759 [main.py:runNetmiko:197] Ethernet2/17 : 0 , , 0
+INFO 2024-05-31 19:12:30,761 [main.py:runNetmiko:197] Ethernet2/18 : 0 , , 0
+INFO 2024-05-31 19:12:30,763 [main.py:runNetmiko:197] Ethernet2/19 : 0 , , 0
+INFO 2024-05-31 19:12:30,764 [main.py:runNetmiko:197] Ethernet2/20 : 0 , , 0
+INFO 2024-05-31 19:12:30,766 [main.py:runNetmiko:197] Ethernet2/21 : 0 , , 0
+INFO 2024-05-31 19:12:30,768 [main.py:runNetmiko:197] Ethernet2/22 : 0 , , 0
+INFO 2024-05-31 19:12:30,770 [main.py:runNetmiko:197] Ethernet2/23 : 0 , , 0
+INFO 2024-05-31 19:12:30,771 [main.py:runNetmiko:197] Ethernet2/24 : 0 , , 0
+INFO 2024-05-31 19:12:30,773 [main.py:runNetmiko:197] Ethernet2/25 : 0 , , 0
+INFO 2024-05-31 19:12:30,775 [main.py:runNetmiko:197] Ethernet2/26 : 0 , , 0
+INFO 2024-05-31 19:12:30,777 [main.py:runNetmiko:197] Ethernet2/27 : 0 , , 0
+INFO 2024-05-31 19:12:30,778 [main.py:runNetmiko:197] Ethernet2/28 : 0 , , 0
+INFO 2024-05-31 19:12:30,780 [main.py:runNetmiko:197] Ethernet2/29 : 0 , , 0
+INFO 2024-05-31 19:12:30,782 [main.py:runNetmiko:197] Ethernet2/30 : 0 , , 0
+INFO 2024-05-31 19:12:30,783 [main.py:runNetmiko:197] Ethernet2/31 : 0 , , 0
+INFO 2024-05-31 19:12:30,786 [main.py:runNetmiko:197] Ethernet2/32 : 0 , , 0
+INFO 2024-05-31 19:12:30,787 [main.py:runNetmiko:197] Ethernet2/33 : 0 , , 0
+INFO 2024-05-31 19:12:30,789 [main.py:runNetmiko:197] Ethernet2/34 : 0 , , 0
+INFO 2024-05-31 19:12:30,792 [main.py:runNetmiko:197] Ethernet2/35 : 0 , , 0
+INFO 2024-05-31 19:12:30,793 [main.py:runNetmiko:197] Ethernet2/36 : 0 , , 0
+INFO 2024-05-31 19:12:30,795 [main.py:runNetmiko:197] Ethernet3/1 : 0 , , 0
+INFO 2024-05-31 19:12:30,797 [main.py:runNetmiko:197] Ethernet3/2 : 0 , , 0
+INFO 2024-05-31 19:12:30,799 [main.py:runNetmiko:197] Ethernet3/3 : 0 , , 0
+INFO 2024-05-31 19:12:30,800 [main.py:runNetmiko:197] Ethernet3/4 : 0 , , 0
+INFO 2024-05-31 19:12:30,802 [main.py:runNetmiko:197] Ethernet3/4.10 :  , , 
+INFO 2024-05-31 19:12:30,804 [main.py:runNetmiko:197] Ethernet3/5 : 0 , , 0
+INFO 2024-05-31 19:12:30,805 [main.py:runNetmiko:197] Ethernet3/6 : 0 , , 0
+INFO 2024-05-31 19:12:30,807 [main.py:runNetmiko:197] Ethernet3/7 : 0 , , 0
+INFO 2024-05-31 19:12:30,809 [main.py:runNetmiko:197] Ethernet3/8 : 0 , , 0
+INFO 2024-05-31 19:12:30,811 [main.py:runNetmiko:197] Ethernet3/9 : 0 , , 0
+INFO 2024-05-31 19:12:30,813 [main.py:runNetmiko:197] Ethernet3/10 : 0 , , 0
+INFO 2024-05-31 19:12:30,815 [main.py:runNetmiko:197] Ethernet3/11 : 0 , , 0
+INFO 2024-05-31 19:12:30,816 [main.py:runNetmiko:197] Ethernet3/12 : 0 , , 0
+INFO 2024-05-31 19:12:30,818 [main.py:runNetmiko:197] Ethernet3/13 : 0 , , 0
+INFO 2024-05-31 19:12:30,820 [main.py:runNetmiko:197] Ethernet3/14 : 0 , , 0
+INFO 2024-05-31 19:12:30,822 [main.py:runNetmiko:197] Ethernet3/15 : 0 , , 0
+INFO 2024-05-31 19:12:30,824 [main.py:runNetmiko:197] Ethernet3/16 : 0 , , 0
+INFO 2024-05-31 19:12:30,825 [main.py:runNetmiko:197] Ethernet3/17 : 0 , , 0
+INFO 2024-05-31 19:12:30,827 [main.py:runNetmiko:197] Ethernet3/18 : 0 , , 0
+INFO 2024-05-31 19:12:30,829 [main.py:runNetmiko:197] Ethernet3/19 : 0 , , 0
+INFO 2024-05-31 19:12:30,830 [main.py:runNetmiko:197] Ethernet3/20 : 0 , , 0
+INFO 2024-05-31 19:12:30,832 [main.py:runNetmiko:197] Ethernet3/21 : 0 , , 0
+INFO 2024-05-31 19:12:30,834 [main.py:runNetmiko:197] Ethernet3/22 : 0 , , 0
+INFO 2024-05-31 19:12:30,836 [main.py:runNetmiko:197] Ethernet3/23 : 0 , , 0
+INFO 2024-05-31 19:12:30,837 [main.py:runNetmiko:197] Ethernet3/24 : 0 , , 0
+INFO 2024-05-31 19:12:30,839 [main.py:runNetmiko:197] Ethernet3/25 : 0 , , 0
+INFO 2024-05-31 19:12:30,841 [main.py:runNetmiko:197] Ethernet3/26 : 0 , , 0
+INFO 2024-05-31 19:12:30,843 [main.py:runNetmiko:197] Ethernet3/27 : 0 , , 0
+INFO 2024-05-31 19:12:30,844 [main.py:runNetmiko:197] Ethernet3/28 : 0 , , 0
+INFO 2024-05-31 19:12:30,846 [main.py:runNetmiko:197] Ethernet3/29 : 0 , , 0
+INFO 2024-05-31 19:12:30,848 [main.py:runNetmiko:197] Ethernet3/30 : 0 , , 0
+INFO 2024-05-31 19:12:30,850 [main.py:runNetmiko:197] Ethernet3/31 : 0 , , 0
+INFO 2024-05-31 19:12:30,851 [main.py:runNetmiko:197] Ethernet3/32 : 0 , , 0
+INFO 2024-05-31 19:12:30,853 [main.py:runNetmiko:197] Ethernet3/33 : 0 , , 0
+INFO 2024-05-31 19:12:30,855 [main.py:runNetmiko:197] Ethernet3/34 : 0 , , 0
+INFO 2024-05-31 19:12:30,857 [main.py:runNetmiko:197] Ethernet3/35 : 0 , , 0
+INFO 2024-05-31 19:12:30,859 [main.py:runNetmiko:197] Ethernet3/36 : 0 , , 0
+INFO 2024-05-31 19:12:30,860 [main.py:runNetmiko:197] Ethernet3/37 : 0 , , 0
+INFO 2024-05-31 19:12:30,862 [main.py:runNetmiko:197] Ethernet3/38 : 0 , , 0
+INFO 2024-05-31 19:12:30,864 [main.py:runNetmiko:197] Ethernet3/39 : 0 , , 0
+INFO 2024-05-31 19:12:30,866 [main.py:runNetmiko:197] Ethernet3/40 : 0 , , 0
+INFO 2024-05-31 19:12:30,867 [main.py:runNetmiko:197] Ethernet3/41 : 0 , , 0
+INFO 2024-05-31 19:12:30,869 [main.py:runNetmiko:197] Ethernet3/42 : 0 , , 0
+INFO 2024-05-31 19:12:30,871 [main.py:runNetmiko:197] Ethernet3/43 : 0 , , 0
+INFO 2024-05-31 19:12:30,873 [main.py:runNetmiko:197] Ethernet3/44 : 0 , , 0
+INFO 2024-05-31 19:12:30,875 [main.py:runNetmiko:197] Ethernet3/45 : 0 , , 0
+INFO 2024-05-31 19:12:30,876 [main.py:runNetmiko:197] Ethernet3/46 : 0 , , 0
+INFO 2024-05-31 19:12:30,878 [main.py:runNetmiko:197] Ethernet3/47 : 0 , , 0
+INFO 2024-05-31 19:12:30,880 [main.py:runNetmiko:197] Ethernet3/48 : 0 , , 0
+INFO 2024-05-31 19:12:30,881 [main.py:runNetmiko:197] Ethernet3/49 : 0 , , 0
+INFO 2024-05-31 19:12:30,884 [main.py:runNetmiko:197] Ethernet3/50 : 0 , , 0
+INFO 2024-05-31 19:12:30,886 [main.py:runNetmiko:197] Ethernet3/51 : 0 , , 0
+INFO 2024-05-31 19:12:30,888 [main.py:runNetmiko:197] Ethernet3/52 : 0 , , 0
+INFO 2024-05-31 19:12:30,889 [main.py:runNetmiko:197] Ethernet4/1 : 0 , , 0
+INFO 2024-05-31 19:12:30,891 [main.py:runNetmiko:197] Ethernet4/2 : 0 , , 0
+INFO 2024-05-31 19:12:30,893 [main.py:runNetmiko:197] Ethernet4/3 : 0 , , 0
+INFO 2024-05-31 19:12:30,895 [main.py:runNetmiko:197] Ethernet4/4 : 0 , , 0
+INFO 2024-05-31 19:12:30,897 [main.py:runNetmiko:197] Ethernet4/4.20 :  , , 
+INFO 2024-05-31 19:12:30,898 [main.py:runNetmiko:197] Ethernet4/5 : 0 , , 0
+INFO 2024-05-31 19:12:30,900 [main.py:runNetmiko:197] Ethernet4/6 : 0 , , 0
+INFO 2024-05-31 19:12:30,902 [main.py:runNetmiko:197] Ethernet4/7 : 0 , , 0
+INFO 2024-05-31 19:12:30,903 [main.py:runNetmiko:197] Ethernet4/8 : 0 , , 0
+INFO 2024-05-31 19:12:30,905 [main.py:runNetmiko:197] Ethernet4/9 : 0 , , 0
+INFO 2024-05-31 19:12:30,907 [main.py:runNetmiko:197] Ethernet4/10 : 0 , , 0
+INFO 2024-05-31 19:12:30,909 [main.py:runNetmiko:197] Ethernet4/11 : 0 , , 0
+INFO 2024-05-31 19:12:30,910 [main.py:runNetmiko:197] Ethernet4/12 : 0 , , 0
+INFO 2024-05-31 19:12:30,912 [main.py:runNetmiko:197] Ethernet4/13 : 0 , , 0
+INFO 2024-05-31 19:12:30,914 [main.py:runNetmiko:197] Ethernet4/14 : 0 , , 0
+INFO 2024-05-31 19:12:30,916 [main.py:runNetmiko:197] Ethernet4/15 : 0 , , 0
+INFO 2024-05-31 19:12:30,917 [main.py:runNetmiko:197] Ethernet4/16 : 0 , , 0
+INFO 2024-05-31 19:12:30,919 [main.py:runNetmiko:197] Ethernet4/17 : 0 , , 0
+INFO 2024-05-31 19:12:30,921 [main.py:runNetmiko:197] Ethernet4/18 : 0 , , 0
+INFO 2024-05-31 19:12:30,923 [main.py:runNetmiko:197] Ethernet4/19 : 0 , , 0
+INFO 2024-05-31 19:12:30,924 [main.py:runNetmiko:197] Ethernet4/20 : 0 , , 0
+INFO 2024-05-31 19:12:30,926 [main.py:runNetmiko:197] Ethernet4/21 : 0 , , 0
+INFO 2024-05-31 19:12:30,928 [main.py:runNetmiko:197] Ethernet4/22 : 0 , , 0
+INFO 2024-05-31 19:12:30,930 [main.py:runNetmiko:197] Ethernet4/23 : 0 , , 0
+INFO 2024-05-31 19:12:30,931 [main.py:runNetmiko:197] Ethernet4/24 : 0 , , 0
+INFO 2024-05-31 19:12:30,933 [main.py:runNetmiko:197] Ethernet4/25 : 0 , , 0
+INFO 2024-05-31 19:12:30,935 [main.py:runNetmiko:197] Ethernet4/26 : 0 , , 0
+INFO 2024-05-31 19:12:30,936 [main.py:runNetmiko:197] Ethernet4/27 : 0 , , 0
+INFO 2024-05-31 19:12:30,938 [main.py:runNetmiko:197] Ethernet4/28 : 0 , , 0
+INFO 2024-05-31 19:12:30,953 [main.py:runNetmiko:197] Ethernet4/29 : 0 , , 0
+INFO 2024-05-31 19:12:30,955 [main.py:runNetmiko:197] Ethernet4/30 : 0 , , 0
+INFO 2024-05-31 19:12:30,957 [main.py:runNetmiko:197] Ethernet4/31 : 0 , , 0
+INFO 2024-05-31 19:12:30,959 [main.py:runNetmiko:197] Ethernet4/32 : 0 , , 0
+INFO 2024-05-31 19:12:30,960 [main.py:runNetmiko:197] Ethernet4/33 : 0 , , 0
+INFO 2024-05-31 19:12:30,966 [main.py:runNetmiko:197] Ethernet4/34 : 0 , , 0
+INFO 2024-05-31 19:12:30,967 [main.py:runNetmiko:197] Ethernet4/35 : 0 , , 0
+INFO 2024-05-31 19:12:30,977 [main.py:runNetmiko:197] Ethernet4/36 : 0 , , 0
+INFO 2024-05-31 19:12:30,979 [main.py:runNetmiko:197] Ethernet4/37 : 0 , , 0
+INFO 2024-05-31 19:12:30,981 [main.py:runNetmiko:197] Ethernet4/38 : 0 , , 0
+INFO 2024-05-31 19:12:30,983 [main.py:runNetmiko:197] Ethernet4/39 : 0 , , 0
+INFO 2024-05-31 19:12:30,985 [main.py:runNetmiko:197] Ethernet4/40 : 0 , , 0
+INFO 2024-05-31 19:12:30,990 [main.py:runNetmiko:197] Ethernet4/41 : 0 , , 0
+INFO 2024-05-31 19:12:30,991 [main.py:runNetmiko:197] Ethernet4/42 : 0 , , 0
+INFO 2024-05-31 19:12:30,998 [main.py:runNetmiko:197] Ethernet4/43 : 0 , , 0
+INFO 2024-05-31 19:12:30,999 [main.py:runNetmiko:197] Ethernet4/44 : 0 , , 0
+INFO 2024-05-31 19:12:31,001 [main.py:runNetmiko:197] Ethernet4/45 : 0 , , 0
+INFO 2024-05-31 19:12:31,003 [main.py:runNetmiko:197] Ethernet4/46 : 0 , , 0
+INFO 2024-05-31 19:12:31,005 [main.py:runNetmiko:197] Ethernet4/47 : 0 , , 0
+INFO 2024-05-31 19:12:31,006 [main.py:runNetmiko:197] Ethernet4/48 : 0 , , 0
+INFO 2024-05-31 19:12:31,008 [main.py:runNetmiko:197] Ethernet4/49 : 0 , , 0
+INFO 2024-05-31 19:12:31,010 [main.py:runNetmiko:197] Ethernet4/50 : 0 , , 0
+INFO 2024-05-31 19:12:31,012 [main.py:runNetmiko:197] Ethernet4/51 : 0 , , 0
+INFO 2024-05-31 19:12:31,014 [main.py:runNetmiko:197] Ethernet4/52 : 0 , , 0
+INFO 2024-05-31 19:12:31,016 [main.py:runNetmiko:195] Skip port-channel1 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,018 [main.py:runNetmiko:195] Skip port-channel1.50 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,019 [main.py:runNetmiko:195] Skip port-channel2 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,021 [main.py:runNetmiko:195] Skip port-channel3 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,023 [main.py:runNetmiko:195] Skip port-channel4 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,025 [main.py:runNetmiko:195] Skip loopback0 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,026 [main.py:runNetmiko:195] Skip loopback1 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,028 [main.py:runNetmiko:195] Skip loopback99 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,030 [main.py:runNetmiko:195] Skip loopback201 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,032 [main.py:runNetmiko:195] Skip loopback202 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,034 [main.py:runNetmiko:195] Skip loopback203 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,036 [main.py:runNetmiko:195] Skip loopback204 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,037 [main.py:runNetmiko:195] Skip loopback205 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,039 [main.py:runNetmiko:195] Skip loopback206 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,041 [main.py:runNetmiko:195] Skip loopback207 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,043 [main.py:runNetmiko:195] Skip loopback208 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,045 [main.py:runNetmiko:195] Skip loopback209 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,047 [main.py:runNetmiko:195] Skip loopback210 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,049 [main.py:runNetmiko:195] Skip loopback211 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,050 [main.py:runNetmiko:195] Skip loopback212 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,052 [main.py:runNetmiko:195] Skip loopback213 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,054 [main.py:runNetmiko:195] Skip loopback214 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,057 [main.py:runNetmiko:195] Skip loopback215 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,059 [main.py:runNetmiko:195] Skip loopback401 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,060 [main.py:runNetmiko:195] Skip loopback402 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,062 [main.py:runNetmiko:195] Skip loopback403 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,065 [main.py:runNetmiko:195] Skip loopback404 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,067 [main.py:runNetmiko:195] Skip loopback405 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,069 [main.py:runNetmiko:195] Skip loopback406 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,070 [main.py:runNetmiko:195] Skip loopback407 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,072 [main.py:runNetmiko:195] Skip loopback408 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,074 [main.py:runNetmiko:195] Skip loopback409 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,076 [main.py:runNetmiko:195] Skip loopback410 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,078 [main.py:runNetmiko:195] Skip loopback411 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,079 [main.py:runNetmiko:195] Skip loopback412 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,081 [main.py:runNetmiko:195] Skip loopback501 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,083 [main.py:runNetmiko:195] Skip loopback502 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,085 [main.py:runNetmiko:195] Skip Vlan1 for device: DC1CORSWT-12
+INFO 2024-05-31 19:12:31,087 [main.py:interfaceCRC:265] Script execution completed successfully.
+INFO 2024-05-31 19:16:25,679 [main.py:proc_iface_crc_nx:125] Pyats parser with nxos type function
+INFO 2024-05-31 19:16:26,837 [main.py:proc_iface_crc_nx:127] Device: DC1CORSWT-12
+WARNING 2024-05-31 19:16:33,254 [main.py:proc_iface_crc_nx:148] Error get CRC for device DC1CORSWT-12 using pyAts
+ERROR 2024-05-31 19:16:33,256 [main.py:runNetmiko:167] Retrying connect to device with netmiko
+INFO 2024-05-31 19:16:33,261 [main.py:runNetmiko:172] Establishing Netmiko connection...
+INFO 2024-05-31 19:16:34,221 [main.py:runNetmiko:174] Connection established successfully.
+INFO 2024-05-31 19:16:34,223 [main.py:runNetmiko:178] Sending command show interface to Device DC1CORSWT-12, type nxos
+INFO 2024-05-31 19:16:36,366 [main.py:runNetmiko:195] Skip mgmt0 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,368 [main.py:runNetmiko:197] Ethernet1/1 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,370 [main.py:runNetmiko:197] Ethernet1/2 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,371 [main.py:runNetmiko:197] Ethernet1/3 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,373 [main.py:runNetmiko:197] Ethernet1/4 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,374 [main.py:runNetmiko:197] Ethernet1/5 : 3166 , 0, 3166
+INFO 2024-05-31 19:16:36,376 [main.py:runNetmiko:197] Ethernet1/5.4 :  , , 
+INFO 2024-05-31 19:16:36,378 [main.py:runNetmiko:197] Ethernet1/6 : 2915 , 0, 2915
+INFO 2024-05-31 19:16:36,379 [main.py:runNetmiko:197] Ethernet1/6.4 :  , , 
+INFO 2024-05-31 19:16:36,381 [main.py:runNetmiko:197] Ethernet1/7 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,382 [main.py:runNetmiko:197] Ethernet1/8 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,384 [main.py:runNetmiko:197] Ethernet1/9 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,385 [main.py:runNetmiko:197] Ethernet1/9.4 :  , , 
+INFO 2024-05-31 19:16:36,387 [main.py:runNetmiko:197] Ethernet1/10 : 49 , 0, 49
+INFO 2024-05-31 19:16:36,388 [main.py:runNetmiko:197] Ethernet1/10.4 :  , , 
+INFO 2024-05-31 19:16:36,390 [main.py:runNetmiko:197] Ethernet1/11 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,392 [main.py:runNetmiko:197] Ethernet1/12 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,393 [main.py:runNetmiko:197] Ethernet1/13 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,395 [main.py:runNetmiko:197] Ethernet1/14 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,396 [main.py:runNetmiko:197] Ethernet1/15 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,398 [main.py:runNetmiko:197] Ethernet1/16 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,399 [main.py:runNetmiko:197] Ethernet1/17 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,401 [main.py:runNetmiko:197] Ethernet1/18 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,404 [main.py:runNetmiko:197] Ethernet1/19 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,405 [main.py:runNetmiko:197] Ethernet1/20 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,407 [main.py:runNetmiko:197] Ethernet1/21 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,408 [main.py:runNetmiko:197] Ethernet1/22 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,411 [main.py:runNetmiko:197] Ethernet1/23 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,412 [main.py:runNetmiko:197] Ethernet1/24 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,414 [main.py:runNetmiko:197] Ethernet1/25 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,415 [main.py:runNetmiko:197] Ethernet1/26 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,417 [main.py:runNetmiko:197] Ethernet1/27 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,418 [main.py:runNetmiko:197] Ethernet1/28 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,420 [main.py:runNetmiko:197] Ethernet1/29 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,422 [main.py:runNetmiko:197] Ethernet1/30 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,423 [main.py:runNetmiko:197] Ethernet1/31 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,425 [main.py:runNetmiko:197] Ethernet1/32 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,426 [main.py:runNetmiko:197] Ethernet1/33 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,428 [main.py:runNetmiko:197] Ethernet1/34 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,430 [main.py:runNetmiko:197] Ethernet1/35 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,431 [main.py:runNetmiko:197] Ethernet1/36 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,433 [main.py:runNetmiko:197] Ethernet2/1 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,434 [main.py:runNetmiko:197] Ethernet2/2 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,436 [main.py:runNetmiko:197] Ethernet2/3 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,438 [main.py:runNetmiko:197] Ethernet2/4 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,439 [main.py:runNetmiko:197] Ethernet2/5 : 4101 , 0, 4101
+INFO 2024-05-31 19:16:36,441 [main.py:runNetmiko:197] Ethernet2/5.4 :  , , 
+INFO 2024-05-31 19:16:36,442 [main.py:runNetmiko:197] Ethernet2/6 : 3577 , 0, 3577
+INFO 2024-05-31 19:16:36,444 [main.py:runNetmiko:197] Ethernet2/6.4 :  , , 
+INFO 2024-05-31 19:16:36,445 [main.py:runNetmiko:197] Ethernet2/7 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,447 [main.py:runNetmiko:197] Ethernet2/8 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,448 [main.py:runNetmiko:197] Ethernet2/9 : 1376 , 0, 1376
+INFO 2024-05-31 19:16:36,450 [main.py:runNetmiko:197] Ethernet2/9.4 :  , , 
+INFO 2024-05-31 19:16:36,452 [main.py:runNetmiko:197] Ethernet2/10 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,453 [main.py:runNetmiko:197] Ethernet2/10.4 :  , , 
+INFO 2024-05-31 19:16:36,455 [main.py:runNetmiko:197] Ethernet2/11 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,456 [main.py:runNetmiko:197] Ethernet2/12 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,458 [main.py:runNetmiko:197] Ethernet2/13 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,459 [main.py:runNetmiko:197] Ethernet2/14 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,461 [main.py:runNetmiko:197] Ethernet2/15 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,463 [main.py:runNetmiko:197] Ethernet2/16 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,464 [main.py:runNetmiko:197] Ethernet2/17 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,466 [main.py:runNetmiko:197] Ethernet2/18 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,467 [main.py:runNetmiko:197] Ethernet2/19 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,469 [main.py:runNetmiko:197] Ethernet2/20 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,470 [main.py:runNetmiko:197] Ethernet2/21 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,472 [main.py:runNetmiko:197] Ethernet2/22 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,474 [main.py:runNetmiko:197] Ethernet2/23 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,475 [main.py:runNetmiko:197] Ethernet2/24 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,477 [main.py:runNetmiko:197] Ethernet2/25 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,478 [main.py:runNetmiko:197] Ethernet2/26 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,480 [main.py:runNetmiko:197] Ethernet2/27 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,482 [main.py:runNetmiko:197] Ethernet2/28 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,483 [main.py:runNetmiko:197] Ethernet2/29 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,485 [main.py:runNetmiko:197] Ethernet2/30 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,486 [main.py:runNetmiko:197] Ethernet2/31 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,488 [main.py:runNetmiko:197] Ethernet2/32 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,490 [main.py:runNetmiko:197] Ethernet2/33 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,491 [main.py:runNetmiko:197] Ethernet2/34 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,493 [main.py:runNetmiko:197] Ethernet2/35 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,494 [main.py:runNetmiko:197] Ethernet2/36 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,496 [main.py:runNetmiko:197] Ethernet3/1 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,497 [main.py:runNetmiko:197] Ethernet3/2 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,499 [main.py:runNetmiko:197] Ethernet3/3 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,501 [main.py:runNetmiko:197] Ethernet3/4 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,502 [main.py:runNetmiko:197] Ethernet3/4.10 :  , , 
+INFO 2024-05-31 19:16:36,504 [main.py:runNetmiko:197] Ethernet3/5 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,505 [main.py:runNetmiko:197] Ethernet3/6 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,507 [main.py:runNetmiko:197] Ethernet3/7 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,509 [main.py:runNetmiko:197] Ethernet3/8 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,510 [main.py:runNetmiko:197] Ethernet3/9 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,512 [main.py:runNetmiko:197] Ethernet3/10 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,513 [main.py:runNetmiko:197] Ethernet3/11 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,515 [main.py:runNetmiko:197] Ethernet3/12 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,517 [main.py:runNetmiko:197] Ethernet3/13 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,518 [main.py:runNetmiko:197] Ethernet3/14 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,520 [main.py:runNetmiko:197] Ethernet3/15 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,521 [main.py:runNetmiko:197] Ethernet3/16 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,523 [main.py:runNetmiko:197] Ethernet3/17 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,525 [main.py:runNetmiko:197] Ethernet3/18 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,526 [main.py:runNetmiko:197] Ethernet3/19 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,528 [main.py:runNetmiko:197] Ethernet3/20 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,529 [main.py:runNetmiko:197] Ethernet3/21 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,531 [main.py:runNetmiko:197] Ethernet3/22 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,533 [main.py:runNetmiko:197] Ethernet3/23 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,534 [main.py:runNetmiko:197] Ethernet3/24 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,536 [main.py:runNetmiko:197] Ethernet3/25 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,537 [main.py:runNetmiko:197] Ethernet3/26 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,539 [main.py:runNetmiko:197] Ethernet3/27 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,541 [main.py:runNetmiko:197] Ethernet3/28 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,542 [main.py:runNetmiko:197] Ethernet3/29 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,544 [main.py:runNetmiko:197] Ethernet3/30 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,545 [main.py:runNetmiko:197] Ethernet3/31 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,547 [main.py:runNetmiko:197] Ethernet3/32 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,549 [main.py:runNetmiko:197] Ethernet3/33 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,550 [main.py:runNetmiko:197] Ethernet3/34 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,552 [main.py:runNetmiko:197] Ethernet3/35 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,553 [main.py:runNetmiko:197] Ethernet3/36 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,555 [main.py:runNetmiko:197] Ethernet3/37 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,557 [main.py:runNetmiko:197] Ethernet3/38 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,558 [main.py:runNetmiko:197] Ethernet3/39 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,560 [main.py:runNetmiko:197] Ethernet3/40 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,561 [main.py:runNetmiko:197] Ethernet3/41 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,563 [main.py:runNetmiko:197] Ethernet3/42 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,564 [main.py:runNetmiko:197] Ethernet3/43 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,566 [main.py:runNetmiko:197] Ethernet3/44 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,568 [main.py:runNetmiko:197] Ethernet3/45 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,570 [main.py:runNetmiko:197] Ethernet3/46 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,571 [main.py:runNetmiko:197] Ethernet3/47 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,573 [main.py:runNetmiko:197] Ethernet3/48 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,574 [main.py:runNetmiko:197] Ethernet3/49 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,576 [main.py:runNetmiko:197] Ethernet3/50 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,577 [main.py:runNetmiko:197] Ethernet3/51 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,579 [main.py:runNetmiko:197] Ethernet3/52 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,581 [main.py:runNetmiko:197] Ethernet4/1 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,582 [main.py:runNetmiko:197] Ethernet4/2 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,584 [main.py:runNetmiko:197] Ethernet4/3 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,585 [main.py:runNetmiko:197] Ethernet4/4 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,587 [main.py:runNetmiko:197] Ethernet4/4.20 :  , , 
+INFO 2024-05-31 19:16:36,588 [main.py:runNetmiko:197] Ethernet4/5 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,590 [main.py:runNetmiko:197] Ethernet4/6 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,592 [main.py:runNetmiko:197] Ethernet4/7 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,593 [main.py:runNetmiko:197] Ethernet4/8 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,595 [main.py:runNetmiko:197] Ethernet4/9 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,596 [main.py:runNetmiko:197] Ethernet4/10 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,598 [main.py:runNetmiko:197] Ethernet4/11 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,599 [main.py:runNetmiko:197] Ethernet4/12 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,601 [main.py:runNetmiko:197] Ethernet4/13 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,603 [main.py:runNetmiko:197] Ethernet4/14 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,604 [main.py:runNetmiko:197] Ethernet4/15 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,606 [main.py:runNetmiko:197] Ethernet4/16 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,607 [main.py:runNetmiko:197] Ethernet4/17 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,609 [main.py:runNetmiko:197] Ethernet4/18 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,610 [main.py:runNetmiko:197] Ethernet4/19 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,612 [main.py:runNetmiko:197] Ethernet4/20 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,614 [main.py:runNetmiko:197] Ethernet4/21 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,615 [main.py:runNetmiko:197] Ethernet4/22 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,617 [main.py:runNetmiko:197] Ethernet4/23 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,618 [main.py:runNetmiko:197] Ethernet4/24 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,620 [main.py:runNetmiko:197] Ethernet4/25 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,621 [main.py:runNetmiko:197] Ethernet4/26 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,623 [main.py:runNetmiko:197] Ethernet4/27 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,625 [main.py:runNetmiko:197] Ethernet4/28 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,626 [main.py:runNetmiko:197] Ethernet4/29 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,628 [main.py:runNetmiko:197] Ethernet4/30 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,629 [main.py:runNetmiko:197] Ethernet4/31 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,631 [main.py:runNetmiko:197] Ethernet4/32 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,632 [main.py:runNetmiko:197] Ethernet4/33 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,634 [main.py:runNetmiko:197] Ethernet4/34 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,635 [main.py:runNetmiko:197] Ethernet4/35 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,637 [main.py:runNetmiko:197] Ethernet4/36 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,639 [main.py:runNetmiko:197] Ethernet4/37 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,640 [main.py:runNetmiko:197] Ethernet4/38 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,642 [main.py:runNetmiko:197] Ethernet4/39 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,643 [main.py:runNetmiko:197] Ethernet4/40 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,645 [main.py:runNetmiko:197] Ethernet4/41 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,646 [main.py:runNetmiko:197] Ethernet4/42 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,648 [main.py:runNetmiko:197] Ethernet4/43 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,649 [main.py:runNetmiko:197] Ethernet4/44 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,651 [main.py:runNetmiko:197] Ethernet4/45 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,653 [main.py:runNetmiko:197] Ethernet4/46 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,654 [main.py:runNetmiko:197] Ethernet4/47 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,656 [main.py:runNetmiko:197] Ethernet4/48 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,657 [main.py:runNetmiko:197] Ethernet4/49 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,659 [main.py:runNetmiko:197] Ethernet4/50 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,660 [main.py:runNetmiko:197] Ethernet4/51 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,662 [main.py:runNetmiko:197] Ethernet4/52 : 0 , 0, 0
+INFO 2024-05-31 19:16:36,663 [main.py:runNetmiko:195] Skip port-channel1 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,665 [main.py:runNetmiko:195] Skip port-channel1.50 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,666 [main.py:runNetmiko:195] Skip port-channel2 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,668 [main.py:runNetmiko:195] Skip port-channel3 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,669 [main.py:runNetmiko:195] Skip port-channel4 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,671 [main.py:runNetmiko:195] Skip loopback0 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,672 [main.py:runNetmiko:195] Skip loopback1 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,674 [main.py:runNetmiko:195] Skip loopback99 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,676 [main.py:runNetmiko:195] Skip loopback201 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,677 [main.py:runNetmiko:195] Skip loopback202 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,679 [main.py:runNetmiko:195] Skip loopback203 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,680 [main.py:runNetmiko:195] Skip loopback204 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,682 [main.py:runNetmiko:195] Skip loopback205 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,683 [main.py:runNetmiko:195] Skip loopback206 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,685 [main.py:runNetmiko:195] Skip loopback207 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,686 [main.py:runNetmiko:195] Skip loopback208 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,688 [main.py:runNetmiko:195] Skip loopback209 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,689 [main.py:runNetmiko:195] Skip loopback210 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,691 [main.py:runNetmiko:195] Skip loopback211 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,692 [main.py:runNetmiko:195] Skip loopback212 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,694 [main.py:runNetmiko:195] Skip loopback213 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,696 [main.py:runNetmiko:195] Skip loopback214 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,697 [main.py:runNetmiko:195] Skip loopback215 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,699 [main.py:runNetmiko:195] Skip loopback401 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,700 [main.py:runNetmiko:195] Skip loopback402 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,702 [main.py:runNetmiko:195] Skip loopback403 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,703 [main.py:runNetmiko:195] Skip loopback404 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,705 [main.py:runNetmiko:195] Skip loopback405 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,706 [main.py:runNetmiko:195] Skip loopback406 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,708 [main.py:runNetmiko:195] Skip loopback407 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,709 [main.py:runNetmiko:195] Skip loopback408 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,711 [main.py:runNetmiko:195] Skip loopback409 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,712 [main.py:runNetmiko:195] Skip loopback410 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,714 [main.py:runNetmiko:195] Skip loopback411 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,715 [main.py:runNetmiko:195] Skip loopback412 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,717 [main.py:runNetmiko:195] Skip loopback501 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,718 [main.py:runNetmiko:195] Skip loopback502 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,720 [main.py:runNetmiko:195] Skip Vlan1 for device: DC1CORSWT-12
+INFO 2024-05-31 19:16:36,722 [main.py:interfaceCRC:265] Script execution completed successfully.
+INFO 2024-05-31 19:17:37,235 [main.py:proc_iface_crc_nx:125] Pyats parser with nxos type function
+INFO 2024-05-31 19:17:38,795 [main.py:proc_iface_crc_nx:127] Device: DC1CORSWT-12
+WARNING 2024-05-31 19:17:45,363 [main.py:proc_iface_crc_nx:148] Error get CRC for device DC1CORSWT-12 using pyAts
+ERROR 2024-05-31 19:17:45,370 [main.py:runNetmiko:167] Retrying connect to device with netmiko
+INFO 2024-05-31 19:17:45,372 [main.py:runNetmiko:172] Establishing Netmiko connection...
+INFO 2024-05-31 19:17:46,262 [main.py:runNetmiko:174] Connection established successfully.
+INFO 2024-05-31 19:17:46,265 [main.py:runNetmiko:178] Sending command show interface to Device DC1CORSWT-12, type nxos
+INFO 2024-05-31 19:17:48,827 [main.py:runNetmiko:195] Skip mgmt0 for device: DC1CORSWT-12
+INFO 2024-05-31 19:17:48,829 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/1', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:17:48,832 [main.py:interfaceCRC:263] 'Device' object is not subscriptable occurred while processing device Device DC1CORSWT-12, type nxos
+INFO 2024-05-31 19:17:48,834 [main.py:interfaceCRC:265] Script execution completed successfully.
+INFO 2024-05-31 19:18:29,535 [main.py:proc_iface_crc_nx:125] Pyats parser with nxos type function
+INFO 2024-05-31 19:18:30,632 [main.py:proc_iface_crc_nx:127] Device: DC1CORSWT-12
+WARNING 2024-05-31 19:18:37,787 [main.py:proc_iface_crc_nx:148] Error get CRC for device DC1CORSWT-12 using pyAts
+ERROR 2024-05-31 19:18:37,789 [main.py:runNetmiko:167] Retrying connect to device with netmiko
+INFO 2024-05-31 19:18:37,791 [main.py:runNetmiko:172] Establishing Netmiko connection...
+INFO 2024-05-31 19:18:38,663 [main.py:runNetmiko:174] Connection established successfully.
+INFO 2024-05-31 19:18:38,665 [main.py:runNetmiko:178] Sending command show interface to Device DC1CORSWT-12, type nxos
+INFO 2024-05-31 19:18:41,279 [main.py:runNetmiko:195] Skip mgmt0 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,281 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/1', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,284 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/2', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,286 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/3', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,288 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/4', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,290 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/5', 'INPUT_ERRORS': 3166, 'OUTPUT_ERRORS': 0, 'CRC': 3166}
+INFO 2024-05-31 19:18:41,293 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/5.4', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,295 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/6', 'INPUT_ERRORS': 2915, 'OUTPUT_ERRORS': 0, 'CRC': 2915}
+INFO 2024-05-31 19:18:41,297 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/6.4', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,299 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/7', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,301 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/8', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,304 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/9', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,306 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/9.4', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,308 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/10', 'INPUT_ERRORS': 49, 'OUTPUT_ERRORS': 0, 'CRC': 49}
+INFO 2024-05-31 19:18:41,310 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/10.4', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,312 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/11', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,314 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/12', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,316 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/13', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,319 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/14', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,321 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/15', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,323 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/16', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,325 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/17', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,327 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/18', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,329 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/19', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,331 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/20', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,333 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/21', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,336 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/22', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,338 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/23', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,340 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/24', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,342 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/25', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,344 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/26', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,347 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/27', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,349 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/28', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,351 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/29', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,353 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/30', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,356 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/31', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,358 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/32', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,360 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/33', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,363 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/34', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,366 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/35', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,368 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/36', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,370 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/1', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,372 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/2', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,375 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/3', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,377 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/4', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,379 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/5', 'INPUT_ERRORS': 4101, 'OUTPUT_ERRORS': 0, 'CRC': 4101}
+INFO 2024-05-31 19:18:41,382 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/5.4', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,384 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/6', 'INPUT_ERRORS': 3577, 'OUTPUT_ERRORS': 0, 'CRC': 3577}
+INFO 2024-05-31 19:18:41,387 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/6.4', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,389 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/7', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,391 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/8', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,394 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/9', 'INPUT_ERRORS': 1376, 'OUTPUT_ERRORS': 0, 'CRC': 1376}
+INFO 2024-05-31 19:18:41,397 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/9.4', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,399 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/10', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,401 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/10.4', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,403 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/11', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,406 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/12', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,408 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/13', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,410 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/14', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,412 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/15', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,414 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/16', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,417 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/17', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,419 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/18', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,421 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/19', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,423 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/20', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,425 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/21', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,428 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/22', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,430 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/23', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,432 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/24', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,434 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/25', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,436 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/26', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,439 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/27', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,441 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/28', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,443 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/29', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,445 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/30', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,447 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/31', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,450 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/32', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,452 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/33', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,454 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/34', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,456 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/35', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,458 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/36', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,460 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/1', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,463 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/2', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,478 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/3', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,480 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/4', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,482 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/4.10', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,484 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/5', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,490 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/6', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,492 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/7', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,501 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/8', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,503 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/9', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,506 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/10', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,508 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/11', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,514 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/12', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,516 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/13', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,530 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/14', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,532 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/15', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,534 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/16', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,546 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/17', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,547 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/18', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,550 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/19', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,558 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/20', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,560 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/21', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,562 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/22', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,570 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/23', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,572 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/24', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,574 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/25', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,581 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/26', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,584 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/27', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,586 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/28', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,594 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/29', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,595 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/30', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,597 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/31', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,599 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/32', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,608 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/33', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,610 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/34', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,613 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/35', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,616 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/36', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,619 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/37', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,631 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/38', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,633 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/39', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,635 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/40', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,642 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/41', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,644 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/42', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,647 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/43', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,658 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/44', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,660 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/45', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,661 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/46', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,670 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/47', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,672 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/48', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,674 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/49', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,681 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/50', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,683 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/51', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,685 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/52', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,688 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/1', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,695 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/2', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,697 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/3', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,699 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/4', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,710 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/4.20', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,711 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/5', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,714 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/6', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,716 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/7', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,726 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/8', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,728 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/9', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,730 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/10', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,738 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/11', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,739 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/12', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,742 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/13', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,750 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/14', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,752 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/15', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,754 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/16', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,762 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/17', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,764 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/18', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,767 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/19', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,773 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/20', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,775 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/21', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,777 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/22', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,779 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/23', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,790 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/24', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,792 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/25', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,794 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/26', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,796 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/27', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,806 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/28', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,808 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/29', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,809 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/30', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,811 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/31', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,821 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/32', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,823 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/33', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,825 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/34', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,827 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/35', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,837 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/36', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,839 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/37', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,841 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/38', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,843 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/39', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,853 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/40', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,855 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/41', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,857 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/42', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,859 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/43', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,861 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/44', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,862 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/45', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,871 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/46', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,873 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/47', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,875 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/48', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,877 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/49', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,885 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/50', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,889 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/51', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,895 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/52', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:18:41,898 [main.py:runNetmiko:195] Skip port-channel1 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,900 [main.py:runNetmiko:195] Skip port-channel1.50 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,902 [main.py:runNetmiko:195] Skip port-channel2 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,903 [main.py:runNetmiko:195] Skip port-channel3 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,905 [main.py:runNetmiko:195] Skip port-channel4 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,906 [main.py:runNetmiko:195] Skip loopback0 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,908 [main.py:runNetmiko:195] Skip loopback1 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,910 [main.py:runNetmiko:195] Skip loopback99 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,911 [main.py:runNetmiko:195] Skip loopback201 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,913 [main.py:runNetmiko:195] Skip loopback202 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,915 [main.py:runNetmiko:195] Skip loopback203 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,916 [main.py:runNetmiko:195] Skip loopback204 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,918 [main.py:runNetmiko:195] Skip loopback205 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,920 [main.py:runNetmiko:195] Skip loopback206 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,921 [main.py:runNetmiko:195] Skip loopback207 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,923 [main.py:runNetmiko:195] Skip loopback208 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,925 [main.py:runNetmiko:195] Skip loopback209 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,926 [main.py:runNetmiko:195] Skip loopback210 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,928 [main.py:runNetmiko:195] Skip loopback211 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,930 [main.py:runNetmiko:195] Skip loopback212 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,932 [main.py:runNetmiko:195] Skip loopback213 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,933 [main.py:runNetmiko:195] Skip loopback214 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,935 [main.py:runNetmiko:195] Skip loopback215 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,937 [main.py:runNetmiko:195] Skip loopback401 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,938 [main.py:runNetmiko:195] Skip loopback402 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,940 [main.py:runNetmiko:195] Skip loopback403 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,942 [main.py:runNetmiko:195] Skip loopback404 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,943 [main.py:runNetmiko:195] Skip loopback405 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,945 [main.py:runNetmiko:195] Skip loopback406 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,947 [main.py:runNetmiko:195] Skip loopback407 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,948 [main.py:runNetmiko:195] Skip loopback408 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,950 [main.py:runNetmiko:195] Skip loopback409 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,952 [main.py:runNetmiko:195] Skip loopback410 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,953 [main.py:runNetmiko:195] Skip loopback411 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,955 [main.py:runNetmiko:195] Skip loopback412 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,957 [main.py:runNetmiko:195] Skip loopback501 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,959 [main.py:runNetmiko:195] Skip loopback502 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,960 [main.py:runNetmiko:195] Skip Vlan1 for device: DC1CORSWT-12
+INFO 2024-05-31 19:18:41,962 [main.py:interfaceCRC:265] Script execution completed successfully.
+INFO 2024-05-31 19:22:00,945 [main.py:proc_iface_crc_nx:125] Pyats parser with nxos type function
+INFO 2024-05-31 19:22:02,115 [main.py:proc_iface_crc_nx:127] Device: DC1CORSWT-12
+WARNING 2024-05-31 19:22:09,650 [main.py:proc_iface_crc_nx:148] Error get CRC for device DC1CORSWT-12 using pyAts
+ERROR 2024-05-31 19:22:09,653 [main.py:runNetmiko:167] Retrying connect to device with netmiko
+INFO 2024-05-31 19:22:09,655 [main.py:runNetmiko:172] Establishing Netmiko connection...
+INFO 2024-05-31 19:22:10,524 [main.py:runNetmiko:174] Connection established successfully.
+INFO 2024-05-31 19:22:10,530 [main.py:runNetmiko:178] Sending command show interface to Device DC1CORSWT-12, type nxos
+INFO 2024-05-31 19:22:13,148 [main.py:runNetmiko:195] Skip mgmt0 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,151 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/1', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,153 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/2', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,156 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/3', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,159 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/4', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,161 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/5', 'INPUT_ERRORS': 3166, 'OUTPUT_ERRORS': 0, 'CRC': 3166}
+INFO 2024-05-31 19:22:13,163 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/5.4', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,166 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/6', 'INPUT_ERRORS': 2915, 'OUTPUT_ERRORS': 0, 'CRC': 2915}
+INFO 2024-05-31 19:22:13,168 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/6.4', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,170 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/7', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,173 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/8', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,175 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/9', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,177 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/9.4', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,179 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/10', 'INPUT_ERRORS': 49, 'OUTPUT_ERRORS': 0, 'CRC': 49}
+INFO 2024-05-31 19:22:13,190 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/10.4', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,192 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/11', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,198 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/12', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,200 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/13', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,206 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/14', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,208 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/15', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,214 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/16', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,216 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/17', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,225 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/18', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,228 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/19', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,230 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/20', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,232 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/21', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,238 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/22', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,240 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/23', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,246 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/24', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,250 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/25', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,259 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/26', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,261 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/27', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,264 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/28', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,267 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/29', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,269 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/30', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,271 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/31', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,274 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/32', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,276 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/33', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,279 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/34', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,281 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/35', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,283 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet1/36', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,286 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/1', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,288 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/2', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,291 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/3', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,293 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/4', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,296 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/5', 'INPUT_ERRORS': 4101, 'OUTPUT_ERRORS': 0, 'CRC': 4101}
+INFO 2024-05-31 19:22:13,298 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/5.4', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,301 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/6', 'INPUT_ERRORS': 3577, 'OUTPUT_ERRORS': 0, 'CRC': 3577}
+INFO 2024-05-31 19:22:13,304 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/6.4', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,306 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/7', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,308 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/8', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,311 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/9', 'INPUT_ERRORS': 1377, 'OUTPUT_ERRORS': 0, 'CRC': 1377}
+INFO 2024-05-31 19:22:13,314 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/9.4', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,316 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/10', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,319 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/10.4', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,321 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/11', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,324 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/12', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,326 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/13', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,328 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/14', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,331 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/15', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,333 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/16', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,335 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/17', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,338 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/18', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,340 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/19', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,342 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/20', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,345 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/21', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,347 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/22', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,349 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/23', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,352 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/24', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,354 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/25', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,356 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/26', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,359 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/27', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,361 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/28', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,363 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/29', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,365 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/30', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,368 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/31', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,370 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/32', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,372 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/33', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,375 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/34', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,377 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/35', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,380 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet2/36', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,382 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/1', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,384 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/2', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,386 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/3', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,389 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/4', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,391 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/4.10', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,393 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/5', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,396 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/6', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,398 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/7', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,400 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/8', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,404 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/9', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,407 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/10', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,410 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/11', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,412 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/12', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,415 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/13', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,417 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/14', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,419 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/15', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,422 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/16', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,424 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/17', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,426 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/18', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,428 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/19', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,431 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/20', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,433 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/21', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,435 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/22', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,438 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/23', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,440 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/24', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,442 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/25', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,445 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/26', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,447 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/27', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,449 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/28', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,451 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/29', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,454 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/30', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,456 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/31', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,458 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/32', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,461 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/33', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,463 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/34', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,465 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/35', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,468 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/36', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,471 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/37', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,473 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/38', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,476 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/39', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,478 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/40', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,480 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/41', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,483 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/42', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,485 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/43', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,489 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/44', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,491 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/45', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,494 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/46', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,496 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/47', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,499 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/48', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,501 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/49', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,503 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/50', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,506 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/51', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,508 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet3/52', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,511 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/1', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,513 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/2', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,515 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/3', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,517 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/4', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,520 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/4.20', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,522 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/5', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,524 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/6', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,527 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/7', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,529 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/8', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,532 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/9', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,534 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/10', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,536 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/11', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,539 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/12', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,541 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/13', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,544 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/14', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,547 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/15', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,549 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/16', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,551 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/17', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,554 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/18', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,556 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/19', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,559 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/20', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,563 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/21', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,565 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/22', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,568 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/23', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,570 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/24', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,572 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/25', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,575 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/26', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,577 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/27', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,579 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/28', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,582 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/29', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,584 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/30', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,587 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/31', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,589 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/32', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,591 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/33', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,594 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/34', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,596 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/35', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,598 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/36', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,600 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/37', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,603 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/38', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,605 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/39', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,608 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/40', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,610 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/41', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,613 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/42', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,615 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/43', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,617 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/44', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,620 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/45', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,622 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/46', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,624 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/47', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,626 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/48', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,629 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/49', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,631 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/50', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,633 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/51', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,635 [main.py:runNetmiko:206] {'INTERFACE': 'Ethernet4/52', 'INPUT_ERRORS': 0, 'OUTPUT_ERRORS': 0, 'CRC': 0}
+INFO 2024-05-31 19:22:13,638 [main.py:runNetmiko:195] Skip port-channel1 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,640 [main.py:runNetmiko:195] Skip port-channel1.50 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,641 [main.py:runNetmiko:195] Skip port-channel2 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,643 [main.py:runNetmiko:195] Skip port-channel3 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,645 [main.py:runNetmiko:195] Skip port-channel4 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,647 [main.py:runNetmiko:195] Skip loopback0 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,649 [main.py:runNetmiko:195] Skip loopback1 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,651 [main.py:runNetmiko:195] Skip loopback99 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,652 [main.py:runNetmiko:195] Skip loopback201 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,654 [main.py:runNetmiko:195] Skip loopback202 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,656 [main.py:runNetmiko:195] Skip loopback203 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,658 [main.py:runNetmiko:195] Skip loopback204 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,660 [main.py:runNetmiko:195] Skip loopback205 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,662 [main.py:runNetmiko:195] Skip loopback206 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,663 [main.py:runNetmiko:195] Skip loopback207 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,665 [main.py:runNetmiko:195] Skip loopback208 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,667 [main.py:runNetmiko:195] Skip loopback209 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,669 [main.py:runNetmiko:195] Skip loopback210 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,671 [main.py:runNetmiko:195] Skip loopback211 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,673 [main.py:runNetmiko:195] Skip loopback212 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,674 [main.py:runNetmiko:195] Skip loopback213 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,676 [main.py:runNetmiko:195] Skip loopback214 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,678 [main.py:runNetmiko:195] Skip loopback215 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,680 [main.py:runNetmiko:195] Skip loopback401 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,682 [main.py:runNetmiko:195] Skip loopback402 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,683 [main.py:runNetmiko:195] Skip loopback403 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,685 [main.py:runNetmiko:195] Skip loopback404 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,687 [main.py:runNetmiko:195] Skip loopback405 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,689 [main.py:runNetmiko:195] Skip loopback406 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,690 [main.py:runNetmiko:195] Skip loopback407 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,692 [main.py:runNetmiko:195] Skip loopback408 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,694 [main.py:runNetmiko:195] Skip loopback409 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,696 [main.py:runNetmiko:195] Skip loopback410 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,697 [main.py:runNetmiko:195] Skip loopback411 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,699 [main.py:runNetmiko:195] Skip loopback412 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,701 [main.py:runNetmiko:195] Skip loopback501 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,703 [main.py:runNetmiko:195] Skip loopback502 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,704 [main.py:runNetmiko:195] Skip Vlan1 for device: DC1CORSWT-12
+INFO 2024-05-31 19:22:13,707 [main.py:interfaceCRC:265] Script execution completed successfully.

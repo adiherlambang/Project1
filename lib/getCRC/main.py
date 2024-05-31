@@ -126,7 +126,6 @@ def proc_iface_crc_nx(device,counter):
         device.connect(learn_hostname = True, learn_os = True, log_stdout=False, mit=True)
         logger.info(f"Device: {device.name}")
         output_iface_crc = device.parse('show interface')
-        check=['.']
         for iface in output_iface_crc:
             #logger.info(output_iface_crc)
             if 'Ethernet' in iface:
@@ -164,7 +163,7 @@ def convert_to_netmiko(device):
     return netmiko_device
 
 def runNetmiko(device,counter):
-    check=['.','mgmt0']
+    check=['port-channel','mgmt0','loopback','Vlan']
     logger.error("Retrying connect to device with netmiko")
     # Convert the device to Netmiko format
     netmiko_device = convert_to_netmiko(device)
@@ -191,9 +190,11 @@ def runNetmiko(device,counter):
     for item in parsed_output:
         #logger.info(item)
         result_dict["INTERFACE"] = item[0]
-        if any(dot in result_dict["INTERFACE"] for dot in check):
-            logger.info(f"Skip subInterface for device: {device.name}")
-        else:    
+        skipped_interface = [dot for dot in check if dot in result_dict['INTERFACE']]
+        if skipped_interface:
+            logger.info(f"Skip {result_dict['INTERFACE']} for device: {device.name}")
+        else: 
+            # logger.info(f"{result_dict['INTERFACE']} : {item[3]} , {item[5]}, {item[4]}")   
             if item[3]!='' or item[5]!='' or item[4]!='':
                 result_dict["INPUT_ERRORS"] = int(item[3])
                 result_dict["OUTPUT_ERRORS"] = int(item[5])
@@ -202,7 +203,7 @@ def runNetmiko(device,counter):
                 result_dict["INPUT_ERRORS"] = 0
                 result_dict["OUTPUT_ERRORS"] = 0
                 result_dict["CRC"] = 0
-            #logger.info(result_dict)
+            logger.info(result_dict)
 
             interface =result_dict["INTERFACE"]
             crc = result_dict["CRC"]
@@ -224,7 +225,7 @@ def runNetmiko(device,counter):
 
 def interfaceCRC(testbedFile):
     testbed= loader.load(testbedFile)
-    with open(f'out/InterfaceCRC/show_crc_{timestamp}.csv', 'a', newline='') as file:
+    with open(f'out/InterfaceCRC/show_int_crc_{timestamp}.csv', 'a', newline='') as file:
         writer = csv.writer(file)
         writer.writerow(['No','Hostname','Interface', 'CRC', 'Input Errors', 'Output Errors'])
         
@@ -259,7 +260,7 @@ def interfaceCRC(testbedFile):
         try:
             future.result()
         except Exception as exc:
-            logger.info(f"{exc} occurred while processing device {device.name}")
+            logger.info(f"{exc} occurred while processing device {device}")
 
     logger.info("Script execution completed successfully.")
 

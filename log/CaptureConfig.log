@@ -2209,3 +2209,7 @@ ERROR 2024-05-08 02:19:38,732 [main.py:captureConfigX:75] Failed to connect usin
 INFO 2024-05-08 02:19:38,735 [main.py:captureConfigX:81] Establishing Netmiko connection...
 ERROR 2024-05-08 02:19:41,760 [main.py:captureConfigX:105] Error connecting to device xe1 using Netmiko
 ERROR 2024-05-08 02:19:41,762 [main.py:captureConfig:123] Finish getting config from all device with an Error occurred while processing
+INFO 2024-05-31 17:59:08,643 [main.py:captureConfig:115] Connecting to device DC1CORSWT-12
+INFO 2024-05-31 17:59:10,911 [main.py:captureConfigX:91] ---getting capture config from device DC1CORSWT-12---
+INFO 2024-05-31 17:59:10,914 [main.py:captureConfigX:96] DC1CORSWT-12_31-05-24_17_59_10.txt
+INFO 2024-05-31 17:59:10,916 [main.py:captureConfig:126] Get Config -  execution completed

@@ -36,7 +36,7 @@ count_iface_up = 0
 count_iface_down = 0
 timestamp = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 
-# devices = []
+hostname = ''
 # Check if output folder is available, create it if not
 if not os.path.exists("out/InterfaceListedCRC"):
     os.makedirs("out/InterfaceListedCRC")
@@ -48,7 +48,7 @@ def interfaceListedCRC(device,counter):
         logger.info("Connection established successfully.")
         
         command = "show interface"
-        logger.info(f"Sending command {command} to {device}")
+        logger.info(f"Sending command {command} to {device['host']}")
         output = connection.send_command(command,read_timeout=500)
         
         with open('lib/getCRC/nxos_show_interface_custom.template') as template:
@@ -59,14 +59,16 @@ def interfaceListedCRC(device,counter):
         # Create a dictionary
         result_dict = {}
         
-        check=['.','mgmt0']
+        check=['port-channel','mgmt0','loopback','Vlan']
         
         # Iterate through the data and convert it into a dictionary
         for item in parsed_output:
-            #logger.info(item)
+            # logger.info(item)
             result_dict["INTERFACE"] = item[0]
-            if any(dot in result_dict["INTERFACE"] for dot in check):
-                logger.info(f"Skip subInterface for device: {device.name}")
+            
+            skipped_interface = [dot for dot in check if dot in result_dict['INTERFACE']]
+            if skipped_interface:
+                logger.info(f"Skip {result_dict['INTERFACE']} for device: {device['host']}")
             else:    
                 if item[3]!='' or item[5]!='' or item[4]!='':
                     result_dict["INPUT_ERRORS"] = int(item[3])
@@ -87,13 +89,13 @@ def interfaceListedCRC(device,counter):
                 f"out/InterfaceCRC/show_intList_crc_{timestamp}.csv", "a", newline=""
                 ) as csvfile:
                     writer = csv.writer(csvfile)  
-                    writer.writerow([counter,device.name,interface,crc,input_errors,output_errors])
+                    writer.writerow([counter,hostname,interface,crc,input_errors,output_errors])
                 if crc > 0 or input_errors > 0 or output_errors > 0:
                         with open(
                         f"out/InterfaceCRC/found_intList_crc_{timestamp}.csv", "a", newline=""
                         ) as csvfile:
                             writer = csv.writer(csvfile)  
-                            writer.writerow([counter,device.name,interface,crc,input_errors,output_errors])
+                            writer.writerow([counter,hostname,interface,crc,input_errors,output_errors])
     except Exception as exc:
         logger.error(exc)
         raise Exception(f"Finish getting CRC from interface device listed with an Error") 
@@ -106,7 +108,7 @@ def convert_to_netmiko(device):
         # print(devices)
         for device_name,device_info in devices.items():
             netmiko_device = {}
-            # netmiko_device['name'] = device_name 
+            # hostname = device_name
             
             if device_info['os']=='ios':
                 netmiko_device['device_type'] = "cisco_ios"
@@ -144,7 +146,7 @@ def main_InterfaceCRC(testbedFile):
         try:
             future.result()
         except Exception as exc:
-            # logger.error(f"{exc} occurred while processing device {device['host']}")
+            logger.error(f"{exc} occurred while processing device {hostname}")
             return str(exc)
 
     logger.info("Script execution completed successfully.")
