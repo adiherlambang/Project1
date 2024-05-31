@@ -96,3 +96,126 @@
 2023-07-06 10:59:16,838 [INFO] 127.0.0.1 - - [06/Jul/2023 10:59:16] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
 2023-07-06 10:59:16,889 [INFO] 127.0.0.1 - - [06/Jul/2023 10:59:16] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
 2023-07-06 11:01:18,402 [INFO]  * Detected change in '/opt/Project1/lib/getCDP/main.py', reloading
+2024-05-31 14:54:34,227 [INFO] DC1CORSWT-12 : Connecting 
+2024-05-31 14:54:34,375 [INFO] Connected (version 2.0, client OpenSSH_8.0)
+2024-05-31 14:54:34,584 [INFO] Auth banner: b'User Access Verification\n'
+2024-05-31 14:54:34,585 [INFO] Authentication (password) successful!
+2024-05-31 14:54:35,122 [WARNING] DC1CORSWT-12 : Connect success
+2024-05-31 14:54:35,134 [INFO] DC1CORSWT-12 : Entered enable mode
+2024-05-31 14:54:37,590 [INFO] DC1CORSWT-12 : Command 'show processes cpu' sent
+2024-05-31 14:54:37,595 [INFO] DC1CORSWT-12 : [1] Parsing success for template 'show processes cpu 1'
+2024-05-31 14:54:37,595 [INFO] DC1CORSWT-12 : Export success to out/getCPU/CPU_Utils_2024-05-31_14-54.csv
+2024-05-31 14:54:37,606 [INFO] DC1CORSWT-12 : Disconnected succcessfully
+2024-05-31 14:54:37,607 [INFO] 10.205.27.146 - - [31/May/2024 14:54:37] "POST /getCPUUtils HTTP/1.1" 200 -
+2024-05-31 14:54:43,119 [INFO] 10.205.27.146 - - [31/May/2024 14:54:43] "GET /getOutput HTTP/1.1" 200 -
+2024-05-31 14:54:43,175 [INFO] 10.205.27.146 - - [31/May/2024 14:54:43] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-31 14:54:43,177 [INFO] 10.205.27.146 - - [31/May/2024 14:54:43] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2024-05-31 14:54:43,190 [INFO] 10.205.27.146 - - [31/May/2024 14:54:43] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2024-05-31 14:54:43,194 [INFO] 10.205.27.146 - - [31/May/2024 14:54:43] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-31 14:54:43,200 [INFO] 10.205.27.146 - - [31/May/2024 14:54:43] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2024-05-31 14:54:43,274 [INFO] 10.205.27.146 - - [31/May/2024 14:54:43] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2024-05-31 14:54:46,511 [INFO] 10.205.27.146 - - [31/May/2024 14:54:46] "POST /getOutput HTTP/1.1" 200 -
+2024-05-31 14:54:49,395 [INFO] 10.205.27.146 - - [31/May/2024 14:54:49] "POST /downloadFile HTTP/1.1" 200 -
+2024-05-31 14:55:35,836 [INFO] 10.205.27.146 - - [31/May/2024 14:55:35] "GET / HTTP/1.1" 200 -
+2024-05-31 14:55:35,884 [INFO] 10.205.27.146 - - [31/May/2024 14:55:35] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-31 14:55:35,888 [INFO] 10.205.27.146 - - [31/May/2024 14:55:35] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2024-05-31 14:55:35,895 [INFO] 10.205.27.146 - - [31/May/2024 14:55:35] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-31 14:55:35,904 [INFO] 10.205.27.146 - - [31/May/2024 14:55:35] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2024-05-31 14:55:35,918 [INFO] 10.205.27.146 - - [31/May/2024 14:55:35] "[36mGET /assets/lib/js/jquery-3.7.0.min.js HTTP/1.1[0m" 304 -
+2024-05-31 14:55:35,930 [INFO] 10.205.27.146 - - [31/May/2024 14:55:35] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2024-05-31 14:55:35,982 [INFO] 10.205.27.146 - - [31/May/2024 14:55:35] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2024-05-31 14:55:51,499 [INFO] DC1CORSWT-12 : Connecting 
+2024-05-31 14:55:51,640 [INFO] Connected (version 2.0, client OpenSSH_8.0)
+2024-05-31 14:55:51,865 [INFO] Auth banner: b'User Access Verification\n'
+2024-05-31 14:55:51,866 [INFO] Authentication (password) successful!
+2024-05-31 14:55:52,403 [WARNING] DC1CORSWT-12 : Connect success
+2024-05-31 14:55:52,414 [INFO] DC1CORSWT-12 : Entered enable mode
+2024-05-31 14:55:53,126 [INFO] DC1CORSWT-12 : Command 'show version' sent
+2024-05-31 14:55:53,127 [INFO] DC1CORSWT-12 : success exporting command to show version
+2024-05-31 14:55:53,210 [INFO] DC1CORSWT-12 : Command 'show clock' sent
+2024-05-31 14:55:53,210 [INFO] DC1CORSWT-12 : success exporting command to show clock
+2024-05-31 14:55:53,629 [INFO] DC1CORSWT-12 : Command 'show run' sent
+2024-05-31 14:55:53,631 [INFO] DC1CORSWT-12 : success exporting command to show run
+2024-05-31 14:55:53,967 [INFO] DC1CORSWT-12 : Command 'show interfaces status' sent
+2024-05-31 14:55:53,967 [INFO] DC1CORSWT-12 : success exporting command to show interfaces status
+2024-05-31 14:55:54,309 [INFO] DC1CORSWT-12 : Command 'show interfaces description' sent
+2024-05-31 14:55:54,309 [INFO] DC1CORSWT-12 : success exporting command to show interfaces description
+2024-05-31 14:55:54,644 [INFO] DC1CORSWT-12 : Command 'show interfaces trunk' sent
+2024-05-31 14:55:54,645 [INFO] DC1CORSWT-12 : success exporting command to show interfaces trunk
+2024-05-31 14:55:54,981 [INFO] DC1CORSWT-12 : Command 'show etherchannel summary' sent
+2024-05-31 14:55:54,981 [INFO] DC1CORSWT-12 : success exporting command to show etherchannel summary
+2024-05-31 14:55:55,063 [INFO] DC1CORSWT-12 : Command 'show port-channel' sent
+2024-05-31 14:55:55,063 [ERROR] DC1CORSWT-12 : Output return empty for command [show port-channel]
+2024-05-31 14:55:55,145 [INFO] DC1CORSWT-12 : Command 'show ip interface brief' sent
+2024-05-31 14:55:55,146 [INFO] DC1CORSWT-12 : success exporting command to show ip interface brief
+2024-05-31 14:55:55,227 [INFO] DC1CORSWT-12 : Command 'show cdp neighbors' sent
+2024-05-31 14:55:55,227 [INFO] DC1CORSWT-12 : success exporting command to show cdp neighbors
+2024-05-31 14:55:55,315 [INFO] DC1CORSWT-12 : Command 'show spanning-tree summary' sent
+2024-05-31 14:55:55,315 [INFO] DC1CORSWT-12 : success exporting command to show spanning-tree summary
+2024-05-31 14:55:55,397 [INFO] DC1CORSWT-12 : Command 'show vlan brief' sent
+2024-05-31 14:55:55,397 [INFO] DC1CORSWT-12 : success exporting command to show vlan brief
+2024-05-31 14:55:55,733 [INFO] DC1CORSWT-12 : Command 'show vtp status' sent
+2024-05-31 14:55:55,734 [INFO] DC1CORSWT-12 : success exporting command to show vtp status
+2024-05-31 14:55:56,070 [INFO] DC1CORSWT-12 : Command 'show vpc brief' sent
+2024-05-31 14:55:56,071 [INFO] DC1CORSWT-12 : success exporting command to show vpc brief
+2024-05-31 14:55:56,205 [INFO] DC1CORSWT-12 : Command 'show inventory' sent
+2024-05-31 14:55:56,206 [INFO] DC1CORSWT-12 : success exporting command to show inventory
+2024-05-31 14:55:56,290 [INFO] DC1CORSWT-12 : Command 'show ip arp' sent
+2024-05-31 14:55:56,290 [INFO] DC1CORSWT-12 : success exporting command to show ip arp
+2024-05-31 14:55:56,374 [INFO] DC1CORSWT-12 : Command 'dir' sent
+2024-05-31 14:55:56,374 [INFO] DC1CORSWT-12 : success exporting command to dir
+2024-05-31 14:55:56,712 [INFO] DC1CORSWT-12 : Command 'show environment temperature status' sent
+2024-05-31 14:55:56,712 [INFO] DC1CORSWT-12 : success exporting command to show environment temperature status
+2024-05-31 14:55:57,048 [INFO] DC1CORSWT-12 : Command 'show environment all' sent
+2024-05-31 14:55:57,048 [INFO] DC1CORSWT-12 : success exporting command to show environment all
+2024-05-31 14:55:57,385 [INFO] DC1CORSWT-12 : Command 'show platform' sent
+2024-05-31 14:55:57,386 [INFO] DC1CORSWT-12 : success exporting command to show platform
+2024-05-31 14:55:57,722 [INFO] DC1CORSWT-12 : Command 'show processes memory statistics' sent
+2024-05-31 14:55:57,723 [INFO] DC1CORSWT-12 : success exporting command to show processes memory statistics
+2024-05-31 14:55:58,056 [INFO] DC1CORSWT-12 : Command 'show processes memory sorted' sent
+2024-05-31 14:55:58,057 [INFO] DC1CORSWT-12 : success exporting command to show processes memory sorted
+2024-05-31 14:55:59,132 [INFO] DC1CORSWT-12 : Command 'show system resources' sent
+2024-05-31 14:55:59,132 [INFO] DC1CORSWT-12 : success exporting command to show system resources
+2024-05-31 14:55:59,469 [INFO] DC1CORSWT-12 : Command 'show processes cpu sorted' sent
+2024-05-31 14:55:59,470 [INFO] DC1CORSWT-12 : success exporting command to show processes cpu sorted
+2024-05-31 14:56:01,927 [INFO] DC1CORSWT-12 : Command 'show processes cpu' sent
+2024-05-31 14:56:01,928 [INFO] DC1CORSWT-12 : success exporting command to show processes cpu
+2024-05-31 14:56:02,010 [INFO] DC1CORSWT-12 : Command 'show platform software status control-processor brief' sent
+2024-05-31 14:56:02,011 [INFO] DC1CORSWT-12 : success exporting command to show platform software status control-processor brief
+2024-05-31 14:56:02,093 [INFO] DC1CORSWT-12 : Command 'show ip ospf neighbor' sent
+2024-05-31 14:56:02,093 [INFO] DC1CORSWT-12 : success exporting command to show ip ospf neighbor
+2024-05-31 14:56:02,175 [INFO] DC1CORSWT-12 : Command 'show ip bgp summary' sent
+2024-05-31 14:56:02,175 [INFO] DC1CORSWT-12 : success exporting command to show ip bgp summary
+2024-05-31 14:56:02,697 [INFO] DC1CORSWT-12 : Command 'show ip route' sent
+2024-05-31 14:56:02,711 [INFO] DC1CORSWT-12 : success exporting command to show ip route
+2024-05-31 14:56:09,298 [INFO] DC1CORSWT-12 : Command 'show logging' sent
+2024-05-31 14:56:09,308 [INFO] DC1CORSWT-12 : success exporting command to show logging
+2024-05-31 14:56:09,390 [INFO] DC1CORSWT-12 : Disconnected succcessfully
+2024-05-31 14:56:09,391 [INFO] 10.205.27.146 - - [31/May/2024 14:56:09] "POST /customPage HTTP/1.1" 200 -
+2024-05-31 14:56:16,376 [INFO] 10.205.27.146 - - [31/May/2024 14:56:16] "GET /getOutput HTTP/1.1" 200 -
+2024-05-31 14:56:16,422 [INFO] 10.205.27.146 - - [31/May/2024 14:56:16] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-31 14:56:16,427 [INFO] 10.205.27.146 - - [31/May/2024 14:56:16] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2024-05-31 14:56:16,429 [INFO] 10.205.27.146 - - [31/May/2024 14:56:16] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2024-05-31 14:56:16,430 [INFO] 10.205.27.146 - - [31/May/2024 14:56:16] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-31 14:56:16,432 [INFO] 10.205.27.146 - - [31/May/2024 14:56:16] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2024-05-31 14:56:16,515 [INFO] 10.205.27.146 - - [31/May/2024 14:56:16] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2024-05-31 14:56:19,010 [INFO] 10.205.27.146 - - [31/May/2024 14:56:19] "POST /getOutput HTTP/1.1" 200 -
+2024-05-31 14:56:23,443 [INFO] 10.205.27.146 - - [31/May/2024 14:56:23] "POST /downloadFile HTTP/1.1" 200 -
+2024-05-31 14:56:32,761 [INFO] 10.205.27.146 - - [31/May/2024 14:56:32] "POST /downloadFile HTTP/1.1" 200 -
+2024-05-31 14:56:35,435 [INFO] 10.205.27.146 - - [31/May/2024 14:56:35] "POST /downloadFile HTTP/1.1" 200 -
+2024-05-31 14:56:39,911 [INFO] 10.205.27.146 - - [31/May/2024 14:56:39] "POST /downloadFile HTTP/1.1" 200 -
+2024-05-31 14:56:45,317 [INFO] 10.205.27.146 - - [31/May/2024 14:56:45] "GET /getOutput HTTP/1.1" 200 -
+2024-05-31 14:56:45,367 [INFO] 10.205.27.146 - - [31/May/2024 14:56:45] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-31 14:56:45,369 [INFO] 10.205.27.146 - - [31/May/2024 14:56:45] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2024-05-31 14:56:45,379 [INFO] 10.205.27.146 - - [31/May/2024 14:56:45] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2024-05-31 14:56:45,386 [INFO] 10.205.27.146 - - [31/May/2024 14:56:45] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-31 14:56:45,389 [INFO] 10.205.27.146 - - [31/May/2024 14:56:45] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2024-05-31 14:56:45,458 [INFO] 10.205.27.146 - - [31/May/2024 14:56:45] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2024-05-31 14:56:46,600 [INFO] 10.205.27.146 - - [31/May/2024 14:56:46] "GET / HTTP/1.1" 200 -
+2024-05-31 14:56:46,648 [INFO] 10.205.27.146 - - [31/May/2024 14:56:46] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-31 14:56:46,653 [INFO] 10.205.27.146 - - [31/May/2024 14:56:46] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2024-05-31 14:56:46,661 [INFO] 10.205.27.146 - - [31/May/2024 14:56:46] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-31 14:56:46,665 [INFO] 10.205.27.146 - - [31/May/2024 14:56:46] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2024-05-31 14:56:46,666 [INFO] 10.205.27.146 - - [31/May/2024 14:56:46] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2024-05-31 14:56:46,668 [INFO] 10.205.27.146 - - [31/May/2024 14:56:46] "[36mGET /assets/lib/js/jquery-3.7.0.min.js HTTP/1.1[0m" 304 -
+2024-05-31 14:56:46,731 [INFO] 10.205.27.146 - - [31/May/2024 14:56:46] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -

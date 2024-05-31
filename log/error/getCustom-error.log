@@ -261,3 +261,4 @@
 2024-05-07 14:17:54 [ERROR] xe1 : Connect Failed (4)
 2024-05-07 14:17:54 A paramiko SSHException occurred during connection creation: 
 2024-05-07 14:17:54 Error reading SSH protocol banner 
+2024-05-31 14:55:55 [ERROR] DC1CORSWT-12 : Output return empty for command [show port-channel]

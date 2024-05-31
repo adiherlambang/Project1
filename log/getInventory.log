@@ -771,3 +771,123 @@ Failed while bringing device to "any" state
 2024-05-31 14:46:38,994 [WARNING] xr2 : Retrying connection
 2024-05-31 14:46:39,009 [ERROR] xr3 : Connect Failed (3)
 2024-05-31 14:46:39,010 [WARNING] xr3 : Retrying connection
+2024-05-31 14:46:58,977 [ERROR] xe1 : Connect Failed (4)
+2024-05-31 14:46:58,978 [ERROR] xe2 : Connect Failed (4)
+2024-05-31 14:46:59,001 [ERROR] xe3 : Connect Failed (4)
+2024-05-31 14:46:59,009 [ERROR] xr1 : Connect Failed (4)
+2024-05-31 14:46:59,013 [ERROR] xr2 : Connect Failed (4)
+2024-05-31 14:46:59,029 [ERROR] xr3 : Connect Failed (4)
+2024-05-31 14:46:59,030 [INFO] 10.205.27.146 - - [31/May/2024 14:46:59] "POST /getInvent HTTP/1.1" 200 -
+2024-05-31 14:47:11,208 [INFO] 10.205.27.146 - - [31/May/2024 14:47:11] "GET /getOutput HTTP/1.1" 200 -
+2024-05-31 14:47:11,257 [INFO] 10.205.27.146 - - [31/May/2024 14:47:11] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-31 14:47:11,259 [INFO] 10.205.27.146 - - [31/May/2024 14:47:11] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2024-05-31 14:47:11,267 [INFO] 10.205.27.146 - - [31/May/2024 14:47:11] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2024-05-31 14:47:11,270 [INFO] 10.205.27.146 - - [31/May/2024 14:47:11] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-31 14:47:11,274 [INFO] 10.205.27.146 - - [31/May/2024 14:47:11] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2024-05-31 14:47:11,343 [INFO] 10.205.27.146 - - [31/May/2024 14:47:11] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2024-05-31 14:47:15,071 [INFO] 10.205.27.146 - - [31/May/2024 14:47:15] "GET /deviceList HTTP/1.1" 200 -
+2024-05-31 14:47:15,121 [INFO] 10.205.27.146 - - [31/May/2024 14:47:15] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-31 14:47:15,127 [INFO] 10.205.27.146 - - [31/May/2024 14:47:15] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2024-05-31 14:47:15,129 [INFO] 10.205.27.146 - - [31/May/2024 14:47:15] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-31 14:47:15,131 [INFO] 10.205.27.146 - - [31/May/2024 14:47:15] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2024-05-31 14:47:15,146 [INFO] 10.205.27.146 - - [31/May/2024 14:47:15] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2024-05-31 14:47:15,214 [INFO] 10.205.27.146 - - [31/May/2024 14:47:15] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2024-05-31 14:47:22,472 [INFO] 10.205.27.146 - - [31/May/2024 14:47:22] "POST /uploadCSV HTTP/1.1" 200 -
+2024-05-31 14:47:22,522 [INFO] 10.205.27.146 - - [31/May/2024 14:47:22] "GET /deviceList HTTP/1.1" 200 -
+2024-05-31 14:47:22,555 [INFO] 10.205.27.146 - - [31/May/2024 14:47:22] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-31 14:47:22,556 [INFO] 10.205.27.146 - - [31/May/2024 14:47:22] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2024-05-31 14:47:22,569 [INFO] 10.205.27.146 - - [31/May/2024 14:47:22] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-31 14:47:22,572 [INFO] 10.205.27.146 - - [31/May/2024 14:47:22] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2024-05-31 14:47:22,574 [INFO] 10.205.27.146 - - [31/May/2024 14:47:22] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2024-05-31 14:47:22,638 [INFO] 10.205.27.146 - - [31/May/2024 14:47:22] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2024-05-31 14:47:25,432 [INFO] 10.205.27.146 - - [31/May/2024 14:47:25] "GET / HTTP/1.1" 200 -
+2024-05-31 14:47:25,483 [INFO] 10.205.27.146 - - [31/May/2024 14:47:25] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-31 14:47:25,488 [INFO] 10.205.27.146 - - [31/May/2024 14:47:25] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2024-05-31 14:47:25,489 [INFO] 10.205.27.146 - - [31/May/2024 14:47:25] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-31 14:47:25,495 [INFO] 10.205.27.146 - - [31/May/2024 14:47:25] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2024-05-31 14:47:25,499 [INFO] 10.205.27.146 - - [31/May/2024 14:47:25] "[36mGET /assets/lib/js/jquery-3.7.0.min.js HTTP/1.1[0m" 304 -
+2024-05-31 14:47:25,500 [INFO] 10.205.27.146 - - [31/May/2024 14:47:25] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2024-05-31 14:47:25,563 [INFO] 10.205.27.146 - - [31/May/2024 14:47:25] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2024-05-31 14:47:26,864 [INFO] xe1 : Connecting 
+2024-05-31 14:47:26,866 [INFO] xe2 : Connecting 
+2024-05-31 14:47:26,867 [INFO] xe3 : Connecting 
+2024-05-31 14:47:26,868 [INFO] xr1 : Connecting 
+2024-05-31 14:47:26,869 [INFO] xr2 : Connecting 
+2024-05-31 14:47:26,869 [INFO] xr3 : Connecting 
+2024-05-31 14:47:26,870 [INFO] DC1CORSWT-12 : Connecting 
+2024-05-31 14:47:27,001 [INFO] Connected (version 2.0, client OpenSSH_8.0)
+2024-05-31 14:47:27,302 [INFO] Auth banner: b'User Access Verification\n'
+2024-05-31 14:47:27,303 [INFO] Authentication (password) successful!
+2024-05-31 14:47:27,839 [WARNING] DC1CORSWT-12 : Connect success
+2024-05-31 14:47:27,851 [INFO] DC1CORSWT-12 : Entered enable mode
+2024-05-31 14:47:27,960 [INFO] DC1CORSWT-12 : Command 'show inventory' sent
+2024-05-31 14:47:27,968 [INFO] DC1CORSWT-12 : [1] Parsing success for template 'show inventory 1'
+2024-05-31 14:47:27,968 [INFO] DC1CORSWT-12 : Export success to out/getInventory/Inventory_2024-05-31_14-43.csv
+2024-05-31 14:47:27,979 [INFO] DC1CORSWT-12 : Disconnected succcessfully
+2024-05-31 14:47:46,882 [ERROR] xe1 : Connect Failed (1)
+2024-05-31 14:47:46,882 [WARNING] xe1 : Retrying connection
+2024-05-31 14:47:46,885 [ERROR] xe2 : Connect Failed (1)
+2024-05-31 14:47:46,886 [ERROR] xe3 : Connect Failed (1)
+2024-05-31 14:47:46,886 [ERROR] xr1 : Connect Failed (1)
+2024-05-31 14:47:46,886 [ERROR] xr2 : Connect Failed (1)
+2024-05-31 14:47:46,886 [WARNING] xe2 : Retrying connection
+2024-05-31 14:47:46,887 [WARNING] xr1 : Retrying connection
+2024-05-31 14:47:46,888 [WARNING] xe3 : Retrying connection
+2024-05-31 14:47:46,888 [WARNING] xr2 : Retrying connection
+2024-05-31 14:47:46,890 [ERROR] xr3 : Connect Failed (1)
+2024-05-31 14:47:46,890 [WARNING] xr3 : Retrying connection
+2024-05-31 14:48:06,902 [ERROR] xe1 : Connect Failed (2)
+2024-05-31 14:48:06,904 [WARNING] xe1 : Retrying connection
+2024-05-31 14:48:06,909 [ERROR] xr2 : Connect Failed (2)
+2024-05-31 14:48:06,909 [ERROR] xe3 : Connect Failed (2)
+2024-05-31 14:48:06,911 [ERROR] xr3 : Connect Failed (2)
+2024-05-31 14:48:06,911 [ERROR] xr1 : Connect Failed (2)
+2024-05-31 14:48:06,911 [ERROR] xe2 : Connect Failed (2)
+2024-05-31 14:48:06,914 [WARNING] xr3 : Retrying connection
+2024-05-31 14:48:06,916 [WARNING] xe2 : Retrying connection
+2024-05-31 14:48:06,917 [WARNING] xe3 : Retrying connection
+2024-05-31 14:48:06,918 [WARNING] xr1 : Retrying connection
+2024-05-31 14:48:06,915 [WARNING] xr2 : Retrying connection
+2024-05-31 14:48:26,934 [ERROR] xe1 : Connect Failed (3)
+2024-05-31 14:48:26,935 [WARNING] xe1 : Retrying connection
+2024-05-31 14:48:26,938 [ERROR] xr3 : Connect Failed (3)
+2024-05-31 14:48:26,939 [ERROR] xe2 : Connect Failed (3)
+2024-05-31 14:48:26,939 [ERROR] xr1 : Connect Failed (3)
+2024-05-31 14:48:26,940 [ERROR] xe3 : Connect Failed (3)
+2024-05-31 14:48:26,940 [ERROR] xr2 : Connect Failed (3)
+2024-05-31 14:48:26,941 [WARNING] xr3 : Retrying connection
+2024-05-31 14:48:26,943 [WARNING] xr1 : Retrying connection
+2024-05-31 14:48:26,945 [WARNING] xr2 : Retrying connection
+2024-05-31 14:48:26,946 [WARNING] xe3 : Retrying connection
+2024-05-31 14:48:26,947 [WARNING] xe2 : Retrying connection
+2024-05-31 14:48:46,954 [ERROR] xe1 : Connect Failed (4)
+2024-05-31 14:48:46,962 [ERROR] xr3 : Connect Failed (4)
+2024-05-31 14:48:46,962 [ERROR] xr1 : Connect Failed (4)
+2024-05-31 14:48:46,965 [ERROR] xr2 : Connect Failed (4)
+2024-05-31 14:48:46,966 [ERROR] xe3 : Connect Failed (4)
+2024-05-31 14:48:46,966 [ERROR] xe2 : Connect Failed (4)
+2024-05-31 14:48:46,968 [INFO] 10.205.27.146 - - [31/May/2024 14:48:46] "POST /getInvent HTTP/1.1" 200 -
+2024-05-31 14:49:17,291 [INFO] 10.205.27.146 - - [31/May/2024 14:49:17] "GET /getOutput HTTP/1.1" 200 -
+2024-05-31 14:49:17,351 [INFO] 10.205.27.146 - - [31/May/2024 14:49:17] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-31 14:49:17,358 [INFO] 10.205.27.146 - - [31/May/2024 14:49:17] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2024-05-31 14:49:17,370 [INFO] 10.205.27.146 - - [31/May/2024 14:49:17] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2024-05-31 14:49:17,371 [INFO] 10.205.27.146 - - [31/May/2024 14:49:17] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-31 14:49:17,382 [INFO] 10.205.27.146 - - [31/May/2024 14:49:17] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2024-05-31 14:49:17,451 [INFO] 10.205.27.146 - - [31/May/2024 14:49:17] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2024-05-31 14:49:23,881 [INFO] 10.205.27.146 - - [31/May/2024 14:49:23] "POST /getOutput HTTP/1.1" 200 -
+2024-05-31 14:49:30,313 [INFO] 10.205.27.146 - - [31/May/2024 14:49:30] "POST /downloadFile HTTP/1.1" 200 -
+2024-05-31 14:49:54,459 [INFO] 10.205.27.146 - - [31/May/2024 14:49:54] "POST /downloadFile HTTP/1.1" 200 -
+2024-05-31 14:50:00,994 [INFO] 10.205.27.146 - - [31/May/2024 14:50:00] "POST /getOutput HTTP/1.1" 200 -
+2024-05-31 14:50:04,447 [INFO] 10.205.27.146 - - [31/May/2024 14:50:04] "POST /downloadFile HTTP/1.1" 200 -
+2024-05-31 14:50:50,436 [INFO] 10.205.27.146 - - [31/May/2024 14:50:50] "GET / HTTP/1.1" 200 -
+2024-05-31 14:50:50,493 [INFO] 10.205.27.146 - - [31/May/2024 14:50:50] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-31 14:50:50,498 [INFO] 10.205.27.146 - - [31/May/2024 14:50:50] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2024-05-31 14:50:50,499 [INFO] 10.205.27.146 - - [31/May/2024 14:50:50] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-31 14:50:50,515 [INFO] 10.205.27.146 - - [31/May/2024 14:50:50] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2024-05-31 14:50:50,522 [INFO] 10.205.27.146 - - [31/May/2024 14:50:50] "[36mGET /assets/lib/js/jquery-3.7.0.min.js HTTP/1.1[0m" 304 -
+2024-05-31 14:50:50,530 [INFO] 10.205.27.146 - - [31/May/2024 14:50:50] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2024-05-31 14:50:50,610 [INFO] 10.205.27.146 - - [31/May/2024 14:50:50] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2024-05-31 14:52:03,524 [INFO] Connecting to Device: DC1CORSWT-12
+2024-05-31 14:52:04,622 [INFO] Successfully Connected to Device: DC1CORSWT-12
+2024-05-31 14:52:06,566 [INFO] Get Memmory Utilization - execution completed successfully.
+2024-05-31 14:52:06,581 [INFO] 10.205.27.146 - - [31/May/2024 14:52:06] "[35m[1mPOST /getMemUtils HTTP/1.1[0m" 500 -

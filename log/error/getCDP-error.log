@@ -19,3 +19,5 @@
 2023-07-06 14:26:56 2. Increase the read_timeout to a larger value. 
 2023-07-06 14:26:56 You can also look at the Netmiko session_log or debug log for more information. 
 2023-07-06 14:26:58 [ERROR] xe2 : Output return empty for command [show platform]
+2024-05-31 15:25:27 [ERROR] DC1CORSWT-12 : [1] Parsing empty for template 'show platform 1'
+2024-05-31 15:25:27 [ERROR] DC1CORSWT-12 : [2] Parsing empty for template 'show platform 2'

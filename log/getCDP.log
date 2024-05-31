@@ -509,3 +509,39 @@
 2023-07-06 14:28:17,307 [INFO] 127.0.0.1 - - [06/Jul/2023 14:28:17] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
 2023-07-06 14:28:17,371 [INFO] 127.0.0.1 - - [06/Jul/2023 14:28:17] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
 2023-07-06 14:29:44,474 [INFO]  * Detected change in '/opt/Project1/mainWeb.py', reloading
+2024-05-31 15:25:26,423 [INFO] DC1CORSWT-12 : Connecting 
+2024-05-31 15:25:26,555 [INFO] Connected (version 2.0, client OpenSSH_8.0)
+2024-05-31 15:25:26,756 [INFO] Auth banner: b'User Access Verification\n'
+2024-05-31 15:25:26,756 [INFO] Authentication (password) successful!
+2024-05-31 15:25:27,311 [WARNING] DC1CORSWT-12 : Connect success
+2024-05-31 15:25:27,324 [INFO] DC1CORSWT-12 : Entered enable mode
+2024-05-31 15:25:27,407 [INFO] DC1CORSWT-12 : Command 'show cdp neighbors' sent
+2024-05-31 15:25:27,421 [INFO] DC1CORSWT-12 : [1] Parsing success for template 'show cdp neighbors 1'
+2024-05-31 15:25:27,756 [INFO] DC1CORSWT-12 : Command 'show platform' sent
+2024-05-31 15:25:27,758 [ERROR] DC1CORSWT-12 : [1] Parsing empty for template 'show platform 1'
+2024-05-31 15:25:27,762 [ERROR] DC1CORSWT-12 : [2] Parsing empty for template 'show platform 2'
+2024-05-31 15:25:27,764 [INFO] DC1CORSWT-12 : Export success to out/getCDP/CDP_2024-05-31_15-23.csv
+2024-05-31 15:25:27,776 [INFO] DC1CORSWT-12 : Disconnected succcessfully
+2024-05-31 15:25:27,777 [INFO] 10.205.27.157 - - [31/May/2024 15:25:27] "POST /getCDP HTTP/1.1" 200 -
+2024-05-31 15:25:37,868 [INFO] 10.205.27.157 - - [31/May/2024 15:25:37] "GET /getOutput HTTP/1.1" 200 -
+2024-05-31 15:25:37,886 [INFO] 10.205.27.157 - - [31/May/2024 15:25:37] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-31 15:25:37,891 [INFO] 10.205.27.157 - - [31/May/2024 15:25:37] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2024-05-31 15:25:37,896 [INFO] 10.205.27.157 - - [31/May/2024 15:25:37] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2024-05-31 15:25:37,898 [INFO] 10.205.27.157 - - [31/May/2024 15:25:37] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2024-05-31 15:25:37,900 [INFO] 10.205.27.157 - - [31/May/2024 15:25:37] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-31 15:25:37,903 [INFO] 10.205.27.157 - - [31/May/2024 15:25:37] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2024-05-31 15:25:41,603 [INFO] 10.205.27.157 - - [31/May/2024 15:25:41] "POST /getOutput HTTP/1.1" 200 -
+2024-05-31 15:25:45,429 [INFO] 10.205.27.157 - - [31/May/2024 15:25:45] "POST /downloadFile HTTP/1.1" 200 -
+2024-05-31 15:26:24,590 [INFO] 10.205.27.157 - - [31/May/2024 15:26:24] "GET / HTTP/1.1" 200 -
+2024-05-31 15:26:24,607 [INFO] 10.205.27.157 - - [31/May/2024 15:26:24] "[36mGET /assets/lib/css/datatable-style.min.css HTTP/1.1[0m" 304 -
+2024-05-31 15:26:24,612 [INFO] 10.205.27.157 - - [31/May/2024 15:26:24] "[36mGET /assets/lib/css/styles.css HTTP/1.1[0m" 304 -
+2024-05-31 15:26:24,614 [INFO] 10.205.27.157 - - [31/May/2024 15:26:24] "[36mGET /assets/lib/css/apps.css HTTP/1.1[0m" 304 -
+2024-05-31 15:26:24,616 [INFO] 10.205.27.157 - - [31/May/2024 15:26:24] "[36mGET /assets/lib/js/font-awesome-all.min.js HTTP/1.1[0m" 304 -
+2024-05-31 15:26:24,617 [INFO] 10.205.27.157 - - [31/May/2024 15:26:24] "[36mGET /assets/images/MSI.png HTTP/1.1[0m" 304 -
+2024-05-31 15:26:24,619 [INFO] 10.205.27.157 - - [31/May/2024 15:26:24] "[36mGET /assets/lib/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2024-05-31 15:26:24,623 [INFO] 10.205.27.157 - - [31/May/2024 15:26:24] "[36mGET /assets/lib/js/scripts.js HTTP/1.1[0m" 304 -
+2024-05-31 15:26:24,641 [INFO] 10.205.27.157 - - [31/May/2024 15:26:24] "[36mGET /assets/lib/js/datatables.js HTTP/1.1[0m" 304 -
+2024-05-31 15:26:24,644 [INFO] 10.205.27.157 - - [31/May/2024 15:26:24] "[36mGET /assets/lib/js/jquery-1.10.2.min.js HTTP/1.1[0m" 304 -
+2024-05-31 15:26:24,647 [INFO] 10.205.27.157 - - [31/May/2024 15:26:24] "[36mGET /assets/lib/js/simple-datatables.min.js HTTP/1.1[0m" 304 -
+2024-05-31 15:26:24,649 [INFO] 10.205.27.157 - - [31/May/2024 15:26:24] "[36mGET /assets/lib/js/apps.js HTTP/1.1[0m" 304 -
+2024-05-31 15:26:24,650 [INFO] 10.205.27.157 - - [31/May/2024 15:26:24] "[36mGET /assets/lib/js/Chart.min.js HTTP/1.1[0m" 304 -
