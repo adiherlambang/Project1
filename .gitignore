@@ -2,5 +2,5 @@ out/*
 __pycache__/
 import/
 log/*
-testbed/*.yaml
+testbed/*
 *.pyc

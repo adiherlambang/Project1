@@ -161,6 +161,7 @@ def captureInventory(testbedFile):
         writer.writeheader()
         hostname_counter = 1
         for item in inventory_list:
+            print(item["data"])
             hostname = item["Hostname"]
             data = item["data"]
             inventory_counter = 1
