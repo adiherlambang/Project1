@@ -135,8 +135,8 @@ def captureInventory(testbedFile):
 
     # Write results to CSV
     waktu = datetime.now().strftime("%d-%m-%y_%H_%M_%S")
-    csv_filename = f"inventory_{waktu}.csv"
-    csv_filepath = os.path.join("out", "Inventory", csv_filename)
+    csv_filename = f"CaptureInventory_{waktu}.csv"
+    csv_filepath = os.path.join("out", "CaptureInventory", csv_filename)
 
     with open(csv_filepath, mode='w', newline='') as csvfile:
         fieldnames = ['device', 'success', 'message', 'error', 'data']
