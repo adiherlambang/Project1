@@ -96,8 +96,16 @@ def captureInventoryX(device):
                     return result
 
         output = device.parse('show inventory')
-        print(output)
-        inventory_data = parse_inventory(output)
+        inventory_data = []
+
+        for index, (key, value) in enumerate(output.items(), start=1):
+            inventory_data.append({
+                'No_Inventory': index,
+                'Name': value.get('name', ''),
+                'PID': value.get('pid', ''),
+                'SN': value.get('sn', '')
+            })
+        
         result["data"] = inventory_data
         result["success"] = True
         result["message"] = f"Inventory captured successfully for {device.name}"
