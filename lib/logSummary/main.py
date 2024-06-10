@@ -16,7 +16,7 @@ def filter_logs_by_start_time(log_lines, start_time):
                 filtered_logs.append(match.groups())
     return filtered_logs
 
-def summary_log(start_time):
+def summary_log(start_time,function):
     # Open the log file
     with open('log/CaptureConfig.log', 'r') as file:
         lines = file.readlines()
@@ -46,7 +46,7 @@ def summary_log(start_time):
     logs_file = 'log_summary_'+datime_logsFile+'.xlsx'
 
     # Write summaries to Excel
-    with pd.ExcelWriter('log/summary/'+logs_file) as writer:
+    with pd.ExcelWriter('log/summary/'+function+'_'+logs_file) as writer:
         error_df.to_excel(writer, sheet_name='Log Summary')
         # error_summary.to_excel(writer, sheet_name='Error Summary')
         return logs_file

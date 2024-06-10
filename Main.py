@@ -6,7 +6,7 @@ from datetime import datetime
 from lib.createTestbed import createTestbed
 from lib.createInterfaceCRClist import createInterfaceCRCList
 from lib.getConfig.main import captureConfig
-from lib.getInven.main import getInventMain
+from lib.getInven.main import captureInventory
 from lib.getMemmory.main import getMemmoryUtils
 from lib.getCPU.main import getCPUmain
 from lib.getCDP.main import getCDPmain
@@ -145,24 +145,38 @@ def uploadInterfaceCRCfile():
 
 @app.route('/getConfig', methods=['POST'])
 def getConfig():
-        if checkTestbedFile()==True:
-            waktu = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-            result = captureConfig(testbedFile)
-            flash(result)
-            flash("Logs details : "+summary_log(waktu))
-            return jsonify(data=get_flashed_messages())
-        else:
-            flash(f"device list file is not ready, please check the device list file",'error')
-            return jsonify(data=get_flashed_messages())  
+    if checkTestbedFile():
+        waktu = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        results = captureConfig(testbedFile)
+        for result in results:
+            if result["success"]:
+                flash(f"Success: {result['message']}")
+            else:
+                flash(f"Error: {result['message']} - {result['error']}", 'error')
+        flash("Logs details : " + summary_log(waktu,'CaptureConfig'))
+        return jsonify(data=get_flashed_messages())
+    else:
+        flash(f"Device list file is not ready, please check the device list file", 'error')
+        return jsonify(data=get_flashed_messages())
 
 @app.route('/getInvent', methods=['POST'])
 def getInvent():
-    if checkTestbedFile()==True:
-        getInventMain()
-        flash(f"Success to get Memmory Utilization devices")
+    if checkTestbedFile():
+        waktu = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        results = captureInventory(testbedFile)
+        error_count = 0
+
+        for result in results:
+            if result["success"]:
+                flash(f"Success: {result['message']}")
+            else:
+                flash(f"Error: {result['message']} - {result['error']}", 'error')
+                error_count += 1
+
+        flash("Logs details : " + summary_log(waktu,'CaptureInventory'))
         return jsonify(data=get_flashed_messages())
     else:
-        flash(f"device list file is not ready, please check the device list file")
+        flash(f"Device list file is not ready, please check the device list file", 'error')
         return jsonify(data=get_flashed_messages())
 
 @app.route('/getMemUtils', methods=['POST'])

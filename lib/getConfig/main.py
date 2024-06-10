@@ -1,12 +1,8 @@
 from genie.testbed import load
-from pyats.topology import loader
 from datetime import datetime
-from rich.console import Console
 import os.path
-from lib.log import myLog
 import logging
 from rich.logging import RichHandler
-import traceback
 import concurrent.futures
 from time import sleep
 import time
@@ -48,80 +44,92 @@ def convert_to_netmiko(device):
     return netmiko_device
 
 def captureConfigX(device):
-    # Send a command to the device
+    result = {
+        "device": device.name,
+        "success": False,
+        "message": "",
+        "error": ""
+    }
+
     try:
         attempt = 1
         retry = 0
         mx_retry = 3
+        while retry < mx_retry:
+            try:
+                device.connect(learn_hostname=True, learn_os=True, log_stdout=False, mit=True)
+                break
+            except Exception as conn_error:
+                retry += 1
+                attempt += 1
+                if retry < mx_retry:
+                    logger.warning(f"Connection attempt {retry}/{mx_retry} failed for {device.name} ({device.connections.cli.ip}): {conn_error}")
+                    logger.info("Retrying in 2 seconds...")
+                    time.sleep(2)
+                else:
+                    logger.error(f"Failed to establish connection to {device.name} ({device.connections.cli.ip}) after {mx_retry} attempts.")
+                    result["message"] = f"Failed to establish connection after {mx_retry} attempts."
+                    result["error"] = str(conn_error)
+                    return result
+
+        output = device.execute('show running-config')
+
+    except Exception as pyats_error:
+        logger.error("Failed to connect using pyats get Config function")
+        result["message"] = "Failed to connect using pyats get Config function"
+        result["error"] = str(pyats_error)
+
         try:
-            while retry < mx_retry:
-                try:
-                    device.connect(learn_hostname = True, learn_os = True, log_stdout=False,mit=True)
-                    break
-                except Exception as conn_error:
-                        retry += 1
-                        attempt +=1
-                        if retry < mx_retry:
-                            logger.warning(f"Connection attempt {retry}/{mx_retry} failed for {device.name} ({device.connections.cli.ip}): {conn_error}")
-                            logger.info(f"Retrying in 1 seconds...")
-                            time.sleep(2)
-                        else:
-                            logger.error(f"Failed to establish connection to {device.name} ({device.connections.cli.ip}) after {mx_retry} attempts.")
-                            break  # Exit the loop after max 
-            
-            output = device.execute('show running-config')
-
-        except:
-            logger.error("Failed to connect using pyats get Config function")
-            # raise Exception("Failed to connect using pyats get Config function")
-            # Convert the device to Netmiko format
             netmiko_device = convert_to_netmiko(device)
-
-            # Establish the Netmiko connection
             logger.info("Establishing Netmiko connection...")
             connection = ConnectHandler(**netmiko_device)
             connection.enable()
             logger.info("Connection established successfully.")
-
-            # Send a command and retrieve the output
             command = "show running-config"
             output = connection.send_command(command)
-        #Print the output
-        hostname = device.name
-        logger.info('---getting capture config from device '+hostname+'---')
-        waktu = datetime.now().strftime("%d-%m-%y_%H_%M_%S")
-        NameFile = hostname + "_" + waktu +".txt"
-        file_path = "out/CaptureConfig/"
-        file_name = os.path.join(file_path,NameFile)
-        logger.info(NameFile)
-        try:
-            with open(file_name, 'a') as file:
-                file.write(f'''{output}''')
-        except Exception as e:
-            logger.error("exception ",exc_info=1)
-            raise Exception(f"{e}")
-    except Exception as e:
-        #print(f"Error connecting to device {device.name}: {e}")
-        logger.error(f"Error connecting to device {device.name} using Netmiko")
-        raise Exception(f"Finish getting config from all device with an Error")
+        except Exception as netmiko_error:
+            logger.error(f"Error connecting to device {device.name} using Netmiko: {netmiko_error}")
+            result["message"] = "Failed to connect using Netmiko"
+            result["error"] = str(netmiko_error)
+            return result
+
+    hostname = device.name
+    logger.info(f"---getting capture config from device {hostname}---")
+    waktu = datetime.now().strftime("%d-%m-%y_%H_%M_%S")
+    NameFile = f"{hostname}_{waktu}.txt"
+    file_path = "out/CaptureConfig/"
+    file_name = os.path.join(file_path, NameFile)
+    logger.info(NameFile)
+
+    try:
+        with open(file_name, 'a') as file:
+            file.write(f'''{output}''')
+        result["success"] = True
+        result["message"] = f"Configuration captured successfully for {device.name}"
+    except Exception as file_error:
+        logger.error("Exception", exc_info=1)
+        result["message"] = "Failed to write configuration to file"
+        result["error"] = str(file_error)
+
+    return result
+
 
 def captureConfig(testbedFile):
     testbed = load(testbedFile)
-    # Create a list of futures for iosxe and iosxr devices
-    futures = []
+    results = []
     with concurrent.futures.ThreadPoolExecutor() as executor:
-        for device in testbed:
-            futures.append(executor.submit(captureConfigX, device))
-            logger.info(f"Connecting to device {device.name}")
-            sleep(0.1)
-        # Wait for all futures to complete
+        futures = [executor.submit(captureConfigX, device) for device in testbed]
+        logger.info("Connecting to devices...")
+        for future in concurrent.futures.as_completed(futures):
+            try:
+                result = future.result()
+                results.append(result)
+                if not result["success"]:
+                    logger.error(f"Error with device {result['device']}: {result['message']}, Error: {result['error']}")
+            except Exception as exc:
+                error_message = f"Exception occurred: {str(exc)}"
+                logger.error(error_message)
+                results.append({"device": "Unknown", "success": False, "message": error_message, "error": str(exc)})
 
-    for future in concurrent.futures.as_completed(futures):
-        try:
-            future.result()
-        except Exception as exc:
-            logger.error(f"{exc} occurred while processing")
-            return str(exc)
-    
-    logger.info("Get Config -  execution completed")
-    return 'Finish get config from all device'
+    logger.info("Get Config - execution completed")
+    return results

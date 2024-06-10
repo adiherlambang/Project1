@@ -12,3 +12,55 @@ devices:
         password: Rtpl4k3build312345!
     os: nxos
     type: nxos
+  DC1CORSWT-22:
+    connections:
+      cli:
+        ip: 10.222.20.7
+        protocol: ssh
+    credentials:
+      default:
+        password: Rtpl4k3build312345!
+        username: oxidized
+      enable:
+        password: Rtpl4k3build312345!
+    os: nxos
+    type: nxos
+  DC1CORSWT-23:
+    connections:
+      cli:
+        ip: 10.222.20.8
+        protocol: ssh
+    credentials:
+      default:
+        password: Rtpl4k3build312345!
+        username: oxidized
+      enable:
+        password: Rtpl4k3build312345!
+    os: nxos
+    type: nxos
+  DC1CORSWT-24:
+    connections:
+      cli:
+        ip: 10.222.20.9
+        protocol: ssh
+    credentials:
+      default:
+        password: Rtpl4k3build312345!
+        username: oxidized
+      enable:
+        password: Rtpl4k3build312345!
+    os: nxos
+    type: nxos
+  DC1CORSWT-25:
+    connections:
+      cli:
+        ip: 10.222.20.10
+        protocol: ssh
+    credentials:
+      default:
+        password: Rtpl4k3build312345!
+        username: oxidized
+      enable:
+        password: Rtpl4k3build312345!
+    os: nxos
+    type: nxos

@@ -1,154 +1,133 @@
-from lib.getCustom.device import Routers, TIMESTAMP, ERROR_COMMAND
-import csv
-import threading
+from genie.testbed import load
+from netmiko import ConnectHandler
+import logging
+from datetime import datetime
 import os
-import yaml
+import concurrent.futures
+from pyats.utils.secret_strings import to_plaintext
+import time
+from rich.logging import RichHandler
 
-TITLE = "getInventory"
-COMMAND1 = "show inventory"
-COMMAND2 = "show inventory"
-HEADERS = ['No_Hostname', 'Hostname', 'No_Inventory', 'Name', 'PID', 'SN']
-TESTBED =  "testbed/device.yaml"
-TEMPLATE_NUMBERS = 2
-devices = []
-success_counter = []
-fail_counter = []
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
+# the handler determines where the logs go: stdout/file
+shell_handler = RichHandler()
+file_handler = logging.FileHandler('log/CaptureInventory.log')
+shell_handler.setLevel(logging.DEBUG)
+file_handler.setLevel(logging.DEBUG)
+# the formatter determines what our logs will look like
+fmt_shell = '%(message)s'
+fmt_file = '%(levelname)s %(asctime)s [%(filename)s:%(funcName)s:%(lineno)d] %(message)s'
 
-def getInventMain():
-    read_testbed()
-    export_headers()
-    i = 1
-    threads = []
-    for device in devices:
-        t = threading.Thread(target=process_device, args=(device, i))
-        t.start()
-        threads.append(t)
-        i += 1
+shell_formatter = logging.Formatter(fmt_shell)
+file_formatter = logging.Formatter(fmt_file)
 
-    for t in threads:
-        t.join()
-
-    sort_csv()
-    end_summary()
-
-def process_device(device, i):
-    parsed = ""
-    num_try = 0
-    device.command_template = 'Inventory'
-    device.out_path = f"out/{TITLE}/"
-    device.log_path = f"log/{TITLE}.log"
-    device.errorlog = f"log/error/{TITLE}-error.log"
-    device.create_folder()
-    if device.connect(i):
-        command = COMMAND1
-        output = "Function exception"
-        while output == "Function exception" and device.exception_counter < 3:
-            output = device.connect_command(command)
-
-        #try other command
-        if [c for c in ERROR_COMMAND if c in output]:
-            device.logging_error(f"{device.hostname} : Command [{command}] Failed, trying [{COMMAND2}]")
-            command = COMMAND2
-            output = device.connect_command(command)
-        
-        #final check output
-        if [c for c in ERROR_COMMAND if c in output]:
-            device.logging_error(f"{device.hostname} : Output return empty for command [{command}]")
-        else:
-            while parsed == "" and num_try < TEMPLATE_NUMBERS:
-                num_try += 1
-                parsed = device.parse(COMMAND1, output, num_try)
-        
-        #special templates
-        if parsed != "":
-            final = export_csv(parsed, i, device.hostname)
-            device.export_data(final, "inventory")
-            success_counter.append(0)
-        else:
-            device.logging_error(f"{device.hostname} : Parsing failed after [{num_try}] tries.")
-            fail_counter.append(f'{device.ip} - {device.ios_os} - {device.hostname}')
-
-        device.disconnect()
-    else:
-        fail_counter.append(f'{device.ip} - {device.ios_os} - {device.hostname}')
-
-def export_headers():
-    outpath = f'out/{TITLE}/'
-    if not os.path.exists(outpath):
-        os.makedirs(outpath)
-
-    with open(f"{outpath}Inventory_{TIMESTAMP}.csv", 'w', newline='') as file:
-        writer = csv.writer(file)
-        writer.writerow(HEADERS)
-
-def read_testbed():
-    with open(TESTBED) as f:
-        device = yaml.safe_load(f)['devices']
-        for d in device:
-            the_ip = device[d]['connections']['cli']['ip']
-            the_protocol = device[d]['connections']['cli']['protocol']
-            the_username = device[d]['credentials']['default']['username']
-            the_password = device[d]['credentials']['default']['password']
-            the_enable = device[d]['credentials']['enable']['password']
-            the_ios_os = device[d]['os']
-
-            new_device = Routers(
-                d,
-                the_ip,
-                the_username,
-                the_password,
-                the_enable,
-                the_ios_os,
-                the_protocol
-            )
-            devices.append(new_device)
+# here we hook everything together
+shell_handler.setFormatter(shell_formatter)
+file_handler.setFormatter(file_formatter)
+logger.addHandler(shell_handler)
+logger.addHandler(file_handler)
 
 
-def end_summary():
-    print(f'\n=> Success : [{len(success_counter)}/{len(devices)}]\n')
-    if len(fail_counter) > 0:
-        print(f'=> Failed  :')
-        for idx, fc in enumerate(fail_counter):
-            print(f'   {idx+1}. {fc}')
-        print('')
-        
-#universal template
-def export_csv(parsed, i, hostname):
-    finals = []
-    j = 1
-    for p in parsed:
-        name = p['descr']
-        pid = p['pid']
-        sn = p['sn']
+# Check if output folder is available, create it if not
+if not os.path.exists("out/CaptureInventory"):
+    os.makedirs("out/CaptureInventory")
 
-        final = [i, hostname, j, name, pid, sn]
-        finals.append(final)
-        j +=1
-    return finals
+def convert_to_netmiko(device):
+    netmiko_device = {}
+    netmiko_device['device_type'] = "cisco_ios"
+    netmiko_device['host'] = str(device.connections.cli.ip)
+    netmiko_device['username'] = device.credentials.default.username
+    netmiko_device['password'] = to_plaintext(device.credentials.default.password)
+    netmiko_device['secret'] = to_plaintext(device.credentials.enable.password)
+    return netmiko_device
 
+def captureInventoryX(device):
+    result = {
+        "device": device.name,
+        "success": False,
+        "message": "",
+        "error": ""
+    }
 
-def sort_csv():
-    outpath = f'out/{TITLE}/'
-    sort_field = "No_Hostname"
-    sort_field2 = "No_Inventory"
-    data = []
-    
     try:
-        # Read the data from the input CSV file
-        with open(f"{outpath}{COMMAND1}_{TIMESTAMP}.csv", "r", newline="") as csvfile:
-            reader = csv.DictReader(csvfile)
-            data = list(reader)
+        attempt = 1
+        retry = 0
+        mx_retry = 3
+        while retry < mx_retry:
+            try:
+                device.connect(learn_hostname=True, learn_os=True, log_stdout=False, mit=True)
+                break
+            except Exception as conn_error:
+                retry += 1
+                attempt += 1
+                if retry < mx_retry:
+                    logger.warning(f"Connection attempt {retry}/{mx_retry} failed for {device.name} ({device.connections.cli.ip}): {conn_error}")
+                    logger.info("Retrying in 2 seconds...")
+                    time.sleep(2)
+                else:
+                    logger.error(f"Failed to establish connection to {device.name} ({device.connections.cli.ip}) after {mx_retry} attempts.")
+                    result["message"] = f"Failed to establish connection after {mx_retry} attempts."
+                    result["error"] = str(conn_error)
+                    return result
 
-        # Sort the data based on the specified field
-        sorted_data = sorted(data, key=lambda x: int(x.get(sort_field2, 0)))
-        sorted_data = sorted(sorted_data, key=lambda x: int(x.get(sort_field, 0)))
+        output = device.execute('show inventory')
 
-        # Write the sorted data back to the input CSV file
-        with open(f"{outpath}{COMMAND1}_{TIMESTAMP}.csv", "w", newline="") as csvfile:
-            fieldnames = sorted_data[0].keys() if sorted_data else []
-            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-            writer.writeheader()
-            writer.writerows(sorted_data)
+    except Exception as pyats_error:
+        logger.error("Failed to connect using pyats get Inventory function")
+        result["message"] = "Failed to connect using pyats get Inventory function"
+        result["error"] = str(pyats_error)
 
-    except Exception as e:
-        print(f"Failed sorting {e}")
+        try:
+            netmiko_device = convert_to_netmiko(device)
+            logger.info("Establishing Netmiko connection...")
+            connection = ConnectHandler(**netmiko_device)
+            connection.enable()
+            logger.info("Connection established successfully.")
+            command = "show inventory"
+            output = connection.send_command(command)
+        except Exception as netmiko_error:
+            logger.error(f"Error connecting to device {device.name} using Netmiko: {netmiko_error}")
+            result["message"] = "Failed to connect using Netmiko"
+            result["error"] = str(netmiko_error)
+            return result
+
+    hostname = device.name
+    logger.info(f"---getting inventory from device {hostname}---")
+    waktu = datetime.now().strftime("%d-%m-%y_%H_%M_%S")
+    NameFile = f"{hostname}_{waktu}.txt"
+    file_path = "out/CaptureInventory/"
+    file_name = os.path.join(file_path, NameFile)
+    logger.info(NameFile)
+
+    try:
+        with open(file_name, 'a') as file:
+            file.write(f'''{output}''')
+        result["success"] = True
+        result["message"] = f"Inventory captured successfully for {device.name}"
+    except Exception as file_error:
+        logger.error("Exception", exc_info=1)
+        result["message"] = "Failed to write inventory to file"
+        result["error"] = str(file_error)
+
+    return result
+
+def captureInventory(testbedFile):
+    testbed = load(testbedFile)
+    results = []
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        futures = [executor.submit(captureInventoryX, device) for device in testbed]
+        logger.info("Connecting to devices...")
+        for future in concurrent.futures.as_completed(futures):
+            try:
+                result = future.result()
+                results.append(result)
+                if not result["success"]:
+                    logger.error(f"Error with device {result['device']}: {result['message']}, Error: {result['error']}")
+            except Exception as exc:
+                error_message = f"Exception occurred: {str(exc)}"
+                logger.error(error_message)
+                results.append({"device": "Unknown", "success": False, "message": error_message, "error": str(exc)})
+
+    logger.info("Get Inventory - execution completed")
+    return results
