@@ -95,7 +95,7 @@ def captureInventoryX(device):
                     result["error"] = str(conn_error)
                     return result
 
-        output = device.execute('show inventory')
+        output = device.parse('show inventory')
         print(output)
         inventory_data = parse_inventory(output)
         result["data"] = inventory_data
