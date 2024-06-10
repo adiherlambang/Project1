@@ -138,6 +138,7 @@ def captureInventory(testbedFile):
                 result = future.result()
                 results.append(result)
                 if result["success"]:
+                    print(result)
                     inventory_list.append({"Hostname": result["device"], "data": result["data"]})
                 else:
                     logger.error(f"Error with device {result['device']}: {result['message']}, Error: {result['error']}")
