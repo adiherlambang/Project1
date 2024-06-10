@@ -43,12 +43,35 @@ def convert_to_netmiko(device):
     netmiko_device['secret'] = to_plaintext(device.credentials.enable.password)
     return netmiko_device
 
+def parse_inventory(output):
+    inventory = []
+    lines = output.splitlines()
+    for line in lines:
+        if 'NAME' in line and 'PID' in line and 'SN' in line:
+            fields = line.split()
+            name_index = fields.index('NAME')
+            pid_index = fields.index('PID')
+            sn_index = fields.index('SN')
+            break
+
+    for line in lines:
+        if 'NAME:' in line and 'PID:' in line and 'SN:' in line:
+            parts = line.split('NAME:')[1].split('PID:')
+            name = parts[0].strip().strip('"')
+            parts = parts[1].split('SN:')
+            pid = parts[0].strip()
+            sn = parts[1].strip()
+            inventory.append({'Name': name, 'PID': pid, 'SN': sn})
+
+    return inventory
+
 def captureInventoryX(device):
     result = {
         "device": device.name,
         "success": False,
         "message": "",
-        "error": ""
+        "error": "",
+        "data": None
     }
 
     try:
@@ -73,6 +96,10 @@ def captureInventoryX(device):
                     return result
 
         output = device.execute('show inventory')
+        inventory_data = parse_inventory(output)
+        result["data"] = inventory_data
+        result["success"] = True
+        result["message"] = f"Inventory captured successfully for {device.name}"
 
     except Exception as pyats_error:
         logger.error("Failed to connect using pyats get Inventory function")
@@ -87,35 +114,22 @@ def captureInventoryX(device):
             logger.info("Connection established successfully.")
             command = "show inventory"
             output = connection.send_command(command)
+            inventory_data = parse_inventory(output)
+            result["data"] = inventory_data
+            result["success"] = True
+            result["message"] = f"Inventory captured successfully for {device.name}"
         except Exception as netmiko_error:
             logger.error(f"Error connecting to device {device.name} using Netmiko: {netmiko_error}")
             result["message"] = "Failed to connect using Netmiko"
             result["error"] = str(netmiko_error)
             return result
 
-    hostname = device.name
-    logger.info(f"---getting inventory from device {hostname}---")
-    waktu = datetime.now().strftime("%d-%m-%y_%H_%M_%S")
-    NameFile = f"{hostname}_{waktu}.txt"
-    file_path = "out/CaptureInventory/"
-    file_name = os.path.join(file_path, NameFile)
-    logger.info(NameFile)
-
-    try:
-        with open(file_name, 'a') as file:
-            file.write(f'''{output}''')
-        result["success"] = True
-        result["message"] = f"Inventory captured successfully for {device.name}"
-    except Exception as file_error:
-        logger.error("Exception", exc_info=1)
-        result["message"] = "Failed to write inventory to file"
-        result["error"] = str(file_error)
-
     return result
 
 def captureInventory(testbedFile):
     testbed = load(testbedFile)
     results = []
+    inventory_list = []
     with concurrent.futures.ThreadPoolExecutor() as executor:
         futures = [executor.submit(captureInventoryX, device) for device in testbed]
         logger.info("Connecting to devices...")
@@ -123,28 +137,46 @@ def captureInventory(testbedFile):
             try:
                 result = future.result()
                 results.append(result)
-                if not result["success"]:
+                if result["success"]:
+                    inventory_list.append({"Hostname": result["device"], "data": result["data"]})
+                else:
                     logger.error(f"Error with device {result['device']}: {result['message']}, Error: {result['error']}")
             except Exception as exc:
                 error_message = f"Exception occurred: {str(exc)}"
                 logger.error(error_message)
                 results.append({"device": "Unknown", "success": False, "message": error_message, "error": str(exc)})
 
-    logger.info("Get Inventory - execution completed")
-    sorted_results = sorted(results, key=lambda x: x['device'])
+    # Sort inventory by device name
+    inventory_list.sort(key=lambda x: x['Hostname'])
 
-    # Write results to CSV
+    # Write inventory to CSV
     waktu = datetime.now().strftime("%d-%m-%y_%H_%M_%S")
     csv_filename = f"CaptureInventory_{waktu}.csv"
     csv_filepath = os.path.join("out", "CaptureInventory", csv_filename)
 
     with open(csv_filepath, mode='w', newline='') as csvfile:
-        fieldnames = ['device', 'success', 'message', 'error', 'data']
+        fieldnames = ['No_Hostname', 'Hostname', 'No_Inventory', 'Name', 'PID', 'SN']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
         writer.writeheader()
-        for result in sorted_results:
-            writer.writerow(result)
+        hostname_counter = 1
+        for item in inventory_list:
+            hostname = item["Hostname"]
+            data = item["data"]
+            inventory_counter = 1
+            for inventory in data:
+                row = {
+                    'No_Hostname': hostname_counter,
+                    'Hostname': hostname,
+                    'No_Inventory': inventory_counter,
+                    'Name': inventory['Name'],
+                    'PID': inventory['PID'],
+                    'SN': inventory['SN']
+                }
+                writer.writerow(row)
+                inventory_counter += 1
+            hostname_counter += 1
 
     logger.info(f"Inventory data written to CSV file {csv_filepath}")
-    return sorted_results
+    return results
+
