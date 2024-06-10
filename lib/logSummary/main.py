@@ -18,7 +18,7 @@ def filter_logs_by_start_time(log_lines, start_time):
 
 def summary_log(start_time,function):
     # Open the log file
-    with open('log/CaptureConfig.log', 'r') as file:
+    with open('log/'+function+'.log', 'r') as file:
         lines = file.readlines()
 
     log_start_time = start_time

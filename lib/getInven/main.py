@@ -7,6 +7,7 @@ import concurrent.futures
 from pyats.utils.secret_strings import to_plaintext
 import time
 from rich.logging import RichHandler
+import csv
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
@@ -130,4 +131,20 @@ def captureInventory(testbedFile):
                 results.append({"device": "Unknown", "success": False, "message": error_message, "error": str(exc)})
 
     logger.info("Get Inventory - execution completed")
-    return results
+    sorted_results = sorted(results, key=lambda x: x['device'])
+
+    # Write results to CSV
+    waktu = datetime.now().strftime("%d-%m-%y_%H_%M_%S")
+    csv_filename = f"inventory_{waktu}.csv"
+    csv_filepath = os.path.join("out", "Inventory", csv_filename)
+
+    with open(csv_filepath, mode='w', newline='') as csvfile:
+        fieldnames = ['device', 'success', 'message', 'error', 'data']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+
+        writer.writeheader()
+        for result in sorted_results:
+            writer.writerow(result)
+
+    logger.info(f"Inventory data written to CSV file {csv_filepath}")
+    return sorted_results
