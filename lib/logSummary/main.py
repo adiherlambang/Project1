@@ -47,6 +47,10 @@ def summary_log(start_time,function):
 
     # Write summaries to Excel
     with pd.ExcelWriter('log/summary/'+function+'_'+logs_file) as writer:
-        error_df.to_excel(writer, sheet_name='Log Summary')
+        if not error_df.empty:
+            error_df.to_excel(writer, sheet_name='Log Summary')
+        else:
+            success_df = pd.DataFrame({'Message': ['No errors was found. Success!']})
+            success_df.to_excel(writer, sheet_name='Log Summary')
         # error_summary.to_excel(writer, sheet_name='Error Summary')
         return logs_file

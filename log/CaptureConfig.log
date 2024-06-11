@@ -2297,3 +2297,178 @@ ERROR 2024-06-10 06:27:13,853 [main.py:captureConfigX:74] Failed to establish co
 ERROR 2024-06-10 06:27:13,855 [main.py:captureConfig:132] Error with device DC1CORSWT-24: Failed to establish connection after 3 attempts., Error: failed to connect to DC1CORSWT-24
 Failed while bringing device to "any" state
 INFO 2024-06-10 06:27:13,858 [main.py:captureConfig:138] Get Config - execution completed
+INFO 2024-06-11 10:56:21,148 [main.py:captureConfig:122] Connecting to devices...
+INFO 2024-06-11 10:56:23,445 [main.py:captureConfigX:97] ---getting capture config from device CC-VCUBE---
+INFO 2024-06-11 10:56:23,447 [main.py:captureConfigX:102] CC-VCUBE_11-06-24_10_56_23.txt
+INFO 2024-06-11 10:56:23,449 [main.py:captureConfig:134] Get Config - execution completed
+INFO 2024-06-11 11:53:21,152 [main.py:captureConfig:122] Connecting to devices...
+INFO 2024-06-11 11:53:24,011 [main.py:captureConfigX:97] ---getting capture config from device CC-VCUBE---
+INFO 2024-06-11 11:53:24,014 [main.py:captureConfigX:102] CC-VCUBE_11-06-24_11_53_24.txt
+WARNING 2024-06-11 11:53:54,346 [main.py:captureConfigX:66] Connection attempt 1/3 failed for CC-VCUBE2 (198.18.133.225): failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 11:53:54,351 [main.py:captureConfigX:67] Retrying in 2 seconds...
+WARNING 2024-06-11 11:54:28,433 [main.py:captureConfigX:66] Connection attempt 2/3 failed for CC-VCUBE2 (198.18.133.225): failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 11:54:28,435 [main.py:captureConfigX:67] Retrying in 2 seconds...
+ERROR 2024-06-11 11:55:02,501 [main.py:captureConfigX:70] Failed to establish connection to CC-VCUBE2 (198.18.133.225) after 3 attempts.
+ERROR 2024-06-11 11:55:02,505 [main.py:captureConfig:128] Error with device CC-VCUBE2: Failed to establish connection after 3 attempts., Error: failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 11:55:02,508 [main.py:captureConfig:134] Get Config - execution completed
+INFO 2024-06-11 11:56:31,391 [main.py:captureConfig:122] Connecting to devices...
+INFO 2024-06-11 11:56:38,914 [main.py:captureConfigX:97] ---getting capture config from device CC-VCUBE---
+INFO 2024-06-11 11:56:38,917 [main.py:captureConfigX:102] CC-VCUBE_11-06-24_11_56_38.txt
+WARNING 2024-06-11 11:57:03,867 [main.py:captureConfigX:66] Connection attempt 1/3 failed for CC-VCUBE2 (198.18.133.225): failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 11:57:03,871 [main.py:captureConfigX:67] Retrying in 2 seconds...
+WARNING 2024-06-11 11:57:37,944 [main.py:captureConfigX:66] Connection attempt 2/3 failed for CC-VCUBE2 (198.18.133.225): failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 11:57:37,947 [main.py:captureConfigX:67] Retrying in 2 seconds...
+ERROR 2024-06-11 11:58:12,050 [main.py:captureConfigX:70] Failed to establish connection to CC-VCUBE2 (198.18.133.225) after 3 attempts.
+ERROR 2024-06-11 11:58:12,053 [main.py:captureConfig:128] Error with device CC-VCUBE2: Failed to establish connection after 3 attempts., Error: failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 11:58:12,056 [main.py:captureConfig:134] Get Config - execution completed
+INFO 2024-06-11 11:58:52,232 [main.py:captureConfig:122] Connecting to devices...
+INFO 2024-06-11 11:58:57,281 [main.py:captureConfigX:97] ---getting capture config from device CC-VCUBE---
+INFO 2024-06-11 11:58:57,284 [main.py:captureConfigX:102] CC-VCUBE_11-06-24_11_58_57.txt
+WARNING 2024-06-11 11:59:24,742 [main.py:captureConfigX:66] Connection attempt 1/3 failed for CC-VCUBE2 (198.18.133.225): failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 11:59:24,745 [main.py:captureConfigX:67] Retrying in 2 seconds...
+WARNING 2024-06-11 11:59:58,840 [main.py:captureConfigX:66] Connection attempt 2/3 failed for CC-VCUBE2 (198.18.133.225): failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 11:59:58,843 [main.py:captureConfigX:67] Retrying in 2 seconds...
+ERROR 2024-06-11 12:00:32,959 [main.py:captureConfigX:70] Failed to establish connection to CC-VCUBE2 (198.18.133.225) after 3 attempts.
+ERROR 2024-06-11 12:00:32,963 [main.py:captureConfig:128] Error with device CC-VCUBE2: Failed to establish connection after 3 attempts., Error: failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 12:00:32,966 [main.py:captureConfig:134] Get Config - execution completed
+INFO 2024-06-11 12:03:58,633 [main.py:captureConfig:122] Connecting to devices...
+INFO 2024-06-11 12:04:02,148 [main.py:captureConfigX:97] ---getting capture config from device CC-VCUBE---
+INFO 2024-06-11 12:04:02,150 [main.py:captureConfigX:102] CC-VCUBE_11-06-24_12_04_02.txt
+WARNING 2024-06-11 12:04:31,430 [main.py:captureConfigX:66] Connection attempt 1/3 failed for CC-VCUBE2 (198.18.133.225): failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 12:04:31,433 [main.py:captureConfigX:67] Retrying in 2 seconds...
+WARNING 2024-06-11 12:05:05,528 [main.py:captureConfigX:66] Connection attempt 2/3 failed for CC-VCUBE2 (198.18.133.225): failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 12:05:05,531 [main.py:captureConfigX:67] Retrying in 2 seconds...
+ERROR 2024-06-11 12:05:39,620 [main.py:captureConfigX:70] Failed to establish connection to CC-VCUBE2 (198.18.133.225) after 3 attempts.
+ERROR 2024-06-11 12:05:39,624 [main.py:captureConfig:128] Error with device CC-VCUBE2: Failed to establish connection after 3 attempts., Error: failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 12:05:39,627 [main.py:captureConfig:134] Get Config - execution completed
+INFO 2024-06-11 12:20:58,892 [main.py:captureConfig:122] Connecting to devices...
+INFO 2024-06-11 12:21:10,126 [main.py:captureConfigX:97] ---getting capture config from device CC-VCUBE---
+INFO 2024-06-11 12:21:10,129 [main.py:captureConfigX:102] CC-VCUBE_11-06-24_12_21_10.txt
+WARNING 2024-06-11 12:21:31,602 [main.py:captureConfigX:66] Connection attempt 1/3 failed for CC-VCUBE2 (198.18.133.225): failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 12:21:31,607 [main.py:captureConfigX:67] Retrying in 2 seconds...
+WARNING 2024-06-11 12:22:05,689 [main.py:captureConfigX:66] Connection attempt 2/3 failed for CC-VCUBE2 (198.18.133.225): failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 12:22:05,692 [main.py:captureConfigX:67] Retrying in 2 seconds...
+ERROR 2024-06-11 12:22:39,782 [main.py:captureConfigX:70] Failed to establish connection to CC-VCUBE2 (198.18.133.225) after 3 attempts.
+ERROR 2024-06-11 12:22:39,785 [main.py:captureConfig:128] Error with device CC-VCUBE2: Failed to establish connection after 3 attempts., Error: failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 12:22:39,788 [main.py:captureConfig:134] Get Config - execution completed
+INFO 2024-06-11 12:25:46,775 [main.py:captureConfig:124] Connecting to devices...
+INFO 2024-06-11 12:26:03,394 [main.py:captureConfigX:99] ---getting capture config from device CC-VCUBE---
+INFO 2024-06-11 12:26:03,396 [main.py:captureConfigX:104] CC-VCUBE_11-06-24_12_26_03.txt
+WARNING 2024-06-11 12:26:19,330 [main.py:captureConfigX:67] Connection attempt 1/3 failed for CC-VCUBE2 (198.18.133.225): failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 12:26:19,332 [main.py:captureConfigX:68] Retrying in 2 seconds...
+WARNING 2024-06-11 12:26:53,428 [main.py:captureConfigX:67] Connection attempt 2/3 failed for CC-VCUBE2 (198.18.133.225): failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 12:26:53,432 [main.py:captureConfigX:68] Retrying in 2 seconds...
+ERROR 2024-06-11 12:27:27,520 [main.py:captureConfigX:71] Failed to establish connection to CC-VCUBE2 (198.18.133.225) after 3 attempts.
+ERROR 2024-06-11 12:27:27,523 [main.py:captureConfig:130] Error with device CC-VCUBE2: Failed to establish connection after 3 attempts., Error: failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 12:27:27,526 [main.py:captureConfig:136] Get Config - execution completed
+INFO 2024-06-11 13:11:56,078 [main.py:captureConfig:124] Connecting to devices...
+ERROR 2024-06-11 13:12:07,057 [main.py:captureConfigX:80] Failed to connect using pyats get Config function
+INFO 2024-06-11 13:12:07,060 [main.py:captureConfigX:86] Establishing Netmiko connection...
+INFO 2024-06-11 13:12:10,759 [main.py:captureConfigX:89] Connection established successfully.
+INFO 2024-06-11 13:12:14,386 [main.py:captureConfigX:99] ---getting capture config from device CC-VCUBE---
+INFO 2024-06-11 13:12:14,388 [main.py:captureConfigX:104] CC-VCUBE_11-06-24_13_12_14.txt
+WARNING 2024-06-11 13:12:28,292 [main.py:captureConfigX:67] Connection attempt 1/3 failed for CC-VCUBE2 (198.18.133.225): failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 13:12:28,294 [main.py:captureConfigX:68] Retrying in 2 seconds...
+WARNING 2024-06-11 13:13:02,385 [main.py:captureConfigX:67] Connection attempt 2/3 failed for CC-VCUBE2 (198.18.133.225): failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 13:13:02,390 [main.py:captureConfigX:68] Retrying in 2 seconds...
+ERROR 2024-06-11 13:13:36,481 [main.py:captureConfigX:71] Failed to establish connection to CC-VCUBE2 (198.18.133.225) after 3 attempts.
+ERROR 2024-06-11 13:13:36,485 [main.py:captureConfig:130] Error with device CC-VCUBE2: Failed to establish connection after 3 attempts., Error: failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 13:13:36,488 [main.py:captureConfig:136] Get Config - execution completed
+INFO 2024-06-11 13:16:29,765 [main.py:captureConfig:124] Connecting to devices...
+INFO 2024-06-11 13:16:44,450 [main.py:captureConfigX:99] ---getting capture config from device CC-VCUBE---
+INFO 2024-06-11 13:16:44,452 [main.py:captureConfigX:104] CC-VCUBE_11-06-24_13_16_44.txt
+WARNING 2024-06-11 13:17:02,436 [main.py:captureConfigX:68] Connection attempt 1/3 failed for CC-VCUBE2 (198.18.133.225): failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 13:17:02,441 [main.py:captureConfigX:69] Retrying in 2 seconds...
+WARNING 2024-06-11 13:17:36,549 [main.py:captureConfigX:68] Connection attempt 2/3 failed for CC-VCUBE2 (198.18.133.225): failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 13:17:36,554 [main.py:captureConfigX:69] Retrying in 2 seconds...
+ERROR 2024-06-11 13:18:10,624 [main.py:captureConfigX:72] Failed to establish connection to CC-VCUBE2 (198.18.133.225) after 3 attempts.
+ERROR 2024-06-11 13:18:10,627 [main.py:captureConfig:130] Error with device CC-VCUBE2: Failed to establish connection after 3 attempts., Error: failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 13:18:10,630 [main.py:captureConfig:136] Get Config - execution completed
+INFO 2024-06-11 13:20:32,420 [main.py:captureConfig:123] Connecting to devices...
+INFO 2024-06-11 13:20:36,639 [main.py:captureConfigX:98] ---getting capture config from device CC-VCUBE---
+INFO 2024-06-11 13:20:36,642 [main.py:captureConfigX:103] CC-VCUBE_11-06-24_13_20_36.txt
+ERROR 2024-06-11 13:20:36,644 [main.py:captureConfig:133] Exception occurred: local variable 'result' referenced before assignment
+WARNING 2024-06-11 13:21:04,987 [main.py:captureConfigX:67] Connection attempt 1/3 failed for CC-VCUBE2 (198.18.133.225): failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 13:21:04,990 [main.py:captureConfigX:68] Retrying in 2 seconds...
+WARNING 2024-06-11 13:21:39,086 [main.py:captureConfigX:67] Connection attempt 2/3 failed for CC-VCUBE2 (198.18.133.225): failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 13:21:39,090 [main.py:captureConfigX:68] Retrying in 2 seconds...
+ERROR 2024-06-11 13:22:13,177 [main.py:captureConfigX:71] Failed to establish connection to CC-VCUBE2 (198.18.133.225) after 3 attempts.
+ERROR 2024-06-11 13:22:13,183 [main.py:captureConfig:133] Exception occurred: local variable 'result' referenced before assignment
+INFO 2024-06-11 13:22:15,313 [main.py:captureConfig:123] Connecting to devices...
+INFO 2024-06-11 13:22:18,855 [main.py:captureConfigX:98] ---getting capture config from device CC-VCUBE---
+INFO 2024-06-11 13:22:18,857 [main.py:captureConfigX:103] CC-VCUBE_11-06-24_13_22_18.txt
+WARNING 2024-06-11 13:22:47,783 [main.py:captureConfigX:67] Connection attempt 1/3 failed for CC-VCUBE2 (198.18.133.225): failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 13:22:47,788 [main.py:captureConfigX:68] Retrying in 2 seconds...
+WARNING 2024-06-11 13:23:21,865 [main.py:captureConfigX:67] Connection attempt 2/3 failed for CC-VCUBE2 (198.18.133.225): failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 13:23:21,868 [main.py:captureConfigX:68] Retrying in 2 seconds...
+ERROR 2024-06-11 13:23:55,942 [main.py:captureConfigX:71] Failed to establish connection to CC-VCUBE2 (198.18.133.225) after 3 attempts.
+ERROR 2024-06-11 13:23:55,947 [main.py:captureConfig:130] Error with device CC-VCUBE2: Failed to establish connection after 3 attempts., Error: failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 13:23:55,950 [main.py:captureConfig:136] Get Config - execution completed
+INFO 2024-06-11 13:24:43,587 [main.py:captureConfig:123] Connecting to devices...
+INFO 2024-06-11 13:24:53,451 [main.py:captureConfigX:98] ---getting capture config from device CC-VCUBE---
+INFO 2024-06-11 13:24:53,453 [main.py:captureConfigX:103] CC-VCUBE_11-06-24_13_24_53.txt
+WARNING 2024-06-11 13:25:16,056 [main.py:captureConfigX:67] Connection attempt 1/3 failed for CC-VCUBE2 (198.18.133.225): failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 13:25:16,059 [main.py:captureConfigX:68] Retrying in 2 seconds...
+WARNING 2024-06-11 13:25:50,134 [main.py:captureConfigX:67] Connection attempt 2/3 failed for CC-VCUBE2 (198.18.133.225): failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 13:25:50,137 [main.py:captureConfigX:68] Retrying in 2 seconds...
+ERROR 2024-06-11 13:26:24,223 [main.py:captureConfigX:71] Failed to establish connection to CC-VCUBE2 (198.18.133.225) after 3 attempts.
+ERROR 2024-06-11 13:26:24,228 [main.py:captureConfig:130] Error with device CC-VCUBE2: Failed to establish connection after 3 attempts., Error: failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 13:26:24,231 [main.py:captureConfig:136] Get Config - execution completed
+INFO 2024-06-11 13:29:37,925 [main.py:captureConfig:122] Connecting to devices...
+INFO 2024-06-11 13:29:46,784 [main.py:captureConfigX:97] ---getting capture config from device CC-VCUBE---
+INFO 2024-06-11 13:29:46,786 [main.py:captureConfigX:102] CC-VCUBE_11-06-24_13_29_46.txt
+WARNING 2024-06-11 13:30:11,128 [main.py:captureConfigX:66] Connection attempt 1/3 failed for CC-VCUBE2 (198.18.133.225): failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 13:30:11,130 [main.py:captureConfigX:67] Retrying in 2 seconds...
+WARNING 2024-06-11 13:30:45,193 [main.py:captureConfigX:66] Connection attempt 2/3 failed for CC-VCUBE2 (198.18.133.225): failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 13:30:45,196 [main.py:captureConfigX:67] Retrying in 2 seconds...
+ERROR 2024-06-11 13:31:19,285 [main.py:captureConfigX:70] Failed to establish connection to CC-VCUBE2 (198.18.133.225) after 3 attempts.
+ERROR 2024-06-11 13:31:19,291 [main.py:captureConfig:128] Error with device CC-VCUBE2: Failed to establish connection after 3 attempts., Error: failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 13:31:19,294 [main.py:captureConfig:134] Get Config - execution completed
+INFO 2024-06-11 13:32:26,344 [main.py:captureConfig:122] Connecting to devices...
+INFO 2024-06-11 13:32:37,602 [main.py:captureConfigX:97] ---getting capture config from device CC-VCUBE---
+INFO 2024-06-11 13:32:37,605 [main.py:captureConfigX:102] CC-VCUBE_11-06-24_13_32_37.txt
+WARNING 2024-06-11 13:32:59,053 [main.py:captureConfigX:66] Connection attempt 1/3 failed for CC-VCUBE2 (198.18.133.225): failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 13:32:59,056 [main.py:captureConfigX:67] Retrying in 2 seconds...
+WARNING 2024-06-11 13:33:33,144 [main.py:captureConfigX:66] Connection attempt 2/3 failed for CC-VCUBE2 (198.18.133.225): failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 13:33:33,146 [main.py:captureConfigX:67] Retrying in 2 seconds...
+ERROR 2024-06-11 13:34:07,243 [main.py:captureConfigX:70] Failed to establish connection to CC-VCUBE2 (198.18.133.225) after 3 attempts.
+ERROR 2024-06-11 13:34:07,247 [main.py:captureConfig:128] Error with device CC-VCUBE2: Failed to establish connection after 3 attempts., Error: failed to connect to CC-VCUBE2
+Failed while bringing device to "any" state
+INFO 2024-06-11 13:34:07,249 [main.py:captureConfig:134] Get Config - execution completed

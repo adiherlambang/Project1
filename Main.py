@@ -148,11 +148,17 @@ def getConfig():
     if checkTestbedFile():
         waktu = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         results = captureConfig(testbedFile)
+        error_count=0
+        success_count=0
         for result in results:
             if result["success"]:
-                flash(f"Success: {result['message']}")
+                # flash(f"Success: {result['message']}")
+                success_count +=1
             else:
-                flash(f"Error: {result['message']} - {result['error']}", 'error')
+                # flash(f"Error: {result['message']} - {result['error']}", 'error')
+                error_count +=1
+                
+        flash(f"Finish Capture Config Data, Success :{success_count} Error :{error_count} from {len(results)} device in the list")    
         flash("Logs details : " + summary_log(waktu,'CaptureConfig'))
         return jsonify(data=get_flashed_messages())
     else:
@@ -165,14 +171,17 @@ def getInvent():
         waktu = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         results = captureInventory(testbedFile)
         error_count = 0
-
+        success_count = 0
+        
         for result in results:
             if result["success"]:
-                flash(f"Success: {result['message']}")
+                # flash(f"Success: {result['message']}")
+                success_count += 1
             else:
-                flash(f"Error: {result['message']} - {result['error']}", 'error')
+                # flash(f"Error: {result['message']} - {result['error']}", 'error')
                 error_count += 1
-
+        
+        flash(f"Finish Capture Inventory Data, Success :{success_count} Error :{error_count} from {len(results)} device in the list")
         flash("Logs details : " + summary_log(waktu,'CaptureInventory'))
         return jsonify(data=get_flashed_messages())
     else:
@@ -283,4 +292,4 @@ def downloadFile():
     return send_file(file_path, as_attachment=True)
 
 
-app.run(host="0.0.0.0",debug=True,port=8081)
+app.run(debug=True,port=8081)

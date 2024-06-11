@@ -32,8 +32,8 @@ logger.addHandler(shell_handler)
 logger.addHandler(file_handler)
 
 # Check if output folder is available, create it if not
-if not os.path.exists("out/MemmoryUtils"):
-    os.makedirs("out/MemmoryUtils")
+if not os.path.exists("out/Capture_Memmory_Utilization"):
+    os.makedirs("out/Capture_Memmory_Utilization")
 
 # Load the topology from the YAML file
 
@@ -109,7 +109,7 @@ def get_iosxe_memory_info(device, counter):
 
             # Write the output to the CSV file
             with open(
-                f"out/MemmoryUtils/Memmory_{timestamp}.csv", "a", newline=""
+                f"out/Capture_Memmory_Utilization/Memmory_{timestamp}.csv", "a", newline=""
             ) as csvfile:
                 writer = csv.writer(csvfile)
                 writer.writerow([f"{counter}", f"{device.name}", used, total, percentage, category])
@@ -165,7 +165,7 @@ def get_iosxe_memory_info(device, counter):
             print(category)
     
             with open(
-                        f"out/MemmoryUtils/Memmory_{timestamp}.csv", "a", newline=""
+                        f"out/Capture_Memmory_Utilization/Memmory_{timestamp}.csv", "a", newline=""
                     ) as csvfile:
                         writer = csv.writer(csvfile)
                         writer.writerow([f"{counter}", f"{device.name}", used, total, percentage, category])       
@@ -215,7 +215,7 @@ def get_iosxr_memory_info(device, counter):
 
         # Write the output to the CSV file
         with open(
-            f"out/MemmoryUtils/Memmory_{timestamp}.csv", "a", newline=""
+            f"out/Capture_Memmory_Utilization/Memmory_{timestamp}.csv", "a", newline=""
         ) as csvfile:
             writer = csv.writer(csvfile)
             writer.writerow([f"{counter}", f"{device.name}", used_memory_mb, physical_memory_mb, percentage, category])
@@ -270,7 +270,7 @@ def get_ios_memory_info(device, counter):
 
         # Write the output to the CSV file
         with open(
-            f"out/MemmoryUtils/Memmory_{timestamp}.csv", "a", newline=""
+            f"out/Capture_Memmory_Utilization/Memmory_{timestamp}.csv", "a", newline=""
         ) as csvfile:
             writer = csv.writer(csvfile)
             writer.writerow([f"{counter}", f"{device.name}", used, total, percentage, category])
@@ -322,7 +322,7 @@ def get_nxos_memory_info(device, counter):
 
             # Write the output to the CSV file
             with open(
-                f"out/MemmoryUtils/Memmory_{timestamp}.csv", "a", newline=""
+                f"out/Capture_Memmory_Utilization/Memmory_{timestamp}.csv", "a", newline=""
             ) as csvfile:
                 writer = csv.writer(csvfile)
                 writer.writerow([f"{counter}", f"{device.name}", used, total, percentage, category])
@@ -380,7 +380,7 @@ def get_nxos_memory_info(device, counter):
             print(category)
     
             with open(
-                        f"out/MemmoryUtils/Memmory_{timestamp}.csv", "a", newline=""
+                        f"out/Capture_Memmory_Utilization/Memmory_{timestamp}.csv", "a", newline=""
                     ) as csvfile:
                         writer = csv.writer(csvfile)
                         writer.writerow([f"{counter}", f"{device.name}", used, total, percentage, category])       
@@ -392,12 +392,12 @@ def get_nxos_memory_info(device, counter):
 def getMemmoryUtils(testbedFile):
     testbed = load(testbedFile)
     # Open the output file in append mode
-    with open(f"out/MemmoryUtils/Memmory_{timestamp}.csv", "a", newline="") as csvfile:
+    with open(f"out/Capture_Memmory_Utilization/Memmory_{timestamp}.csv", "a", newline="") as csvfile:
         writer = csv.writer(csvfile)
         # Write the header row
         writer.writerow(["No", "Device", "Memory Used in MB", "Memory Total in MB", "Percentage", "Category"])
     # Define csv name for sorted purpose
-    input_csv = (F"out/MemmoryUtils/summary_show_memory_{timestamp}.csv")
+    input_csv = (F"out/Capture_Memmory_Utilization/Memmory_{timestamp}.csv")
     sort_field = "No"
     # Create a list of futures for iosxe and iosxr devices
     futures = []

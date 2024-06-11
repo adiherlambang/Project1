@@ -1570,3 +1570,46 @@ INFO 2024-05-31 19:22:13,701 [main.py:runNetmiko:195] Skip loopback501 for devic
 INFO 2024-05-31 19:22:13,703 [main.py:runNetmiko:195] Skip loopback502 for device: DC1CORSWT-12
 INFO 2024-05-31 19:22:13,704 [main.py:runNetmiko:195] Skip Vlan1 for device: DC1CORSWT-12
 INFO 2024-05-31 19:22:13,707 [main.py:interfaceCRC:265] Script execution completed successfully.
+INFO 2024-06-11 14:48:01,267 [main.py:proc_iface_crc_xe:72] Pyats parser with iosXE type function
+INFO 2024-06-11 14:48:01,373 [main.py:proc_iface_crc_xe:72] Pyats parser with iosXE type function
+INFO 2024-06-11 14:48:02,092 [main.py:proc_iface_crc_xe:75] Device: CC-VCUBE
+WARNING 2024-06-11 14:48:33,796 [main.py:proc_iface_crc_xe:94] Error get CRC for device CC-VCUBE2 using pyAts
+INFO 2024-06-11 14:48:33,799 [main.py:interfaceCRC:266] Script execution completed successfully.
+INFO 2024-06-11 14:53:04,206 [main.py:proc_iface_crc_xe:72] Pyats parser with OS iosXE type
+INFO 2024-06-11 14:53:04,312 [main.py:proc_iface_crc_xe:72] Pyats parser with OS iosXE type
+INFO 2024-06-11 14:53:04,732 [main.py:proc_iface_crc_xe:75] Device: CC-VCUBE
+WARNING 2024-06-11 14:53:06,161 [main.py:proc_iface_crc_xe:96] Error get CRC for device CC-VCUBE using pyAts
+WARNING 2024-06-11 14:53:36,959 [main.py:proc_iface_crc_xe:96] Error get CRC for device CC-VCUBE2 using pyAts
+INFO 2024-06-11 14:53:36,962 [main.py:interfaceCRC:268] Script execution completed successfully.
+INFO 2024-06-11 14:54:26,904 [main.py:proc_iface_crc_xe:72] Pyats parser with OS iosXE type
+INFO 2024-06-11 14:54:27,947 [main.py:proc_iface_crc_xe:75] Device: CC-VCUBE
+WARNING 2024-06-11 14:54:28,901 [main.py:proc_iface_crc_xe:96] Error get CRC for device CC-VCUBE using pyAts
+INFO 2024-06-11 14:54:28,903 [main.py:interfaceCRC:268] Script execution completed successfully.
+INFO 2024-06-11 14:55:21,626 [main.py:proc_iface_crc_xe:72] Pyats parser with OS iosXE type
+INFO 2024-06-11 14:55:22,625 [main.py:proc_iface_crc_xe:75] Device: CC-VCUBE
+WARNING 2024-06-11 14:55:24,436 [main.py:proc_iface_crc_xe:96] Error get CRC for device CC-VCUBE using pyAts
+INFO 2024-06-11 14:55:24,439 [main.py:interfaceCRC:268] Script execution completed successfully.
+INFO 2024-06-11 14:56:33,892 [main.py:proc_iface_crc_xe:72] Pyats parser with OS iosXE type
+INFO 2024-06-11 14:56:34,333 [main.py:proc_iface_crc_xe:75] Device: CC-VCUBE
+WARNING 2024-06-11 14:56:35,581 [main.py:proc_iface_crc_xe:96] Error get CRC for device CC-VCUBE using pyAts
+INFO 2024-06-11 14:56:35,584 [main.py:interfaceCRC:268] Script execution completed successfully.
+INFO 2024-06-11 14:58:28,165 [main.py:proc_iface_crc_xe:72] Pyats parser with OS iosXE type
+INFO 2024-06-11 14:58:28,625 [main.py:proc_iface_crc_xe:75] Device: CC-VCUBE
+WARNING 2024-06-11 14:58:29,809 [main.py:proc_iface_crc_xe:96] Error get CRC for device CC-VCUBE using pyAts
+INFO 2024-06-11 14:58:29,811 [main.py:interfaceCRC:268] Script execution completed successfully.
+INFO 2024-06-11 14:59:13,507 [main.py:proc_iface_crc_xe:72] Pyats parser with OS iosXE type
+INFO 2024-06-11 14:59:13,936 [main.py:proc_iface_crc_xe:75] Device: CC-VCUBE
+WARNING 2024-06-11 14:59:15,294 [main.py:proc_iface_crc_xe:96] Error get CRC for device CC-VCUBE using pyAts, Error : string indices must be integers
+INFO 2024-06-11 14:59:15,297 [main.py:interfaceCRC:268] Script execution completed successfully.
+INFO 2024-06-11 15:00:30,699 [main.py:proc_iface_crc_xe:72] Pyats parser with OS iosXE type
+INFO 2024-06-11 15:00:31,338 [main.py:proc_iface_crc_xe:75] Device: CC-VCUBE
+INFO 2024-06-11 15:00:32,849 [main.py:interfaceCRC:268] Script execution completed successfully.
+INFO 2024-06-11 15:00:54,931 [main.py:proc_iface_crc_xe:72] Pyats parser with OS iosXE type
+INFO 2024-06-11 15:00:57,939 [main.py:proc_iface_crc_xe:75] Device: CC-VCUBE
+INFO 2024-06-11 15:01:00,195 [main.py:interfaceCRC:268] Script execution completed successfully.
+INFO 2024-06-11 15:01:26,252 [main.py:proc_iface_crc_xe:72] Pyats parser with OS iosXE type
+INFO 2024-06-11 15:01:27,780 [main.py:proc_iface_crc_xe:75] Device: CC-VCUBE
+INFO 2024-06-11 15:01:29,988 [main.py:interfaceCRC:268] Script execution completed successfully.
+INFO 2024-06-11 15:03:32,203 [main.py:proc_iface_crc_xe:72] Pyats parser with OS iosXE type
+INFO 2024-06-11 15:03:34,211 [main.py:proc_iface_crc_xe:75] Device: CC-VCUBE
+INFO 2024-06-11 15:03:38,112 [main.py:interfaceCRC:269] Script execution completed successfully.

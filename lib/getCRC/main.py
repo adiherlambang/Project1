@@ -37,11 +37,11 @@ count_iface_down = 0
 timestamp = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 
 # Check if output folder is available, create it if not
-if not os.path.exists("out/InterfaceCRC"):
-    os.makedirs("out/InterfaceCRC")
+if not os.path.exists("out/Capture_Interface_CRC"):
+    os.makedirs("out/Capture_Interface_CRC")
 
 def proc_iface_crc_ios(device,counter):
-    logger.info("Pyats parser with ios type function")
+    logger.info("Pyats parser with OS IOS type")
     try:
         device.connect(learn_hostname = True, learn_os = True, log_stdout=False,mit=True)
         logger.info(f"Device: {device.name}")
@@ -69,28 +69,32 @@ def proc_iface_crc_ios(device,counter):
 
 
 def proc_iface_crc_xe(device,counter):
-    logger.info("Pyats parser with iosXE type function")
+    logger.info("Pyats parser with OS iosXE type")
     try:
         device.connect(learn_hostname = True, learn_os = True, log_stdout=False,mit=True)
         logger.info(f"Device: {device.name}")
         output_iface_crc = device.parse('show interfaces')
+        # print(output_iface_crc)
         for iface in output_iface_crc:
+            # print(iface)
+            # print(output_iface_crc[iface]['counters']['in_crc_errors'])
             crc = output_iface_crc[iface]['counters']['in_crc_errors']
             input_errors = output_iface_crc[iface]['counters']['in_errors']
             output_errors = output_iface_crc[iface]['counters']['out_errors']
-            with open(
-            f"out/InterfaceCRC/show_crc_{timestamp}.csv", "a", newline=""
-            ) as csvfile:
-                writer = csv.writer(csvfile)  
-                writer.writerow([counter,device.name,iface,crc,input_errors,output_errors])
-            if crc > 0 or input_errors > 0 or output_errors > 0:
-                    with open(
-                    f"out/InterfaceCRC/found_crc_{timestamp}.csv", "a", newline=""
-                    ) as csvfile:
-                        writer = csv.writer(csvfile)  
-                        writer.writerow([counter,device.name,iface,crc,input_errors,output_errors])  
-    except Exception as e:
-        logger.warning(f"Error get CRC for device {device.name} using pyAts")
+            print(f"CRC{crc},in_error{input_errors},out_error{output_errors}")
+            # with open(
+            # f"out/InterfaceCRC/show_crc_{timestamp}.csv", "a", newline=""
+            # ) as csvfile:
+            #     writer = csv.writer(csvfile)  
+            #     writer.writerow([counter,device.name,iface,crc,input_errors,output_errors])
+            # if crc > 0 or input_errors > 0 or output_errors > 0:
+            #         with open(
+            #         f"out/InterfaceCRC/found_crc_{timestamp}.csv", "a", newline=""
+            #         ) as csvfile:
+            #             writer = csv.writer(csvfile)  
+            #             writer.writerow([counter,device.name,iface,crc,input_errors,output_errors])  
+    except Exception as pyAtsError:
+        logger.warning(f"Error get CRC for device {device.name} using pyAts, Error : {pyAtsError}")
 
 def proc_iface_crc_xr(device,counter):
     logger.info("Pyats parser with iosXR type function")

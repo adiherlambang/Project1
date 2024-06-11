@@ -96,15 +96,39 @@ def captureInventoryX(device):
                     return result
 
         output = device.parse('show inventory')
+        # print(output)
         inventory_data = []
 
-        for index, (key, value) in enumerate(output.items(), start=1):
-            inventory_data.append({
-                'No_Inventory': index,
-                'Name': value.get('name', ''),
-                'PID': value.get('pid', ''),
-                'SN': value.get('sn', '')
-            })
+        if device.type == 'nxos':
+            for index, (key, value) in enumerate(output.items(), start=1):
+                inventory_data.append({
+                    'No_Inventory': index,
+                    'Name': value.get('name', ''),
+                    'PID': value.get('pid', ''),
+                    'SN': value.get('sn', '')
+                })
+        else :
+            for index, (key, value) in enumerate(output['main']['chassis'].items(), start=1):
+                inventory_data.append({
+                    'No_Inventory': index,
+                    'Name': value.get('name', ''),
+                    'Description': value.get('descr', ''),
+                    'PID': value.get('pid', ''),
+                    'VID': value.get('vid', ''),
+                    'SN': value.get('sn', '')
+                })
+            start_index = len(inventory_data) + 1  # Starting index for slot data
+            for index, (key, value) in enumerate(output['slot'].items(), start=start_index):
+                for sub_key, sub_value in value.items():
+                    for sub_sub_key, sub_sub_value in sub_value.items():
+                        inventory_data.append({
+                            'No_Inventory': index,
+                            'Name': sub_sub_value.get('name', ''),
+                            'Description': sub_sub_value.get('descr', ''),
+                            'PID': sub_sub_value.get('pid', ''),
+                            'VID': sub_sub_value.get('vid', ''),
+                            'SN': sub_sub_value.get('sn', '')
+                        })
         
         result["data"] = inventory_data
         result["success"] = True
@@ -165,7 +189,7 @@ def captureInventory(testbedFile):
     csv_filepath = os.path.join("out", "CaptureInventory", csv_filename)
 
     with open(csv_filepath, mode='w', newline='') as csvfile:
-        fieldnames = ['No_Hostname', 'Hostname', 'No_Inventory', 'Name', 'PID', 'SN']
+        fieldnames = ['No_Hostname', 'Hostname', 'No_Inventory', 'Name', 'Description', 'PID', 'SN']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
         writer.writeheader()
@@ -181,6 +205,7 @@ def captureInventory(testbedFile):
                     'Hostname': hostname,
                     'No_Inventory': inventory_counter,
                     'Name': inventory['Name'],
+                    'Description' : inventory['Description'],
                     'PID': inventory['PID'],
                     'SN': inventory['SN']
                 }
