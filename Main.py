@@ -35,7 +35,7 @@ crcListedFile = 'testbed/interfaceCRClist.yaml'
 
 app.secret_key = 'myApps'
 
-
+waktu = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
 def checkTestbedFile():
     if os.path.exists(testbedFile):
@@ -146,7 +146,6 @@ def uploadInterfaceCRCfile():
 @app.route('/getConfig', methods=['POST'])
 def getConfig():
     if checkTestbedFile():
-        waktu = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         results = captureConfig(testbedFile)
         error_count=0
         success_count=0
@@ -168,7 +167,6 @@ def getConfig():
 @app.route('/getInvent', methods=['POST'])
 def getInvent():
     if checkTestbedFile():
-        waktu = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         results = captureInventory(testbedFile)
         error_count = 0
         success_count = 0
@@ -191,8 +189,20 @@ def getInvent():
 @app.route('/getMemUtils', methods=['POST'])
 def getMemUtils():
     if checkTestbedFile()==True:
-        getMemmoryUtils(testbedFile)
-        flash(f"Success to get Memmory devices")
+        results = getMemmoryUtils(testbedFile)
+        error_count = 0
+        success_count = 0
+        
+        for result in results:
+            if result["success"]:
+                # flash(f"Success: {result['message']}")
+                success_count += 1
+            else:
+                # flash(f"Error: {result['message']} - {result['error']}", 'error')
+                error_count += 1
+        
+        flash(f"Finish Capture Memmory Utilization Data, Success :{success_count} Error :{error_count} from {len(results)} device in the list")
+        flash("Logs details : " + summary_log(waktu,'getMemmoryUtils'))
         return jsonify(data=get_flashed_messages())
     else:
         flash(f"device list file is not ready, please check the device list file")
@@ -292,4 +302,5 @@ def downloadFile():
     return send_file(file_path, as_attachment=True)
 
 
-app.run(debug=True,port=8081)
+if __name__ == "__main__":
+    app.run(port=8081)

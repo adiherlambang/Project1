@@ -12,3 +12,16 @@ devices:
         password: C1sco12345
     os: iosxe
     type: iosxe
+  CC-VCUBE1:
+    connections:
+      cli:
+        ip: 198.18.133.226
+        protocol: ssh
+    credentials:
+      default:
+        password: C1sco12345
+        username: admin
+      enable:
+        password: C1sco12345
+    os: iosxe
+    type: iosxe

@@ -35,8 +35,6 @@ logger.addHandler(file_handler)
 if not os.path.exists("out/Capture_Memmory_Utilization"):
     os.makedirs("out/Capture_Memmory_Utilization")
 
-# Load the topology from the YAML file
-
 timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 
 def convert_to_netmiko(device):
@@ -66,250 +64,47 @@ def sort_csv_by_field(input_file, sort_field):
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(sorted_data)
-
-def get_iosxe_memory_info(device, counter):
-    try:
-        try:
-            attempt = 1
-            retry = 0
-            mx_retry = 3
-            while retry < mx_retry:
-                try:
-                    logger.info(f"Connecting to Device: {device.name}")
-                    device.connect(learn_hostname = True, learn_os = True, log_stdout=False,mit=True)
-                    logger.info(f"Successfully Connected to Device: {device.name}")
-                    break
-                except Exception as conn_error:
-                        retry += 1
-                        attempt +=1
-                        if retry < mx_retry:
-                            logger.error(f"Connection attempt {retry}/{mx_retry} failed for {device.name} ({device.connections.cli.ip}): {conn_error}")
-                            logger.info(f"Retrying in 1 seconds...")
-                            time.sleep(2)
-                        else:
-                            logger.error(f"Failed to establish connection to {device.name} ({device.connections.cli.ip}) after {mx_retry} attempts.")
-                            break  # Exit the loop after max retries
-                        
-            # Print the output
-            output = device.parse("show processes memory")
-
-            used = round(output['processor_pool']['used']/1024/1000, 2)
-            total = round(output['processor_pool']['total']/1024/1000, 2)
-            percentage = round(used / total * 100, 2)
-
-            # Categorize percentage based on certain ranges
-            if percentage <= 40:
-                category = "low"
-            elif percentage <= 70:
-                category = "medium"
-            elif percentage <= 85:
-                category = "high"
-            else:
-                category = "critical"
-
-            # Write the output to the CSV file
-            with open(
-                f"out/Capture_Memmory_Utilization/Memmory_{timestamp}.csv", "a", newline=""
-            ) as csvfile:
-                writer = csv.writer(csvfile)
-                writer.writerow([f"{counter}", f"{device.name}", used, total, percentage, category])
-        except:
-            logger.error("gagal dengan function utama iosxe")
-
-            # Convert the device to Netmiko format
-            netmiko_device = convert_to_netmiko(device)
-
-            # Establish the Netmiko connection
-            logger.info("Establishing Netmiko connection...")
-            connection = ConnectHandler(**netmiko_device)
-            logger.info("Connection established successfully.")
-
-            # Send a command and retrieve the output
-            command = "show processes memory"
-            output = connection.send_command(command)
-
-            with open('lib/getMemmory/ios_xe_switch.template') as template:
-                template = textfsm.TextFSM(template)
-
-            # Parse the command output using the template
-            parsed_output = template.ParseText(output)
-
-            logger.info(parsed_output)
-
-            header = template.header
-            used_index = header.index('used')
-            total_index = header.index('total')
-            free_index = header.index('free')
-
-            # Extract the values from the parsed output
-            used = round(int(parsed_output[0][used_index])/1024, 2)
-            total = round(int(parsed_output[0][total_index])/1024, 2)
-            free = round(int(parsed_output[0][free_index])/1024 , 2)
-            percentage = round(used / total * 100, 2)
-
-            # print(percentage)
-
-            # Print the extracted values
-            print(f"Used memory: {used}")
-            print(f"Total memory: {total}")
-            print(f"Free memory: {free}")
-
-            if percentage <= 40:
-                category = "low"
-            elif percentage <= 70:
-                category = "medium"
-            elif percentage <= 85:
-                category = "high"
-            else:
-                category = "critical"
-            print(category)
+        
+def getMemmoryInfo(device):
+    result = {
+        "device": device.name,
+        "success": False,
+        "message": "",
+        "error":"",
+        'data':None
+    }
     
-            with open(
-                        f"out/Capture_Memmory_Utilization/Memmory_{timestamp}.csv", "a", newline=""
-                    ) as csvfile:
-                        writer = csv.writer(csvfile)
-                        writer.writerow([f"{counter}", f"{device.name}", used, total, percentage, category])       
-        return counter
-    except Exception as e:
-        logger.error(f"Error connecting to device {device.name}: {e}")
-
-def get_iosxr_memory_info(device, counter):
     try:
-        # Connect to the device
         attempt = 1
         retry = 0
         mx_retry = 3
+        
         while retry < mx_retry:
             try:
                 logger.info(f"Connecting to Device: {device.name}")
-                device.connect(learn_hostname = True, learn_os = True, log_stdout=False,mit=True)
+                device.connect(learn_hostname=True, learn_os=True, log_stdout=False, mit=True)
                 logger.info(f"Successfully Connected to Device: {device.name}")
                 break
             except Exception as conn_error:
-                    retry += 1
-                    attempt +=1
-                    if retry < mx_retry:
-                        logger.error(f"Connection attempt {retry}/{mx_retry} failed for {device.name} ({device.connections.cli.ip}): {conn_error}")
-                        logger.info(f"Retrying in 1 seconds...")
-                        time.sleep(2)
-                    else:
-                        logger.error(f"Failed to establish connection to {device.name} ({device.connections.cli.ip}) after {mx_retry} attempts.")
-                        break  # Exit the loop after max retries
-
-        output = device.parse("show watchdog memory-state")
-
-        physical_memory_mb = output["node"]["node0_RP0_CPU0"]["physical_memory_mb"]
-        free_memory_mb = output["node"]["node0_RP0_CPU0"]["free_memory_mb"]
-        used_memory_mb = physical_memory_mb - free_memory_mb
-        percentage = round(used_memory_mb / physical_memory_mb * 100, 2)
-
-        # Categorize percentage based on certain ranges
-        if percentage <= 40:
-            category = "low"
-        elif percentage <= 70:
-            category = "medium"
-        elif percentage <= 85:
-            category = "high"
-        else:
-            category = "critical"
-
-        # Write the output to the CSV file
-        with open(
-            f"out/Capture_Memmory_Utilization/Memmory_{timestamp}.csv", "a", newline=""
-        ) as csvfile:
-            writer = csv.writer(csvfile)
-            writer.writerow([f"{counter}", f"{device.name}", used_memory_mb, physical_memory_mb, percentage, category])
-
-        return counter
-
-    except Exception as e:
-        logger.error(f"Error connecting to device {device.name}: {e}")
-
-def get_ios_memory_info(device, counter):
-    try:
-        attempt = 1
-        retry = 0
-        mx_retry = 3
-        while retry < mx_retry:
-            try:
-                logger.info(f"Initiate connection to Device {device.name} attempt {attempt}")
-                device.connect(mit=True, log_stdout=False)
-                # Print the output
-                logger.info(f"Device: {device.name} Connected Successfully")
-                #send command
-                try:
-                    output = device.parse("show processes memory")
-                    logger.info(f"Parse Device: {device.name} Data Successfully")
-                except:
-                    logger.info(f"Failed to Parse Device: {device.name}")
-                break  # Exit the loop if connected successfully
-            except Exception as conn_error:
                 retry += 1
-                attempt +=1
+                attempt += 1
                 if retry < mx_retry:
-                    logger.error(f"Connection attempt {retry}/{mx_retry} failed for {device.name} ({device.connections.cli.ip}): {conn_error}")
-                    logger.info(f"Retrying in 2 seconds...")
+                    logger.warning(f"Connection attempt {retry}/{mx_retry} failed for {device.name} ({device.connections.cli.ip}): {conn_error}")
+                    logger.info("Retrying in 2 seconds...")
                     time.sleep(2)
                 else:
                     logger.error(f"Failed to establish connection to {device.name} ({device.connections.cli.ip}) after {mx_retry} attempts.")
-                    break  # Exit the loop after max retries
-
-        used = round(output['processor_pool']['used']/1024/1000, 2)
-        total = round(output['processor_pool']['total']/1024/1000, 2)
-        percentage = round(used / total * 100, 2)
-
-        # Categorize percentage based on certain ranges
-        if percentage <= 40:
-            category = "low"
-        elif percentage <= 70:
-            category = "medium"
-        elif percentage <= 85:
-            category = "high"
-        else:
-            category = "critical"
-
-        # Write the output to the CSV file
-        with open(
-            f"out/Capture_Memmory_Utilization/Memmory_{timestamp}.csv", "a", newline=""
-        ) as csvfile:
-            writer = csv.writer(csvfile)
-            writer.writerow([f"{counter}", f"{device.name}", used, total, percentage, category])
-
-        return counter
-
-    except Exception as e:
-        logger.error(f"Error connecting to device {device.name}: {e}")
-
-def get_nxos_memory_info(device, counter):
-    try:
-        try:
-            # Connect to the device
-            attempt = 1
-            retry = 0
-            mx_retry = 3
-            while retry < mx_retry:
-                try:
-                    logger.info(f"Connecting to Device: {device.name}")
-                    device.connect(learn_hostname = True, learn_os = True, log_stdout=False,mit=True)
-                    logger.info(f"Successfully Connected to Device: {device.name}")
-                    break
-                except Exception as conn_error:
-                        retry += 1
-                        attempt +=1
-                        if retry < mx_retry:
-                            logger.error(f"Connection attempt {retry}/{mx_retry} failed for {device.name} ({device.connections.cli.ip}): {conn_error}")
-                            logger.info(f"Retrying in 1 seconds...")
-                            time.sleep(2)
-                        else:
-                            logger.error(f"Failed to establish connection to {device.name} ({device.connections.cli.ip}) after {mx_retry} attempts.")
-                            break  # Exit the loop after max retries
-
-            output = device.parse("show system resources")
-
-            used = round(output["memory_usage"]["memory_usage_used_kb"]/1024, 2)
-            total = round(output["memory_usage"]["memory_usage_total_kb"]/1024, 2)
+                    result["error"] = str(conn_error)
+                    return result
+            
+        if device.type == 'iosxe':
+            logger.info(f"Device: {device.name}, with OS type: {device.type}")
+            output = device.parse("show processes memory")
+            # print(output)
+            used = round(output['processor_pool']['used']/1024/1000, 2)
+            total = round(output['processor_pool']['total']/1024/1000, 2)
             percentage = round(used / total * 100, 2)
-
+            
             # Categorize percentage based on certain ranges
             if percentage <= 40:
                 category = "low"
@@ -319,130 +114,434 @@ def get_nxos_memory_info(device, counter):
                 category = "high"
             else:
                 category = "critical"
+                
+            result["success"] = True
+            memmory_data = []
+            
+            for index, (key, value) in enumerate(output.items(), start=1):
+                memmory_data.append({
+                    'No':index,
+                    'Hostname':device.name,
+                    'Usage':used,
+                    'Total':total,
+                    'Percentage':percentage,
+                    'Category':category
+                })
+            
+            result["data"] = memmory_data
+            result["success"] = True
+            result["message"] = f"Memmory utilization captured successfully for {device.name}"
+            # with open(
+            #     f"out/Capture_Memmory_Utilization/Memmory_{timestamp}.csv", "a", newline=""
+            # ) as csvfile:
+            #     writer = csv.writer(csvfile)
+            #     writer.writerow([f"{counter}", f"{device.name}", used, total, percentage, category])
+                
+        elif device.type == 'iosxr':
+            output = device.parse("show watchdog memory-state")
+        elif device.type == 'ios':
+            output = device.parse("show processes memory")
+        elif device.type == 'nxos':
+            output = device.parse("show system resources")
+        else :
+            result["success"] = False
+            result["error"] = "Not Compatible device OS version"
+            return result               
+            
+    except Exception as pyats_error:
+        logger.error("Failed to connect using pyats get Memmory Utilization function")
+        result["error"] = str(pyats_error)
+    return result
 
-            # Write the output to the CSV file
-            with open(
-                f"out/Capture_Memmory_Utilization/Memmory_{timestamp}.csv", "a", newline=""
-            ) as csvfile:
-                writer = csv.writer(csvfile)
-                writer.writerow([f"{counter}", f"{device.name}", used, total, percentage, category])
+# def get_iosxe_memory_info(device, counter):
+#     result["device"] = device.name
+#     try:
+#         try:
+#             attempt = 1
+#             retry = 0
+#             mx_retry = 3
+#             while retry < mx_retry:
+#                 try:
+#                     logger.info(f"Connecting to Device: {device.name}")
+#                     device.connect(learn_hostname = True, learn_os = True, log_stdout=False,mit=True)
+#                     logger.info(f"Successfully Connected to Device: {device.name}")
+#                     break
+#                 except Exception as conn_error:
+#                         retry += 1
+#                         attempt +=1
+#                         if retry < mx_retry:
+#                             logger.error(f"Connection attempt {retry}/{mx_retry} failed for {device.name} ({device.connections.cli.ip}): {conn_error}")
+#                             logger.info(f"Retrying in 1 seconds...")
+#                             time.sleep(2)
+#                         else:
+#                             logger.error(f"Failed to establish connection to {device.name} ({device.connections.cli.ip}) after {mx_retry} attempts.")
+#                             result["error"] = str(conn_error)
+#                             break  # Exit the loop after max retries
+                        
+#             # Print the output
+#             output = device.parse("show processes memory")
 
-            return counter
-        except:
-            logger.info("gagal dengan function utama nxos")
-            # Convert the device to Netmiko format
-            netmiko_device = convert_to_netmiko(device)
+#             used = round(output['processor_pool']['used']/1024/1000, 2)
+#             total = round(output['processor_pool']['total']/1024/1000, 2)
+#             percentage = round(used / total * 100, 2)
+
+#             # Categorize percentage based on certain ranges
+#             if percentage <= 40:
+#                 category = "low"
+#             elif percentage <= 70:
+#                 category = "medium"
+#             elif percentage <= 85:
+#                 category = "high"
+#             else:
+#                 category = "critical"
+
+#             result["success"] = True
+
+#             # Write the output to the CSV file
+#             with open(
+#                 f"out/Capture_Memmory_Utilization/Memmory_{timestamp}.csv", "a", newline=""
+#             ) as csvfile:
+#                 writer = csv.writer(csvfile)
+#                 writer.writerow([f"{counter}", f"{device.name}", used, total, percentage, category])
+#         except:
+#             logger.error("gagal dengan function utama iosxe")
+
+#             # Convert the device to Netmiko format
+#             netmiko_device = convert_to_netmiko(device)
+
+#             # Establish the Netmiko connection
+#             logger.info("Establishing Netmiko connection...")
+#             connection = ConnectHandler(**netmiko_device)
+#             logger.info("Connection established successfully.")
+
+#             # Send a command and retrieve the output
+#             command = "show processes memory"
+#             output = connection.send_command(command)
+
+#             with open('lib/getMemmory/ios_xe_switch.template') as template:
+#                 template = textfsm.TextFSM(template)
+
+#             # Parse the command output using the template
+#             parsed_output = template.ParseText(output)
+
+#             logger.info(parsed_output)
+
+#             header = template.header
+#             used_index = header.index('used')
+#             total_index = header.index('total')
+#             free_index = header.index('free')
+
+#             # Extract the values from the parsed output
+#             used = round(int(parsed_output[0][used_index])/1024, 2)
+#             total = round(int(parsed_output[0][total_index])/1024, 2)
+#             free = round(int(parsed_output[0][free_index])/1024 , 2)
+#             percentage = round(used / total * 100, 2)
+
+#             # print(percentage)
+
+#             # Print the extracted values
+#             # print(f"Used memory: {used}")
+#             # print(f"Total memory: {total}")
+#             # print(f"Free memory: {free}")
+
+#             if percentage <= 40:
+#                 category = "low"
+#             elif percentage <= 70:
+#                 category = "medium"
+#             elif percentage <= 85:
+#                 category = "high"
+#             else:
+#                 category = "critical"
+#             # print(category)
+
+#             result["success"] = True
+            
+#             with open(
+#                         f"out/Capture_Memmory_Utilization/Memmory_{timestamp}.csv", "a", newline=""
+#                     ) as csvfile:
+#                         writer = csv.writer(csvfile)
+#                         writer.writerow([f"{counter}", f"{device.name}", used, total, percentage, category])       
+#         return result
+#     except Exception as e:
+#         logger.error(f"Error connecting to device {device.name}: {e}")
+#         result["error"] = str(conn_error)
+#         return result
+
+# def get_iosxr_memory_info(device, counter):
+#     try:
+#         # Connect to the device
+#         attempt = 1
+#         retry = 0
+#         mx_retry = 3
+#         while retry < mx_retry:
+#             try:
+#                 logger.info(f"Connecting to Device: {device.name}")
+#                 device.connect(learn_hostname = True, learn_os = True, log_stdout=False,mit=True)
+#                 logger.info(f"Successfully Connected to Device: {device.name}")
+#                 break
+#             except Exception as conn_error:
+#                     retry += 1
+#                     attempt +=1
+#                     if retry < mx_retry:
+#                         logger.error(f"Connection attempt {retry}/{mx_retry} failed for {device.name} ({device.connections.cli.ip}): {conn_error}")
+#                         logger.info(f"Retrying in 1 seconds...")
+#                         time.sleep(2)
+#                     else:
+#                         logger.error(f"Failed to establish connection to {device.name} ({device.connections.cli.ip}) after {mx_retry} attempts.")
+#                         break  # Exit the loop after max retries
+
+#         output = device.parse("show watchdog memory-state")
+
+#         physical_memory_mb = output["node"]["node0_RP0_CPU0"]["physical_memory_mb"]
+#         free_memory_mb = output["node"]["node0_RP0_CPU0"]["free_memory_mb"]
+#         used_memory_mb = physical_memory_mb - free_memory_mb
+#         percentage = round(used_memory_mb / physical_memory_mb * 100, 2)
+
+#         # Categorize percentage based on certain ranges
+#         if percentage <= 40:
+#             category = "low"
+#         elif percentage <= 70:
+#             category = "medium"
+#         elif percentage <= 85:
+#             category = "high"
+#         else:
+#             category = "critical"
+
+#         # Write the output to the CSV file
+#         with open(
+#             f"out/Capture_Memmory_Utilization/Memmory_{timestamp}.csv", "a", newline=""
+#         ) as csvfile:
+#             writer = csv.writer(csvfile)
+#             writer.writerow([f"{counter}", f"{device.name}", used_memory_mb, physical_memory_mb, percentage, category])
+
+#         return counter
+
+#     except Exception as e:
+#         logger.error(f"Error connecting to device {device.name}: {e}")
+
+# def get_ios_memory_info(device, counter):
+#     try:
+#         attempt = 1
+#         retry = 0
+#         mx_retry = 3
+#         while retry < mx_retry:
+#             try:
+#                 logger.info(f"Initiate connection to Device {device.name} attempt {attempt}")
+#                 device.connect(mit=True, log_stdout=False)
+#                 # Print the output
+#                 logger.info(f"Device: {device.name} Connected Successfully")
+#                 #send command
+#                 try:
+#                     output = device.parse("show processes memory")
+#                     logger.info(f"Parse Device: {device.name} Data Successfully")
+#                 except:
+#                     logger.info(f"Failed to Parse Device: {device.name}")
+#                 break  # Exit the loop if connected successfully
+#             except Exception as conn_error:
+#                 retry += 1
+#                 attempt +=1
+#                 if retry < mx_retry:
+#                     logger.error(f"Connection attempt {retry}/{mx_retry} failed for {device.name} ({device.connections.cli.ip}): {conn_error}")
+#                     logger.info(f"Retrying in 2 seconds...")
+#                     time.sleep(2)
+#                 else:
+#                     logger.error(f"Failed to establish connection to {device.name} ({device.connections.cli.ip}) after {mx_retry} attempts.")
+#                     break  # Exit the loop after max retries
+
+#         used = round(output['processor_pool']['used']/1024/1000, 2)
+#         total = round(output['processor_pool']['total']/1024/1000, 2)
+#         percentage = round(used / total * 100, 2)
+
+#         # Categorize percentage based on certain ranges
+#         if percentage <= 40:
+#             category = "low"
+#         elif percentage <= 70:
+#             category = "medium"
+#         elif percentage <= 85:
+#             category = "high"
+#         else:
+#             category = "critical"
+
+#         # Write the output to the CSV file
+#         with open(
+#             f"out/Capture_Memmory_Utilization/Memmory_{timestamp}.csv", "a", newline=""
+#         ) as csvfile:
+#             writer = csv.writer(csvfile)
+#             writer.writerow([f"{counter}", f"{device.name}", used, total, percentage, category])
+
+#         return counter
+
+#     except Exception as e:
+#         logger.error(f"Error connecting to device {device.name}: {e}")
+
+# def get_nxos_memory_info(device, counter):
+#     try:
+#         try:
+#             # Connect to the device
+#             attempt = 1
+#             retry = 0
+#             mx_retry = 3
+#             while retry < mx_retry:
+#                 try:
+#                     logger.info(f"Connecting to Device: {device.name}")
+#                     device.connect(learn_hostname = True, learn_os = True, log_stdout=False,mit=True)
+#                     logger.info(f"Successfully Connected to Device: {device.name}")
+#                     break
+#                 except Exception as conn_error:
+#                         retry += 1
+#                         attempt +=1
+#                         if retry < mx_retry:
+#                             logger.error(f"Connection attempt {retry}/{mx_retry} failed for {device.name} ({device.connections.cli.ip}): {conn_error}")
+#                             logger.info(f"Retrying in 1 seconds...")
+#                             time.sleep(2)
+#                         else:
+#                             logger.error(f"Failed to establish connection to {device.name} ({device.connections.cli.ip}) after {mx_retry} attempts.")
+#                             break  # Exit the loop after max retries
+
+#             output = device.parse("show system resources")
+
+#             used = round(output["memory_usage"]["memory_usage_used_kb"]/1024, 2)
+#             total = round(output["memory_usage"]["memory_usage_total_kb"]/1024, 2)
+#             percentage = round(used / total * 100, 2)
+
+#             # Categorize percentage based on certain ranges
+#             if percentage <= 40:
+#                 category = "low"
+#             elif percentage <= 70:
+#                 category = "medium"
+#             elif percentage <= 85:
+#                 category = "high"
+#             else:
+#                 category = "critical"
+
+#             # Write the output to the CSV file
+#             with open(
+#                 f"out/Capture_Memmory_Utilization/Memmory_{timestamp}.csv", "a", newline=""
+#             ) as csvfile:
+#                 writer = csv.writer(csvfile)
+#                 writer.writerow([f"{counter}", f"{device.name}", used, total, percentage, category])
+
+#             return counter
+#         except:
+#             logger.info("gagal dengan function utama nxos")
+#             # Convert the device to Netmiko format
+#             netmiko_device = convert_to_netmiko(device)
   
-            # Establish the Netmiko connection
-            logger.info("Establishing Netmiko connection...")
-            connection = ConnectHandler(**netmiko_device)
-            logger.info("Connection established successfully.")
+#             # Establish the Netmiko connection
+#             logger.info("Establishing Netmiko connection...")
+#             connection = ConnectHandler(**netmiko_device)
+#             logger.info("Connection established successfully.")
 
-            # Send a command and retrieve the output
-            command = "show system resources"
-            output = connection.send_command(command)
-            print(output)
+#             # Send a command and retrieve the output
+#             command = "show system resources"
+#             output = connection.send_command(command)
+#             print(output)
 
-            with open('lib/getMemmory/nxos.template') as template:
-                template = textfsm.TextFSM(template)
+#             with open('lib/getMemmory/nxos.template') as template:
+#                 template = textfsm.TextFSM(template)
 
-            # Parse the command output using the template
-            parsed_output = template.ParseText(output)
+#             # Parse the command output using the template
+#             parsed_output = template.ParseText(output)
 
-            logger.info(parsed_output)
+#             logger.info(parsed_output)
 
-            header = template.header
-            used_index = header.index('used')
-            total_index = header.index('total')
-            free_index = header.index('free')
+#             header = template.header
+#             used_index = header.index('used')
+#             total_index = header.index('total')
+#             free_index = header.index('free')
 
-            # Extract the values from the parsed output
-            used = round(int(parsed_output[0][used_index])/1024, 2)
-            total = round(int(parsed_output[0][total_index])/1024, 2)
-            free = round(int(parsed_output[0][free_index])/1024 , 2)
-            percentage = round(used / total * 100, 2)
+#             # Extract the values from the parsed output
+#             used = round(int(parsed_output[0][used_index])/1024, 2)
+#             total = round(int(parsed_output[0][total_index])/1024, 2)
+#             free = round(int(parsed_output[0][free_index])/1024 , 2)
+#             percentage = round(used / total * 100, 2)
 
-            # print(percentage)
+#             # print(percentage)
 
-            # Print the extracted values
-            print(f"Used memory: {used}")
-            print(f"Total memory: {total}")
-            print(f"Free memory: {free}")
+#             # Print the extracted values
+#             print(f"Used memory: {used}")
+#             print(f"Total memory: {total}")
+#             print(f"Free memory: {free}")
 
-            if percentage <= 40:
-                category = "low"
-            elif percentage <= 70:
-                category = "medium"
-            elif percentage <= 85:
-                category = "high"
-            else:
-                category = "critical"
-            print(category)
+#             if percentage <= 40:
+#                 category = "low"
+#             elif percentage <= 70:
+#                 category = "medium"
+#             elif percentage <= 85:
+#                 category = "high"
+#             else:
+#                 category = "critical"
+#             print(category)
     
-            with open(
-                        f"out/Capture_Memmory_Utilization/Memmory_{timestamp}.csv", "a", newline=""
-                    ) as csvfile:
-                        writer = csv.writer(csvfile)
-                        writer.writerow([f"{counter}", f"{device.name}", used, total, percentage, category])       
-        return counter
-    except Exception as e:
-        logger.error(f"Error connecting to device {device.name}: {e}")
+#             with open(
+#                         f"out/Capture_Memmory_Utilization/Memmory_{timestamp}.csv", "a", newline=""
+#                     ) as csvfile:
+#                         writer = csv.writer(csvfile)
+#                         writer.writerow([f"{counter}", f"{device.name}", used, total, percentage, category])       
+#         return counter
+#     except Exception as e:
+#         logger.error(f"Error connecting to device {device.name}: {e}")
 
 
 def getMemmoryUtils(testbedFile):
     testbed = load(testbedFile)
-    # Open the output file in append mode
-    with open(f"out/Capture_Memmory_Utilization/Memmory_{timestamp}.csv", "a", newline="") as csvfile:
-        writer = csv.writer(csvfile)
-        # Write the header row
-        writer.writerow(["No", "Device", "Memory Used in MB", "Memory Total in MB", "Percentage", "Category"])
-    # Define csv name for sorted purpose
-    input_csv = (F"out/Capture_Memmory_Utilization/Memmory_{timestamp}.csv")
-    sort_field = "No"
+    # # Open the output file in append mode
+    # with open(f"out/Capture_Memmory_Utilization/Memmory_{timestamp}.csv", "a", newline="") as csvfile:
+    #     writer = csv.writer(csvfile)
+    #     # Write the header row
+    #     writer.writerow(["No", "Device", "Memory Used in MB", "Memory Total in MB", "Percentage", "Category"])
+    # # Define csv name for sorted purpose
+    # input_csv = (F"out/Capture_Memmory_Utilization/Memmory_{timestamp}.csv")
+    # sort_field = "No"
     # Create a list of futures for iosxe and iosxr devices
-    futures = []
-    counter = 1
-    #count device
-    total_device = 0
-    ios_xe_device = 0
-    ios_xr_device = 0
-    nxos_device = 0
-    ios_device = 0
-    with concurrent.futures.ThreadPoolExecutor() as executor:
-        for device in testbed:
-            if device.type == 'iosxe':
-                futures.append(executor.submit(get_iosxe_memory_info, device, counter))
-                counter += 1
-                ios_xe_device += 1
-                total_device+=1
-                sleep(0.1)
-            elif device.type == 'iosxr':
-                futures.append(executor.submit(get_iosxr_memory_info, device, counter))
-                counter += 1
-                ios_xr_device += 1
-                total_device+=1
-                sleep(0.1)
-            elif device.type == 'ios':
-                futures.append(executor.submit(get_ios_memory_info, device, counter))
-                counter += 1
-                ios_device += 1
-                total_device+=1
-                sleep(0.1)
-            elif device.type == 'nxos':
-                futures.append(executor.submit(get_nxos_memory_info, device, counter))
-                counter += 1
-                nxos_device += 1
-                total_device+=1
-                sleep(0.1)
-        # Wait for all futures to complete
-    for future in concurrent.futures.as_completed(futures):
-        try:
-            future.result()
-        except Exception as exc:
-            logger.error(f"{exc} occurred while processing device {device.name}")
+    results = []
+    memmory_list = []
 
+    with concurrent.futures.ThreadPoolExecutor() as executor:    
+        futures = [executor.submit(getMemmoryInfo, device) for device in testbed]
+        for future in concurrent.futures.as_completed(futures):
+            try:
+                result = future.result()
+                results.append(result)                       
+                if not result["success"]:
+                    logger.error(f"Error with device {result['device']}, Error: {result['error']}")
+            except Exception as exc:
+                error_message = f"Exception occurred: {str(exc)}"
+                logger.error(error_message)
+                results.append({"device": "Unknown", "success": False, "error": str(exc)})
+    
+    
+    memmory_list.sort(key=lambda x: x['Hostname'])
+    waktu = datetime.now().strftime("%d-%m-%y_%H_%M_%S")
+    csv_filename = f"Memmory_{waktu}.csv"
+    csv_filepath = os.path.join("out", "Capture_Memmory_Utilization", csv_filename)
+    
+    with open(csv_filepath, mode='w', newline='') as csvfile:
+        fieldnames = ["No", "Device", "Memory Used in MB", "Memory Total in MB", "Percentage", "Category"]
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+
+        writer.writeheader()
+        hostname_counter = 1
+        for item in memmory_list:
+            print(item["data"])
+            hostname = item["Hostname"]
+            data = item["data"]
+
+            for memmory in data:
+                row = {
+                    'No': hostname_counter,
+                    'Device': hostname,
+                    'Memory Used in MB': memmory['Usage'],
+                    'Memory Total in MB' : memmory['Total'],
+                    'PID': memmory['PID'],
+                    'SN': memmory['SN']
+                }
+                writer.writerow(row)
+            hostname_counter += 1
+    
     logger.info("Get Memmory Utilization - execution completed successfully.")
     #Sorted the output data
-    sort_csv_by_field(input_csv, sort_field)
+    # sort_csv_by_field(input_csv, sort_field)
     logger.info("Sort Output Data - execution completed.")
-    logger.info(f"Total Executed Get Memory Device is IOS_XE:{ios_xe_device} IOS_XR:{ios_xr_device} IOS:{ios_device} NXOS:{nxos_device} and Total Device is {total_device}")
+    return results
+    # logger.info(f"Total Executed Get Memory Device is IOS_XE:{ios_xe_device} IOS_XR:{ios_xr_device} IOS:{ios_device} NXOS:{nxos_device} and Total Device is {total_device}")
