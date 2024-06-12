@@ -57,7 +57,9 @@ def captureConfigX(device):
         mx_retry = 3
         while retry < mx_retry:
             try:
+                logger.info(f"Connecting to Device: {device.name}")
                 device.connect(learn_hostname=True, learn_os=True, log_stdout=False, mit=True, timeout=60)
+                logger.info(f"Successfully Connected to Device: {device.name}")
                 break
             except Exception as conn_error:
                 retry += 1
@@ -119,7 +121,6 @@ def captureConfig(testbedFile):
     results = []
     with concurrent.futures.ThreadPoolExecutor() as executor:
         futures = [executor.submit(captureConfigX, device) for device in testbed]
-        logger.info("Connecting to devices...")
         for future in concurrent.futures.as_completed(futures):
             try:
                 result = future.result()
