@@ -57,7 +57,7 @@ def captureConfigX(device):
         mx_retry = 3
         while retry < mx_retry:
             try:
-                device.connect(learn_hostname=True, learn_os=True, log_stdout=False, mit=True)
+                device.connect(learn_hostname=True, learn_os=True, log_stdout=False, mit=True, timeout=60)
                 break
             except Exception as conn_error:
                 retry += 1
