@@ -82,7 +82,7 @@ def getMemmoryInfo(device):
         while retry < mx_retry:
             try:
                 logger.info(f"Connecting to Device: {device.name}")
-                device.connect(learn_hostname=True, learn_os=True, log_stdout=False, mit=True)
+                device.connect(learn_hostname=True, learn_os=True, log_stdout=False, mit=True, timeout=10)
                 logger.info(f"Successfully Connected to Device: {device.name}")
                 break
             except Exception as conn_error:

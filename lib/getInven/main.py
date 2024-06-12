@@ -80,7 +80,9 @@ def captureInventoryX(device):
         mx_retry = 3
         while retry < mx_retry:
             try:
-                device.connect(learn_hostname=True, learn_os=True, log_stdout=False, mit=True)
+                logger.info(f"Connecting to Device: {device.name}")
+                device.connect(learn_hostname=True, learn_os=True, log_stdout=False, mit=True, timeout=10)
+                logger.info(f"Successfully Connected to Device: {device.name}")
                 break
             except Exception as conn_error:
                 retry += 1
@@ -104,6 +106,7 @@ def captureInventoryX(device):
                 inventory_data.append({
                     'No_Inventory': index,
                     'Name': value.get('name', ''),
+                    'Description': '',
                     'PID': value.get('pid', ''),
                     'SN': value.get('sn', '')
                 })
@@ -165,13 +168,12 @@ def captureInventory(testbedFile):
     inventory_list = []
     with concurrent.futures.ThreadPoolExecutor() as executor:
         futures = [executor.submit(captureInventoryX, device) for device in testbed]
-        logger.info("Connecting to devices...")
         for future in concurrent.futures.as_completed(futures):
             try:
                 result = future.result()
                 results.append(result)
                 if result["success"]:
-                    print(result)
+                    # print(result)
                     inventory_list.append({"Hostname": result["device"], "data": result["data"]})
                 else:
                     logger.error(f"Error with device {result['device']}: {result['message']}, Error: {result['error']}")
