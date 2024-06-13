@@ -39,7 +39,10 @@ if not os.path.exists("out/Capture_Memmory_Utilization"):
 
 def convert_to_netmiko(device):
     netmiko_device = {}
-    netmiko_device['device_type'] = "cisco_ios"
+    if device.type == 'nxos':
+        netmiko_device['device_type'] = 'cisco_nxos'
+    elif device.type == 'iosxe':
+        netmiko_device['device_type'] = 'cisco_xe'
     netmiko_device['host'] = str(device.connections.cli.ip)
     netmiko_device['username'] = device.credentials.default.username
     netmiko_device['password'] = to_plaintext(device.credentials.default.password)
@@ -84,7 +87,7 @@ def getMemmoryInfo(device):
         while retry < mx_retry:
             try:
                 logger.info(f"Connecting to Device: {device.name}")
-                device.connect(learn_hostname=True, learn_os=True, log_stdout=True, mit=True, timeout=120)
+                device.connect(learn_hostname=True, learn_os=True, log_stdout=False, mit=True, timeout=30)
                 logger.info(f"Successfully Connected to Device: {device.name}")
                 break
             except Exception as conn_error:
@@ -143,39 +146,37 @@ def getMemmoryInfo(device):
             
             logger.info(f"Device: {device.name}, with OS type: {device.type}")
             output = device.parse("show system resources")
-            logger.info(output)
+            # logger.info(output)
             
-            return result
-            
-            # used = round(output["memory_usage"]["memory_usage_used_kb"]/1024, 2)
-            # total = round(output["memory_usage"]["memory_usage_total_kb"]/1024, 2)
-            # percentage = round(used / total * 100, 2)
+            used = round(output["memory_usage"]["memory_usage_used_kb"]/1024, 2)
+            total = round(output["memory_usage"]["memory_usage_total_kb"]/1024, 2)
+            percentage = round(used / total * 100, 2)
 
             # Categorize percentage based on certain ranges
-            # if percentage <= 40:
-            #     category = "low"
-            # elif percentage <= 70:
-            #     category = "medium"
-            # elif percentage <= 85:
-            #     category = "high"
-            # else:
-            #     category = "critical"
+            if percentage <= 40:
+                category = "low"
+            elif percentage <= 70:
+                category = "medium"
+            elif percentage <= 85:
+                category = "high"
+            else:
+                category = "critical"
                 
-            # memmory_data = []
+            memmory_data = []
             
-            # for index, (key, value) in enumerate(output.items(), start=1):
-            #     memmory_data.append({
-            #         'No':index,
-            #         'Hostname':device.name,
-            #         'Usage':used,
-            #         'Total':total,
-            #         'Percentage':percentage,
-            #         'Category':category
-            #     })
+            for index, (key, value) in enumerate(output.items(), start=1):
+                memmory_data.append({
+                    'No':index,
+                    'Hostname':device.name,
+                    'Usage':used,
+                    'Total':total,
+                    'Percentage':percentage,
+                    'Category':category
+                })
             
-            # result["data"] = memmory_data
-            # result["success"] = True
-            # result["message"] = f"Memmory utilization captured successfully for {device.name}"
+            result["data"] = memmory_data
+            result["success"] = True
+            result["message"] = f"Memmory utilization captured successfully for {device.name}"
             
         else :
             result["success"] = False
@@ -183,8 +184,64 @@ def getMemmoryInfo(device):
             return result               
             
     except Exception as pyats_error:
-        logger.error("Failed to parse using pyats get Memmory Utilization function")
-        result["error"] = str(pyats_error)
+        logger.error(f"Failed to parse using pyats get Memmory Utilization function, Error: {pyats_error}")
+
+        # Convert the device to Netmiko format
+        netmiko_device = convert_to_netmiko(device)
+
+        # Establish the Netmiko connection
+        logger.info("Establishing Netmiko connection...")
+        connection = ConnectHandler(**netmiko_device)
+        logger.info("Connection established successfully.")
+        
+        if device.type =='nxos':
+            command = "show system resources"
+            output = connection.send_command(command)
+            # logger.info(output)
+
+            with open('lib/getMemmory/nxos.template') as template:
+                template = textfsm.TextFSM(template)
+
+            # Parse the command output using the template
+            parsed_output = template.ParseText(output)
+
+            logger.info(parsed_output)
+            
+            
+            header = template.header
+            used_index = header.index('used')
+            total_index = header.index('total')
+            
+            used = round(int(parsed_output[0][used_index])/1024, 2)
+            total = round(int(parsed_output[0][total_index])/1024, 2)
+            percentage = round(used / total * 100, 2)
+            
+
+            if percentage <= 40:
+                category = "low"
+            elif percentage <= 70:
+                category = "medium"
+            elif percentage <= 85:
+                category = "high"
+            else:
+                category = "critical"
+                
+            memmory_data = []
+            
+            for index, (key, value) in enumerate(parsed_output.items(), start=1):
+                memmory_data.append({
+                    'No':index,
+                    'Hostname':device.name,
+                    'Usage':used,
+                    'Total':total,
+                    'Percentage':percentage,
+                    'Category':category
+                })
+            
+            result["data"] = memmory_data
+            result["success"] = True
+            result["message"] = f"Memmory utilization captured successfully for {device.name}"
+            
     return result
 
 # def get_iosxe_memory_info(device, counter):
