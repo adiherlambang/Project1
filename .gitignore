@@ -1,6 +1,18 @@
 out/*
-__pycache__/
+
 import/
 log/*
-testbed/*
+*.yaml
+
+# Ignore Python bytecode files
+__pycache__/
 *.pyc
+*.pyo
+
+# Ignore virtual environment directory
+venv/
+
+# Ignore other common files
+*.log
+*.env
+*.DS_Store

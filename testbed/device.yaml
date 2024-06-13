@@ -1,27 +1,53 @@
 devices:
-  CC-VCUBE:
+  DC1CORSWT-12:
     connections:
       cli:
-        ip: 198.18.133.226
+        ip: 10.222.20.6
         protocol: ssh
     credentials:
       default:
-        password: C1sco12345
-        username: admin
+        password: Rtpl4k3build312345!
+        username: oxidized
       enable:
-        password: C1sco12345
-    os: iosxe
-    type: iosxe
-  CC-VCUBE1:
+        password: Rtpl4k3build312345!
+    os: nxos
+    type: nxos
+  DC1CORSWT-22:
     connections:
       cli:
-        ip: 198.18.133.226
+        ip: 10.222.5.189
         protocol: ssh
     credentials:
       default:
-        password: C1sco12345
-        username: admin
+        password: Rtpl4k3build312345!
+        username: oxidized
       enable:
-        password: C1sco12345
-    os: iosxe
-    type: iosxe
+        password: Rtpl4k3build312345!
+    os: nxos
+    type: nxos
+  DRCCORSWT-1:
+    connections:
+      cli:
+        ip: 10.222.55.4
+        protocol: ssh
+    credentials:
+      default:
+        password: Rtpl4k3build312345!
+        username: oxidized
+      enable:
+        password: Rtpl4k3build312345!
+    os: nxos
+    type: nxos
+  DRCCORSWT-2:
+    connections:
+      cli:
+        ip: 10.222.55.5
+        protocol: ssh
+    credentials:
+      default:
+        password: Rtpl4k3build312345!
+        username: oxidized
+      enable:
+        password: Rtpl4k3build312345!
+    os: nxos
+    type: nxos
