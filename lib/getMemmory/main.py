@@ -207,35 +207,32 @@ def getMemmoryInfo(device):
 
             logger.info(parsed_output)
             
-            
-            header = template.header
-            used_index = header.index('used')
-            total_index = header.index('total')
-            
-            used = round(int(parsed_output[0][used_index])/1024, 2)
-            total = round(int(parsed_output[0][total_index])/1024, 2)
-            percentage = round(used / total * 100, 2)
-            
-
-            if percentage <= 40:
-                category = "low"
-            elif percentage <= 70:
-                category = "medium"
-            elif percentage <= 85:
-                category = "high"
-            else:
-                category = "critical"
-                
             memmory_data = []
+            for index, values in enumerate(parsed_output, start=1):
             
-            for index, (key, value) in enumerate(parsed_output.items(), start=1):
+                used = round(int(values[1])/1024, 2)
+                total = round(int(values[0])/1024, 2)
+                percentage = round(used / total * 100, 2)
+                
+
+                if percentage <= 40:
+                    category = "low"
+                elif percentage <= 70:
+                    category = "medium"
+                elif percentage <= 85:
+                    category = "high"
+                else:
+                    category = "critical"
+                    
+                
+            
                 memmory_data.append({
-                    'No':index,
-                    'Hostname':device.name,
-                    'Usage':used,
-                    'Total':total,
-                    'Percentage':percentage,
-                    'Category':category
+                    'No': index,
+                    'Hostname': device.name,
+                    'Usage': used,
+                    'Total': total,
+                    'Percentage': percentage,
+                    'Category': category
                 })
             
             result["data"] = memmory_data
