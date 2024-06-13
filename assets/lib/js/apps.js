@@ -472,12 +472,16 @@ $('#uploadButton').on("click", function() {
             contentType: false,
             success: function (resData) {
                 // alert(resData)
-                clearFileInput('csvFileInput')
-                location.reload();
+                if (resData===True){
+                    clearFileInput('csvFileInput')
+                    location.reload();
+                }else{
+                    alert(resData)
+                }              
             },
             error: function (error) {
-                console.log("Error while uploading file")
-                alert(error)
+                console.log("Error while uploading file,"+error)
+                // alert(error)
             }
         });
     }

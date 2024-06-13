@@ -2647,3 +2647,205 @@ ERROR 2024-06-13 11:16:39,311 [main.py:captureConfig:129] Error with device DC1C
 ERROR 2024-06-13 11:16:39,314 [main.py:captureConfigX:72] Failed to establish connection to DRCCORSWT-2 (10.222.55.5) after 3 attempts.
 ERROR 2024-06-13 11:16:39,317 [main.py:captureConfig:129] Error with device DRCCORSWT-2: Failed to establish connection after 3 attempts., Error: 'ssh' command not available. Please fix your PATH env
 INFO 2024-06-13 11:16:39,319 [main.py:captureConfig:135] Get Config - execution completed
+INFO 2024-06-13 11:29:24,294 [main.py:captureConfigX:60] Connecting to Device: DC1CORSWT-12
+INFO 2024-06-13 11:29:24,302 [main.py:captureConfigX:60] Connecting to Device: DC1CORSWT-22
+WARNING 2024-06-13 11:29:24,316 [main.py:captureConfigX:68] Connection attempt 1/3 failed for DC1CORSWT-22 (10.222.5.189): 'ssh' command not available. Please fix your PATH env
+WARNING 2024-06-13 11:29:24,318 [main.py:captureConfigX:68] Connection attempt 1/3 failed for DC1CORSWT-12 (10.222.20.6): 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:29:24,337 [main.py:captureConfigX:69] Retrying in 2 seconds...
+INFO 2024-06-13 11:29:24,324 [main.py:captureConfigX:60] Connecting to Device: DRCCORSWT-2
+INFO 2024-06-13 11:29:24,319 [main.py:captureConfigX:60] Connecting to Device: DRCCORSWT-1
+INFO 2024-06-13 11:29:24,339 [main.py:captureConfigX:69] Retrying in 2 seconds...
+WARNING 2024-06-13 11:29:24,353 [main.py:captureConfigX:68] Connection attempt 1/3 failed for DRCCORSWT-1 (10.222.55.4): 'ssh' command not available. Please fix your PATH env
+WARNING 2024-06-13 11:29:24,358 [main.py:captureConfigX:68] Connection attempt 1/3 failed for DRCCORSWT-2 (10.222.55.5): 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:29:24,361 [main.py:captureConfigX:69] Retrying in 2 seconds...
+INFO 2024-06-13 11:29:24,363 [main.py:captureConfigX:69] Retrying in 2 seconds...
+INFO 2024-06-13 11:29:26,341 [main.py:captureConfigX:60] Connecting to Device: DC1CORSWT-22
+WARNING 2024-06-13 11:29:26,345 [main.py:captureConfigX:68] Connection attempt 2/3 failed for DC1CORSWT-22 (10.222.5.189): 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:29:26,347 [main.py:captureConfigX:69] Retrying in 2 seconds...
+INFO 2024-06-13 11:29:26,357 [main.py:captureConfigX:60] Connecting to Device: DC1CORSWT-12
+WARNING 2024-06-13 11:29:26,360 [main.py:captureConfigX:68] Connection attempt 2/3 failed for DC1CORSWT-12 (10.222.20.6): 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:29:26,362 [main.py:captureConfigX:69] Retrying in 2 seconds...
+INFO 2024-06-13 11:29:26,365 [main.py:captureConfigX:60] Connecting to Device: DRCCORSWT-1
+INFO 2024-06-13 11:29:26,367 [main.py:captureConfigX:60] Connecting to Device: DRCCORSWT-2
+WARNING 2024-06-13 11:29:26,369 [main.py:captureConfigX:68] Connection attempt 2/3 failed for DRCCORSWT-1 (10.222.55.4): 'ssh' command not available. Please fix your PATH env
+WARNING 2024-06-13 11:29:26,372 [main.py:captureConfigX:68] Connection attempt 2/3 failed for DRCCORSWT-2 (10.222.55.5): 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:29:26,375 [main.py:captureConfigX:69] Retrying in 2 seconds...
+INFO 2024-06-13 11:29:26,377 [main.py:captureConfigX:69] Retrying in 2 seconds...
+INFO 2024-06-13 11:29:28,352 [main.py:captureConfigX:60] Connecting to Device: DC1CORSWT-22
+ERROR 2024-06-13 11:29:28,357 [main.py:captureConfigX:72] Failed to establish connection to DC1CORSWT-22 (10.222.5.189) after 3 attempts.
+ERROR 2024-06-13 11:29:28,362 [main.py:captureConfig:129] Error with device DC1CORSWT-22: Failed to establish connection after 3 attempts., Error: 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:29:28,365 [main.py:captureConfigX:60] Connecting to Device: DC1CORSWT-12
+ERROR 2024-06-13 11:29:28,369 [main.py:captureConfigX:72] Failed to establish connection to DC1CORSWT-12 (10.222.20.6) after 3 attempts.
+ERROR 2024-06-13 11:29:28,372 [main.py:captureConfig:129] Error with device DC1CORSWT-12: Failed to establish connection after 3 attempts., Error: 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:29:28,380 [main.py:captureConfigX:60] Connecting to Device: DRCCORSWT-1
+INFO 2024-06-13 11:29:28,383 [main.py:captureConfigX:60] Connecting to Device: DRCCORSWT-2
+ERROR 2024-06-13 11:29:28,389 [main.py:captureConfigX:72] Failed to establish connection to DRCCORSWT-1 (10.222.55.4) after 3 attempts.
+ERROR 2024-06-13 11:29:28,392 [main.py:captureConfigX:72] Failed to establish connection to DRCCORSWT-2 (10.222.55.5) after 3 attempts.
+ERROR 2024-06-13 11:29:28,395 [main.py:captureConfig:129] Error with device DRCCORSWT-1: Failed to establish connection after 3 attempts., Error: 'ssh' command not available. Please fix your PATH env
+ERROR 2024-06-13 11:29:28,402 [main.py:captureConfig:129] Error with device DRCCORSWT-2: Failed to establish connection after 3 attempts., Error: 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:29:28,410 [main.py:captureConfig:135] Get Config - execution completed
+INFO 2024-06-13 11:36:16,473 [main.py:captureConfigX:60] Connecting to Device: DC1CORSWT-12
+WARNING 2024-06-13 11:36:16,482 [main.py:captureConfigX:68] Connection attempt 1/3 failed for DC1CORSWT-12 (10.222.20.6): 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:36:16,485 [main.py:captureConfigX:60] Connecting to Device: DC1CORSWT-22
+WARNING 2024-06-13 11:36:16,491 [main.py:captureConfigX:68] Connection attempt 1/3 failed for DC1CORSWT-22 (10.222.5.189): 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:36:16,493 [main.py:captureConfigX:60] Connecting to Device: DRCCORSWT-1
+INFO 2024-06-13 11:36:16,494 [main.py:captureConfigX:60] Connecting to Device: DRCCORSWT-2
+INFO 2024-06-13 11:36:16,486 [main.py:captureConfigX:69] Retrying in 2 seconds...
+INFO 2024-06-13 11:36:16,496 [main.py:captureConfigX:69] Retrying in 2 seconds...
+WARNING 2024-06-13 11:36:16,506 [main.py:captureConfigX:68] Connection attempt 1/3 failed for DRCCORSWT-1 (10.222.55.4): 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:36:16,517 [main.py:captureConfigX:69] Retrying in 2 seconds...
+WARNING 2024-06-13 11:36:16,522 [main.py:captureConfigX:68] Connection attempt 1/3 failed for DRCCORSWT-2 (10.222.55.5): 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:36:16,525 [main.py:captureConfigX:69] Retrying in 2 seconds...
+INFO 2024-06-13 11:36:18,517 [main.py:captureConfigX:60] Connecting to Device: DC1CORSWT-12
+INFO 2024-06-13 11:36:18,528 [main.py:captureConfigX:60] Connecting to Device: DRCCORSWT-1
+INFO 2024-06-13 11:36:18,522 [main.py:captureConfigX:60] Connecting to Device: DC1CORSWT-22
+WARNING 2024-06-13 11:36:18,532 [main.py:captureConfigX:68] Connection attempt 2/3 failed for DRCCORSWT-1 (10.222.55.4): 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:36:18,535 [main.py:captureConfigX:69] Retrying in 2 seconds...
+WARNING 2024-06-13 11:36:18,535 [main.py:captureConfigX:68] Connection attempt 2/3 failed for DC1CORSWT-22 (10.222.5.189): 'ssh' command not available. Please fix your PATH env
+WARNING 2024-06-13 11:36:18,536 [main.py:captureConfigX:68] Connection attempt 2/3 failed for DC1CORSWT-12 (10.222.20.6): 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:36:18,539 [main.py:captureConfigX:60] Connecting to Device: DRCCORSWT-2
+INFO 2024-06-13 11:36:18,542 [main.py:captureConfigX:69] Retrying in 2 seconds...
+INFO 2024-06-13 11:36:18,543 [main.py:captureConfigX:69] Retrying in 2 seconds...
+WARNING 2024-06-13 11:36:18,545 [main.py:captureConfigX:68] Connection attempt 2/3 failed for DRCCORSWT-2 (10.222.55.5): 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:36:18,550 [main.py:captureConfigX:69] Retrying in 2 seconds...
+INFO 2024-06-13 11:36:20,541 [main.py:captureConfigX:60] Connecting to Device: DRCCORSWT-1
+INFO 2024-06-13 11:36:20,548 [main.py:captureConfigX:60] Connecting to Device: DC1CORSWT-22
+INFO 2024-06-13 11:36:20,551 [main.py:captureConfigX:60] Connecting to Device: DC1CORSWT-12
+ERROR 2024-06-13 11:36:20,554 [main.py:captureConfigX:72] Failed to establish connection to DC1CORSWT-22 (10.222.5.189) after 3 attempts.
+ERROR 2024-06-13 11:36:20,556 [main.py:captureConfigX:72] Failed to establish connection to DC1CORSWT-12 (10.222.20.6) after 3 attempts.
+INFO 2024-06-13 11:36:20,556 [main.py:captureConfigX:60] Connecting to Device: DRCCORSWT-2
+ERROR 2024-06-13 11:36:20,556 [main.py:captureConfigX:72] Failed to establish connection to DRCCORSWT-1 (10.222.55.4) after 3 attempts.
+ERROR 2024-06-13 11:36:20,563 [main.py:captureConfig:129] Error with device DC1CORSWT-22: Failed to establish connection after 3 attempts., Error: 'ssh' command not available. Please fix your PATH env
+ERROR 2024-06-13 11:36:20,563 [main.py:captureConfigX:72] Failed to establish connection to DRCCORSWT-2 (10.222.55.5) after 3 attempts.
+ERROR 2024-06-13 11:36:20,568 [main.py:captureConfig:129] Error with device DC1CORSWT-12: Failed to establish connection after 3 attempts., Error: 'ssh' command not available. Please fix your PATH env
+ERROR 2024-06-13 11:36:20,571 [main.py:captureConfig:129] Error with device DRCCORSWT-1: Failed to establish connection after 3 attempts., Error: 'ssh' command not available. Please fix your PATH env
+ERROR 2024-06-13 11:36:20,573 [main.py:captureConfig:129] Error with device DRCCORSWT-2: Failed to establish connection after 3 attempts., Error: 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:36:20,576 [main.py:captureConfig:135] Get Config - execution completed
+INFO 2024-06-13 11:36:40,772 [main.py:captureConfigX:60] Connecting to Device: DC1CORSWT-12
+WARNING 2024-06-13 11:36:40,785 [main.py:captureConfigX:68] Connection attempt 1/3 failed for DC1CORSWT-12 (10.222.20.6): 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:36:40,788 [main.py:captureConfigX:69] Retrying in 2 seconds...
+INFO 2024-06-13 11:36:40,789 [main.py:captureConfigX:60] Connecting to Device: DC1CORSWT-22
+INFO 2024-06-13 11:36:40,792 [main.py:captureConfigX:60] Connecting to Device: DRCCORSWT-2
+INFO 2024-06-13 11:36:40,790 [main.py:captureConfigX:60] Connecting to Device: DRCCORSWT-1
+WARNING 2024-06-13 11:36:40,803 [main.py:captureConfigX:68] Connection attempt 1/3 failed for DRCCORSWT-2 (10.222.55.5): 'ssh' command not available. Please fix your PATH env
+WARNING 2024-06-13 11:36:40,808 [main.py:captureConfigX:68] Connection attempt 1/3 failed for DC1CORSWT-22 (10.222.5.189): 'ssh' command not available. Please fix your PATH env
+WARNING 2024-06-13 11:36:40,819 [main.py:captureConfigX:68] Connection attempt 1/3 failed for DRCCORSWT-1 (10.222.55.4): 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:36:40,821 [main.py:captureConfigX:69] Retrying in 2 seconds...
+INFO 2024-06-13 11:36:40,841 [main.py:captureConfigX:69] Retrying in 2 seconds...
+INFO 2024-06-13 11:36:40,843 [main.py:captureConfigX:69] Retrying in 2 seconds...
+INFO 2024-06-13 11:36:42,793 [main.py:captureConfigX:60] Connecting to Device: DC1CORSWT-12
+WARNING 2024-06-13 11:36:42,801 [main.py:captureConfigX:68] Connection attempt 2/3 failed for DC1CORSWT-12 (10.222.20.6): 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:36:42,811 [main.py:captureConfigX:69] Retrying in 2 seconds...
+INFO 2024-06-13 11:36:42,845 [main.py:captureConfigX:60] Connecting to Device: DRCCORSWT-2
+INFO 2024-06-13 11:36:42,852 [main.py:captureConfigX:60] Connecting to Device: DC1CORSWT-22
+INFO 2024-06-13 11:36:42,853 [main.py:captureConfigX:60] Connecting to Device: DRCCORSWT-1
+WARNING 2024-06-13 11:36:42,857 [main.py:captureConfigX:68] Connection attempt 2/3 failed for DC1CORSWT-22 (10.222.5.189): 'ssh' command not available. Please fix your PATH env
+WARNING 2024-06-13 11:36:42,863 [main.py:captureConfigX:68] Connection attempt 2/3 failed for DRCCORSWT-1 (10.222.55.4): 'ssh' command not available. Please fix your PATH env
+WARNING 2024-06-13 11:36:42,863 [main.py:captureConfigX:68] Connection attempt 2/3 failed for DRCCORSWT-2 (10.222.55.5): 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:36:42,866 [main.py:captureConfigX:69] Retrying in 2 seconds...
+INFO 2024-06-13 11:36:42,869 [main.py:captureConfigX:69] Retrying in 2 seconds...
+INFO 2024-06-13 11:36:42,871 [main.py:captureConfigX:69] Retrying in 2 seconds...
+INFO 2024-06-13 11:36:44,813 [main.py:captureConfigX:60] Connecting to Device: DC1CORSWT-12
+ERROR 2024-06-13 11:36:44,820 [main.py:captureConfigX:72] Failed to establish connection to DC1CORSWT-12 (10.222.20.6) after 3 attempts.
+ERROR 2024-06-13 11:36:44,823 [main.py:captureConfig:129] Error with device DC1CORSWT-12: Failed to establish connection after 3 attempts., Error: 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:36:44,873 [main.py:captureConfigX:60] Connecting to Device: DC1CORSWT-22
+ERROR 2024-06-13 11:36:44,875 [main.py:captureConfigX:72] Failed to establish connection to DC1CORSWT-22 (10.222.5.189) after 3 attempts.
+INFO 2024-06-13 11:36:44,879 [main.py:captureConfigX:60] Connecting to Device: DRCCORSWT-1
+INFO 2024-06-13 11:36:44,884 [main.py:captureConfigX:60] Connecting to Device: DRCCORSWT-2
+ERROR 2024-06-13 11:36:44,884 [main.py:captureConfig:129] Error with device DC1CORSWT-22: Failed to establish connection after 3 attempts., Error: 'ssh' command not available. Please fix your PATH env
+ERROR 2024-06-13 11:36:44,890 [main.py:captureConfigX:72] Failed to establish connection to DRCCORSWT-1 (10.222.55.4) after 3 attempts.
+ERROR 2024-06-13 11:36:44,896 [main.py:captureConfigX:72] Failed to establish connection to DRCCORSWT-2 (10.222.55.5) after 3 attempts.
+ERROR 2024-06-13 11:36:44,898 [main.py:captureConfig:129] Error with device DRCCORSWT-1: Failed to establish connection after 3 attempts., Error: 'ssh' command not available. Please fix your PATH env
+ERROR 2024-06-13 11:36:44,901 [main.py:captureConfig:129] Error with device DRCCORSWT-2: Failed to establish connection after 3 attempts., Error: 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:36:44,904 [main.py:captureConfig:135] Get Config - execution completed
+INFO 2024-06-13 11:37:57,293 [main.py:captureConfigX:60] Connecting to Device: DC1CORSWT-12
+WARNING 2024-06-13 11:37:57,304 [main.py:captureConfigX:68] Connection attempt 1/3 failed for DC1CORSWT-12 (10.222.20.6): 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:37:57,306 [main.py:captureConfigX:60] Connecting to Device: DC1CORSWT-22
+INFO 2024-06-13 11:37:57,308 [main.py:captureConfigX:69] Retrying in 2 seconds...
+WARNING 2024-06-13 11:37:57,313 [main.py:captureConfigX:68] Connection attempt 1/3 failed for DC1CORSWT-22 (10.222.5.189): 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:37:57,319 [main.py:captureConfigX:69] Retrying in 2 seconds...
+INFO 2024-06-13 11:37:57,317 [main.py:captureConfigX:60] Connecting to Device: DRCCORSWT-2
+INFO 2024-06-13 11:37:57,309 [main.py:captureConfigX:60] Connecting to Device: DRCCORSWT-1
+WARNING 2024-06-13 11:37:57,328 [main.py:captureConfigX:68] Connection attempt 1/3 failed for DRCCORSWT-2 (10.222.55.5): 'ssh' command not available. Please fix your PATH env
+WARNING 2024-06-13 11:37:57,330 [main.py:captureConfigX:68] Connection attempt 1/3 failed for DRCCORSWT-1 (10.222.55.4): 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:37:57,333 [main.py:captureConfigX:69] Retrying in 2 seconds...
+INFO 2024-06-13 11:37:57,335 [main.py:captureConfigX:69] Retrying in 2 seconds...
+INFO 2024-06-13 11:37:59,317 [main.py:captureConfigX:60] Connecting to Device: DC1CORSWT-12
+WARNING 2024-06-13 11:37:59,320 [main.py:captureConfigX:68] Connection attempt 2/3 failed for DC1CORSWT-12 (10.222.20.6): 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:37:59,327 [main.py:captureConfigX:60] Connecting to Device: DC1CORSWT-22
+WARNING 2024-06-13 11:37:59,332 [main.py:captureConfigX:68] Connection attempt 2/3 failed for DC1CORSWT-22 (10.222.5.189): 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:37:59,335 [main.py:captureConfigX:69] Retrying in 2 seconds...
+INFO 2024-06-13 11:37:59,331 [main.py:captureConfigX:69] Retrying in 2 seconds...
+INFO 2024-06-13 11:37:59,338 [main.py:captureConfigX:60] Connecting to Device: DRCCORSWT-2
+INFO 2024-06-13 11:37:59,338 [main.py:captureConfigX:60] Connecting to Device: DRCCORSWT-1
+WARNING 2024-06-13 11:37:59,342 [main.py:captureConfigX:68] Connection attempt 2/3 failed for DRCCORSWT-2 (10.222.55.5): 'ssh' command not available. Please fix your PATH env
+WARNING 2024-06-13 11:37:59,345 [main.py:captureConfigX:68] Connection attempt 2/3 failed for DRCCORSWT-1 (10.222.55.4): 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:37:59,347 [main.py:captureConfigX:69] Retrying in 2 seconds...
+INFO 2024-06-13 11:37:59,349 [main.py:captureConfigX:69] Retrying in 2 seconds...
+INFO 2024-06-13 11:38:01,339 [main.py:captureConfigX:60] Connecting to Device: DC1CORSWT-22
+ERROR 2024-06-13 11:38:01,341 [main.py:captureConfigX:72] Failed to establish connection to DC1CORSWT-22 (10.222.5.189) after 3 attempts.
+ERROR 2024-06-13 11:38:01,347 [main.py:captureConfig:129] Error with device DC1CORSWT-22: Failed to establish connection after 3 attempts., Error: 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:38:01,353 [main.py:captureConfigX:60] Connecting to Device: DRCCORSWT-2
+INFO 2024-06-13 11:38:01,354 [main.py:captureConfigX:60] Connecting to Device: DRCCORSWT-1
+INFO 2024-06-13 11:38:01,354 [main.py:captureConfigX:60] Connecting to Device: DC1CORSWT-12
+ERROR 2024-06-13 11:38:01,357 [main.py:captureConfigX:72] Failed to establish connection to DRCCORSWT-2 (10.222.55.5) after 3 attempts.
+ERROR 2024-06-13 11:38:01,359 [main.py:captureConfigX:72] Failed to establish connection to DRCCORSWT-1 (10.222.55.4) after 3 attempts.
+ERROR 2024-06-13 11:38:01,361 [main.py:captureConfigX:72] Failed to establish connection to DC1CORSWT-12 (10.222.20.6) after 3 attempts.
+ERROR 2024-06-13 11:38:01,364 [main.py:captureConfig:129] Error with device DRCCORSWT-2: Failed to establish connection after 3 attempts., Error: 'ssh' command not available. Please fix your PATH env
+ERROR 2024-06-13 11:38:01,371 [main.py:captureConfig:129] Error with device DRCCORSWT-1: Failed to establish connection after 3 attempts., Error: 'ssh' command not available. Please fix your PATH env
+ERROR 2024-06-13 11:38:01,375 [main.py:captureConfig:129] Error with device DC1CORSWT-12: Failed to establish connection after 3 attempts., Error: 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:38:01,378 [main.py:captureConfig:135] Get Config - execution completed
+INFO 2024-06-13 11:39:40,970 [main.py:captureConfigX:60] Connecting to Device: DC1CORSWT-12
+WARNING 2024-06-13 11:39:40,983 [main.py:captureConfigX:68] Connection attempt 1/3 failed for DC1CORSWT-12 (10.222.20.6): 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:39:40,987 [main.py:captureConfigX:69] Retrying in 2 seconds...
+INFO 2024-06-13 11:39:40,989 [main.py:captureConfigX:60] Connecting to Device: DC1CORSWT-22
+WARNING 2024-06-13 11:39:40,994 [main.py:captureConfigX:68] Connection attempt 1/3 failed for DC1CORSWT-22 (10.222.5.189): 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:39:40,997 [main.py:captureConfigX:69] Retrying in 2 seconds...
+INFO 2024-06-13 11:39:40,999 [main.py:captureConfigX:60] Connecting to Device: DRCCORSWT-1
+WARNING 2024-06-13 11:39:41,004 [main.py:captureConfigX:68] Connection attempt 1/3 failed for DRCCORSWT-1 (10.222.55.4): 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:39:41,007 [main.py:captureConfigX:69] Retrying in 2 seconds...
+INFO 2024-06-13 11:39:41,009 [main.py:captureConfigX:60] Connecting to Device: DRCCORSWT-2
+WARNING 2024-06-13 11:39:41,014 [main.py:captureConfigX:68] Connection attempt 1/3 failed for DRCCORSWT-2 (10.222.55.5): 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:39:41,017 [main.py:captureConfigX:69] Retrying in 2 seconds...
+INFO 2024-06-13 11:39:42,989 [main.py:captureConfigX:60] Connecting to Device: DC1CORSWT-12
+WARNING 2024-06-13 11:39:42,997 [main.py:captureConfigX:68] Connection attempt 2/3 failed for DC1CORSWT-12 (10.222.20.6): 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:39:43,001 [main.py:captureConfigX:60] Connecting to Device: DC1CORSWT-22
+WARNING 2024-06-13 11:39:43,003 [main.py:captureConfigX:68] Connection attempt 2/3 failed for DC1CORSWT-22 (10.222.5.189): 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:39:43,006 [main.py:captureConfigX:69] Retrying in 2 seconds...
+INFO 2024-06-13 11:39:43,003 [main.py:captureConfigX:69] Retrying in 2 seconds...
+INFO 2024-06-13 11:39:43,009 [main.py:captureConfigX:60] Connecting to Device: DRCCORSWT-1
+WARNING 2024-06-13 11:39:43,011 [main.py:captureConfigX:68] Connection attempt 2/3 failed for DRCCORSWT-1 (10.222.55.4): 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:39:43,014 [main.py:captureConfigX:69] Retrying in 2 seconds...
+INFO 2024-06-13 11:39:43,021 [main.py:captureConfigX:60] Connecting to Device: DRCCORSWT-2
+WARNING 2024-06-13 11:39:43,023 [main.py:captureConfigX:68] Connection attempt 2/3 failed for DRCCORSWT-2 (10.222.55.5): 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:39:43,026 [main.py:captureConfigX:69] Retrying in 2 seconds...
+INFO 2024-06-13 11:39:45,010 [main.py:captureConfigX:60] Connecting to Device: DC1CORSWT-22
+INFO 2024-06-13 11:39:45,014 [main.py:captureConfigX:60] Connecting to Device: DC1CORSWT-12
+INFO 2024-06-13 11:39:45,017 [main.py:captureConfigX:60] Connecting to Device: DRCCORSWT-1
+ERROR 2024-06-13 11:39:45,021 [main.py:captureConfigX:72] Failed to establish connection to DC1CORSWT-22 (10.222.5.189) after 3 attempts.
+ERROR 2024-06-13 11:39:45,026 [main.py:captureConfigX:72] Failed to establish connection to DRCCORSWT-1 (10.222.55.4) after 3 attempts.
+ERROR 2024-06-13 11:39:45,026 [main.py:captureConfigX:72] Failed to establish connection to DC1CORSWT-12 (10.222.20.6) after 3 attempts.
+ERROR 2024-06-13 11:39:45,030 [main.py:captureConfig:129] Error with device DC1CORSWT-22: Failed to establish connection after 3 attempts., Error: 'ssh' command not available. Please fix your PATH env
+ERROR 2024-06-13 11:39:45,036 [main.py:captureConfig:129] Error with device DRCCORSWT-1: Failed to establish connection after 3 attempts., Error: 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:39:45,030 [main.py:captureConfigX:60] Connecting to Device: DRCCORSWT-2
+ERROR 2024-06-13 11:39:45,038 [main.py:captureConfig:129] Error with device DC1CORSWT-12: Failed to establish connection after 3 attempts., Error: 'ssh' command not available. Please fix your PATH env
+ERROR 2024-06-13 11:39:45,041 [main.py:captureConfigX:72] Failed to establish connection to DRCCORSWT-2 (10.222.55.5) after 3 attempts.
+ERROR 2024-06-13 11:39:45,044 [main.py:captureConfig:129] Error with device DRCCORSWT-2: Failed to establish connection after 3 attempts., Error: 'ssh' command not available. Please fix your PATH env
+INFO 2024-06-13 11:39:45,046 [main.py:captureConfig:135] Get Config - execution completed
+INFO 2024-06-13 11:42:36,907 [main.py:captureConfigX:60] Connecting to Device: DC1CORSWT-12
+INFO 2024-06-13 11:42:36,913 [main.py:captureConfigX:60] Connecting to Device: DC1CORSWT-22
+INFO 2024-06-13 11:42:36,935 [main.py:captureConfigX:60] Connecting to Device: DRCCORSWT-1
+INFO 2024-06-13 11:42:36,950 [main.py:captureConfigX:60] Connecting to Device: DRCCORSWT-2
+INFO 2024-06-13 11:42:38,097 [main.py:captureConfigX:62] Successfully Connected to Device: DC1CORSWT-12
+INFO 2024-06-13 11:42:38,112 [main.py:captureConfigX:62] Successfully Connected to Device: DC1CORSWT-22
+INFO 2024-06-13 11:42:39,116 [main.py:captureConfigX:62] Successfully Connected to Device: DRCCORSWT-1
+INFO 2024-06-13 11:42:39,184 [main.py:captureConfigX:62] Successfully Connected to Device: DRCCORSWT-2
+INFO 2024-06-13 11:42:39,249 [main.py:captureConfigX:99] ---getting capture config from device DC1CORSWT-22---
+INFO 2024-06-13 11:42:39,252 [main.py:captureConfigX:104] DC1CORSWT-22_13-06-24_11_42_39.txt
+INFO 2024-06-13 11:42:39,255 [main.py:captureConfigX:99] ---getting capture config from device DC1CORSWT-12---
+INFO 2024-06-13 11:42:39,257 [main.py:captureConfigX:104] DC1CORSWT-12_13-06-24_11_42_39.txt
+INFO 2024-06-13 11:42:39,988 [main.py:captureConfigX:99] ---getting capture config from device DRCCORSWT-1---
+INFO 2024-06-13 11:42:39,991 [main.py:captureConfigX:104] DRCCORSWT-1_13-06-24_11_42_39.txt
+INFO 2024-06-13 11:42:40,802 [main.py:captureConfigX:99] ---getting capture config from device DRCCORSWT-2---
+INFO 2024-06-13 11:42:40,806 [main.py:captureConfigX:104] DRCCORSWT-2_13-06-24_11_42_40.txt
+INFO 2024-06-13 11:42:40,809 [main.py:captureConfig:135] Get Config - execution completed

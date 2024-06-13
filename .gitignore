@@ -1,8 +1,5 @@
 out/*
-
-import/
 log/*
-*.yaml
 
 # Ignore Python bytecode files
 __pycache__/
@@ -13,6 +10,4 @@ __pycache__/
 venv/
 
 # Ignore other common files
-*.log
 *.env
-*.DS_Store

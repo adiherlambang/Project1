@@ -116,16 +116,15 @@ def interfaceListed():
 @app.route('/uploadCSV', methods=['POST'])
 def uploadCSV():
     file = request.files['file']
-    
     if file:
         # Access file information
         filename = file.filename
-        file.save('assets/import/' + filename)
-
-        if createTestbed(filename) == True:
-            return 'success create testbed file'
+        file.save('./assets/import/' + filename)
+        
+        if  createTestbed(filename) == True:
+            return True
         else:
-            return 'Error while creating testbed file'
+            return False
     return 'No file uploaded'
 
 @app.route('/uploadInterfaceCRCfile', methods=['POST'])

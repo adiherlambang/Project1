@@ -1,6 +1,6 @@
 import os
 import csv
-import datetime
+from datetime import datetime
 import concurrent.futures
 from time import sleep
 from pyats.topology.loader import load
@@ -35,7 +35,7 @@ logger.addHandler(file_handler)
 if not os.path.exists("out/Capture_Memmory_Utilization"):
     os.makedirs("out/Capture_Memmory_Utilization")
 
-timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+# timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 
 def convert_to_netmiko(device):
     netmiko_device = {}
@@ -47,23 +47,23 @@ def convert_to_netmiko(device):
     return netmiko_device
 
 #Function to sorted data
-def sort_csv_by_field(input_file, sort_field):
-    data = []
+# def sort_csv_by_field(input_file, sort_field):
+#     data = []
     
-    # Read the data from the input CSV file
-    with open(input_file, "r", newline="") as csvfile:
-        reader = csv.DictReader(csvfile)
-        data = list(reader)
+#     # Read the data from the input CSV file
+#     with open(input_file, "r", newline="") as csvfile:
+#         reader = csv.DictReader(csvfile)
+#         data = list(reader)
 
-    # Sort the data based on the specified field
-    sorted_data = sorted(data, key=lambda x: int(x.get(sort_field, 0)))
+#     # Sort the data based on the specified field
+#     sorted_data = sorted(data, key=lambda x: int(x.get(sort_field, 0)))
 
-    # Write the sorted data back to the input CSV file
-    with open(input_file, "w", newline="") as csvfile:
-        fieldnames = sorted_data[0].keys() if sorted_data else []
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(sorted_data)
+#     # Write the sorted data back to the input CSV file
+#     with open(input_file, "w", newline="") as csvfile:
+#         fieldnames = sorted_data[0].keys() if sorted_data else []
+#         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+#         writer.writeheader()
+#         writer.writerows(sorted_data)
         
 def getMemmoryInfo(device):
     result = {
@@ -74,6 +74,8 @@ def getMemmoryInfo(device):
         'data':None
     }
     
+    output = ''
+    
     try:
         attempt = 1
         retry = 0
@@ -82,7 +84,7 @@ def getMemmoryInfo(device):
         while retry < mx_retry:
             try:
                 logger.info(f"Connecting to Device: {device.name}")
-                device.connect(learn_hostname=True, learn_os=True, log_stdout=False, mit=True, timeout=10)
+                device.connect(learn_hostname=True, learn_os=True, log_stdout=True, mit=True, timeout=120)
                 logger.info(f"Successfully Connected to Device: {device.name}")
                 break
             except Exception as conn_error:
@@ -100,7 +102,7 @@ def getMemmoryInfo(device):
         if device.type == 'iosxe':
             logger.info(f"Device: {device.name}, with OS type: {device.type}")
             output = device.parse("show processes memory")
-            # print(output)
+            logger.info(output)
             used = round(output['processor_pool']['used']/1024/1000, 2)
             total = round(output['processor_pool']['total']/1024/1000, 2)
             percentage = round(used / total * 100, 2)
@@ -115,7 +117,6 @@ def getMemmoryInfo(device):
             else:
                 category = "critical"
                 
-            result["success"] = True
             memmory_data = []
             
             for index, (key, value) in enumerate(output.items(), start=1):
@@ -131,25 +132,58 @@ def getMemmoryInfo(device):
             result["data"] = memmory_data
             result["success"] = True
             result["message"] = f"Memmory utilization captured successfully for {device.name}"
-            # with open(
-            #     f"out/Capture_Memmory_Utilization/Memmory_{timestamp}.csv", "a", newline=""
-            # ) as csvfile:
-            #     writer = csv.writer(csvfile)
-            #     writer.writerow([f"{counter}", f"{device.name}", used, total, percentage, category])
                 
         elif device.type == 'iosxr':
+            
             output = device.parse("show watchdog memory-state")
         elif device.type == 'ios':
+            
             output = device.parse("show processes memory")
         elif device.type == 'nxos':
+            
+            logger.info(f"Device: {device.name}, with OS type: {device.type}")
             output = device.parse("show system resources")
+            logger.info(output)
+            
+            return result
+            
+            # used = round(output["memory_usage"]["memory_usage_used_kb"]/1024, 2)
+            # total = round(output["memory_usage"]["memory_usage_total_kb"]/1024, 2)
+            # percentage = round(used / total * 100, 2)
+
+            # Categorize percentage based on certain ranges
+            # if percentage <= 40:
+            #     category = "low"
+            # elif percentage <= 70:
+            #     category = "medium"
+            # elif percentage <= 85:
+            #     category = "high"
+            # else:
+            #     category = "critical"
+                
+            # memmory_data = []
+            
+            # for index, (key, value) in enumerate(output.items(), start=1):
+            #     memmory_data.append({
+            #         'No':index,
+            #         'Hostname':device.name,
+            #         'Usage':used,
+            #         'Total':total,
+            #         'Percentage':percentage,
+            #         'Category':category
+            #     })
+            
+            # result["data"] = memmory_data
+            # result["success"] = True
+            # result["message"] = f"Memmory utilization captured successfully for {device.name}"
+            
         else :
             result["success"] = False
             result["error"] = "Not Compatible device OS version"
             return result               
             
     except Exception as pyats_error:
-        logger.error("Failed to connect using pyats get Memmory Utilization function")
+        logger.error("Failed to parse using pyats get Memmory Utilization function")
         result["error"] = str(pyats_error)
     return result
 
@@ -485,15 +519,6 @@ def getMemmoryInfo(device):
 
 def getMemmoryUtils(testbedFile):
     testbed = load(testbedFile)
-    # # Open the output file in append mode
-    # with open(f"out/Capture_Memmory_Utilization/Memmory_{timestamp}.csv", "a", newline="") as csvfile:
-    #     writer = csv.writer(csvfile)
-    #     # Write the header row
-    #     writer.writerow(["No", "Device", "Memory Used in MB", "Memory Total in MB", "Percentage", "Category"])
-    # # Define csv name for sorted purpose
-    # input_csv = (F"out/Capture_Memmory_Utilization/Memmory_{timestamp}.csv")
-    # sort_field = "No"
-    # Create a list of futures for iosxe and iosxr devices
     results = []
     memmory_list = []
 
@@ -503,8 +528,11 @@ def getMemmoryUtils(testbedFile):
             try:
                 result = future.result()
                 results.append(result)                       
-                if not result["success"]:
-                    logger.error(f"Error with device {result['device']}, Error: {result['error']}")
+                if result["success"]:
+                    # print(result)
+                    memmory_list.append({"Hostname": result["device"], "data": result["data"]})
+                else:
+                    logger.error(f"Error with device {result['device']}: {result['message']}, Error: {result['error']}")
             except Exception as exc:
                 error_message = f"Exception occurred: {str(exc)}"
                 logger.error(error_message)
@@ -523,7 +551,7 @@ def getMemmoryUtils(testbedFile):
         writer.writeheader()
         hostname_counter = 1
         for item in memmory_list:
-            print(item["data"])
+            # logger.info(item["data"])
             hostname = item["Hostname"]
             data = item["data"]
 
@@ -533,15 +561,12 @@ def getMemmoryUtils(testbedFile):
                     'Device': hostname,
                     'Memory Used in MB': memmory['Usage'],
                     'Memory Total in MB' : memmory['Total'],
-                    'PID': memmory['PID'],
-                    'SN': memmory['SN']
+                    'Percentage': memmory['Percentage'],
+                    'Category': memmory['Category']
                 }
                 writer.writerow(row)
             hostname_counter += 1
     
     logger.info("Get Memmory Utilization - execution completed successfully.")
-    #Sorted the output data
-    # sort_csv_by_field(input_csv, sort_field)
-    logger.info("Sort Output Data - execution completed.")
     return results
     # logger.info(f"Total Executed Get Memory Device is IOS_XE:{ios_xe_device} IOS_XR:{ios_xr_device} IOS:{ios_device} NXOS:{nxos_device} and Total Device is {total_device}")

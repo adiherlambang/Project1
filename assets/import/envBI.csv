@@ -1,0 +1,2 @@
+hostname,ip,username,password,enable_password,protocol,os
+DRCCORSWT-2,10.222.55.5,oxidized,Rtpl4k3build312345!,Rtpl4k3build312345!,ssh,nxos

@@ -1,8 +1,8 @@
 import subprocess
 
 def createTestbed(input_file):
-    # Start Bash script as subprocess with input from variable
-    result = subprocess.Popen(['/bin/bash', './lib/createTestbed.sh'], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    with open('/home/msi/Project1/log/testbedCreate.log', 'w') as out, open('/home/msi/Project1/log/testbedCreate_error.log', 'w') as err:
+        result = subprocess.Popen(['/bin/bash', './lib/createTestbed.sh'], stdin=subprocess.PIPE, stdout=out, stderr=err)
 
     # Send input to subprocess and get output and errors
     output, errors = result.communicate(input=input_file.encode())

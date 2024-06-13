@@ -96,19 +96,20 @@ def captureInventoryX(device):
                     result["message"] = f"Failed to establish connection after {mx_retry} attempts."
                     result["error"] = str(conn_error)
                     return result
-
+        logger.info(f"Device: {device.name}, Parsing data with Pyats")
         output = device.parse('show inventory')
-        # print(output)
+        # logger.info(output)
         inventory_data = []
-
+        # indexed_names = {}
+        logger.info(f"Device : {device.name}, Type : {device.type}")
         if device.type == 'nxos':
-            for index, (key, value) in enumerate(output.items(), start=1):
+            for index, (key, value) in enumerate(output['name'].items(), start=1):
                 inventory_data.append({
                     'No_Inventory': index,
-                    'Name': value.get('name', ''),
+                    'Name': value.get('description', ''),
                     'Description': '',
                     'PID': value.get('pid', ''),
-                    'SN': value.get('sn', '')
+                    'SN': value.get('serial_number', '')
                 })
         else :
             for index, (key, value) in enumerate(output['main']['chassis'].items(), start=1):
@@ -144,10 +145,10 @@ def captureInventoryX(device):
 
         try:
             netmiko_device = convert_to_netmiko(device)
-            logger.info("Establishing Netmiko connection...")
+            logger.info(f"Device : {device.name}, Establishing Netmiko connection...")
             connection = ConnectHandler(**netmiko_device)
             connection.enable()
-            logger.info("Connection established successfully.")
+            logger.info(f"Device : {device.name}, Connection established successfully.")
             command = "show inventory"
             output = connection.send_command(command)
             inventory_data = parse_inventory(output)
