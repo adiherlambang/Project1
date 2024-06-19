@@ -9,11 +9,21 @@ import time
 from netmiko import ConnectHandler
 from pyats.utils.secret_strings import to_plaintext
 
+log_file_path = 'log/CaptureConfig.log'
+
+log_dir = os.path.dirname(log_file_path)
+if not os.path.exists(log_dir):
+    os.makedirs(log_dir)
+        
+if not os.path.exists(log_file_path):
+    with open(log_file_path, 'w') as file:
+        file.write('')  # Create an empty log file    
+
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 # the handler determines where the logs go: stdout/file
 shell_handler = RichHandler()
-file_handler = logging.FileHandler('log/CaptureConfig.log')
+file_handler = logging.FileHandler(log_file_path)
 shell_handler.setLevel(logging.DEBUG)
 file_handler.setLevel(logging.DEBUG)
 # the formatter determines what our logs will look like
@@ -28,11 +38,13 @@ shell_handler.setFormatter(shell_formatter)
 file_handler.setFormatter(file_formatter)
 logger.addHandler(shell_handler)
 logger.addHandler(file_handler)
-
-
+    
 # Check if output folder is available, create it if not
-if not os.path.exists("out/CaptureConfig"):
-    os.makedirs("out/CaptureConfig")
+output_dir = "out/CaptureConfig"
+if not os.path.exists(output_dir):
+    os.makedirs(output_dir)
+    logger.debug(f"Directory {output_dir} created.")
+
 
 def convert_to_netmiko(device):
     netmiko_device = {}

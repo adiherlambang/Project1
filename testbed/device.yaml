@@ -1,14 +1,14 @@
 devices:
-  DRCCORSWT-2:
+  CC-VCUBE:
     connections:
       cli:
-        ip: 10.222.55.5
+        ip: 198.18.133.226
         protocol: ssh
     credentials:
       default:
-        password: Rtpl4k3build312345!
-        username: oxidized
+        password: C1sco12345
+        username: admin
       enable:
-        password: Rtpl4k3build312345!
-    os: nxos
-    type: nxos
+        password: C1sco12345
+    os: iosxe
+    type: iosxe

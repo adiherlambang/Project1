@@ -1,8 +1,18 @@
 import subprocess
+import os
+
+testbed_log = './log/testbedCreate.log'
+
+testbed_log_dir = os.path.dirname(testbed_log)
+
+if not os.path.exists(testbed_log_dir):
+    with open(testbed_log_dir, 'w') as file:
+        file.write('')  # Create an empty log file
+    print(f"Log file {testbed_log_dir} created.")  
 
 def createTestbed(input_file):
-    with open('/home/msi/Project1/log/testbedCreate.log', 'w') as out, open('/home/msi/Project1/log/testbedCreate_error.log', 'w') as err:
-        result = subprocess.Popen(['/bin/bash', './lib/createTestbed.sh'], stdin=subprocess.PIPE, stdout=out, stderr=err)
+    with open(testbed_log, 'a') as out:
+        result = subprocess.Popen(['/bin/bash', './lib/createTestbed.sh'], stdin=subprocess.PIPE, stdout=out, stderr=out)
 
     # Send input to subprocess and get output and errors
     output, errors = result.communicate(input=input_file.encode())
