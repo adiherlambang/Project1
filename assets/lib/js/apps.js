@@ -555,7 +555,7 @@ function folderOutput(event) {
             resData.forEach(function(item,index) {
                 // console.log(item)
                 setTimeout(function () {
-                    var tableRow = $('<tr>').append($("<td>", { html: index+1 }),$("<td>", { html: item }),$("<td><a class='downloadFile' onClick='downloadFile()' id="+item+" href='#'><i class='fas fa-download'>"));                    
+                    var tableRow = $('<tr>').append($("<td>", { html: index+1 }),$("<td>", { html: item }),$("<td><a class='downloadFile"+index+"' onClick='downloadFile("+index+")' id="+item+" href='#'><i class='fas fa-download'>"));                    
                       $('#dataTable').append(tableRow);
                 }, 500);
             });
@@ -567,13 +567,15 @@ function folderOutput(event) {
     });
 };
 
-function downloadFile() {
-    const id = document.querySelector(".downloadFile");
+function downloadFile(item) {
+    console.log(item)
+    const id = document.querySelector(".downloadFile"+item);
     const path = document.querySelector("#appsModalTitle");
     const pathFile={
         'folder': path.innerHTML,
         'file':id.id
     }
+    console.log(pathFile)
     $.ajax({
         url: '/downloadFile',
         type: 'post',

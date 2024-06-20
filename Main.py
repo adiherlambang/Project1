@@ -17,8 +17,6 @@ from time import sleep
 from lib.logSummary.main import summary_log
 import logging
 from rich.logging import RichHandler
-
-
 from genie.testbed import load
 import concurrent.futures
 
@@ -92,16 +90,54 @@ def app_home():
     else:
         data= Markup('''<span><i id="checker" class="fas fa-check-circle" data-toggle="tooltip" data-placement="right" title="Testbedfile is READY" style="color: green;"></i></span>''')
 
-    return render_template("index.html",data = data)    
+    return render_template("index.html",data = data)
+
+
+@app.route('/deviceListData', methods=['GET'])
+def get_data():
+    if checkTestbedFile()==True:
+        with open('testbed/device.yaml', 'r') as file:
+            data = yaml.safe_load(file)
+
+        devices = data['devices']
+        
+        data = [
+            {
+                'name': name,
+                'ip': device['connections']['cli']['ip'],
+                'protocol': device['connections']['cli']['protocol'],
+                'username': device['credentials']['default']['username'],
+                'password': device['credentials']['default']['password'],
+                'os': device['os'],
+                'type': device['type']
+            }
+            for name, device in devices.items()
+        ]
+        
+        draw = request.args.get('draw')
+        start = int(request.args.get('start', 0))
+        length = int(request.args.get('length', 10))
+        search_value = request.args.get('search[value]', '').lower()
+
+        filtered_data = [item for item in data if search_value in item['name'].lower()]
+
+        paginated_data = filtered_data[start:start + length]
+        
+        response = {
+            'draw': draw,
+            'recordsTotal': len(data),
+            'recordsFiltered': len(filtered_data),
+            'data': paginated_data
+        }
+        
+        return jsonify(response)
+        
+        
 
 @app.route('/deviceList', methods=['GET'])
 def deviceList():
     if checkTestbedFile()==True:
-        # Read YAML file
-        with open('testbed/device.yaml', 'r') as file:
-            data = yaml.safe_load(file)
-
-        file_path = 'testbed/device.yaml' 
+        file_path = 'testbed/device.yaml'
         timestamp = os.path.getmtime(file_path)
 
         timestamp_dt = datetime.fromtimestamp(timestamp)
@@ -112,24 +148,13 @@ def deviceList():
 
         last_modified = timestamp_dt.strftime("%Y-%m-%d %H:%M:%S")
     else:
-        data = False
-        
         last_modified = ""
-    
-    return render_template('deviceList.html',dataDevices=data,config=last_modified)
+        
+    return render_template('deviceList_new.html',config=last_modified)
 
 @app.route('/interfaceListed', methods=['GET'])
 def interfaceListed():
     if checkTestbedFile()==True:
-        # Read YAML file
-        try:
-            with open('testbed/interfaceCRClist.yaml', 'r') as file:
-                data = yaml.safe_load(file)
-        except Exception as e:
-            data = False
-            last_modified = "File Interface CRC list not found"
-            return render_template('interfaceListed.html',dataDevices=data,config=last_modified)
-
         file_path = 'testbed/interfaceCRClist.yaml' 
         timestamp = os.path.getmtime(file_path)
 
@@ -145,7 +170,59 @@ def interfaceListed():
         
         last_modified = ""
         
-    return render_template('interfaceListed.html',dataDevices=data,config=last_modified)    
+    return render_template('interfaceListed_new.html',config=last_modified)    
+
+@app.route('/interfaceListData', methods=['GET'])
+def interfaceListData():
+    if checkTestbedFile()==True:
+        with open('testbed/interfaceCRClist.yaml', 'r') as file:
+            yaml_data = yaml.safe_load(file)
+
+        devices = yaml_data['devices']
+        topology = yaml_data['topology']
+        
+        data = []
+        for name, device in devices.items():
+            device_info = {
+                'name': name,
+                'ip': device['connections']['cli']['ip'],
+                'protocol': device['connections']['cli']['protocol'],
+                'username': device['credentials']['default']['username'],
+                'password': device['credentials']['default']['password'],
+                'os': device['os'],
+                'type': device['type'],
+                'interfaces':[]
+            }
+
+            # Extract topology information if available
+            if name in topology:
+                interfaces = topology[name]['interfaces']
+                for intf_name, intf_data in interfaces.items():
+                    intf_info = f"{intf_name}"
+                    device_info['interfaces'].append(intf_info)
+
+            # Combine interface information into a single string
+            device_info['interfaces'] = ', '.join(device_info['interfaces'])
+            data.append(device_info)
+
+        
+        draw = request.args.get('draw')
+        start = int(request.args.get('start', 0))
+        length = int(request.args.get('length', 10))
+        search_value = request.args.get('search[value]', '').lower()
+
+        filtered_data = [item for item in data if search_value in item['name'].lower()]
+
+        paginated_data = filtered_data[start:start + length]
+        
+        response = {
+            'draw': draw,
+            'recordsTotal': len(data),
+            'recordsFiltered': len(filtered_data),
+            'data': paginated_data
+        }
+        
+        return jsonify(response)
 
 @app.route('/uploadCSV', methods=['POST'])
 def uploadCSV():
