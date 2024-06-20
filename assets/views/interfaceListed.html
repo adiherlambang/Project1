@@ -12,7 +12,7 @@
         <link href="assets/lib/css/apps.css" rel="stylesheet" />
         <script src="assets/lib/js/font-awesome-all.min.js"></script>
     </head>
-    <body class="sb-nav-fixed" onload="clearFileInput('csvFileInput')">
+    <body class="sb-nav-fixed" onload="clearFileInput('interfaceCRClist')">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             <!-- Navbar Brand-->
             <a class="navbar-brand ps-3" href="/">ProjectOne - WebUI</a>
@@ -114,20 +114,25 @@
                                         <th>Interface Name</th>
                                     </tr>
                                     <tbody>
-                                    {% if dataDevices is not false %}
-                                    {% for device_name, device in dataDevices['devices'].items() %}
-                                        <tr>
-                                            <td>{{ device_name }}</td>
-                                            <td>{{ device.connections.cli.ip }}</td>
-                                            <td>{{ device.connections.cli.protocol }}</td>
-                                            <td>{{ device.credentials.default.username }}</td>
-                                            <td>******</td>
-                                            <td>{{ device.os }}</td>
-                                            <td>{{ device.interface_name }}</td>
-                                        </tr>
-                                    {% endfor %}
-                                    {% endif %}
-                                </tbody>
+                                        {% if dataDevices is not false %}
+                                            {% for device_name, device in dataDevices['devices'].items() %}
+                                                <tr>
+                                                    <td>{{ device_name }}</td>
+                                                    <td>{{ device.connections.cli.ip }}</td>
+                                                    <td>{{ device.connections.cli.protocol }}</td>
+                                                    <td>{{ device.credentials.default.username }}</td>
+                                                    <td>******</td>
+                                                    <td>{{ device.os }}</td>
+                                                    <td>
+                                                        {% if device_name in dataDevices['topology'] %}
+                                                            {% set interfaces = dataDevices['topology'][device_name]['interfaces'] %}
+                                                            {{ interfaces | join(', ') }}
+                                                        {% endif %}
+                                                    </td>
+                                                </tr>
+                                            {% endfor %}
+                                        {% endif %}                                    
+                                    </tbody>
                                 </table> 
                             <!-- <button class="btn btn-secondary" onclick="addRow()">Add Row</button> -->
                         </div>

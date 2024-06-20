@@ -299,7 +299,8 @@ $('#getCRCinterface').on("click", function(event) {
                 flashContainer.append(flashList);
                 }
             },
-            complete: function(){
+            complete: function(resData){
+                console.log(resData)
                 // $('#layoutSidenav_content').append(alert)
                 // setTimeout(function() {
                 //     $('.alert').alert('close')

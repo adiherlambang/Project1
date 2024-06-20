@@ -31,8 +31,8 @@ logger.addHandler(file_handler)
 
 
 # Check if output folder is available, create it if not
-if not os.path.exists("out/CaptureInventory"):
-    os.makedirs("out/CaptureInventory")
+if not os.path.exists("out/Capture_Inventory"):
+    os.makedirs("out/Capture_Inventory")
 
 def convert_to_netmiko(device):
     netmiko_device = {}
@@ -189,7 +189,7 @@ def captureInventory(testbedFile):
     # Write inventory to CSV
     waktu = datetime.now().strftime("%d-%m-%y_%H_%M_%S")
     csv_filename = f"CaptureInventory_{waktu}.csv"
-    csv_filepath = os.path.join("out", "CaptureInventory", csv_filename)
+    csv_filepath = os.path.join("out", "Capture_Inventory", csv_filename)
 
     with open(csv_filepath, mode='w', newline='') as csvfile:
         fieldnames = ['No_Hostname', 'Hostname', 'No_Inventory', 'Name', 'Description', 'PID', 'SN']

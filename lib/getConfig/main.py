@@ -40,7 +40,7 @@ logger.addHandler(shell_handler)
 logger.addHandler(file_handler)
     
 # Check if output folder is available, create it if not
-output_dir = "out/CaptureConfig"
+output_dir = "out/Capture_Config"
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
     logger.debug(f"Directory {output_dir} created.")

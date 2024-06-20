@@ -320,7 +320,7 @@ def interfaceCRC(testbedFile):
     csv_filepath = os.path.join("out", "Capture_Interface_CRC", csv_filename)
     
     with open(csv_filepath, mode='w', newline='') as csvfile:
-        fieldnames = ['No_Hostname', 'Hostname', 'No_Interface', 'CRC', 'Input_Errors', 'Output_Errors']
+        fieldnames = ['No_Hostname', 'Hostname', 'Interface', 'CRC', 'Input_Errors', 'Output_Errors']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         
         writer.writeheader()

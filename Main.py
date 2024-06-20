@@ -167,11 +167,9 @@ def uploadInterfaceCRCfile():
         # Access file information
         filename = file.filename
         file.save('assets/import/' + filename)
-
-        if createInterfaceCRCList(filename) == True:
-            return 'success create testbed interface CRC list file'
-        else:
-            return 'Error while creating testbed interface CRC list file'
+        generateTestbed = createInterfaceCRCList(filename)
+        logger.info(generateTestbed)
+        return generateTestbed
     return 'No file uploaded'
 
 @app.route('/getConfig', methods=['POST'])
@@ -297,13 +295,24 @@ def getCRCAll():
 @app.route('/getCRClisted', methods=['POST'])
 def getCRClisted():
     if checkTestbedFile()==True:
-        # waktu = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-        result = main_InterfaceCRC(crcListedFile)
-        flash(result)
-        # flash("Logs details : "+summary_log(waktu))
+        results = main_InterfaceCRC(crcListedFile)
+        error_count = 0
+        success_count = 0
+        
+        for result in results:
+            if result["success"]:
+                # flash(f"Success: {result['message']}")
+                success_count += 1
+            else:
+                # flash(f"Error: {result['message']} - {result['error']}", 'error')
+                error_count += 1
+        
+        flash(f"Finish Capture Listed Interface CRC Data, Success :{success_count} Error :{error_count} from {len(results)} device in the list")
+        flash("Logs details : " + summary_log(waktu,'InterfaceListed-CRC'))
         return jsonify(data=get_flashed_messages())
     else:
         flash(f"device list file is not ready, please check the device list file")
+        return jsonify(data=get_flashed_messages())
 
 @app.route('/getOutput', methods=['POST','GET'])
 def getOutput():
