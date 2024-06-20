@@ -52,6 +52,7 @@ $('#getConfig').on('click', function(event) {
             }
         },
         error: function(xhr, status, error) {
+            hideLoading()
             console.error('Error:', error);
             var flashList = $('<ul>').addClass('flash-messages');
             flashList.append($('<li>').text('Error: '+error));
@@ -101,14 +102,24 @@ $('#getInvent').on("click", function(event) {
             }
         },
         complete: function(){
-            $('#layoutSidenav_content').append(alert)
-            setTimeout(function() {
-                $('.alert').alert('close')
-            }, 2000); 
+            // $('#layoutSidenav_content').append(alert)
+            // setTimeout(function() {
+            //     $('.alert').alert('close')
+            // }, 2000); 
+            var closedModal = $('<a href="#" class="btn btn-primary">Close</a>');
+            $('#appsModalFooter').append(closedModal);
 
+            closedModal.click(function () {  
+                $('#appsModal').modal('hide'); 
+                $(this).remove();
+            })
         },
-        error: function (error) {
-            console.log("Error getting Inventory")
+        error: function (xhr, status, error) {
+            hideLoading()
+            console.error('Error:', error);
+            var flashList = $('<ul>').addClass('flash-messages');
+            flashList.append($('<li>').text('Error: '+error));
+            flashContainer.append(flashList);
         }
     });
 });
@@ -143,8 +154,8 @@ $('#getMemUtils').on("click", function(event) {
         error: function(xhr, status, error) {           
             if (xhr.status === 500) {
                 hideLoading()
-                console.log("Error API getting Memory Utilization");
-                var messages = ["Error API getting memory utilization, please contact your administrator"];
+                console.log("Error: "+error);
+                var messages = ["Error API getting memory utilization, please contact the administrator"];
                 var flashContainer = $('#flashContainer');
                 if (messages.length > 0) {
                     var flashList = $('<ul>').addClass('flash-messages');
@@ -250,7 +261,7 @@ $('#getCDPDevice').on("click", function(event) {
 });
 
 
-$('#getCRCinterface').on("click", function() {
+$('#getCRCinterface').on("click", function(event) {
     event.preventDefault();
     $('#appsModal').modal('show'); 
     var crcMenu1 = '<div class="card mb-3"> <div class="card-body text-center"> <i class="fas fa-network-wired fa-2x mb-3"></i> <h5 class="card-title">Get all CRC from all devices</h5> <button id="getCRCinterfaceAll" class="btn btn-primary">Start</button> </div> </div>';
@@ -258,8 +269,8 @@ $('#getCRCinterface').on("click", function() {
     var closeCRCMenu = $('<button type="button" class="btn btn-secondary" id="modalButton">Close</button>');
     modalTitle.innerHTML="Get CRC Interface Devices";
     $('#warningProcess').html('');
+    $('#appsModalBody').html("");
     $('#appsModalBody').html(crcMenu1+crcMenu2);
-    
     $('#appsModalFooter').append(closeCRCMenu);
 
     closeCRCMenu.click(function () {  
@@ -276,6 +287,7 @@ $('#getCRCinterface').on("click", function() {
             // data: JSON.stringify(chat),
             success: function (resData) {
                 hideLoading()
+                console.info(resData)
                 // alert(JSON.stringify(resData))
                 var messages = resData.data;
                 var flashContainer = $('#flashContainer');
@@ -295,6 +307,7 @@ $('#getCRCinterface').on("click", function() {
 
             },
             error: function (error) {
+                console.error(error)
                 console.log("Error getting CRC Interface Devices")
             }
         });
@@ -472,11 +485,12 @@ $('#uploadButton').on("click", function() {
             contentType: false,
             success: function (resData) {
                 // alert(resData)
-                if (resData===True){
+                if (resData['status']===true){
                     clearFileInput('csvFileInput')
                     location.reload();
                 }else{
-                    alert(resData)
+                    alert(resData['message'])
+                    console.error(resData)
                 }              
             },
             error: function (error) {
@@ -506,7 +520,9 @@ $('#uploadInterfaceCRCfile').on("click", function() {
             success: function (resData) {
                 // alert(resData)
                 clearFileInput('interfaceCRClist')
-                location.reload();
+                setTimeout(function() {
+                    location.reload();
+                }, 100); // Delay of 100 milliseconds
             },
             error: function (error) {
                 console.log("Error while uploading file")

@@ -145,4 +145,5 @@ def captureConfig(testbedFile):
                 results.append({"device": "Unknown", "success": False, "message": error_message, "error": str(exc)})
 
     logger.info("Get Config - execution completed")
+    logger.info(results)
     return results

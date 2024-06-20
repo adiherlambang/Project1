@@ -15,6 +15,8 @@ from lib.getCRC.main import interfaceCRC
 from lib.getCRC_InterfaceList.main import main_InterfaceCRC
 from time import sleep
 from lib.logSummary.main import summary_log
+import logging
+from rich.logging import RichHandler
 
 
 from genie.testbed import load
@@ -36,6 +38,38 @@ crcListedFile = 'testbed/interfaceCRClist.yaml'
 app.secret_key = 'myApps'
 
 waktu = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+
+log_file_path = 'log/service_api.log'
+
+log_dir = os.path.dirname(log_file_path)
+if not os.path.exists(log_dir):
+    os.makedirs(log_dir)
+        
+if not os.path.exists(log_file_path):
+    with open(log_file_path, 'w') as file:
+        file.write('')  # Create an empty log file   
+        
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
+# the handler determines where the logs go: stdout/file
+shell_handler = RichHandler()
+file_handler = logging.FileHandler(log_file_path)
+shell_handler.setLevel(logging.DEBUG)
+file_handler.setLevel(logging.DEBUG)
+# the formatter determines what our logs will look like
+fmt_shell = '%(message)s'
+fmt_file = '%(levelname)s %(asctime)s [%(filename)s:%(funcName)s:%(lineno)d] %(message)s'
+
+shell_formatter = logging.Formatter(fmt_shell)
+file_formatter = logging.Formatter(fmt_file)
+
+# here we hook everything together
+shell_handler.setFormatter(shell_formatter)
+file_handler.setFormatter(file_formatter)
+logger.addHandler(shell_handler)
+logger.addHandler(file_handler)
+
+logger.info("Web service ProjectOne is Running")
 
 def checkTestbedFile():
     if os.path.exists(testbedFile):
@@ -120,11 +154,9 @@ def uploadCSV():
         # Access file information
         filename = file.filename
         file.save('./assets/import/' + filename)
-        
-        if  createTestbed(filename) == True:
-            return True
-        else:
-            return False
+        generateTestbed = createTestbed(filename)
+        logger.info(generateTestbed)
+        return generateTestbed
     return 'No file uploaded'
 
 @app.route('/uploadInterfaceCRCfile', methods=['POST'])
@@ -241,12 +273,22 @@ def customPage():
         return render_template("customCommand.html")   
 
 @app.route('/getCRCAll', methods=['POST'])
-def getCRCAll():      
+def getCRCAll():
     if checkTestbedFile()==True:
-        # waktu = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-        result = interfaceCRC(testbedFile)
-        flash(result)
-        # flash("Logs details : "+summary_log(waktu))
+        results = interfaceCRC(testbedFile)
+        error_count = 0
+        success_count = 0
+        
+        for result in results:
+            if result["success"]:
+                # flash(f"Success: {result['message']}")
+                success_count += 1
+            else:
+                # flash(f"Error: {result['message']} - {result['error']}", 'error')
+                error_count += 1
+        
+        flash(f"Finish Capture Interface CRC Data, Success :{success_count} Error :{error_count} from {len(results)} device in the list")
+        flash("Logs details : " + summary_log(waktu,'Interface-CRC'))
         return jsonify(data=get_flashed_messages())
     else:
         flash(f"device list file is not ready, please check the device list file")
@@ -277,7 +319,7 @@ def getOutput():
         return render_template("outputFile.html",contents=filtered_contents)
     if request.method == 'POST':
         data = request.get_json('data')
-        print(data['name'])
+        logger.info(data['name'])
 
         directory = './out/'+data['name']
         # Get the directory contents
@@ -293,9 +335,9 @@ def getOutput():
 def downloadFile():
     # Path to the file you want to download
     data = request.get_json('data')
-    print(data['file'])
+    logger.info(data['file'])
     file_path = './out/'+data['folder']+'/'+data['file']
-    print(file_path)
+    logger.info(file_path)
 
     # Send the file as a response
     return send_file(file_path, as_attachment=True)

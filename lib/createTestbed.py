@@ -11,6 +11,10 @@ if not os.path.exists(testbed_log_dir):
     print(f"Log file {testbed_log_dir} created.")  
 
 def createTestbed(input_file):
+    msg ={
+        'status':False,
+        'message':""
+    }
     with open(testbed_log, 'a') as out:
         result = subprocess.Popen(['/bin/bash', './lib/createTestbed.sh'], stdin=subprocess.PIPE, stdout=out, stderr=out)
 
@@ -18,16 +22,17 @@ def createTestbed(input_file):
     output, errors = result.communicate(input=input_file.encode())
 
     # Get return code
-    return_code = result.returncode
-
-    if return_code == 0:
-        # Success
-        print("Importing file..."+input_file)
-
-        print(f"Success: {output.decode().strip()}")
-        print("---testbed file ready---")
-        return True
-    elif return_code == 1:
-        # Error
-        print(f"Error: {errors.decode().strip()}")
-        return False
+    try:
+        return_code = result.returncode
+        
+        if return_code == 0:
+            # Success
+            print("Importing file..."+input_file)
+            # print(f"Success: {output.decode().strip()}")
+            print("---testbed file ready---")
+            msg['status']=True
+        return msg
+    
+    except Exception as error:
+        msg['message']=error
+        return msg

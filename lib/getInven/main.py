@@ -198,7 +198,7 @@ def captureInventory(testbedFile):
         writer.writeheader()
         hostname_counter = 1
         for item in inventory_list:
-            print(item["data"])
+            # print(item["data"])
             hostname = item["Hostname"]
             data = item["data"]
             inventory_counter = 1
@@ -216,6 +216,7 @@ def captureInventory(testbedFile):
                 inventory_counter += 1
             hostname_counter += 1
 
-    logger.info(f"Inventory data written to CSV file {csv_filepath}")
+    logger.info(f"Inventory data written to CSV file")
+    logger.info(results)
     return results
 
