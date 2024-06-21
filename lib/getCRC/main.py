@@ -10,6 +10,7 @@ import os
 import textfsm
 from netmiko import ConnectHandler
 from pyats.utils.secret_strings import to_plaintext
+import time
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
