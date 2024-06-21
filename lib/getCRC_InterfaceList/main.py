@@ -11,6 +11,7 @@ import textfsm
 from netmiko import ConnectHandler
 from pyats.utils.secret_strings import to_plaintext
 import yaml
+import time
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
@@ -74,7 +75,10 @@ def interfaceListedCRC(device,testbedFile):
                     return result
         
         logger.info(f"Device: {device.name}, Parsing data with Pyats")
-        output_iface_crc = device.parse('show interfaces')
+        if device.type=='nxos' :
+            output_iface_crc = device.parse('show interface')
+        else:
+            output_iface_crc = device.parse('show interfaces')
         crc_interface=[]
         # logger.info(output_iface_crc)
         # logger.info(device)
