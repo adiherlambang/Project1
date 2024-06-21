@@ -96,7 +96,7 @@ def interfaceListedCRC(device,testbedFile):
             
         iface_skipp = ['.']
         for index, (key, value) in enumerate(output_iface_crc.items(), start=1):
-            if any(sub in key for sub in get_ifce):
+            if any(sub == element for sub in get_ifce for element in key.split()):
                 if any(sub1 in key for sub1 in iface_skipp):
                     logger.info(f"Skipping interface: {key}. in hostname: {device}")
                     continue
