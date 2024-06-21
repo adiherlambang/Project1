@@ -78,14 +78,16 @@ def iface_crc(device):
         logger.info(f"Device : {device.name}, Type : {device.type}")
         if device.type=='nxos' :
             output_iface_crc = device.parse('show interface')
+            ifce=['port-channel','mgmt0','loopback','Vlan','.']
         else:
             output_iface_crc = device.parse('show interfaces')
+            ifce=['port-channel','mgmt0','Loopback','Vlan','.']
         # logger.info(output_iface_crc)
         crc_interface=[]
         
         
         
-        ifce=['port-channel','mgmt0','Loopback','Vlan','.']
+        
         for index, (key, value) in enumerate(output_iface_crc.items(), start=1):
             if any(sub in key for sub in ifce):
                 logger.info(f"Skipping interface: {key}. in hostname: {device}")
