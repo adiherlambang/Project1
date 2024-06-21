@@ -77,7 +77,7 @@ def iface_crc(device):
         logger.info(f"Device : {device.name}, Type : {device.type}")
         if device.type=='nxos' :
             output_iface_crc = device.parse('show interface')
-        else
+        else:
             output_iface_crc = device.parse('show interfaces')
         # logger.info(output_iface_crc)
         crc_interface=[]
