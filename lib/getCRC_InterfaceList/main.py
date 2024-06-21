@@ -93,20 +93,25 @@ def interfaceListedCRC(device,testbedFile):
                 # logger.info(f"Interface: {intf_name}")
                 get_ifce.append(intf_name)
             logger.info(f"Get Interface: {get_ifce}")
-        
+            
+        iface_skipp = ['.']
         for index, (key, value) in enumerate(output_iface_crc.items(), start=1):
             if any(sub in key for sub in get_ifce):
-                crc = output_iface_crc[key]['counters']['in_crc_errors']
-                input_errors = output_iface_crc[key]['counters']['in_errors']
-                output_errors = output_iface_crc[key]['counters']['out_errors']
-                # logger.info(f"interface: {key},CRC{crc},in_error{input_errors},out_error{output_errors}")
-                crc_interface.append({
-                    'No_Interface': index,
-                    'Interface': key,
-                    'CRC': crc,
-                    'Input_Errors': input_errors,
-                    'Output_Errors': output_errors
-                })
+                if any(sub1 in key for sub1 in iface_skipp):
+                    logger.info(f"Skipping interface: {key}. in hostname: {device}")
+                    continue
+                else:
+                    crc = output_iface_crc[key]['counters']['in_crc_errors']
+                    input_errors = output_iface_crc[key]['counters']['in_errors']
+                    output_errors = output_iface_crc[key]['counters']['out_errors']
+                    # logger.info(f"interface: {key},CRC{crc},in_error{input_errors},out_error{output_errors}")
+                    crc_interface.append({
+                        'No_Interface': index,
+                        'Interface': key,
+                        'CRC': crc,
+                        'Input_Errors': input_errors,
+                        'Output_Errors': output_errors
+                    })
         
         # logger.info(f"Result Interface CRC: {crc_interface}")
         result["data"] = crc_interface
