@@ -1,5 +1,6 @@
 out/*
 log/*
+assets/import/*
 
 # Ignore Python bytecode files
 __pycache__/

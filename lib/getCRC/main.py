@@ -74,10 +74,14 @@ def iface_crc(device):
                     return result
                 
         logger.info(f"Device: {device.name}, Parsing data with Pyats")
-        output_iface_crc = device.parse('show interfaces')
+        logger.info(f"Device : {device.name}, Type : {device.type}")
+        if device.type=='nxos' :
+            output_iface_crc = device.parse('show interface')
+        else
+            output_iface_crc = device.parse('show interfaces')
         # logger.info(output_iface_crc)
         crc_interface=[]
-        logger.info(f"Device : {device.name}, Type : {device.type}")
+        
         
         
         ifce=['port-channel','mgmt0','Loopback','Vlan','.']
