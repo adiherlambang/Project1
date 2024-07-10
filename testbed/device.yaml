@@ -1,79 +1,14 @@
 devices:
-  xe1:
+  CC-VCUBE:
     connections:
       cli:
-        ip: 198.18.0.121
+        ip: 198.18.133.226
         protocol: ssh
     credentials:
       default:
-        password: cisco
-        username: cisco
+        password: C1sco12345
+        username: admin
       enable:
-        password: cisco
+        password: C1sco12345
     os: iosxe
     type: iosxe
-  xe2:
-    connections:
-      cli:
-        ip: 198.18.0.122
-        protocol: ssh
-    credentials:
-      default:
-        password: cisco
-        username: cisco
-      enable:
-        password: cisco
-    os: iosxe
-    type: iosxe
-  xe3:
-    connections:
-      cli:
-        ip: 198.18.0.123
-        protocol: ssh
-    credentials:
-      default:
-        password: cisco
-        username: cisco
-      enable:
-        password: cisco
-    os: iosxe
-    type: iosxe
-  xr1:
-    connections:
-      cli:
-        ip: 198.18.0.131
-        protocol: ssh
-    credentials:
-      default:
-        password: cisco123
-        username: cisco
-      enable:
-        password: '-'
-    os: iosxr
-    type: iosxr
-  xr2:
-    connections:
-      cli:
-        ip: 198.18.0.132
-        protocol: ssh
-    credentials:
-      default:
-        password: cisco123
-        username: cisco
-      enable:
-        password: '-'
-    os: iosxr
-    type: iosxr
-  xr3:
-    connections:
-      cli:
-        ip: 198.18.0.133
-        protocol: ssh
-    credentials:
-      default:
-        password: cisco123
-        username: cisco
-      enable:
-        password: '-'
-    os: iosxr
-    type: iosxr

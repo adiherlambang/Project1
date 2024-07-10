@@ -86,8 +86,6 @@ def iface_crc(device):
         crc_interface=[]
         
         
-        
-        
         for index, (key, value) in enumerate(output_iface_crc.items(), start=1):
             if any(sub in key for sub in ifce):
                 logger.info(f"Skipping interface: {key}. in hostname: {device}")
@@ -115,117 +113,6 @@ def iface_crc(device):
         logger.error("Failed to connect using pyats get CRC interface function")
         result["message"] = "Failed to connect using pyats get CRC interface function"
         result["error"] = str(pyats_error)
-
-# def proc_iface_crc_ios(device,counter):
-#     logger.info("Pyats parser with OS IOS type")
-#     try:
-#         device.connect(learn_hostname = True, learn_os = True, log_stdout=False,mit=True)
-#         logger.info(f"Device: {device.name}")
-#         output_iface_crc = device.parse('show interfaces')
-#         for iface in output_iface_crc:
-#             if "Ethernet" in iface:
-#                 crc = output_iface_crc[iface]['counters']['in_crc_errors']
-#                 input_errors = output_iface_crc[iface]['counters']['in_errors']
-#                 output_errors = output_iface_crc[iface]['counters']['out_errors']
-#                 with open(
-#                 f"out/InterfaceCRC/show_int_crc_{timestamp}.csv", "a", newline=""
-#                 ) as csvfile:
-#                     writer = csv.writer(csvfile)  
-#                     writer.writerow([counter,device.name,iface,crc,input_errors,output_errors])
-#                 if crc > 0 or input_errors > 0 or output_errors > 0:
-#                     with open(
-#                     f"out/InterfaceCRC/found_int_crc_{timestamp}.csv", "a", newline=""
-#                     ) as csvfile:
-#                         writer = csv.writer(csvfile)  
-#                         writer.writerow([counter,device.name,iface,crc,input_errors,output_errors])
-   
-#     except Exception as e:
-#         logger.warning(f"Error get CRC for device {device.name} using pyAts")
-#         runNetmiko(device,counter)
-
-# def proc_iface_crc_xe(device,counter):
-#     logger.info("Pyats parser with OS iosXE type")
-#     try:
-#         device.connect(learn_hostname = True, learn_os = True, log_stdout=False,mit=True, timeout=10)
-#         logger.info(f"Device: {device.name}")
-#         output_iface_crc = device.parse('show interfaces')
-#         # print(output_iface_crc)
-#         for iface in output_iface_crc:
-#             # print(iface)
-#             # print(output_iface_crc[iface]['counters']['in_crc_errors'])
-#             crc = output_iface_crc[iface]['counters']['in_crc_errors']
-#             input_errors = output_iface_crc[iface]['counters']['in_errors']
-#             output_errors = output_iface_crc[iface]['counters']['out_errors']
-#             logger.info(f"CRC{crc},in_error{input_errors},out_error{output_errors}")
-#             # with open(
-#             # f"out/InterfaceCRC/show_crc_{timestamp}.csv", "a", newline=""
-#             # ) as csvfile:
-#             #     writer = csv.writer(csvfile)  
-#             #     writer.writerow([counter,device.name,iface,crc,input_errors,output_errors])
-#             # if crc > 0 or input_errors > 0 or output_errors > 0:
-#             #         with open(
-#             #         f"out/InterfaceCRC/found_crc_{timestamp}.csv", "a", newline=""
-#             #         ) as csvfile:
-#             #             writer = csv.writer(csvfile)  
-#             #             writer.writerow([counter,device.name,iface,crc,input_errors,output_errors])  
-#     except Exception as pyAtsError:
-#         logger.warning(f"Error get CRC for device {device.name} using pyAts, Error : {pyAtsError}")
-
-# def proc_iface_crc_xr(device,counter):
-#     logger.info("Pyats parser with iosXR type function")
-#     try:
-#         device.connect(learn_hostname = True, learn_os = True, log_stdout=False,mit=True)
-#         logger.info(f"Device: {device.name}")
-#         output_iface_crc = device.parse('show interfaces')
-#         for iface in output_iface_crc:
-#             if iface == 'Null0':
-#                 logger.warning('Iface Null')
-#             else:
-#                 crc = output_iface_crc[iface]['counters']['in_crc_errors']
-#                 input_errors = output_iface_crc[iface]['counters']['in_errors']
-#                 output_errors = output_iface_crc[iface]['counters']['out_errors']
-#                 with open(
-#                 f"out/InterfaceCRC/show_crc_{timestamp}.csv", "a", newline=""
-#                 ) as csvfile:
-#                     writer = csv.writer(csvfile)  
-#                     writer.writerow([counter,device.name,iface,crc,input_errors,output_errors])
-#                 if crc > 0 or input_errors > 0 or output_errors > 0:
-#                         with open(
-#                         f"out/InterfaceCRC/found_crc_{timestamp}.csv", "a", newline=""
-#                         ) as csvfile:
-#                             writer = csv.writer(csvfile)  
-#                             writer.writerow([counter,device.name,iface,crc,input_errors,output_errors])  
-                
-#     except Exception as e:
-#         logger.warning(f"Error get CRC for device {device.name} using pyAts")
-
-# def proc_iface_crc_nx(device,counter):
-#     try:
-#         logger.info("Pyats parser with nxos type function")
-#         device.connect(learn_hostname = True, learn_os = True, log_stdout=False, mit=True)
-#         logger.info(f"Device: {device.name}")
-#         output_iface_crc = device.parse('show interface')
-#         for iface in output_iface_crc:
-#             #logger.info(output_iface_crc)
-#             if 'Ethernet' in iface:
-#                 crc = output_iface_crc[iface]['counters']['in_crc_errors']
-#                 input_errors = output_iface_crc[iface]['counters']['in_errors']
-#                 output_errors = output_iface_crc[iface]['counters']['out_errors']
-#                 with open(
-#                 f"out/InterfaceCRC/show_int_crc_{timestamp}.csv", "a", newline=""
-#                 ) as csvfile:
-#                     writer = csv.writer(csvfile)  
-#                     writer.writerow([counter,device.name,iface,crc,input_errors,output_errors])
-#                 if crc > 0 or input_errors > 0 or output_errors > 0:
-#                         with open(
-#                         f"out/InterfaceCRC/found_int_crc_{timestamp}.csv", "a", newline=""
-#                         ) as csvfile:
-#                             writer = csv.writer(csvfile)  
-#                             writer.writerow([counter,device.name,iface,crc,input_errors,output_errors])  
-
-#     except :
-#         logger.warning(f"Error get CRC for device {device.name} using pyAts")
-#         runNetmiko(device,counter)
 
 # def convert_to_netmiko(device):
 #     netmiko_device = {}
@@ -350,43 +237,3 @@ def interfaceCRC(testbedFile):
     logger.info(f"Interface CRC data written to CSV file")
     logger.info(f"Result Interface CRC: {results}")
     return results           
-    # testbed= loader.load(testbedFile)
-    # with open(f'out/InterfaceCRC/show_int_crc_{timestamp}.csv', 'a', newline='') as file:
-    #     writer = csv.writer(file)
-    #     writer.writerow(['No','Hostname','Interface', 'CRC', 'Input Errors', 'Output Errors'])
-        
-    # with open(f'out/InterfaceCRC/found_int_crc_{timestamp}.csv', 'a', newline='') as file:
-    #     writer = csv.writer(file)
-    #     writer.writerow(['No','Hostname','Interface', 'CRC', 'Input Errors', 'Output Errors'])
-
-                
-    # futures = []
-    # counter = 1
-
-    # with concurrent.futures.ThreadPoolExecutor() as executor:
-    #     for device in testbed:
-    #         if device.type == 'iosxe':
-    #             futures.append(executor.submit(proc_iface_crc_xe, device, counter))
-    #             counter += 1
-    #             sleep(0.1)
-    #         elif device.type == 'iosxr':
-    #             futures.append(executor.submit(proc_iface_crc_xr, device, counter))
-    #             counter += 1
-    #             sleep(0.1)
-    #         elif device.type == 'nxos':
-    #             futures.append(executor.submit(proc_iface_crc_nx, device, counter))
-    #             counter += 1
-    #             sleep(0.1)
-    #         elif device.type == 'ios':
-    #             futures.append(executor.submit(proc_iface_crc_ios, device, counter))
-    #             counter += 1
-    #             sleep(0.1)
-    #     # Wait for all futures to complete
-    # for future in concurrent.futures.as_completed(futures):
-    #     try:
-    #         future.result()
-    #     except Exception as exc:
-    #         logger.info(f"{exc} occurred while processing device {device}")
-
-    # logger.info("Script execution completed successfully.")
-

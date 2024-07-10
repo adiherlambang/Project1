@@ -80,7 +80,7 @@ def interfaceListedCRC(device,testbedFile):
         else:
             output_iface_crc = device.parse('show interfaces')
         crc_interface=[]
-        logger.info(output_iface_crc)
+        # logger.info(output_iface_crc)
         # logger.info(device)
         with open(testbedFile, 'r') as f:
             testbed_data = yaml.safe_load(f)

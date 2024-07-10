@@ -179,3 +179,54 @@ INFO 2024-06-20 13:21:51,811 [main.py:iface_crc:86] Skipping interface: Loopback
 INFO 2024-06-20 13:21:51,812 [main.py:iface_crc:101] Result Interface CRC: [{'No_Interface': 1, 'Interface': 'GigabitEthernet1', 'CRC': 0, 'Input_Errors': 0, 'Output_Errors': 0}, {'No_Interface': 2, 'Interface': 'GigabitEthernet2', 'CRC': 0, 'Input_Errors': 0, 'Output_Errors': 0}, {'No_Interface': 3, 'Interface': 'GigabitEthernet3', 'CRC': 0, 'Input_Errors': 0, 'Output_Errors': 0}]
 INFO 2024-06-20 13:21:51,814 [main.py:interfaceCRC:343] interface CRC data written to CSV file
 INFO 2024-06-20 13:21:51,815 [main.py:interfaceCRC:344] Result Interface CRC: [{'device': 'CC-VCUBE', 'success': True, 'message': '', 'error': '', 'data': [{'No_Interface': 1, 'Interface': 'GigabitEthernet1', 'CRC': 0, 'Input_Errors': 0, 'Output_Errors': 0}, {'No_Interface': 2, 'Interface': 'GigabitEthernet2', 'CRC': 0, 'Input_Errors': 0, 'Output_Errors': 0}, {'No_Interface': 3, 'Interface': 'GigabitEthernet3', 'CRC': 0, 'Input_Errors': 0, 'Output_Errors': 0}]}]
+INFO 2024-06-22 03:01:21,722 [main.py:iface_crc:60] Connecting to Device: CC-VCUBE
+WARNING 2024-06-22 03:01:42,831 [main.py:iface_crc:68] Connection attempt 1/3 failed for CC-VCUBE (198.18.133.226): failed to connect to CC-VCUBE
+Failed while bringing device to "any" state
+INFO 2024-06-22 03:01:42,835 [main.py:iface_crc:69] Retrying in 2 seconds...
+INFO 2024-06-22 03:01:44,837 [main.py:iface_crc:60] Connecting to Device: CC-VCUBE
+WARNING 2024-06-22 03:02:05,934 [main.py:iface_crc:68] Connection attempt 2/3 failed for CC-VCUBE (198.18.133.226): failed to connect to CC-VCUBE
+Failed while bringing device to "any" state
+INFO 2024-06-22 03:02:05,937 [main.py:iface_crc:69] Retrying in 2 seconds...
+INFO 2024-06-22 03:02:07,938 [main.py:iface_crc:60] Connecting to Device: CC-VCUBE
+ERROR 2024-06-22 03:02:29,022 [main.py:iface_crc:72] Failed to establish connection to CC-VCUBE (198.18.133.226) after 3 attempts.
+ERROR 2024-06-22 03:02:29,025 [main.py:interfaceCRC:318] Error with device CC-VCUBE: Failed to establish connection after 3 attempts., Error: failed to connect to CC-VCUBE
+Failed while bringing device to "any" state
+INFO 2024-06-22 03:02:29,028 [main.py:interfaceCRC:350] Interface CRC data written to CSV file
+INFO 2024-06-22 03:02:29,030 [main.py:interfaceCRC:351] Result Interface CRC: [{'device': 'CC-VCUBE', 'success': False, 'message': 'Failed to establish connection after 3 attempts.', 'error': 'failed to connect to CC-VCUBE\nFailed while bringing device to "any" state', 'data': None}]
+INFO 2024-06-22 03:02:49,514 [main.py:iface_crc:60] Connecting to Device: CC-VCUBE
+WARNING 2024-06-22 03:03:10,619 [main.py:iface_crc:68] Connection attempt 1/3 failed for CC-VCUBE (198.18.133.226): failed to connect to CC-VCUBE
+Failed while bringing device to "any" state
+INFO 2024-06-22 03:03:10,623 [main.py:iface_crc:69] Retrying in 2 seconds...
+INFO 2024-06-22 03:03:12,625 [main.py:iface_crc:60] Connecting to Device: CC-VCUBE
+WARNING 2024-06-22 03:03:33,706 [main.py:iface_crc:68] Connection attempt 2/3 failed for CC-VCUBE (198.18.133.226): failed to connect to CC-VCUBE
+Failed while bringing device to "any" state
+INFO 2024-06-22 03:03:33,708 [main.py:iface_crc:69] Retrying in 2 seconds...
+INFO 2024-06-22 03:03:35,710 [main.py:iface_crc:60] Connecting to Device: CC-VCUBE
+ERROR 2024-06-22 03:03:56,792 [main.py:iface_crc:72] Failed to establish connection to CC-VCUBE (198.18.133.226) after 3 attempts.
+ERROR 2024-06-22 03:03:56,795 [main.py:interfaceCRC:318] Error with device CC-VCUBE: Failed to establish connection after 3 attempts., Error: failed to connect to CC-VCUBE
+Failed while bringing device to "any" state
+INFO 2024-06-22 03:03:56,798 [main.py:interfaceCRC:350] Interface CRC data written to CSV file
+INFO 2024-06-22 03:03:56,799 [main.py:interfaceCRC:351] Result Interface CRC: [{'device': 'CC-VCUBE', 'success': False, 'message': 'Failed to establish connection after 3 attempts.', 'error': 'failed to connect to CC-VCUBE\nFailed while bringing device to "any" state', 'data': None}]
+INFO 2024-06-22 03:04:24,990 [main.py:iface_crc:60] Connecting to Device: CC-VCUBE
+WARNING 2024-06-22 03:04:46,083 [main.py:iface_crc:68] Connection attempt 1/3 failed for CC-VCUBE (198.18.133.226): failed to connect to CC-VCUBE
+Failed while bringing device to "any" state
+INFO 2024-06-22 03:04:46,086 [main.py:iface_crc:69] Retrying in 2 seconds...
+INFO 2024-06-22 03:04:48,087 [main.py:iface_crc:60] Connecting to Device: CC-VCUBE
+WARNING 2024-06-22 03:05:09,181 [main.py:iface_crc:68] Connection attempt 2/3 failed for CC-VCUBE (198.18.133.226): failed to connect to CC-VCUBE
+Failed while bringing device to "any" state
+INFO 2024-06-22 03:05:09,183 [main.py:iface_crc:69] Retrying in 2 seconds...
+INFO 2024-06-22 03:05:11,185 [main.py:iface_crc:60] Connecting to Device: CC-VCUBE
+ERROR 2024-06-22 03:05:32,271 [main.py:iface_crc:72] Failed to establish connection to CC-VCUBE (198.18.133.226) after 3 attempts.
+ERROR 2024-06-22 03:05:32,274 [main.py:interfaceCRC:205] Error with device CC-VCUBE: Failed to establish connection after 3 attempts., Error: failed to connect to CC-VCUBE
+Failed while bringing device to "any" state
+INFO 2024-06-22 03:05:32,277 [main.py:interfaceCRC:237] Interface CRC data written to CSV file
+INFO 2024-06-22 03:05:32,278 [main.py:interfaceCRC:238] Result Interface CRC: [{'device': 'CC-VCUBE', 'success': False, 'message': 'Failed to establish connection after 3 attempts.', 'error': 'failed to connect to CC-VCUBE\nFailed while bringing device to "any" state', 'data': None}]
+INFO 2024-06-22 03:06:11,528 [main.py:iface_crc:60] Connecting to Device: CC-VCUBE
+INFO 2024-06-22 03:06:16,089 [main.py:iface_crc:62] Successfully Connected to Device: CC-VCUBE
+INFO 2024-06-22 03:06:16,091 [main.py:iface_crc:77] Device: CC-VCUBE, Parsing data with Pyats
+INFO 2024-06-22 03:06:16,093 [main.py:iface_crc:78] Device : CC-VCUBE, Type : iosxe
+INFO 2024-06-22 03:06:18,501 [main.py:iface_crc:91] Skipping interface: GigabitEthernet3.110. in hostname: Device CC-VCUBE, type iosxe
+INFO 2024-06-22 03:06:18,503 [main.py:iface_crc:91] Skipping interface: Loopback1. in hostname: Device CC-VCUBE, type iosxe
+INFO 2024-06-22 03:06:18,504 [main.py:iface_crc:106] Result Interface CRC: [{'No_Interface': 1, 'Interface': 'GigabitEthernet1', 'CRC': 0, 'Input_Errors': 0, 'Output_Errors': 0}, {'No_Interface': 2, 'Interface': 'GigabitEthernet2', 'CRC': 0, 'Input_Errors': 0, 'Output_Errors': 0}, {'No_Interface': 3, 'Interface': 'GigabitEthernet3', 'CRC': 0, 'Input_Errors': 0, 'Output_Errors': 0}]
+INFO 2024-06-22 03:06:18,507 [main.py:interfaceCRC:237] Interface CRC data written to CSV file
+INFO 2024-06-22 03:06:18,508 [main.py:interfaceCRC:238] Result Interface CRC: [{'device': 'CC-VCUBE', 'success': True, 'message': '', 'error': '', 'data': [{'No_Interface': 1, 'Interface': 'GigabitEthernet1', 'CRC': 0, 'Input_Errors': 0, 'Output_Errors': 0}, {'No_Interface': 2, 'Interface': 'GigabitEthernet2', 'CRC': 0, 'Input_Errors': 0, 'Output_Errors': 0}, {'No_Interface': 3, 'Interface': 'GigabitEthernet3', 'CRC': 0, 'Input_Errors': 0, 'Output_Errors': 0}]}]
