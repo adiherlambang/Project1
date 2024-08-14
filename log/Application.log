@@ -1,0 +1,31 @@
+INFO 2024-08-14 09:55:23,428 [Apps.py:init:90] ---Starting the Application---
+INFO 2024-08-14 09:55:23,437 [Apps.py:init:93] ---Initialize testbed file---
+INFO 2024-08-14 09:55:23,439 [Apps.py:init:101] ---testbed file ready---
+INFO 2024-08-14 09:55:28,005 [Apps.py:init:107] ---Opening Main Menu Application---
+INFO 2024-08-14 09:55:34,233 [Apps.py:inputMenu:205] ---Closing Application---
+INFO 2024-08-14 10:04:58,706 [Apps.py:init:90] ---Starting the Application---
+INFO 2024-08-14 10:04:58,716 [Apps.py:init:93] ---Initialize testbed file---
+INFO 2024-08-14 10:04:58,718 [Apps.py:init:101] ---testbed file ready---
+INFO 2024-08-14 10:05:04,718 [Apps.py:init:107] ---Opening Main Menu Application---
+INFO 2024-08-14 10:05:13,244 [Apps.py:inputMenu:138] ---Get Configuration Device---
+INFO 2024-08-14 10:06:25,511 [Apps.py:init:90] ---Starting the Application---
+INFO 2024-08-14 10:06:25,521 [Apps.py:init:93] ---Initialize testbed file---
+INFO 2024-08-14 10:06:25,523 [Apps.py:init:101] ---testbed file ready---
+INFO 2024-08-14 10:06:47,039 [Apps.py:init:90] ---Starting the Application---
+INFO 2024-08-14 10:06:47,048 [Apps.py:init:93] ---Initialize testbed file---
+INFO 2024-08-14 10:06:47,050 [Apps.py:init:101] ---testbed file ready---
+INFO 2024-08-14 10:06:53,626 [Apps.py:init:107] ---Opening Main Menu Application---
+INFO 2024-08-14 10:07:33,067 [Apps.py:init:90] ---Starting the Application---
+INFO 2024-08-14 10:07:33,076 [Apps.py:init:93] ---Initialize testbed file---
+INFO 2024-08-14 10:07:33,078 [Apps.py:init:101] ---testbed file ready---
+INFO 2024-08-14 10:07:36,887 [Apps.py:init:107] ---Opening Main Menu Application---
+INFO 2024-08-14 10:07:41,786 [Apps.py:inputMenu:205] ---Closing Application---
+INFO 2024-08-14 10:10:29,343 [Apps.py:init:90] ---Starting the Application---
+INFO 2024-08-14 10:10:29,353 [Apps.py:init:93] ---Initialize testbed file---
+INFO 2024-08-14 10:10:29,354 [Apps.py:init:101] ---testbed file ready---
+INFO 2024-08-14 10:10:32,683 [Apps.py:init:107] ---Opening Main Menu Application---
+INFO 2024-08-14 10:10:41,586 [Apps.py:init:90] ---Starting the Application---
+INFO 2024-08-14 10:10:41,596 [Apps.py:init:93] ---Initialize testbed file---
+INFO 2024-08-14 10:10:41,597 [Apps.py:init:101] ---testbed file ready---
+INFO 2024-08-14 10:10:48,555 [Apps.py:init:107] ---Opening Main Menu Application---
+INFO 2024-08-14 10:10:52,760 [Apps.py:inputMenu:205] ---Closing Application---

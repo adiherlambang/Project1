@@ -1,0 +1,7 @@
+INFO 2024-08-14 10:05:13,499 [main.py:captureConfig:112] Connecting to device xe1
+INFO 2024-08-14 10:05:13,605 [main.py:captureConfig:112] Connecting to device xe2
+INFO 2024-08-14 10:05:13,712 [main.py:captureConfig:112] Connecting to device xe3
+INFO 2024-08-14 10:05:13,818 [main.py:captureConfig:112] Connecting to device xe4
+ERROR 2024-08-14 10:05:42,459 [main.py:captureConfigX:64] Connection attempt 1/3 failed for xe4 (198.18.0.124): failed to connect to xe4
+Failed while bringing device to "any" state
+INFO 2024-08-14 10:05:42,464 [main.py:captureConfigX:65] Retrying in 1 seconds...
