@@ -80,7 +80,7 @@ def proc_iface_crc_xe(device,counter):
         device.connect(learn_hostname = True, learn_os = True, log_stdout=False,mit=True)
         logger.info(f"Device: {device.name}")
         output_iface_crc = device.parse('show interfaces', timeout=300)
-        check=['port-channel','mgmt0','Loopback','Vlan','.','Tunnel']
+        check=['port-channel','mgmt0','Loopback','Vlan','.','Tunnel','NVI','Sdwan']
         # logger.info(output_iface_crc)
         for iface in output_iface_crc:
             if any(dot in iface for dot in check):
