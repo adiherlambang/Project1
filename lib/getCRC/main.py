@@ -139,7 +139,7 @@ def proc_iface_crc_nx(device,counter):
         device.connect(learn_hostname = True, learn_os = True, log_stdout=False, mit=True, timeout=300)
         logger.info(f"Device: {device.name}")
         output_iface_crc = device.parse('show interface', timeout=300)
-        check=['port-channel','mgmt0','loopback','Vlan','.','Tunnel',]
+        check=['port-channel','mgmt0','loopback','Vlan','.','Tunnel']
         # logger.info(output_iface_crc)
         for iface in output_iface_crc:
             # logger.info(output_iface_crc)
@@ -167,7 +167,7 @@ def proc_iface_crc_nx(device,counter):
     except Exception as e :
         logger.warning(f"Error: {e} get CRC for device {device.name} using pyAts")
         # device.disconnect()
-        # runNetmiko(device,counter)
+        runNetmiko(device,counter)
 
 def convert_to_netmiko(device):
     netmiko_device = {}
@@ -184,7 +184,7 @@ def convert_to_netmiko(device):
     return netmiko_device
 
 def runNetmiko(device,counter):
-    check=['port-channel','mgmt0','loopback','Vlan','.']
+    check=['port-channel','mgmt0','loopback','Vlan','.','Tunnel']
     logger.error("Retrying connect to device with netmiko")
     # Convert the device to Netmiko format
     netmiko_device = convert_to_netmiko(device)
