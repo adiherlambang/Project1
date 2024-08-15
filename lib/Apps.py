@@ -193,28 +193,30 @@ def inputMenu(value):
     elif(value==Menu[6] or value=='7'):
         logger.info("---Get Filter Interface CRC device---")
         logger.info("---Initialize testbed file Interface CRC---")
-        # logger.info("Status testbed file Interface CRC :" )
-        if check_ListInterfaceCRC() == False:
+
+        # Check if the Interface CRC list is ready
+        if not check_ListInterfaceCRC():
             logger.warning("---Testbed file Interface CRC - Not Ready---")
             result_InterfaceListCRC = createInterfaceCRCList(prompt_createTestbedCRC())
             time.sleep(0.5)
-            #### function get Logging device ####
             main_InterfaceCRC(testbedFile_CRC)
         else:
-            updateFile_InterfaceCRC = pyip.inputYesNo(prompt="Do you want to update testbed file Interface CRC..? (Y/n)",blank=False)
+            # Ask the user if they want to update the Interface CRC list
+            updateFile_InterfaceCRC = pyip.inputYesNo(prompt="Do you want to update testbed file Interface CRC..? (Y/n)", blank=False)
+            
             if updateFile_InterfaceCRC == 'yes':
                 result_InterfaceListCRC = createInterfaceCRCList(prompt_createTestbedCRC())
                 
-                if result_InterfaceListCRC['status']==False:
-                    logging.warning(result_InterfaceListCRC['message'])
-                    logging.info('Please check your imported file')
+                if not result_InterfaceListCRC['status']:
+                    logger.warning(result_InterfaceListCRC['message'])
+                    logger.info('Please check your imported file')
                     time.sleep(0.5)
-                    logging.info('--- Closing Application ---')
+                    logger.info('--- Closing Application ---')
                     sys.exit()
-                else:    
-                    time.sleep(0.5)
-                    #### function get Logging device ####
-                    main_InterfaceCRC(testbedFile_CRC)
+                
+            time.sleep(0.5)
+            main_InterfaceCRC(testbedFile_CRC)
+
     
     elif(value==Menu[7] or value=='8'):
         logger.info("---Get CDP Neighbours ---")
