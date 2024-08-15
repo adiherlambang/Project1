@@ -131,7 +131,7 @@ def proc_iface_crc_xr(device,counter):
 def proc_iface_crc_nx(device,counter):
     try:
         logger.info("Pyats parser with nxos type function")
-        device.connect(learn_hostname = True, learn_os = True, log_stdout=False, mit=True)
+        device.connect(learn_hostname = True, learn_os = True, log_stdout=False, mit=True, connection_timeout=150)
         logger.info(f"Device: {device.name}")
         output_iface_crc = device.parse('show interface')
         # check=['port-channel','mgmt0','loopback','Vlan','.']
@@ -159,6 +159,7 @@ def proc_iface_crc_nx(device,counter):
 
     except :
         logger.warning(f"Error get CRC for device {device.name} using pyAts")
+        device.disconnect()
         runNetmiko(device,counter)
 
 def convert_to_netmiko(device):
