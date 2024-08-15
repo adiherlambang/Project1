@@ -184,7 +184,7 @@ def convert_to_netmiko(device):
     return netmiko_device
 
 def runNetmiko(device,counter):
-    check=['port-channel','mgmt0','loopback','Vlan','.','Tunnel']
+    check=['port-channel','mgmt0','loopback','Vlan','.','Tunnel','Loopback','Port-channel']
     logger.error("Retrying connect to device with netmiko")
     # Convert the device to Netmiko format
     netmiko_device = convert_to_netmiko(device)
