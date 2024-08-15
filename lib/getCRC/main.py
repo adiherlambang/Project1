@@ -139,7 +139,7 @@ def proc_iface_crc_nx(device,counter):
         # check=['port-channel','mgmt0','loopback','Vlan','.']
         # logger.info(output_iface_crc)
         for iface in output_iface_crc:
-            logger.info(output_iface_crc)
+            # logger.info(output_iface_crc)
             if any(dot in iface for dot in check):
                 logger.info(f"Skip subInterface {iface} for device: {device.name}")
             else:
