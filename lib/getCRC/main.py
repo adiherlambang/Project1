@@ -104,7 +104,7 @@ def proc_iface_crc_xr(device,counter):
     logger.info("Pyats parser with iosXR type function")
     try:
         device.connect(learn_hostname = True, learn_os = True, log_stdout=False,mit=True)
-        print(f"Device: {device.name}")
+        logger.info(f"Device: {device.name}")
         output_iface_crc = device.parse('show interfaces')
         for iface in output_iface_crc:
             if any(dot in iface for dot in check):
@@ -136,7 +136,7 @@ def proc_iface_crc_nx(device,counter):
         output_iface_crc = device.parse('show interface')
         # check=['port-channel','mgmt0','loopback','Vlan','.']
         for iface in output_iface_crc:
-            #logger.info(output_iface_crc)
+            logger.info(output_iface_crc)
             if any(dot in iface for dot in check):
                 logger.info(f"Skip subInterface {iface} for device: {device.name}")
             else:
