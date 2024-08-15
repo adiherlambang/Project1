@@ -76,9 +76,9 @@ def interfaceListedCRC(device,testbedFile):
         
         logger.info(f"Device: {device.name}, Parsing data with Pyats")
         if device.type=='nxos' :
-            output_iface_crc = device.parse('show interface')
+            output_iface_crc = device.parse('show interface', timeout=300)
         else:
-            output_iface_crc = device.parse('show interfaces')
+            output_iface_crc = device.parse('show interfaces', timeout=300)
         crc_interface=[]
         # logger.info(output_iface_crc)
         # logger.info(device)
