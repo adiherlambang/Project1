@@ -10,7 +10,6 @@ import os
 import textfsm
 from netmiko import ConnectHandler
 from pyats.utils.secret_strings import to_plaintext
-from genie.utils.timeout import Timeout
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
@@ -36,8 +35,6 @@ EOF = False
 count_iface_up = 0
 count_iface_down = 0
 timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H-%M-%S')
-
-timeout = Timeout(max_time = 60, interval = 10, disable_log = False)
 
 # Check if output folder is available, create it if not
 if not os.path.exists("out/InterfaceCRC"):
@@ -138,32 +135,30 @@ def proc_iface_crc_nx(device,counter):
         logger.info("Pyats parser with nxos type function")
         device.connect(learn_hostname = True, learn_os = True, log_stdout=False, mit=True)
         logger.info(f"Device: {device.name}")
-        while timeout.iterate():
-            output_iface_crc = device.parse('show interface')
-            check=['port-channel','mgmt0','loopback','Vlan','.']
-            logger.info(output_iface_crc)
-            # for iface in output_iface_crc:
-            #     logger.info(output_iface_crc)
-            #     if any(dot in iface for dot in check):
-            #         logger.info(f"Skip subInterface {iface} for device: {device.name}")
-            #     else:
-            #         #logger.info(output_iface_crc[iface]['counters']['out_errors'])
-            #         crc = output_iface_crc[iface]['counters']['in_crc_errors']
-            #         input_errors = output_iface_crc[iface]['counters']['in_errors']
-            #         output_errors = output_iface_crc[iface]['counters']['out_errors']
-            #         #logger.info(f"{crc},{input_errors},{output_errors}")
-            #         with open(
-            #         f"out/InterfaceCRC/show_int_crc_{timestamp}.csv", "a", newline=""
-            #         ) as csvfile:
-            #             writer = csv.writer(csvfile)  
-            #             writer.writerow([counter,device.name,iface,crc,input_errors,output_errors])
-            #         if crc > 0 or input_errors > 0 or output_errors > 0:
-            #                 with open(
-            #                 f"out/InterfaceCRC/found_int_crc_{timestamp}.csv", "a", newline=""
-            #                 ) as csvfile:
-            #                     writer = csv.writer(csvfile)  
-            #                     writer.writerow([counter,device.name,iface,crc,input_errors,output_errors])
-        timeout.sleep()
+        output_iface_crc = device.parse('show interface', timeout=300)
+        check=['port-channel','mgmt0','loopback','Vlan','.']
+        logger.info(output_iface_crc)
+        # for iface in output_iface_crc:
+        #     logger.info(output_iface_crc)
+        #     if any(dot in iface for dot in check):
+        #         logger.info(f"Skip subInterface {iface} for device: {device.name}")
+        #     else:
+        #         #logger.info(output_iface_crc[iface]['counters']['out_errors'])
+        #         crc = output_iface_crc[iface]['counters']['in_crc_errors']
+        #         input_errors = output_iface_crc[iface]['counters']['in_errors']
+        #         output_errors = output_iface_crc[iface]['counters']['out_errors']
+        #         #logger.info(f"{crc},{input_errors},{output_errors}")
+        #         with open(
+        #         f"out/InterfaceCRC/show_int_crc_{timestamp}.csv", "a", newline=""
+        #         ) as csvfile:
+        #             writer = csv.writer(csvfile)  
+        #             writer.writerow([counter,device.name,iface,crc,input_errors,output_errors])
+        #         if crc > 0 or input_errors > 0 or output_errors > 0:
+        #                 with open(
+        #                 f"out/InterfaceCRC/found_int_crc_{timestamp}.csv", "a", newline=""
+        #                 ) as csvfile:
+        #                     writer = csv.writer(csvfile)  
+        #                     writer.writerow([counter,device.name,iface,crc,input_errors,output_errors])
     except TimeoutError as e:
         logger.error(f"Timeout occurred while connecting to or interacting with the device: {str(e)}")
     except Exception as e :
