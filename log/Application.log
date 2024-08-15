@@ -29,3 +29,285 @@ INFO 2024-08-14 10:10:41,596 [Apps.py:init:93] ---Initialize testbed file---
 INFO 2024-08-14 10:10:41,597 [Apps.py:init:101] ---testbed file ready---
 INFO 2024-08-14 10:10:48,555 [Apps.py:init:107] ---Opening Main Menu Application---
 INFO 2024-08-14 10:10:52,760 [Apps.py:inputMenu:205] ---Closing Application---
+INFO 2024-08-14 10:38:54,239 [Apps.py:init:90] ---Starting the Application---
+INFO 2024-08-14 10:38:54,250 [Apps.py:init:93] ---Initialize testbed file---
+INFO 2024-08-14 10:38:54,252 [Apps.py:init:101] ---testbed file ready---
+INFO 2024-08-14 10:38:56,007 [Apps.py:init:107] ---Opening Main Menu Application---
+INFO 2024-08-14 10:38:58,655 [Apps.py:inputMenu:205] ---Closing Application---
+INFO 2024-08-14 10:39:21,062 [Apps.py:init:90] ---Starting the Application---
+INFO 2024-08-14 10:39:21,071 [Apps.py:init:93] ---Initialize testbed file---
+INFO 2024-08-14 10:39:21,072 [Apps.py:init:101] ---testbed file ready---
+INFO 2024-08-14 10:39:28,719 [Apps.py:init:107] ---Opening Main Menu Application---
+INFO 2024-08-14 10:39:31,474 [Apps.py:inputMenu:205] ---Closing Application---
+INFO 2024-08-14 10:44:19,923 [Apps.py:init:90] ---Starting the Application---
+INFO 2024-08-14 10:44:19,934 [Apps.py:init:93] ---Initialize testbed file---
+INFO 2024-08-14 10:44:19,935 [Apps.py:init:101] ---testbed file ready---
+INFO 2024-08-14 10:44:24,631 [Apps.py:init:107] ---Opening Main Menu Application---
+INFO 2024-08-14 10:44:27,032 [Apps.py:inputMenu:205] ---Closing Application---
+INFO 2024-08-14 11:01:47,474 [Apps.py:init:90] ---Starting the Application---
+INFO 2024-08-14 11:01:47,483 [Apps.py:init:93] ---Initialize testbed file---
+INFO 2024-08-14 11:01:47,484 [Apps.py:init:101] ---testbed file ready---
+INFO 2024-08-14 11:02:01,089 [Apps.py:init:107] ---Opening Main Menu Application---
+INFO 2024-08-14 11:02:03,822 [Apps.py:inputMenu:205] ---Closing Application---
+INFO 2024-08-14 11:04:17,214 [Apps.py:init:90] ---Starting the Application---
+INFO 2024-08-14 11:04:17,224 [Apps.py:init:93] ---Initialize testbed file---
+INFO 2024-08-14 11:04:17,225 [Apps.py:init:101] ---testbed file ready---
+INFO 2024-08-14 11:04:21,135 [Apps.py:init:107] ---Opening Main Menu Application---
+INFO 2024-08-14 11:04:23,748 [Apps.py:inputMenu:205] ---Closing Application---
+INFO 2024-08-14 11:05:31,078 [Apps.py:init:90] ---Starting the Application---
+INFO 2024-08-14 11:05:31,087 [Apps.py:init:93] ---Initialize testbed file---
+INFO 2024-08-14 11:05:31,088 [Apps.py:init:101] ---testbed file ready---
+INFO 2024-08-14 11:05:37,969 [Apps.py:init:107] ---Opening Main Menu Application---
+INFO 2024-08-14 11:05:40,370 [Apps.py:inputMenu:205] ---Closing Application---
+INFO 2024-08-14 11:06:19,406 [Apps.py:init:90] ---Starting the Application---
+INFO 2024-08-14 11:06:19,415 [Apps.py:init:93] ---Initialize testbed file---
+INFO 2024-08-14 11:06:19,416 [Apps.py:init:101] ---testbed file ready---
+INFO 2024-08-14 11:06:24,169 [Apps.py:init:107] ---Opening Main Menu Application---
+INFO 2024-08-14 11:06:26,243 [Apps.py:inputMenu:205] ---Closing Application---
+INFO 2024-08-14 11:06:47,129 [Apps.py:init:90] ---Starting the Application---
+INFO 2024-08-14 11:06:47,138 [Apps.py:init:93] ---Initialize testbed file---
+WARNING 2024-08-14 11:06:47,140 [Apps.py:init:95] ---System can't find testbed file---
+INFO 2024-08-14 11:06:58,425 [Apps.py:inputMenu:205] ---Closing Application---
+INFO 2024-08-14 11:07:09,774 [Apps.py:init:90] ---Starting the Application---
+INFO 2024-08-14 11:07:09,783 [Apps.py:init:93] ---Initialize testbed file---
+INFO 2024-08-14 11:07:09,785 [Apps.py:init:101] ---testbed file ready---
+INFO 2024-08-14 11:07:16,703 [Apps.py:init:107] ---Opening Main Menu Application---
+INFO 2024-08-14 11:07:19,189 [Apps.py:inputMenu:205] ---Closing Application---
+INFO 2024-08-14 11:18:34,199 [Apps.py:init:90] ---Starting the Application---
+INFO 2024-08-14 11:18:34,208 [Apps.py:init:93] ---Initialize testbed file---
+INFO 2024-08-14 11:18:34,210 [Apps.py:init:101] ---testbed file ready---
+INFO 2024-08-14 11:18:39,521 [Apps.py:init:107] ---Opening Main Menu Application---
+INFO 2024-08-14 11:18:42,438 [Apps.py:inputMenu:205] ---Closing Application---
+INFO 2024-08-14 11:20:27,266 [Apps.py:init:90] ---Starting the Application---
+INFO 2024-08-14 11:20:27,275 [Apps.py:init:93] ---Initialize testbed file---
+INFO 2024-08-14 11:20:27,276 [Apps.py:init:101] ---testbed file ready---
+INFO 2024-08-14 11:20:31,137 [Apps.py:init:107] ---Opening Main Menu Application---
+INFO 2024-08-14 11:20:33,253 [Apps.py:inputMenu:205] ---Closing Application---
+INFO 2024-08-14 11:34:44,222 [Apps.py:init:90] ---Starting the Application---
+INFO 2024-08-14 11:34:44,231 [Apps.py:init:93] ---Initialize testbed file---
+INFO 2024-08-14 11:34:44,233 [Apps.py:init:101] ---testbed file ready---
+INFO 2024-08-14 11:34:48,183 [Apps.py:init:107] ---Opening Main Menu Application---
+INFO 2024-08-14 11:34:50,865 [Apps.py:inputMenu:205] ---Closing Application---
+INFO 2024-08-14 11:35:15,420 [Apps.py:init:90] ---Starting the Application---
+INFO 2024-08-14 11:35:15,431 [Apps.py:init:93] ---Initialize testbed file---
+WARNING 2024-08-14 11:35:15,433 [Apps.py:init:95] ---System can't find testbed file---
+INFO 2024-08-14 11:35:26,666 [Apps.py:inputMenu:205] ---Closing Application---
+INFO 2024-08-14 11:36:13,861 [Apps.py:init:90] ---Starting the Application---
+INFO 2024-08-14 11:36:13,871 [Apps.py:init:93] ---Initialize testbed file---
+WARNING 2024-08-14 11:36:13,872 [Apps.py:init:95] ---System can't find testbed file---
+INFO 2024-08-14 11:36:18,464 [Apps.py:inputMenu:205] ---Closing Application---
+INFO 2024-08-14 11:36:39,432 [Apps.py:init:90] ---Starting the Application---
+INFO 2024-08-14 11:36:39,443 [Apps.py:init:93] ---Initialize testbed file---
+WARNING 2024-08-14 11:36:39,445 [Apps.py:init:95] ---System can't find testbed file---
+INFO 2024-08-14 11:36:43,341 [Apps.py:inputMenu:205] ---Closing Application---
+INFO 2024-08-14 11:37:34,071 [Apps.py:init:90] ---Starting the Application---
+INFO 2024-08-14 11:37:34,080 [Apps.py:init:93] ---Initialize testbed file---
+WARNING 2024-08-14 11:37:34,082 [Apps.py:init:95] ---System can't find testbed file---
+INFO 2024-08-14 11:37:37,551 [Apps.py:create:63] <Popen: returncode: None args: ['/bin/bash', './lib/createTestbed.sh']>
+INFO 2024-08-14 11:37:43,216 [Apps.py:inputMenu:205] ---Closing Application---
+INFO 2024-08-14 11:37:47,215 [Apps.py:init:90] ---Starting the Application---
+INFO 2024-08-14 11:37:47,225 [Apps.py:init:93] ---Initialize testbed file---
+WARNING 2024-08-14 11:37:47,226 [Apps.py:init:95] ---System can't find testbed file---
+INFO 2024-08-14 11:37:50,933 [Apps.py:create:63] <Popen: returncode: None args: ['/bin/bash', './lib/createTestbed.sh']>
+INFO 2024-08-14 11:38:02,666 [Apps.py:inputMenu:205] ---Closing Application---
+INFO 2024-08-14 11:38:06,375 [Apps.py:init:90] ---Starting the Application---
+INFO 2024-08-14 11:38:06,386 [Apps.py:init:93] ---Initialize testbed file---
+WARNING 2024-08-14 11:38:06,389 [Apps.py:init:95] ---System can't find testbed file---
+INFO 2024-08-14 11:38:08,301 [Apps.py:create:63] <Popen: returncode: None args: ['/bin/bash', 'lib/createTestbed.sh']>
+INFO 2024-08-14 11:38:29,034 [Apps.py:inputMenu:205] ---Closing Application---
+INFO 2024-08-14 11:38:33,433 [Apps.py:init:90] ---Starting the Application---
+INFO 2024-08-14 11:38:33,443 [Apps.py:init:93] ---Initialize testbed file---
+WARNING 2024-08-14 11:38:33,445 [Apps.py:init:95] ---System can't find testbed file---
+INFO 2024-08-14 11:40:14,167 [Apps.py:init:89] ---Starting the Application---
+INFO 2024-08-14 11:40:14,177 [Apps.py:init:92] ---Initialize testbed file---
+WARNING 2024-08-14 11:40:14,178 [Apps.py:init:94] ---System can't find testbed file---
+INFO 2024-08-14 11:40:16,547 [Apps.py:create:68] 2
+INFO 2024-08-14 11:40:34,660 [Apps.py:inputMenu:204] ---Closing Application---
+INFO 2024-08-14 11:41:19,617 [Apps.py:init:89] ---Starting the Application---
+INFO 2024-08-14 11:41:19,626 [Apps.py:init:92] ---Initialize testbed file---
+WARNING 2024-08-14 11:41:19,628 [Apps.py:init:94] ---System can't find testbed file---
+INFO 2024-08-14 11:41:23,559 [Apps.py:create:68] 2
+INFO 2024-08-14 11:43:41,110 [Apps.py:init:97] ---Starting the Application---
+INFO 2024-08-14 11:43:41,124 [Apps.py:init:100] ---Initialize testbed file---
+WARNING 2024-08-14 11:43:41,126 [Apps.py:init:102] ---System can't find testbed file---
+INFO 2024-08-14 11:43:43,155 [Apps.py:create:68] 2
+ERROR 2024-08-14 11:43:43,156 [Apps.py:create:84] Script execution failed: lib/createTestbed.sh: line 2: read: `file_path': not a valid identifier
+lib/createTestbed.sh: line 3: $'\r': command not found
+lib/createTestbed.sh: line 14: syntax error near unexpected token `fi'
+lib/createTestbed.sh: line 14: `fi'
+INFO 2024-08-14 11:44:46,669 [Apps.py:init:97] ---Starting the Application---
+INFO 2024-08-14 11:44:46,678 [Apps.py:init:100] ---Initialize testbed file---
+WARNING 2024-08-14 11:44:46,680 [Apps.py:init:102] ---System can't find testbed file---
+INFO 2024-08-14 11:44:48,379 [Apps.py:create:68] 2
+ERROR 2024-08-14 11:44:48,380 [Apps.py:create:84] Script execution failed: lib/createTestbed.sh: line 2: read: `file_path': not a valid identifier
+lib/createTestbed.sh: line 3: $'\r': command not found
+lib/createTestbed.sh: line 20: syntax error near unexpected token `fi'
+lib/createTestbed.sh: line 20: `fi'
+INFO 2024-08-14 11:45:01,756 [Apps.py:init:97] ---Starting the Application---
+INFO 2024-08-14 11:45:01,766 [Apps.py:init:100] ---Initialize testbed file---
+WARNING 2024-08-14 11:45:01,768 [Apps.py:init:102] ---System can't find testbed file---
+INFO 2024-08-14 11:45:04,108 [Apps.py:create:68] 2
+ERROR 2024-08-14 11:45:04,110 [Apps.py:create:84] Script execution failed: lib/createTestbed.sh: line 2: read: `': not a valid identifier
+lib/createTestbed.sh: line 3: $'\r': command not found
+lib/createTestbed.sh: line 20: syntax error near unexpected token `fi'
+lib/createTestbed.sh: line 20: `fi'
+INFO 2024-08-14 11:47:31,121 [Apps.py:init:97] ---Starting the Application---
+INFO 2024-08-14 11:47:31,130 [Apps.py:init:100] ---Initialize testbed file---
+WARNING 2024-08-14 11:47:31,131 [Apps.py:init:102] ---System can't find testbed file---
+INFO 2024-08-14 11:47:33,206 [Apps.py:create:68] 2
+ERROR 2024-08-14 11:47:33,207 [Apps.py:create:84] Script execution failed: lib/createTestbed.sh: line 2: read: `file_path': not a valid identifier
+lib/createTestbed.sh: line 3: $'\r': command not found
+lib/createTestbed.sh: line 20: syntax error near unexpected token `fi'
+lib/createTestbed.sh: line 20: `fi'
+INFO 2024-08-14 11:48:33,857 [Apps.py:init:97] ---Starting the Application---
+INFO 2024-08-14 11:48:33,870 [Apps.py:init:100] ---Initialize testbed file---
+WARNING 2024-08-14 11:48:33,872 [Apps.py:init:102] ---System can't find testbed file---
+INFO 2024-08-14 11:48:36,468 [Apps.py:create:68] 2
+ERROR 2024-08-14 11:48:36,469 [Apps.py:create:84] Script execution failed: lib/createTestbed.sh: line 2: $'\r': command not found
+lib/createTestbed.sh: line 3: read: `file_path': not a valid identifier
+lib/createTestbed.sh: line 4: $'\r': command not found
+lib/createTestbed.sh: line 22: syntax error: unexpected end of file
+INFO 2024-08-14 11:49:51,558 [Apps.py:init:97] ---Starting the Application---
+INFO 2024-08-14 11:49:51,568 [Apps.py:init:100] ---Initialize testbed file---
+WARNING 2024-08-14 11:49:51,570 [Apps.py:init:102] ---System can't find testbed file---
+INFO 2024-08-14 11:49:53,684 [Apps.py:create:68] 2
+ERROR 2024-08-14 11:49:53,685 [Apps.py:create:84] Script execution failed: lib/createTestbed.sh: line 2: $'\r': command not found
+lib/createTestbed.sh: line 3: read: `file_path': not a valid identifier
+lib/createTestbed.sh: line 4: $'\r': command not found
+lib/createTestbed.sh: line 22: syntax error: unexpected end of file
+INFO 2024-08-14 11:52:15,819 [Apps.py:init:97] ---Starting the Application---
+INFO 2024-08-14 11:52:15,829 [Apps.py:init:100] ---Initialize testbed file---
+WARNING 2024-08-14 11:52:15,830 [Apps.py:init:102] ---System can't find testbed file---
+INFO 2024-08-14 11:52:21,142 [Apps.py:create:68] 2
+ERROR 2024-08-14 11:52:21,143 [Apps.py:create:84] Script execution failed: lib/createTestbed.sh: line 2: read: `file_path': not a valid identifier
+lib/createTestbed.sh: line 3: $'\r': command not found
+lib/createTestbed.sh: line 21: syntax error: unexpected end of file
+INFO 2024-08-14 11:56:01,593 [Apps.py:init:97] ---Starting the Application---
+INFO 2024-08-14 11:56:01,603 [Apps.py:init:100] ---Initialize testbed file---
+WARNING 2024-08-14 11:56:01,604 [Apps.py:init:102] ---System can't find testbed file---
+INFO 2024-08-14 11:56:03,575 [Apps.py:create:68] 2
+ERROR 2024-08-14 11:56:03,577 [Apps.py:create:84] Script execution failed: lib/createTestbed.sh: line 2: read: `file_path': not a valid identifier
+lib/createTestbed.sh: line 3: $'\r': command not found
+lib/createTestbed.sh: line 21: syntax error: unexpected end of file
+INFO 2024-08-14 11:56:33,714 [Apps.py:init:97] ---Starting the Application---
+INFO 2024-08-14 11:56:33,723 [Apps.py:init:100] ---Initialize testbed file---
+WARNING 2024-08-14 11:56:33,725 [Apps.py:init:102] ---System can't find testbed file---
+INFO 2024-08-14 11:56:35,485 [Apps.py:create:68] 127
+ERROR 2024-08-14 11:56:35,486 [Apps.py:create:88] Unexpected error: lib/createTestbed.sh: line 2: read: `file_path': not a valid identifier
+lib/createTestbed.sh: line 3: $'\r': command not found
+lib/createTestbed.sh: line 9: $'\r': command not found
+lib/createTestbed.sh: line 12: $'\r': command not found
+INFO 2024-08-14 11:57:47,264 [Apps.py:init:97] ---Starting the Application---
+INFO 2024-08-14 11:57:47,275 [Apps.py:init:100] ---Initialize testbed file---
+WARNING 2024-08-14 11:57:47,277 [Apps.py:init:102] ---System can't find testbed file---
+INFO 2024-08-14 11:57:48,850 [Apps.py:create:68] 127
+ERROR 2024-08-14 11:57:48,851 [Apps.py:create:88] Unexpected error: /bin/bash: /lib/createTestbed.sh: No such file or directory
+INFO 2024-08-14 11:57:58,909 [Apps.py:init:97] ---Starting the Application---
+INFO 2024-08-14 11:57:58,919 [Apps.py:init:100] ---Initialize testbed file---
+WARNING 2024-08-14 11:57:58,920 [Apps.py:init:102] ---System can't find testbed file---
+INFO 2024-08-14 11:58:00,923 [Apps.py:create:68] 0
+INFO 2024-08-14 11:58:00,925 [Apps.py:create:71] Importing file...env.csv
+INFO 2024-08-14 11:58:01,957 [Apps.py:create:75] Success: env.csv
+INFO 2024-08-14 11:58:01,961 [Apps.py:create:76] ---testbed file ready---
+INFO 2024-08-14 11:58:32,064 [Apps.py:init:97] ---Starting the Application---
+INFO 2024-08-14 11:58:32,074 [Apps.py:init:100] ---Initialize testbed file---
+WARNING 2024-08-14 11:58:32,076 [Apps.py:init:102] ---System can't find testbed file---
+INFO 2024-08-14 11:58:36,560 [Apps.py:create:68] 0
+INFO 2024-08-14 11:58:36,562 [Apps.py:create:71] Importing file...env.csv
+INFO 2024-08-14 11:58:37,594 [Apps.py:create:75] Success: Testbed file generated: 
+import/env.csv -> testbed/device.yaml
+INFO 2024-08-14 11:58:37,597 [Apps.py:create:76] ---testbed file ready---
+INFO 2024-08-14 11:59:42,585 [Apps.py:inputMenu:145] ---Get Configuration Device---
+INFO 2024-08-14 12:03:03,054 [Apps.py:init:97] ---Starting the Application---
+INFO 2024-08-14 12:03:03,063 [Apps.py:init:100] ---Initialize testbed file---
+INFO 2024-08-14 12:03:03,065 [Apps.py:init:108] ---testbed file ready---
+INFO 2024-08-14 12:03:06,051 [Apps.py:init:114] ---Opening Main Menu Application---
+INFO 2024-08-14 12:03:07,648 [Apps.py:inputMenu:145] ---Get Configuration Device---
+INFO 2024-08-14 12:13:29,946 [Apps.py:init:97] ---Starting the Application---
+INFO 2024-08-14 12:13:29,956 [Apps.py:init:100] ---Initialize testbed file---
+INFO 2024-08-14 12:13:29,957 [Apps.py:init:108] ---testbed file ready---
+INFO 2024-08-14 12:14:16,093 [Apps.py:init:97] ---Starting the Application---
+INFO 2024-08-14 12:14:16,103 [Apps.py:init:100] ---Initialize testbed file---
+INFO 2024-08-14 12:14:16,104 [Apps.py:init:108] ---testbed file ready---
+INFO 2024-08-14 12:14:18,768 [Apps.py:init:114] ---Opening Main Menu Application---
+INFO 2024-08-14 12:14:22,822 [Apps.py:inputMenu:158] ---Get Memmory Utilization---
+INFO 2024-08-14 12:26:27,559 [Apps.py:init:97] ---Starting the Application---
+INFO 2024-08-14 12:26:27,568 [Apps.py:init:100] ---Initialize testbed file---
+INFO 2024-08-14 12:26:27,569 [Apps.py:init:108] ---testbed file ready---
+INFO 2024-08-14 12:26:29,288 [Apps.py:init:114] ---Opening Main Menu Application---
+INFO 2024-08-14 12:26:33,133 [Apps.py:inputMenu:176] ---Get Interface CRC device---
+INFO 2024-08-14 21:39:17,679 [Apps.py:init:97] ---Starting the Application---
+INFO 2024-08-14 21:39:17,688 [Apps.py:init:100] ---Initialize testbed file---
+INFO 2024-08-14 21:39:17,689 [Apps.py:init:108] ---testbed file ready---
+INFO 2024-08-14 21:39:19,534 [Apps.py:init:114] ---Opening Main Menu Application---
+INFO 2024-08-14 21:39:22,172 [Apps.py:inputMenu:176] ---Get Interface CRC device---
+INFO 2024-08-14 22:47:49,099 [Apps.py:init:97] ---Starting the Application---
+INFO 2024-08-14 22:47:49,109 [Apps.py:init:100] ---Initialize testbed file---
+INFO 2024-08-14 22:47:49,110 [Apps.py:init:108] ---testbed file ready---
+INFO 2024-08-14 22:47:50,833 [Apps.py:init:114] ---Opening Main Menu Application---
+INFO 2024-08-14 22:47:53,366 [Apps.py:inputMenu:176] ---Get Interface CRC device---
+INFO 2024-08-15 13:13:46,209 [Apps.py:init:108] ---Starting the Application---
+INFO 2024-08-15 13:13:46,221 [Apps.py:init:111] ---Initialize testbed file---
+INFO 2024-08-15 13:13:46,223 [Apps.py:init:119] ---testbed file ready---
+INFO 2024-08-15 13:13:48,668 [Apps.py:init:125] ---Opening Main Menu Application---
+INFO 2024-08-15 13:13:51,584 [Apps.py:inputMenu:193] ---Get Filter Interface CRC device---
+INFO 2024-08-15 13:13:51,586 [Apps.py:inputMenu:194] ---Initialize testbed file Interface CRC---
+INFO 2024-08-15 13:19:49,307 [Apps.py:init:108] ---Starting the Application---
+INFO 2024-08-15 13:19:49,317 [Apps.py:init:111] ---Initialize testbed file---
+INFO 2024-08-15 13:19:49,318 [Apps.py:init:119] ---testbed file ready---
+INFO 2024-08-15 13:19:50,784 [Apps.py:init:125] ---Opening Main Menu Application---
+INFO 2024-08-15 13:19:53,507 [Apps.py:inputMenu:193] ---Get Filter Interface CRC device---
+INFO 2024-08-15 13:19:53,509 [Apps.py:inputMenu:194] ---Initialize testbed file Interface CRC---
+INFO 2024-08-15 13:21:31,560 [Apps.py:init:108] ---Starting the Application---
+INFO 2024-08-15 13:21:31,570 [Apps.py:init:111] ---Initialize testbed file---
+INFO 2024-08-15 13:21:31,571 [Apps.py:init:119] ---testbed file ready---
+INFO 2024-08-15 13:21:33,111 [Apps.py:init:125] ---Opening Main Menu Application---
+INFO 2024-08-15 13:21:35,009 [Apps.py:inputMenu:193] ---Get Filter Interface CRC device---
+INFO 2024-08-15 13:21:35,010 [Apps.py:inputMenu:194] ---Initialize testbed file Interface CRC---
+INFO 2024-08-15 13:21:35,012 [Apps.py:inputMenu:195] Status testbed file Interface CRC : {check_ListInterfaceCRC}
+INFO 2024-08-15 13:22:50,067 [Apps.py:init:108] ---Starting the Application---
+INFO 2024-08-15 13:22:50,076 [Apps.py:init:111] ---Initialize testbed file---
+INFO 2024-08-15 13:22:50,078 [Apps.py:init:119] ---testbed file ready---
+INFO 2024-08-15 13:22:51,472 [Apps.py:init:125] ---Opening Main Menu Application---
+INFO 2024-08-15 13:22:52,947 [Apps.py:inputMenu:193] ---Get Filter Interface CRC device---
+INFO 2024-08-15 13:22:52,949 [Apps.py:inputMenu:194] ---Initialize testbed file Interface CRC---
+INFO 2024-08-15 13:24:13,769 [Apps.py:init:108] ---Starting the Application---
+INFO 2024-08-15 13:24:13,779 [Apps.py:init:111] ---Initialize testbed file---
+INFO 2024-08-15 13:24:13,780 [Apps.py:init:119] ---testbed file ready---
+INFO 2024-08-15 13:24:15,277 [Apps.py:init:125] ---Opening Main Menu Application---
+INFO 2024-08-15 13:24:22,087 [Apps.py:inputMenu:193] ---Get Filter Interface CRC device---
+INFO 2024-08-15 13:24:22,088 [Apps.py:inputMenu:194] ---Initialize testbed file Interface CRC---
+INFO 2024-08-15 13:25:54,338 [Apps.py:init:108] ---Starting the Application---
+INFO 2024-08-15 13:25:54,348 [Apps.py:init:111] ---Initialize testbed file---
+INFO 2024-08-15 13:25:54,349 [Apps.py:init:119] ---testbed file ready---
+INFO 2024-08-15 13:25:55,680 [Apps.py:init:125] ---Opening Main Menu Application---
+INFO 2024-08-15 13:25:57,131 [Apps.py:inputMenu:193] ---Get Filter Interface CRC device---
+INFO 2024-08-15 13:25:57,133 [Apps.py:inputMenu:194] ---Initialize testbed file Interface CRC---
+INFO 2024-08-15 13:27:56,425 [Apps.py:init:108] ---Starting the Application---
+INFO 2024-08-15 13:27:56,435 [Apps.py:init:111] ---Initialize testbed file---
+INFO 2024-08-15 13:27:56,436 [Apps.py:init:119] ---testbed file ready---
+INFO 2024-08-15 13:27:59,588 [Apps.py:init:125] ---Opening Main Menu Application---
+INFO 2024-08-15 13:28:01,068 [Apps.py:inputMenu:193] ---Get Filter Interface CRC device---
+INFO 2024-08-15 13:28:01,070 [Apps.py:inputMenu:194] ---Initialize testbed file Interface CRC---
+WARNING 2024-08-15 13:28:01,073 [Apps.py:inputMenu:197] ---Testbed file Interface CRC - Not Ready---
+INFO 2024-08-15 13:29:15,815 [Apps.py:init:108] ---Starting the Application---
+INFO 2024-08-15 13:29:15,825 [Apps.py:init:111] ---Initialize testbed file---
+INFO 2024-08-15 13:29:15,826 [Apps.py:init:119] ---testbed file ready---
+INFO 2024-08-15 13:29:17,148 [Apps.py:init:125] ---Opening Main Menu Application---
+INFO 2024-08-15 13:29:18,641 [Apps.py:inputMenu:193] ---Get Filter Interface CRC device---
+INFO 2024-08-15 13:29:18,643 [Apps.py:inputMenu:194] ---Initialize testbed file Interface CRC---
+WARNING 2024-08-15 13:29:18,645 [Apps.py:inputMenu:197] ---Testbed file Interface CRC - Not Ready---
+INFO 2024-08-15 13:29:52,056 [Apps.py:init:108] ---Starting the Application---
+INFO 2024-08-15 13:29:52,067 [Apps.py:init:111] ---Initialize testbed file---
+INFO 2024-08-15 13:29:52,069 [Apps.py:init:119] ---testbed file ready---
+INFO 2024-08-15 13:29:53,152 [Apps.py:init:125] ---Opening Main Menu Application---
+INFO 2024-08-15 13:29:54,478 [Apps.py:inputMenu:193] ---Get Filter Interface CRC device---
+INFO 2024-08-15 13:29:54,480 [Apps.py:inputMenu:194] ---Initialize testbed file Interface CRC---
+WARNING 2024-08-15 13:29:54,481 [Apps.py:inputMenu:197] ---Testbed file Interface CRC - Not Ready---
+INFO 2024-08-15 13:32:14,128 [Apps.py:init:108] ---Starting the Application---
+INFO 2024-08-15 13:32:14,138 [Apps.py:init:111] ---Initialize testbed file---
+INFO 2024-08-15 13:32:14,139 [Apps.py:init:119] ---testbed file ready---
+INFO 2024-08-15 13:32:15,584 [Apps.py:init:125] ---Opening Main Menu Application---
+INFO 2024-08-15 13:32:16,988 [Apps.py:inputMenu:193] ---Get Filter Interface CRC device---
+INFO 2024-08-15 13:32:16,989 [Apps.py:inputMenu:194] ---Initialize testbed file Interface CRC---
+WARNING 2024-08-15 13:32:16,991 [Apps.py:inputMenu:197] ---Testbed file Interface CRC - Not Ready---

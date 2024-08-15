@@ -1,0 +1,4 @@
+INFO 2024-08-15 13:29:56,285 [createTestbed_CRCInterface.py:createInterfaceCRCList:56] Processing create testbed file, from input file import/asd.csv
+ERROR 2024-08-15 13:29:56,287 [createTestbed_CRCInterface.py:createInterfaceCRCList:99] error: [Errno 2] No such file or directory: 'import/asd.csv'
+INFO 2024-08-15 13:32:18,914 [createTestbed_CRCInterface.py:createInterfaceCRCList:58] Processing create testbed file, from input file import/asd.csv
+ERROR 2024-08-15 13:32:19,948 [createTestbed_CRCInterface.py:createInterfaceCRCList:104] error: [Errno 2] No such file or directory: 'import/asd.csv'

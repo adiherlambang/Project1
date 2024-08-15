@@ -1,0 +1,5 @@
+INFO 2024-08-14 12:14:23,049 [main.py:get_iosxe_memory_info:78] Connecting to Device: CC-VCUBE
+INFO 2024-08-14 12:14:27,480 [main.py:get_iosxe_memory_info:80] Successfully Connected to Device: CC-VCUBE
+INFO 2024-08-14 12:14:40,134 [main.py:getMemmoryUtils:444] Get Memmory Utilization - execution completed successfully.
+INFO 2024-08-14 12:14:40,135 [main.py:getMemmoryUtils:447] Sort Output Data - execution completed.
+INFO 2024-08-14 12:14:40,137 [main.py:getMemmoryUtils:448] Total Executed Get Memory Device is IOS_XE:1 IOS_XR:0 IOS:0 NXOS:0 and Total Device is 1

@@ -1,0 +1,10 @@
+INFO 2024-08-14 12:26:33,364 [main.py:proc_iface_crc_xe:75] Pyats parser with iosXE type function
+INFO 2024-08-14 12:26:39,148 [main.py:proc_iface_crc_xe:78] Device: CC-VCUBE
+INFO 2024-08-14 12:26:41,190 [main.py:interfaceCRC:272] Script execution completed successfully.
+INFO 2024-08-14 21:39:22,403 [main.py:proc_iface_crc_xe:75] Pyats parser with iosXE type function
+INFO 2024-08-14 21:39:26,930 [main.py:proc_iface_crc_xe:78] Device: CC-VCUBE
+INFO 2024-08-14 21:39:28,677 [main.py:proc_iface_crc_xe:83] Skip subInterface GigabitEthernet1 for device: CC-VCUBE
+INFO 2024-08-14 21:39:28,679 [main.py:interfaceCRC:276] Script execution completed successfully.
+INFO 2024-08-14 22:47:53,608 [main.py:proc_iface_crc_xe:76] Pyats parser with iosXE type function
+INFO 2024-08-14 22:47:57,858 [main.py:proc_iface_crc_xe:79] Device: CC-VCUBE
+INFO 2024-08-14 22:47:59,593 [main.py:interfaceCRC:276] Script execution completed successfully.

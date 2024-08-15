@@ -20,6 +20,8 @@ from lib.getEnvi.main import main as  getEnvi
 from lib.getCustom.main import main as  getCustom
 from lib.NetworkTopology.main import main as  NetworkTopology
 from lib.getCI.main import main as getCI
+from lib.getCRCFiltered import main as FilterInterfaceCRC
+from lib.createTestbed_CRCInterface import createInterfaceCRCList
 import logging
 from rich.logging import RichHandler
 import concurrent.futures
@@ -49,24 +51,23 @@ logger.addHandler(shell_handler)
 logger.addHandler(file_handler)
 
 
-Menu = ['Get Configuration Device','Get Inventory Device','Get Memory Utils','Get CPU Utils','Get Logging Device','Get Interface CRC','Get CDP Neighbours','Get Environtment','Get Custom Commands', 'Create Network Topology', 'get CI Project' ,'Exit']
+Menu = ['Get Configuration Device','Get Inventory Device','Get Memory Utils','Get CPU Utils','Get Logging Device','Get Interface CRC','GET Interface CRC - Filter','Get CDP Neighbours','Get Environtment','Get Custom Commands', 'Create Network Topology', 'get CI Project' ,'Exit']
 
 testbedFile = 'testbed/device.yaml'
 
 
 def create():
     console.print("If you want to import csv/xls/xlsx, please put into folder 'import'")
-    input_str = Prompt.ask("Please input name file csv/xls/xlsx, you want to import (ex :filename.csv)")
+    input_str = Prompt.ask("Please input name file csv/xls/xlsx, you want to generate (ex :filename.csv)")
 
     # Start Bash script as subprocess with input from variable
-    result = subprocess.Popen(['/bin/bash', './lib/createTestbed.sh'], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-
+    result = subprocess.Popen(['/bin/bash', 'lib/createTestbed.sh'], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     # Send input to subprocess and get output and errors
     output, errors = result.communicate(input=input_str.encode())
 
     # Get return code
     return_code = result.returncode
-
+    logger.info(return_code)
     if return_code == 0:
         # Success
         logger.info("Importing file..."+input_str)
@@ -80,11 +81,28 @@ def create():
         # Error
         logger.error(f"Error: {errors.decode().strip()}")
         return False
+    elif return_code == 2:
+        # Command or script error
+        logger.error(f"Script execution failed: {errors.decode().strip()}")
+        return False
+    else:
+        # Other errors
+        logger.error(f"Unexpected error: {errors.decode().strip()}")
+        return False
 
 def check():
     # check path file is exsist or not, return True / False
     path = Path(testbedFile)
     return path.is_file()
+
+def check_ListInterfaceCRC():
+    path = Path('testbed/interfaceCRClist.yaml')
+    return path.is_file()
+
+def prompt_createTestbedCRC():
+    console.print("If you want to import csv, please put into folder 'import'")
+    input_str = Prompt.ask("Please input name file csv, you want to generate (ex :filename.csv)")
+    return input_str
 
 def init():
     logger.info("---Starting the Application---")
@@ -170,38 +188,61 @@ def inputMenu(value):
         
         #### function get Logging device ####
         interfaceCRC(testbedFile)
-
+    
     elif(value==Menu[6] or value=='7'):
+        logger.info("---Get Filter Interface CRC device---")
+        logger.info("---Initialize testbed file Interface CRC---")
+        # logger.info("Status testbed file Interface CRC :" )
+        if check_ListInterfaceCRC() == False:
+            logger.warning("---Testbed file Interface CRC - Not Ready---")
+            result_InterfaceListCRC = createInterfaceCRCList(prompt_createTestbedCRC())
+        else:
+            updateFile_InterfaceCRC = pyip.inputYesNo(prompt="Do you want to update testbed file Interface CRC..? (Y/n)",blank=False)
+            if updateFile_InterfaceCRC == 'yes':
+                result_InterfaceListCRC = createInterfaceCRCList(prompt_createTestbedCRC())
+                
+                if result_InterfaceListCRC['status']==False:
+                    logging.warning(result_InterfaceListCRC['message'])
+                    logging.info('Please check your imported file')
+                    time.sleep(0.5)
+                    logging.info('--- Closing Application ---')
+                    sys.exit()
+                else:    
+                    time.sleep(0.5)
+                    #### function get Logging device ####
+                    FilterInterfaceCRC(testbedFile)
+
+    elif(value==Menu[7] or value=='8'):
         logger.info("---Get CDP Neighbours ---")
         
         #### function get Logging device ####
         getCDP(testbedFile)
     
-    elif(value==Menu[7] or value=='8'):
+    elif(value==Menu[8] or value=='9'):
         logger.info("---Get Healty Check / Environtment Device ---")
         
         #### function get Logging device ####
         getEnvi(testbedFile)
 
-    elif(value==Menu[8] or value=='9'):
+    elif(value==Menu[9] or value=='10'):
         logger.info("---Get Custom Commands from txt ---")
         
         #### function get Logging device ####
         getCustom(testbedFile)
         
-    elif(value==Menu[9] or value=='10'):
+    elif(value==Menu[10] or value=='11'):
         logger.info("---Create Network Topology ---")
         
         #### function get Logging device ####
         NetworkTopology()
         
-    elif(value==Menu[10] or value=='11'):
+    elif(value==Menu[11] or value=='12'):
         logger.info("---Create Network Topology ---")
         
         #### function get Logging device ####
         getCI()
 
-    elif(value==Menu[11] or value=='12'):
+    elif(value==Menu[12] or value=='13'):
         logger.info("---Closing Application---")
         time.sleep(1)
         sys.exit()
