@@ -133,7 +133,7 @@ def proc_iface_crc_xr(device,counter):
 def proc_iface_crc_nx(device,counter):
     try:
         logger.info("Pyats parser with nxos type function")
-        device.connect(learn_hostname = True, learn_os = True, log_stdout=True, mit=True, timeout=5000)
+        device.connect(learn_hostname = True, learn_os = True, log_stdout=True, mit=True, command_timeout=500)
         logger.info(f"Device: {device.name}")
         output_iface_crc = device.parse('show interface')
         check=['port-channel','mgmt0','loopback','Vlan','.']
