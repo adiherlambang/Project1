@@ -20,7 +20,7 @@ from lib.getEnvi.main import main as  getEnvi
 from lib.getCustom.main import main as  getCustom
 from lib.NetworkTopology.main import main as  NetworkTopology
 from lib.getCI.main import main as getCI
-from lib.getCRCFiltered.main import interfaceListedCRC
+from lib.getCRCFiltered.main import main_InterfaceCRC
 from lib.createTestbed_CRCInterface import createInterfaceCRCList
 import logging
 from rich.logging import RichHandler
@@ -54,6 +54,7 @@ logger.addHandler(file_handler)
 Menu = ['Get Configuration Device','Get Inventory Device','Get Memory Utils','Get CPU Utils','Get Logging Device','Get Interface CRC','GET Interface CRC - Filter','Get CDP Neighbours','Get Environtment','Get Custom Commands', 'Create Network Topology', 'get CI Project' ,'Exit']
 
 testbedFile = 'testbed/device.yaml'
+testbedFile_CRC = 'testbed/interfaceCRClist.yaml'
 
 
 def create():
@@ -198,7 +199,7 @@ def inputMenu(value):
             result_InterfaceListCRC = createInterfaceCRCList(prompt_createTestbedCRC())
             time.sleep(0.5)
             #### function get Logging device ####
-            interfaceListedCRC(testbedFile)
+            main_InterfaceCRC(testbedFile_CRC)
         else:
             updateFile_InterfaceCRC = pyip.inputYesNo(prompt="Do you want to update testbed file Interface CRC..? (Y/n)",blank=False)
             if updateFile_InterfaceCRC == 'yes':
@@ -213,7 +214,7 @@ def inputMenu(value):
                 else:    
                     time.sleep(0.5)
                     #### function get Logging device ####
-                    interfaceListedCRC(testbedFile)
+                    main_InterfaceCRC(testbedFile_CRC)
     
     elif(value==Menu[7] or value=='8'):
         logger.info("---Get CDP Neighbours ---")
