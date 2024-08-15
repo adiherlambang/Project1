@@ -40,7 +40,7 @@ timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H-%M-%S')
 if not os.path.exists("out/InterfaceCRC"):
     os.makedirs("out/InterfaceCRC")
     
-check=['port-channel','mgmt0','loopback','Vlan','.','Loopback','NVI','Tunnel','Sdwan']
+check=['port-channel','mgmt0','Loopback','Vlan','.','NVI','Tunnel']
 
 def proc_iface_crc_ios(device,counter):
     logger.info("Pyats parser with ios type function")
