@@ -40,15 +40,15 @@ timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H-%M-%S')
 if not os.path.exists("out/InterfaceCRC"):
     os.makedirs("out/InterfaceCRC")
     
-# check=['port-channel','mgmt0','loopback','Vlan','.']
+check=['port-channel','mgmt0','loopback','Vlan','.']
 
 def proc_iface_crc_ios(device,counter):
     logger.info("Pyats parser with ios type function")
     try:
         device.connect(learn_hostname = True, learn_os = True, log_stdout=False,mit=True)
         logger.info(f"Device: {device.name}")
-        output_iface_crc = device.parse('show interfaces')
-        check=['port-channel','mgmt0','loopback','Vlan','.']
+        output_iface_crc = device.parse('show interfaces', timeout=300)
+        # check=['port-channel','mgmt0','loopback','Vlan','.']
         for iface in output_iface_crc:
             if any(dot in iface for dot in check):
                 logger.info(f"Skip subInterface {iface} for device: {device.name}")
@@ -78,8 +78,8 @@ def proc_iface_crc_xe(device,counter):
     try:
         device.connect(learn_hostname = True, learn_os = True, log_stdout=False,mit=True)
         logger.info(f"Device: {device.name}")
-        output_iface_crc = device.parse('show interfaces')
-        check=['port-channel','mgmt0','loopback','Vlan','.']
+        output_iface_crc = device.parse('show interfaces', timeout=300)
+        # check=['port-channel','mgmt0','loopback','Vlan','.']
         for iface in output_iface_crc:
             if any(dot in iface for dot in check):
                     logger.info(f"Skip subInterface {iface} for device: {device.name}")
@@ -106,8 +106,8 @@ def proc_iface_crc_xr(device,counter):
     try:
         device.connect(learn_hostname = True, learn_os = True, log_stdout=False,mit=True)
         logger.info(f"Device: {device.name}")
-        output_iface_crc = device.parse('show interfaces')
-        check=['port-channel','mgmt0','loopback','Vlan','.']
+        output_iface_crc = device.parse('show interfaces', timeout=300)
+        # check=['port-channel','mgmt0','loopback','Vlan','.']
         for iface in output_iface_crc:
             if any(dot in iface for dot in check):
                     logger.info(f"Skip subInterface {iface} for device: {device.name}")
@@ -136,29 +136,29 @@ def proc_iface_crc_nx(device,counter):
         device.connect(learn_hostname = True, learn_os = True, log_stdout=False, mit=True)
         logger.info(f"Device: {device.name}")
         output_iface_crc = device.parse('show interface', timeout=300)
-        check=['port-channel','mgmt0','loopback','Vlan','.']
-        logger.info(output_iface_crc)
-        # for iface in output_iface_crc:
-        #     logger.info(output_iface_crc)
-        #     if any(dot in iface for dot in check):
-        #         logger.info(f"Skip subInterface {iface} for device: {device.name}")
-        #     else:
-        #         #logger.info(output_iface_crc[iface]['counters']['out_errors'])
-        #         crc = output_iface_crc[iface]['counters']['in_crc_errors']
-        #         input_errors = output_iface_crc[iface]['counters']['in_errors']
-        #         output_errors = output_iface_crc[iface]['counters']['out_errors']
-        #         #logger.info(f"{crc},{input_errors},{output_errors}")
-        #         with open(
-        #         f"out/InterfaceCRC/show_int_crc_{timestamp}.csv", "a", newline=""
-        #         ) as csvfile:
-        #             writer = csv.writer(csvfile)  
-        #             writer.writerow([counter,device.name,iface,crc,input_errors,output_errors])
-        #         if crc > 0 or input_errors > 0 or output_errors > 0:
-        #                 with open(
-        #                 f"out/InterfaceCRC/found_int_crc_{timestamp}.csv", "a", newline=""
-        #                 ) as csvfile:
-        #                     writer = csv.writer(csvfile)  
-        #                     writer.writerow([counter,device.name,iface,crc,input_errors,output_errors])
+        # check=['port-channel','mgmt0','loopback','Vlan','.']
+        # logger.info(output_iface_crc)
+        for iface in output_iface_crc:
+            logger.info(output_iface_crc)
+            if any(dot in iface for dot in check):
+                logger.info(f"Skip subInterface {iface} for device: {device.name}")
+            else:
+                #logger.info(output_iface_crc[iface]['counters']['out_errors'])
+                crc = output_iface_crc[iface]['counters']['in_crc_errors']
+                input_errors = output_iface_crc[iface]['counters']['in_errors']
+                output_errors = output_iface_crc[iface]['counters']['out_errors']
+                #logger.info(f"{crc},{input_errors},{output_errors}")
+                with open(
+                f"out/InterfaceCRC/show_int_crc_{timestamp}.csv", "a", newline=""
+                ) as csvfile:
+                    writer = csv.writer(csvfile)  
+                    writer.writerow([counter,device.name,iface,crc,input_errors,output_errors])
+                if crc > 0 or input_errors > 0 or output_errors > 0:
+                        with open(
+                        f"out/InterfaceCRC/found_int_crc_{timestamp}.csv", "a", newline=""
+                        ) as csvfile:
+                            writer = csv.writer(csvfile)  
+                            writer.writerow([counter,device.name,iface,crc,input_errors,output_errors])
     except TimeoutError as e:
         logger.error(f"Timeout occurred while connecting to or interacting with the device: {str(e)}")
     except Exception as e :
@@ -181,7 +181,7 @@ def convert_to_netmiko(device):
     return netmiko_device
 
 def runNetmiko(device,counter):
-    check=['port-channel','mgmt0','loopback','Vlan','.']
+    # check=['port-channel','mgmt0','loopback','Vlan','.']
     logger.error("Retrying connect to device with netmiko")
     # Convert the device to Netmiko format
     netmiko_device = convert_to_netmiko(device)
