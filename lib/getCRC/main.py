@@ -40,7 +40,7 @@ timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H-%M-%S')
 if not os.path.exists("out/InterfaceCRC"):
     os.makedirs("out/InterfaceCRC")
     
-check=['port-channel','mgmt0','loopback','Vlan','.']
+# check=['port-channel','mgmt0','loopback','Vlan','.']
 
 def proc_iface_crc_ios(device,counter):
     logger.info("Pyats parser with ios type function")
@@ -48,6 +48,7 @@ def proc_iface_crc_ios(device,counter):
         device.connect(learn_hostname = True, learn_os = True, log_stdout=False,mit=True)
         logger.info(f"Device: {device.name}")
         output_iface_crc = device.parse('show interfaces')
+        check=['port-channel','mgmt0','loopback','Vlan','.']
         for iface in output_iface_crc:
             if any(dot in iface for dot in check):
                 logger.info(f"Skip subInterface {iface} for device: {device.name}")
@@ -78,7 +79,7 @@ def proc_iface_crc_xe(device,counter):
         device.connect(learn_hostname = True, learn_os = True, log_stdout=False,mit=True)
         logger.info(f"Device: {device.name}")
         output_iface_crc = device.parse('show interfaces')
-        # check=['port-channel','mgmt0','loopback','Vlan','.']
+        check=['port-channel','mgmt0','loopback','Vlan','.']
         for iface in output_iface_crc:
             if any(dot in iface for dot in check):
                     logger.info(f"Skip subInterface {iface} for device: {device.name}")
@@ -106,6 +107,7 @@ def proc_iface_crc_xr(device,counter):
         device.connect(learn_hostname = True, learn_os = True, log_stdout=False,mit=True)
         logger.info(f"Device: {device.name}")
         output_iface_crc = device.parse('show interfaces')
+        check=['port-channel','mgmt0','loopback','Vlan','.']
         for iface in output_iface_crc:
             if any(dot in iface for dot in check):
                     logger.info(f"Skip subInterface {iface} for device: {device.name}")
@@ -134,7 +136,8 @@ def proc_iface_crc_nx(device,counter):
         device.connect(learn_hostname = True, learn_os = True, log_stdout=False, mit=True, connection_timeout=150)
         logger.info(f"Device: {device.name}")
         output_iface_crc = device.parse('show interface')
-        # check=['port-channel','mgmt0','loopback','Vlan','.']
+        check=['port-channel','mgmt0','loopback','Vlan','.']
+        logger.info(output_iface_crc)
         for iface in output_iface_crc:
             logger.info(output_iface_crc)
             if any(dot in iface for dot in check):
@@ -159,7 +162,7 @@ def proc_iface_crc_nx(device,counter):
 
     except :
         logger.warning(f"Error get CRC for device {device.name} using pyAts")
-        device.disconnect()
+        # device.disconnect()
         runNetmiko(device,counter)
 
 def convert_to_netmiko(device):
