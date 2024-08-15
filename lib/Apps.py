@@ -196,6 +196,9 @@ def inputMenu(value):
         if check_ListInterfaceCRC() == False:
             logger.warning("---Testbed file Interface CRC - Not Ready---")
             result_InterfaceListCRC = createInterfaceCRCList(prompt_createTestbedCRC())
+            time.sleep(0.5)
+            #### function get Logging device ####
+            interfaceListedCRC(testbedFile)
         else:
             updateFile_InterfaceCRC = pyip.inputYesNo(prompt="Do you want to update testbed file Interface CRC..? (Y/n)",blank=False)
             if updateFile_InterfaceCRC == 'yes':
@@ -211,7 +214,7 @@ def inputMenu(value):
                     time.sleep(0.5)
                     #### function get Logging device ####
                     interfaceListedCRC(testbedFile)
-
+    
     elif(value==Menu[7] or value=='8'):
         logger.info("---Get CDP Neighbours ---")
         
