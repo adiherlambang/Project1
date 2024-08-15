@@ -49,6 +49,7 @@ def proc_iface_crc_ios(device,counter):
         logger.info(f"Device: {device.name}")
         output_iface_crc = device.parse('show interfaces', timeout=300)
         check=['port-channel','mgmt0','loopback','Vlan','.']
+        logger.info(output_iface_crc)
         for iface in output_iface_crc:
             if any(dot in iface for dot in check):
                 logger.info(f"Skip subInterface {iface} for device: {device.name}")
@@ -80,6 +81,7 @@ def proc_iface_crc_xe(device,counter):
         logger.info(f"Device: {device.name}")
         output_iface_crc = device.parse('show interfaces', timeout=300)
         check=['port-channel','mgmt0','loopback','Vlan','.']
+        logger.info(output_iface_crc)
         for iface in output_iface_crc:
             if any(dot in iface for dot in check):
                     logger.info(f"Skip subInterface {iface} for device: {device.name}")
@@ -108,6 +110,7 @@ def proc_iface_crc_xr(device,counter):
         logger.info(f"Device: {device.name}")
         output_iface_crc = device.parse('show interfaces', timeout=300)
         check=['port-channel','mgmt0','loopback','Vlan','.']
+        logger.info(output_iface_crc)
         for iface in output_iface_crc:
             if any(dot in iface for dot in check):
                     logger.info(f"Skip subInterface {iface} for device: {device.name}")
@@ -137,7 +140,7 @@ def proc_iface_crc_nx(device,counter):
         logger.info(f"Device: {device.name}")
         output_iface_crc = device.parse('show interface', timeout=300)
         check=['port-channel','mgmt0','Loopback','Vlan','.']
-        # logger.info(output_iface_crc)
+        logger.info(output_iface_crc)
         for iface in output_iface_crc:
             # logger.info(output_iface_crc)
             if any(dot in iface for dot in check):
