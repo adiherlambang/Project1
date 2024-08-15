@@ -21,7 +21,7 @@ from lib.getCustom.main import main as  getCustom
 from lib.NetworkTopology.main import main as  NetworkTopology
 from lib.getCI.main import main as getCI
 from lib.getCRCFiltered.main import interfaceListedCRC
-from lib.createTestbed_CRCInterface import main as createInterfaceCRCList
+from lib.createTestbed_CRCInterface import createInterfaceCRCList
 import logging
 from rich.logging import RichHandler
 import concurrent.futures
