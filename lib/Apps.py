@@ -20,8 +20,8 @@ from lib.getEnvi.main import main as  getEnvi
 from lib.getCustom.main import main as  getCustom
 from lib.NetworkTopology.main import main as  NetworkTopology
 from lib.getCI.main import main as getCI
-from lib.getCRCFiltered import main as FilterInterfaceCRC
-from lib.createTestbed_CRCInterface import createInterfaceCRCList
+from lib.getCRCFiltered.main import interfaceListedCRC
+from lib.createTestbed_CRCInterface import main as createInterfaceCRCList
 import logging
 from rich.logging import RichHandler
 import concurrent.futures
@@ -210,7 +210,7 @@ def inputMenu(value):
                 else:    
                     time.sleep(0.5)
                     #### function get Logging device ####
-                    FilterInterfaceCRC(testbedFile)
+                    interfaceListedCRC(testbedFile)
 
     elif(value==Menu[7] or value=='8'):
         logger.info("---Get CDP Neighbours ---")
