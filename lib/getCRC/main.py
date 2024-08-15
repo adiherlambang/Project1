@@ -48,7 +48,7 @@ def proc_iface_crc_ios(device,counter):
         device.connect(learn_hostname = True, learn_os = True, log_stdout=False,mit=True)
         logger.info(f"Device: {device.name}")
         output_iface_crc = device.parse('show interfaces', timeout=300)
-        check=['port-channel','mgmt0','loopback','Vlan','.']
+        check=['port-channel','mgmt0','Loopback','Vlan','.','Tunnel']
         logger.info(output_iface_crc)
         for iface in output_iface_crc:
             if any(dot in iface for dot in check):
@@ -109,7 +109,7 @@ def proc_iface_crc_xr(device,counter):
         device.connect(learn_hostname = True, learn_os = True, log_stdout=False,mit=True)
         logger.info(f"Device: {device.name}")
         output_iface_crc = device.parse('show interfaces', timeout=300)
-        check=['port-channel','mgmt0','loopback','Vlan','.']
+        check=['port-channel','mgmt0','Loopback','Vlan','.','Tunnel']
         logger.info(output_iface_crc)
         for iface in output_iface_crc:
             if any(dot in iface for dot in check):
