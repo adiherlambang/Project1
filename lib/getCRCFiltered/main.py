@@ -54,7 +54,7 @@ def interfaceListedCRC(device,testbedFile):
     try:
         attempt = 1
         retry = 0
-        mx_retry = 3
+        mx_retry = 1
         while retry < mx_retry:
             try:
                 logger.info(f"Connecting to Device: {device.name}")
@@ -122,63 +122,6 @@ def interfaceListedCRC(device,testbedFile):
         logger.error("Failed to connect using pyats get CRC interface function")
         result["message"] = "Failed to connect using pyats get CRC interface function"
         result["error"] = str(pyats_error)
-    # try:
-    #     logger.info("Establishing Netmiko connection...")
-    #     connection = ConnectHandler(**device)
-    #     logger.info("Connection established successfully.")
-        
-    #     command = "show interface"
-    #     logger.info(f"Sending command {command} to {device['host']}")
-    #     output = connection.send_command(command,read_timeout=500)
-        
-    #     with open('lib/getCRC/show_interface_custom.template') as template:
-    #         template = textfsm.TextFSM(template)
-
-    #     parsed_output = template.ParseText(output)
-
-    #     # Create a dictionary
-    #     result_dict = {}
-        
-    #     check=['port-channel','mgmt0','loopback','Vlan']
-        
-    #     # Iterate through the data and convert it into a dictionary
-    #     for item in parsed_output:
-    #         # logger.info(item)
-    #         result_dict["INTERFACE"] = item[0]
-            
-    #         skipped_interface = [dot for dot in check if dot in result_dict['INTERFACE']]
-    #         if skipped_interface:
-    #             logger.info(f"Skip {result_dict['INTERFACE']} for device: {device['host']}")
-    #         else:    
-    #             if item[3]!='' or item[5]!='' or item[4]!='':
-    #                 result_dict["INPUT_ERRORS"] = int(item[3])
-    #                 result_dict["OUTPUT_ERRORS"] = int(item[5])
-    #                 result_dict["CRC"] = int(item[4])
-    #             else:
-    #                 result_dict["INPUT_ERRORS"] = 0
-    #                 result_dict["OUTPUT_ERRORS"] = 0
-    #                 result_dict["CRC"] = 0
-    #             #logger.info(result_dict)
-
-    #             interface =result_dict["INTERFACE"]
-    #             crc = result_dict["CRC"]
-    #             input_errors = result_dict["INPUT_ERRORS"]
-    #             output_errors = result_dict["OUTPUT_ERRORS"]
-            
-    #             with open(
-    #             f"out/InterfaceCRC/show_intList_crc_{timestamp}.csv", "a", newline=""
-    #             ) as csvfile:
-    #                 writer = csv.writer(csvfile)  
-    #                 writer.writerow([counter,hostname,interface,crc,input_errors,output_errors])
-    #             if crc > 0 or input_errors > 0 or output_errors > 0:
-    #                     with open(
-    #                     f"out/InterfaceCRC/found_intList_crc_{timestamp}.csv", "a", newline=""
-    #                     ) as csvfile:
-    #                         writer = csv.writer(csvfile)  
-    #                         writer.writerow([counter,hostname,interface,crc,input_errors,output_errors])
-    # except Exception as exc:
-    #     logger.error(exc)
-    #     raise Exception(f"Finish getting CRC from interface device listed with an Error") 
                         
 def convert_to_netmiko(device):
     netmiko_devices = []
@@ -190,11 +133,13 @@ def convert_to_netmiko(device):
             netmiko_device = {}
             # hostname = device_name
             
-            if device_info['os']=='ios':
+            if device.os=='ios':
                 netmiko_device['device_type'] = "cisco_ios"
-            elif device_info['os']=='iosxe':
-                netmiko_device['device_type'] = "cisco_iosxe"
-            elif device_info['os']=='nxos':
+            elif device.os=='iosxe':
+                netmiko_device['device_type'] = "cisco_xe"
+            elif device.os=='iosxr':
+                netmiko_device['device_type'] = "cisco_xr"    
+            elif device.os=='nxos':
                 netmiko_device['device_type'] = "cisco_nxos"
                
             netmiko_device['host'] = str(device_info['connections']['cli']['ip'])

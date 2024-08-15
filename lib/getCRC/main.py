@@ -70,7 +70,7 @@ def proc_iface_crc_ios(device,counter):
                         writer.writerow([counter,device.name,iface,crc,input_errors,output_errors])
    
     except Exception as e:
-        logger.warning(f"Error get CRC for device {device.name} using pyAts")
+        logger.warning(f"Error: {e} get CRC for device {device.name} using pyAts")
         runNetmiko(device,counter)
 
 
@@ -101,7 +101,8 @@ def proc_iface_crc_xe(device,counter):
                             writer = csv.writer(csvfile)  
                             writer.writerow([counter,device.name,iface,crc,input_errors,output_errors])  
     except Exception as e:
-        logger.warning(f"Error get CRC for device {device.name} using pyAts")
+        logger.warning(f"Error: {e} get CRC for device {device.name} using pyAts")
+        runNetmiko(device,counter)
 
 def proc_iface_crc_xr(device,counter):
     logger.info("Pyats parser with iosXR type function")
@@ -131,12 +132,13 @@ def proc_iface_crc_xr(device,counter):
                             writer.writerow([counter,device.name,iface,crc,input_errors,output_errors])  
                 
     except Exception as e:
-        logger.warning(f"Error get CRC for device {device.name} using pyAts")
+        logger.warning(f"Error: {e} get CRC for device {device.name} using pyAts")
+        runNetmiko(device,counter)
 
 def proc_iface_crc_nx(device,counter):
     try:
         logger.info("Pyats parser with nxos type function")
-        device.connect(learn_hostname = True, learn_os = True, log_stdout=False, mit=True, timeout=300)
+        device.connect(learn_hostname = True, learn_os = True, log_stdout=False, mit=True)
         logger.info(f"Device: {device.name}")
         output_iface_crc = device.parse('show interface', timeout=300)
         check=['port-channel','mgmt0','loopback','Vlan','.','Tunnel']
@@ -174,9 +176,12 @@ def convert_to_netmiko(device):
     if device.os=='ios':
         netmiko_device['device_type'] = "cisco_ios"
     elif device.os=='iosxe':
-        netmiko_device['device_type'] = "cisco_iosxe"
+        netmiko_device['device_type'] = "cisco_xe"
+    elif device.os=='iosxr':
+        netmiko_device['device_type'] = "cisco_xr"    
     elif device.os=='nxos':
         netmiko_device['device_type'] = "cisco_nxos"
+        
     netmiko_device['host'] = str(device.connections.cli.ip)
     netmiko_device['username'] = device.credentials.default.username
     netmiko_device['password'] = to_plaintext(device.credentials.default.password)
@@ -194,10 +199,16 @@ def runNetmiko(device,counter):
     connection = ConnectHandler(**netmiko_device)
     logger.info("Connection established successfully.")
 
-    # Send a command and retrieve the output
-    command = "show interface"
-    logger.info(f"Sending command {command} to {device}")
-    output = connection.send_command(command,read_timeout=500)
+    if netmiko_device['device_type']=='cisco_nxos':
+        # Send a command and retrieve the output
+        command = "show interface"
+        logger.info(f"Sending command {command} to {device}")
+        output = connection.send_command(command,read_timeout=500)
+    else :
+        # Send a command and retrieve the output
+        command = "show interfaces"
+        logger.info(f"Sending command {command} to {device}")
+        output = connection.send_command(command,read_timeout=500)
 
     with open('lib/getCRC/nxos_show_interface_custom.template') as template:
         template = textfsm.TextFSM(template)
